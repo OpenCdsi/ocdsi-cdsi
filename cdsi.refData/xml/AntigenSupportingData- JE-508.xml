@@ -1,0 +1,430 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>082</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Japanese Encephalitis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Japanese Encephalitis vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>115</observationCode>
+<observationTitle>Severe allergic reaction to protamine sulfate</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to protamine sulfate.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Japanese Encephalitis risk 2-dose series</seriesName>
+<targetDisease>Japanese Encephalitis</targetDisease>
+<vaccineGroup>Japanese Encephalitis</vaccineGroup>
+<seriesAdminGuidance>For adults and children, a booster dose (i.e., third dose) should be given on or after 1 year after completion of the primary JE-VC series if ongoing exposure or reexposure to JE virus is expected</seriesAdminGuidance>
+<seriesAdminGuidance>JE vaccination should be considered for shorter-term (e.g., less than 1 month) travel with an increased risk for JE on the basis of planned travel duration, season, location, activities, and accommodations. See JE recommendation box 2 for more detailed information. (https://www.cdc.gov/mmwr/volumes/68/rr/rr6802a1.htm#B2_down)</seriesAdminGuidance>
+<seriesAdminGuidance>JE vaccination should be considered for travel to a JE-endemic area but uncertain of specific duration of travel, destination, or activities.</seriesAdminGuidance>
+<seriesAdminGuidance>Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/japanese-encephalitis
+</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>2 months</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Longer-term (e.g., 1 month or more) travel to a JE-endemic area</text>
+<code>165</code>
+</observationCode>
+<description>Administer to persons who plan for longer-term (e.g., ? 1 month) travel to JE-endemic areas.</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Moving to JE-endemic country to take up residence</text>
+<code>173</code>
+</observationCode>
+<description>Administer to persons who plan to move to JE-endemic countries to take up residence.</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Frequent travel to JE-endemic areas</text>
+<code>174</code>
+</observationCode>
+<description>Administer to persons who frequently travel to JE-endemic areas.</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 months - 4 days</absMinAge>
+<minAge>2 months</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months</beginAge>
+<endAge>3 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.25</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months</beginAge>
+<endAge>3 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.25</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 months - 4 days</absMinInt>
+<minInt>12 months</minInt>
+<earliestRecInt>12 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months</beginAge>
+<endAge>3 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.25</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Japanese Encephalitis risk 2-dose series 18-64 years</seriesName>
+<targetDisease>Japanese Encephalitis</targetDisease>
+<vaccineGroup>Japanese Encephalitis</vaccineGroup>
+<seriesAdminGuidance>For adults and children, a booster dose (i.e., third dose) should be given on or after 1 year after completion of the primary JE-VC series if ongoing exposure or reexposure to JE virus is expected</seriesAdminGuidance>
+<seriesAdminGuidance>JE vaccination should be considered for shorter-term (e.g., less than 1 month) travel with an increased risk for JE on the basis of planned travel duration, season, location, activities, and accommodations. See JE recommendation box 2 for more detailed information. (https://www.cdc.gov/mmwr/volumes/68/rr/rr6802a1.htm#B2_down)</seriesAdminGuidance>
+<seriesAdminGuidance>JE vaccination should be considered for travel to a JE-endemic area but uncertain of specific duration of travel, destination, or activities.</seriesAdminGuidance>
+<seriesAdminGuidance>Endemic Area and transmission season is determined by country.  Refer to the yellow book for a definition of the transmission season: http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/japanese-encephalitis
+</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>18 years</minAgeToStart>
+<maxAgeToStart>65 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Longer-term (e.g., 1 month or more) travel to a JE-endemic area</text>
+<code>165</code>
+</observationCode>
+<description>Administer to persons who plan for longer-term (e.g., ? 1 month) travel to JE-endemic areas.</description>
+<beginAge>18 years</beginAge>
+<endAge>65 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Moving to JE-endemic country to take up residence</text>
+<code>173</code>
+</observationCode>
+<description>Administer to persons who plan to move to JE-endemic countries to take up residence.</description>
+<beginAge>18 years</beginAge>
+<endAge>65 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Frequent travel to JE-endemic areas</text>
+<code>174</code>
+</observationCode>
+<description>Administer to persons who frequently travel to JE-endemic areas.</description>
+<beginAge>18 years</beginAge>
+<endAge>65 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>65 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt>28 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 months - 4 days</absMinInt>
+<minInt>12 months</minInt>
+<earliestRecInt>12 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months</beginAge>
+<endAge>3 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.25</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>3 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Japanese Encephalitis, VC</vaccineType>
+<cvx>134</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,0 +1,910 @@
+<antigenSupportingData>
+<immunity>
+<clinicalHistory>
+<guidelineCode>020</guidelineCode>
+<guidelineTitle>Laboratory Evidence of Immunity for Measles</guidelineTitle>
+</clinicalHistory>
+<dateOfBirth>
+<immunityBirthDate>01/01/1957</immunityBirthDate>
+<birthCountry/>
+<exclusion>
+<exclusionCode>055</exclusionCode>
+<exclusionTitle>Health care personnel</exclusionTitle>
+</exclusion>
+</dateOfBirth>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>003</observationCode>
+<observationTitle>Immunocompromised</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is immunocompromised.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>007</observationCode>
+<observationTitle>Pregnant</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is pregnant.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>012</observationCode>
+<observationTitle>Family history of altered immunocompetence</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a family history of altered immunocompetence</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>031</observationCode>
+<observationTitle>Tuberculosis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has active untreated tuberculosis.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>091</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Measles</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Measles vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>102</observationCode>
+<observationTitle>Severe allergic reaction to gelatin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to gelatin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>125</observationCode>
+<observationTitle>Tetanus IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Tetanus IG administered in the previous 3 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>126</observationCode>
+<observationTitle>Hep A IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Hepatitis A IG administered in the previous 3 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>127</observationCode>
+<observationTitle>Hep B IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Hepatitis B IG administered in the previous 3 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>128</observationCode>
+<observationTitle>Rabies IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Rabies IG administered in the previous 4 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>129</observationCode>
+<observationTitle>Varicella IG administration</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Varicella IG administered in the previous 5 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>130</observationCode>
+<observationTitle>Measles prophylaxis IG administration - Standard</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Measles IG at a standard dose (0.25 mL/kg) administered in the previous 5 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>131</observationCode>
+<observationTitle>Measles prophylaxis IG administration - Immunocompromised Contact</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had Measles IG at an immunocompromised dose (0.5 mL/kg) administered in the previous 6 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>132</observationCode>
+<observationTitle>RBC [adenine-saline added] blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of adenine-saline added RBCs in the previous 3 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>133</observationCode>
+<observationTitle>Packed RBC blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of packed RBCs in the previous 6 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>134</observationCode>
+<observationTitle>Whole blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a whole blood transfusion in the previous 6 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>135</observationCode>
+<observationTitle>Plasma/platelet products blood transfusion</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received a blood transfusion of plasma or platelet product in the previous 7 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>136</observationCode>
+<observationTitle>Cytomegalovirus IGIV</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received Cytomegalovirus IGIV in the previous 6 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>137</observationCode>
+<observationTitle>IGIV - Replacement therapy for immune deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Replacement therapy for immune deficiencies) in the previous 8 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>138</observationCode>
+<observationTitle>IGIV - Immune thrombocytopenic purpura treatment</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Immune thrombocytopenic purpura treatment (400 mg/kg IV)) in the previous 8 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>139</observationCode>
+<observationTitle>IGIV - Postexposure varicella prophylaxis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Postexposure varicella prophylaxis) in the previous 8 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>140</observationCode>
+<observationTitle>IGIV - Immune thrombocytopenic purpura treatment</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Immune thrombocytopenic purpura treatment (1000 mg/kg IV)) in the previous 10 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>141</observationCode>
+<observationTitle>IGIV - Kawasaki disease</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has received IGIV (Kawasaki disease) in the previous 11 months.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>153</observationCode>
+<observationTitle>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>154</observationCode>
+<observationTitle>HIV/AIDS - severely immunocompromised</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has generalized malignant neoplasm.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate if the patient received a transplant.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing radiation therapy.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>168</observationCode>
+<observationTitle>Chemotherapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing chemotherapy, including 14 days before the start of therapy and 3 months after the completion of therapy.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Measles 2-dose series</seriesName>
+<targetDisease>Measles</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>16 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months</beginAge>
+<endAge>13 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>13 months - 4 days</absMinAge>
+<minAge>13 months</minAge>
+<earliestRecAge>4 years</earliestRecAge>
+<latestRecAge>7 years + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months</beginAge>
+<endAge>13 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required for those 19 years or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge> 19 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Measles risk 1-dose series</seriesName>
+<targetDisease>Measles</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance>Children who received MMR vaccine before age 12 months should be considered potentially susceptible to all three diseases and should be revaccinated with 2 doses of MMR vaccine, the first dose administered when the child is aged 12 through 15 months (12 months if the child remains in an area where disease risk is high) and the second dose at least 28 days later.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk Infant</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>6 months</minAgeToStart>
+<maxAgeToStart>12 months</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Travelling Internationally</text>
+<code>048</code>
+</observationCode>
+<description>Administer to persons who will be travelling internationally.</description>
+<beginAge>6 months</beginAge>
+<endAge>12 months</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 months - 4 days</absMinAge>
+<minAge>6 months</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>12 months</latestRecAge>
+<maxAge>12 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>6 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Measles risk 2-dose series</seriesName>
+<targetDisease>Measles</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>18 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Travelling Internationally</text>
+<code>048</code>
+</observationCode>
+<description>Administer to persons who will be travelling internationally.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel without evidence of immunity.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance>Includes those born before 1957 who would normally be considered to have immunity.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Post secondary student</text>
+<code>063</code>
+</observationCode>
+<description>Administer to persons who are students in a postsecondary educational institution.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household and close contacts of immunocompromised persons</text>
+<code>073</code>
+</observationCode>
+<description>Administer to persons who are household and close contacts of immunocompromised persons.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Received inactivated or unknown measles vaccine between 1963-1967</text>
+<code>077</code>
+</observationCode>
+<description>Administer to persons who received inactivated or unknown measles vaccine between 1963-1967.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS but are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Measles risk 2-dose ART series</seriesName>
+<targetDisease>Measles</targetDisease>
+<vaccineGroup>MMR</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART]</text>
+<code>026</code>
+</observationCode>
+<description>Administer to persons with perinatal HIV infection who do not have evidence of severe immunosuppression and who were vaccinated with MMR before establishment of antiviral therapy [ART].</description>
+<beginAge/>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs>
+<text>Begin Date of antiviral therapy [ART]</text>
+<code>120</code>
+</fromRelevantObs>
+<absMinInt/>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>MMR</vaccineType>
+<cvx>03</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles/Rubella</vaccineType>
+<cvx>04</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Measles</vaccineType>
+<cvx>05</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MMRV</vaccineType>
+<cvx>94</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

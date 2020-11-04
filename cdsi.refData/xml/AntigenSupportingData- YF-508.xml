@@ -1,0 +1,259 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>099</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Yellow Fever</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Yellow Fever vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>101</observationCode>
+<observationTitle>Allergic reaction to egg protein</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to egg protein.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>102</observationCode>
+<observationTitle>Severe allergic reaction to gelatin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to gelatin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>105</observationCode>
+<observationTitle>Severe allergic reaction to chicken protein</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to chicken protein.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>145</observationCode>
+<observationTitle>B-lymphocyte [humoral] - Severe antibody deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>146</observationCode>
+<observationTitle>B-lymphocyte [humoral] - Less severe antibody deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>153</observationCode>
+<observationTitle>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>154</observationCode>
+<observationTitle>HIV/AIDS - severely immunocompromised</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has HIV/AIDS and is severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has generalized malignant neoplasm.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate if the patient received a transplant.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing radiation therapy.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>009</observationCode>
+<observationTitle>Breastfeeding</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is breastfeeding.</contraindicationText>
+<contraindicationGuidance>Vaccination with Stamaril may occur if the patient is able to suspend breastfeeding for 14 days after administration.</contraindicationGuidance>
+<contraindicatedVaccine>
+<vaccineType>Yellow fever vaccine - alt</vaccineType>
+<cvx>183</cvx>
+<beginAge>9 months</beginAge>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Yellow Fever risk 1-dose series</seriesName>
+<targetDisease>Yellow Fever</targetDisease>
+<vaccineGroup>Yellow Fever</vaccineGroup>
+<seriesAdminGuidance>A single primary dose of yellow fever vaccine provides long-lasting protection and is adequate for most travelers but additional doses of yellow fever vaccine are recommended for certain travelers with ongoing risk.</seriesAdminGuidance>
+<seriesAdminGuidance>Women who were pregnant (regardless of trimester) when they received their initial dose of yellow fever vaccine should receive 1 additional dose of yellow fever vaccine</seriesAdminGuidance>
+<seriesAdminGuidance>Persons who received a hematopoietic stem cell transplant after receiving a dose of yellow fever vaccine and who are sufficiently immunocompetent to be safely vaccinated should be revaccinated</seriesAdminGuidance>
+<seriesAdminGuidance>A booster dose may be given to travelers who received their last dose of yellow fever vaccine at least 10 years previously and who will be in a higher-risk setting based on season, location, activities, and duration of their travel</seriesAdminGuidance>
+<seriesAdminGuidance>Persons who were infected with HIV when they received their last dose of yellow fever vaccine should receive a dose every 10 years if they continue to be at risk for yellow fever virus infection.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>9 months</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Travel to country with a Yellow Fever vaccination entry requirement</text>
+<code>045</code>
+</observationCode>
+<description>Administer to persons who travel to a country with a Yellow Fever vaccination entry requirement.</description>
+<beginAge>9 months</beginAge>
+<endAge/>
+<guidance>Vaccinate greater than or equal to 10 days prior to travel: certificate of vaccination is valid beginning 10 days after the date of vaccination.   If travel is unavoidable, the decision to vaccinate travelers aged ?60 years needs to weigh the risks and benefits of the vaccination in the context of their destination-specific risk for exposure to YFV.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Resident of area at risk for exposure to the disease</text>
+<code>047</code>
+</observationCode>
+<description>Administer to residents of an area at risk for exposure to the disease.</description>
+<beginAge>9 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Laboratory personnel who might be exposed to YFV</text>
+<code>052</code>
+</observationCode>
+<description>Administer to laboratory personnel who might be exposed to virulent YFV or to concentrated preparations of YF vaccine virus strains by direct or indirect contact or by aerosols.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to areas at risk for Yellow Fever transmission</text>
+<code>162</code>
+</observationCode>
+<description>Administer to persons who travel to areas at risk for Yellow Fever transmission.</description>
+<beginAge>9 months</beginAge>
+<endAge/>
+<guidance>If travel is unavoidable, the decision to vaccinate travelers aged ?60 years needs to weigh the risks and benefits of the vaccination in the context of their destination-specific risk for exposure to YFV.</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 months</absMinAge>
+<minAge>9 months</minAge>
+<earliestRecAge>9 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Yellow Fever</vaccineType>
+<cvx>37</cvx>
+<beginAge>9 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Yellow Fever</vaccineType>
+<cvx>37</cvx>
+<beginAge>6 months</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Yellow fever vaccine - alt</vaccineType>
+<cvx>183</cvx>
+<beginAge>6 months</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Yellow fever, unspecified formulation</vaccineType>
+<cvx>184</cvx>
+<beginAge>6 months</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,0 +1,5242 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>094</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Pneumococcal</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Pneumococcal vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>117</observationCode>
+<observationTitle>Severe allergic reaction to diphtheria toxoid</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to diphtheria toxoid.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Pneumococcal 4-dose series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>12 months - 4 days</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 weeks - 4 days</absMinAge>
+<minAge>6 weeks</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>10 weeks - 4 days</absMinAge>
+<minAge>10 weeks</minAge>
+<earliestRecAge>4 months</earliestRecAge>
+<latestRecAge>5 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose not required if current dose was administered on or after 24 months - 4 days of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>24 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose not required for those who are 24 months of age or older.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>24 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>14 weeks - 4 days</absMinAge>
+<minAge>14 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>7 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose is not required if the current dose was administered on or after 12 months of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose is not required if the current dose was administered on or after 12 months - 4 days of age AND at least 8 weeks - 4 days from the previous dose</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Interval</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval>8 weeks - 4 days</interval>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>3</setID>
+<setDescription>Dose is not required for those 12 months or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>16 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of PCV13</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal dose 2 at 7 months series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>12 months - 4 days</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 weeks - 4 days</absMinAge>
+<minAge>6 weeks</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>10 weeks - 4 days</absMinAge>
+<minAge>10 weeks</minAge>
+<earliestRecAge>4 months</earliestRecAge>
+<latestRecAge>5 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required for those 7 months or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>14 weeks - 4 days</absMinAge>
+<minAge>14 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>7 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>16 months + 4 weeks</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of PCV13</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal start at 12 months series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>24 months - 4 days</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>12 months</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of PCV13</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal start at 24 months series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>4</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>24 months - 4 days</absMinAge>
+<minAge>24 months</minAge>
+<earliestRecAge>24 months</earliestRecAge>
+<latestRecAge>24 months</latestRecAge>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV7</vaccineType>
+<cvx>100</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal, unspecified formulation</vaccineType>
+<cvx>109</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Pneumococcal Conjugate, unspecified formulation</vaccineType>
+<cvx>152</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>PCV10</vaccineType>
+<cvx>177</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>5 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of PCV13</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>24 months - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 2-5 years 3-dose series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>D</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>2 years</minAgeToStart>
+<maxAgeToStart>6 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Cerebrospinal fluid leaks</text>
+<code>010</code>
+</observationCode>
+<description>Administer to persons who have cerebrospinal fluid leaks.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Cochlear implants</text>
+<code>011</code>
+</observationCode>
+<description>Administer to persons who have cochlear implants.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance>When cochlear implant placement is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic heart disease</text>
+<code>016</code>
+</observationCode>
+<description>Administer to persons who have chronic heart disease.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic lung disease</text>
+<code>017</code>
+</observationCode>
+<description>Administer to persons who have chronic lung disease.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Asthma</text>
+<code>027</code>
+</observationCode>
+<description>Administer to persons who have asthma.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance>For patients aged 2 through 5 years, asthma is only an indication for vaccination if the patient is treated with high-dose oral corticosteroid therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>2 years</beginAge>
+<endAge>6 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years</absMinAge>
+<minAge>2 years</minAge>
+<earliestRecAge>2 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received a complete standard series of vaccinations with greater than 1 dose</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Completed Series</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups>1</seriesGroups>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received a complete standard series of vaccinations with greater than 1 dose</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Completed Series</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups>1</seriesGroups>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Dose is not required if the patient has received 3 or more total doses between the ages of 6 weeks and 24 months</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge>24 months</endAge>
+<interval/>
+<doseCount>2</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses of PPSV23</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 1-dose series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>C</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic heart disease</text>
+<code>016</code>
+</observationCode>
+<description>Administer to persons who have chronic heart disease.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic lung disease</text>
+<code>017</code>
+</observationCode>
+<description>Administer to persons who have chronic lung disease.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Asthma</text>
+<code>027</code>
+</observationCode>
+<description>Administer to persons who have asthma.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance>For patients aged 6 through 18 years, asthma is only an indication for vaccination if the patient is treated with high-dose oral corticosteroid therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Smoke cigarettes</text>
+<code>042</code>
+</observationCode>
+<description>Administer to persons who smoke cigarettes.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Alcoholism</text>
+<code>043</code>
+</observationCode>
+<description>Administer to persons who have alcoholism.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years </beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 2-dose PCV-PPSV series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Cerebrospinal fluid leaks</text>
+<code>010</code>
+</observationCode>
+<description>Administer to persons who have cerebrospinal fluid leaks.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Cochlear implants</text>
+<code>011</code>
+</observationCode>
+<description>Administer to persons who have cochlear implants.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance>When cochlear implant placement is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 2-dose PPSV-PCV series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Cerebrospinal fluid leaks</text>
+<code>010</code>
+</observationCode>
+<description>Administer to persons who have cerebrospinal fluid leaks.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Cochlear implants</text>
+<code>011</code>
+</observationCode>
+<description>Administer to persons who have cochlear implants.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When cochlear implant placement is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal adult risk 2-dose PPSV-PCV series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Cerebrospinal fluid leaks</text>
+<code>010</code>
+</observationCode>
+<description>Administer to persons who have cerebrospinal fluid leaks.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Cochlear implants</text>
+<code>011</code>
+</observationCode>
+<description>Administer to persons who have cochlear implants.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 3-dose series PCV-PPSV-PPSV</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Leukemia</text>
+<code>178</code>
+</observationCode>
+<description>Administer to persons with leukemia.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Lymphoma</text>
+<code>179</code>
+</observationCode>
+<description>Administer to persons with lymphoma.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hodgkin's disease</text>
+<code>180</code>
+</observationCode>
+<description>Administer to persons with Hodgkin's disease.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Multiple myeloma</text>
+<code>181</code>
+</observationCode>
+<description>Administer to persons with multiple myeloma.</description>
+<beginAge>6 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 6-18 years 3-dose PPSV23-PCV13-PPSV23 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Leukemia</text>
+<code>178</code>
+</observationCode>
+<description>Administer to persons with leukemia.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Lymphoma</text>
+<code>179</code>
+</observationCode>
+<description>Administer to persons with lymphoma.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hodgkin's disease</text>
+<code>180</code>
+</observationCode>
+<description>Administer to persons with Hodgkin's disease.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Multiple myeloma</text>
+<code>181</code>
+</observationCode>
+<description>Administer to persons with multiple myeloma.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge>19 years</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk adult 3-dose PPSV23-PCV13-PPSV23 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Leukemia</text>
+<code>178</code>
+</observationCode>
+<description>Administer to persons with leukemia.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Lymphoma</text>
+<code>179</code>
+</observationCode>
+<description>Administer to persons with lymphoma.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hodgkin's disease</text>
+<code>180</code>
+</observationCode>
+<description>Administer to persons with Hodgkin's disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Multiple myeloma</text>
+<code>181</code>
+</observationCode>
+<description>Administer to persons with multiple myeloma.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk 6-18 years 3-dose PPSV23-PPSV23-PCV13 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>6 years</minAgeToStart>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Leukemia</text>
+<code>178</code>
+</observationCode>
+<description>Administer to persons with leukemia.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Lymphoma</text>
+<code>179</code>
+</observationCode>
+<description>Administer to persons with lymphoma.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hodgkin's disease</text>
+<code>180</code>
+</observationCode>
+<description>Administer to persons with Hodgkin's disease.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Multiple myeloma</text>
+<code>181</code>
+</observationCode>
+<description>Administer to persons with multiple myeloma.</description>
+<beginAge>6 years</beginAge>
+<endAge>19 years</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge>19 years</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal risk adult 3-dose PPSV23-PPSV23-PCV13 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic renal failure</text>
+<code>066</code>
+</observationCode>
+<description>Administer to persons with chronic renal failure.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Severe antibody deficiencies</text>
+<code>145</code>
+</observationCode>
+<description>Administer to persons who have severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>B-lymphocyte [humoral] - Less severe antibody deficiencies</text>
+<code>146</code>
+</observationCode>
+<description>Administer to persons who have less severe B-lymphocyte (humoral) - antibody deficiencies (e.g., selective IgA deficiency and IgG subclass deficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Complete defects</text>
+<code>147</code>
+</observationCode>
+<description>Administer to persons who have complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>T-lymphocyte [cell-mediated and humoral] - Partial defects</text>
+<code>148</code>
+</observationCode>
+<description>Administer to persons who have partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, particularly C1, C2, C3, and C4 deficiencies.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</text>
+<code>153</code>
+</observationCode>
+<description>Administer to persons who have a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Generalized malignant neoplasm</text>
+<code>156</code>
+</observationCode>
+<description>Administer to persons who have generalized malignant neoplasm.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Transplantation</text>
+<code>157</code>
+</observationCode>
+<description>Administer to persons who have received a transplant.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Immunosuppressive therapy</text>
+<code>158</code>
+</observationCode>
+<description>Administer to persons who are undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Radiation therapy</text>
+<code>159</code>
+</observationCode>
+<description>Administer to persons who are undergoing radiation therapy.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When immunocompromising therapy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>When elective splenectomy is being planned, PCV13 and/or PPSV23 vaccination should be completed at least 2 weeks before surgery or initiation of therapy.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Nephrotic Syndrome</text>
+<code>167</code>
+</observationCode>
+<description>Administer to persons with nephrotic syndrome.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Leukemia</text>
+<code>178</code>
+</observationCode>
+<description>Administer to persons with leukemia.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Lymphoma</text>
+<code>179</code>
+</observationCode>
+<description>Administer to persons with lymphoma.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hodgkin's disease</text>
+<code>180</code>
+</observationCode>
+<description>Administer to persons with Hodgkin's disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Multiple myeloma</text>
+<code>181</code>
+</observationCode>
+<description>Administer to persons with multiple myeloma.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more total doses to date</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>133</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient has already received one dose of PPSV on or after 65 years of age.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>65 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>33</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal 65+ 1-dose PPSV23</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard 65+</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>65 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal 65+ 2-dose PCV13-PPSV23 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard 65+</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>65 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>19 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>133</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt>5 years</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Pneumococcal 65+ 2-dose PPSV23-PCV13 series</seriesName>
+<targetDisease>Pneumococcal</targetDisease>
+<vaccineGroup>Pneumococcal</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard 65+</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>65 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>65 years</absMinAge>
+<minAge>65 years</minAge>
+<earliestRecAge>65 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>33</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PPSV23</vaccineType>
+<cvx>33</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>PCV13</vaccineType>
+<cvx>133</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

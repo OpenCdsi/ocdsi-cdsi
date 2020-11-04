@@ -1,0 +1,5557 @@
+<antigenSupportingData>
+<immunity>
+<clinicalHistory>
+<guidelineCode>019</guidelineCode>
+<guidelineTitle>Laboratory Evidence of Immunity or confirmation of Hepatitis B disease</guidelineTitle>
+</clinicalHistory>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>097</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Hepatitis B</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis B vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>110</observationCode>
+<observationTitle>Hypersensitivity to yeast</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a hypersensitivity to yeast.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>007</observationCode>
+<observationTitle>Pregnant</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is pregnant.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>076</observationCode>
+<observationTitle>Progressive neurologic disorder</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has progressive neurologic disorder until a treatment regimen has been
+established and the condition has stabilized.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+<contraindicatedVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>079</observationCode>
+<observationTitle>Encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+<contraindicatedVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+<contraindicatedVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>109</observationCode>
+<observationTitle>Severe allergic reaction to polymyxin B</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to polymyxin B. </contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>HepB 3-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge>4 weeks</latestRecAge>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>4 weeks - 4 days</absMinAge>
+<minAge>4 weeks</minAge>
+<earliestRecAge>1 month</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>24 weeks - 4 days</absMinAge>
+<minAge>24 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>19 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>18 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks - 4 days</absMinInt>
+<minInt>16 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB 4-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge>4 weeks</latestRecAge>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>4 weeks - 4 days</absMinAge>
+<minAge>4 weeks</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>5 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt>0 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>24 weeks - 4 days</absMinAge>
+<minAge>24 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>19 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>2</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks - 4 days</absMinInt>
+<minInt>16 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB adolescent 2-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>16 years - 4 months</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>11 years - 4 days</absMinAge>
+<minAge>11 years</minAge>
+<earliestRecAge>11 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge/>
+<endAge/>
+<tradeName>RECOMBIVAX ADULT</tradeName>
+<mvx>MSD</mvx>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>16 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 months - 4 days</absMinInt>
+<minInt>4 months</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge/>
+<endAge/>
+<tradeName>RECOMBIVAX ADULT</tradeName>
+<mvx>MSD</mvx>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB-CpG 2-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>4</seriesPreference>
+<minAgeToStart>18 years</minAgeToStart>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB-CpG 4-dose Mixed Use Series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>5</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>2</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks - 4 days</absMinInt>
+<minInt>16 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>2</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose can be skipped once two doses of Heplisav-B are administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>189</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>CpG-HepB 4-dose Mixed Use Series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>6</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose can be skipped once two doses of Heplisav-B are administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>189</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB risk 3-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>For patients 60 years and under, vaccinate as soon as feasible after diagnosis, patients over the age of 60 years may be vaccinated</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks - 4 days</absMinInt>
+<minInt>16 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, adjuvanted</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB-CpG risk 2-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>For patients 60 years and under, vaccinate as soon as feasible after diagnosis, patients over the age of 60 years may be vaccinated</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B  protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk HepB-CpG 4-dose Mixed Use Series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>For patients 60 years and under, vaccinate as soon as feasible after diagnosis, patients over the age of 60 years may be vaccinated</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B  protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>2</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>16 weeks - 4 days</absMinInt>
+<minInt>16 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>2</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose can be skipped once two doses of Heplisav-B are administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>189</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk CpG-HepB 4-dose Mixed Use Series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>For patients 60 years and under, vaccinate as soon as feasible after diagnosis, patients over the age of 60 years may be vaccinated</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B  protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt/>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/peds</vaccineType>
+<cvx>08</cvx>
+<beginAge>0 days</beginAge>
+<endAge>20 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adol/high risk infant</vaccineType>
+<cvx>42</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Unspecified Formulation</vaccineType>
+<cvx>45</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hib-HepB</vaccineType>
+<cvx>51</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-Hib-HepB</vaccineType>
+<cvx>102</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTP-hepB-Hib Pentavalent Non-US</vaccineType>
+<cvx>198</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepB-CpG</vaccineType>
+<cvx>189</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose can be skipped once two doses of Heplisav-B are administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>189</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB risk Twinrix 3 Dose Series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons  who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge>60 years</endAge>
+<guidance>Vaccinate as soon as feasible after diagnosis</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to  healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely  immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely  immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B  protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>19 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 months - 4 days</absMinInt>
+<minInt>5 months</minInt>
+<earliestRecInt>5 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB risk Twinrix 4-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Hepatitis C virus infection</text>
+<code>005</code>
+</observationCode>
+<description>Administer to persons with a hepatitis C virus infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Diabetes</text>
+<code>014</code>
+</observationCode>
+<description>Administer to persons  who have diabetes.</description>
+<beginAge>19 years</beginAge>
+<endAge>60 years</endAge>
+<guidance>Vaccinate as soon as feasible after diagnosis</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>Includes, but is not limited to cirrhosis, fatty liver disease, alcoholic liver disease, autoimmune hepatitis, and an alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than twice the upper limit of normal.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Not in a long-term, mutually monogamous relationship</text>
+<code>037</code>
+</observationCode>
+<description>Administer to persons not in a long-term, mutually monogamous relationship.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Sex partner of Hepatitis B surface antigen-positive persons</text>
+<code>038</code>
+</observationCode>
+<description>Administer to persons who are a sex partner of a Hepatitis B surface antigen-positive person.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives treatment for STD</text>
+<code>039</code>
+</observationCode>
+<description>Administer to persons who receive treatment for STD.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit injection drug use</text>
+<code>041</code>
+</observationCode>
+<description>Administer to persons who use illicit injection drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel</text>
+<code>055</code>
+</observationCode>
+<description>Administer to  healthcare personnel.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Public safety worker exposed to blood or infection body fluids</text>
+<code>057</code>
+</observationCode>
+<description>Administer to public safety workers exposed to blood or infection body fluids</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Staff of institution for persons with developmental disabilities</text>
+<code>058</code>
+</observationCode>
+<description>Administer to staff of institution for persons with developmental disabilities</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Client of institution for persons with developmental disabilities</text>
+<code>065</code>
+</observationCode>
+<description>Administer to persons who are a client of institution for persons with developmental disabilities.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>In correctional facility</text>
+<code>069</code>
+</observationCode>
+<description>Administer to persons who are in a correctional facility.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Household contact with hepatitis B surface antigen-positive persons</text>
+<code>071</code>
+</observationCode>
+<description>Administer to persons who have household contact with hepatitis B surface antigen-positive persons.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised (See the CDC general recommendations for a definition of "severely  immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised (See the CDC general recommendations for a definition of "severely  immunocompromised").</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to countries with high or intermediate prevalence of chronic HBV infection</text>
+<code>166</code>
+</observationCode>
+<description>Administered to persons who travel to countries with high or intermediate prevalence of chronic HBV infection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis B  protection</text>
+<code>176</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis B.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>19 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge>19 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>14 days</absMinInt>
+<minInt>14 days</minInt>
+<earliestRecInt>14 days</earliestRecInt>
+<latestRecInt>23 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 months - 4 days</absMinInt>
+<minInt>12 months</minInt>
+<earliestRecInt>12 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB risk Recombivax 3-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Dialysis patient</text>
+<code>032</code>
+</observationCode>
+<description>Administer to hemodialysis patients and predialysis, peritoneal dialysis, and home dialysis patients</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>19 years - 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>19 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 months - 4 days</absMinInt>
+<minInt>5 months</minInt>
+<earliestRecInt>5 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>20 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Dialysis</vaccineType>
+<cvx>44</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepB risk Engerix-B 4-dose series</seriesName>
+<targetDisease>HepB</targetDisease>
+<vaccineGroup>HepB</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Dialysis patient</text>
+<code>032</code>
+</observationCode>
+<description>Administer to hemodialysis patients and predialysis, peritoneal dialysis, and home dialysis patients</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>19 years- 4 days</absMinAge>
+<minAge>19 years</minAge>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>19 years - 4 days</beginAge>
+<endAge/>
+<tradeName>ENGERIX-B ADULT</tradeName>
+<mvx>SKB</mvx>
+<volume>2</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName>ENGERIX-B ADULT</tradeName>
+<mvx>SKB</mvx>
+<volume>2</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName>ENGERIX-B ADULT</tradeName>
+<mvx>SKB</mvx>
+<volume>2</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 months - 4 days</absMinInt>
+<minInt>4 months</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep B, Adult</vaccineType>
+<cvx>43</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName>ENGERIX-B ADULT</tradeName>
+<mvx>SKB</mvx>
+<volume>2</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine/>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

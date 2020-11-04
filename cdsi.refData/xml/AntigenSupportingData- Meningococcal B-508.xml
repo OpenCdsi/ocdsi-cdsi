@@ -1,0 +1,940 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>116</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Meningococcal B</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal B vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Meningococcal B risk 2-dose series MenB-4C Patient Seeks Protection</seriesName>
+<targetDisease>Meningococcal B</targetDisease>
+<vaccineGroup>Meningococcal B</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Patient Seeks Protection</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>10 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>16 years</beginAge>
+<endAge>24 years</endAge>
+<guidance>A MenB vaccine series may be administered to adolescents and young adults to provide short-term protection against most strains of serogroup B meningococcal disease. The preferred age for MenB vaccination is 16-18 years (recommendation Category B).</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Meningococcal B protection</text>
+<code>177</code>
+</observationCode>
+<description>Administer to persons seeking protection from Meningococcal B.</description>
+<beginAge>16 years</beginAge>
+<endAge>24 years</endAge>
+<guidance>A MenB vaccine series may be administered to adolescents and young adults to provide short-term protection against most strains of serogroup B meningococcal disease. The preferred age for MenB vaccination is 16-18 years (recommendation Category B).</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>10 years - 4 days</absMinAge>
+<minAge>10 years</minAge>
+<earliestRecAge>10 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Bexsero</tradeName>
+<mvx>NOV</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate>20170518</cessationDate>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate>20170519</effectiveDate>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Bexsero</tradeName>
+<mvx>NOV</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal B risk 2-dose series MenB-FHbp</seriesName>
+<targetDisease>Meningococcal B</targetDisease>
+<vaccineGroup>Meningococcal B</vaccineGroup>
+<seriesAdminGuidance>A 2-dose series for MenB-FHbp (Trumenba) which is used only for healthy adolescents and young adults who are not at increased risk for meningococcal B disease.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Patient Seeks Protection</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>16 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>16 years</beginAge>
+<endAge>24 years</endAge>
+<guidance>A MenB vaccine series may be administered to adolescents and young adults to provide short-term protection against most strains of serogroup B meningococcal disease. The preferred age for MenB vaccination is 16-18 years (recommendation Category B).</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Meningococcal B protection</text>
+<code>177</code>
+</observationCode>
+<description>Administer to persons seeking protection from Meningococcal B.</description>
+<beginAge>16 years</beginAge>
+<endAge>24 years</endAge>
+<guidance>A MenB vaccine series may be administered to adolescents and young adults to provide short-term protection against most strains of serogroup B meningococcal disease. The preferred age for MenB vaccination is 16-18 years (recommendation Category B).</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>10 years - 4 days</absMinAge>
+<minAge>10 years</minAge>
+<earliestRecAge>10 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Trumenba</tradeName>
+<mvx>PFR</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 months - 4 days</absMinInt>
+<minInt>4 months</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Trumenba</tradeName>
+<mvx>PFR</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal B risk 2-dose series MenB-4C Increased Risk</seriesName>
+<targetDisease>Meningococcal B</targetDisease>
+<vaccineGroup>Meningococcal B</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>10 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Undergoing elective splenectomy</text>
+<code>002</code>
+</observationCode>
+<description>Administered to persons who are undergoing elective splenectomy if they have not previously received Meningococcal B vaccine. </description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance>Vaccination 14 or more days before splenectomy is suggested.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Microbiologists routinely exposed to Neisseria meningitidis</text>
+<code>050</code>
+</observationCode>
+<description>Administer to microbiologists routinely exposed to isolates of Neisseria meningitidis.</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons at risk during an outbreak</text>
+<code>070</code>
+</observationCode>
+<description>Administer to persons identified as at increased risk because of a serogroup B meningococcal disease outbreak</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement component deficiencies, including inherited or chronic deficiencies in C3, C5-9, properdin, factor D, factor H, or who are taking eculizumab (Soliris).</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>10 years - 4 days</absMinAge>
+<minAge>10 years</minAge>
+<earliestRecAge>10 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Bexsero</tradeName>
+<mvx>NOV</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate>20170518</cessationDate>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate>20170519</effectiveDate>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Bexsero</tradeName>
+<mvx>NOV</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>1 years - 4 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>2 years - 4 days</absMinInt>
+<minInt>2 years</minInt>
+<earliestRecInt>2 years</earliestRecInt>
+<latestRecInt>4 years</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, OMV</vaccineType>
+<cvx>163</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal B risk 3-dose series MenB-FHbp Increased Risk</seriesName>
+<targetDisease>Meningococcal B</targetDisease>
+<vaccineGroup>Meningococcal B</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>10 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Undergoing elective splenectomy</text>
+<code>002</code>
+</observationCode>
+<description>Administered to persons who are undergoing elective splenectomy if they have not previously received Meningococcal B vaccine. </description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance>Vaccination 14 or more days before splenectomy is suggested.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Microbiologists routinely exposed to Neisseria meningitidis</text>
+<code>050</code>
+</observationCode>
+<description>Administer to microbiologists routinely exposed to isolates of Neisseria meningitidis.</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons at risk during an outbreak</text>
+<code>070</code>
+</observationCode>
+<description>Administer to persons identified as at increased risk because of a serogroup B meningococcal disease outbreak</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons 10 years or older with persistent complement component deficiencies, including inherited or chronic deficiencies in C3, C5-9, properdin, factor D, factor H, or who are taking eculizumab (Soliris).</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>10 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>10 years - 4 days</absMinAge>
+<minAge>10 years</minAge>
+<earliestRecAge>10 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Trumenba</tradeName>
+<mvx>PFR</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate>20170518</cessationDate>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate>20170519</effectiveDate>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Trumenba</tradeName>
+<mvx>PFR</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required once 6 months has passed since the previous dose</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Interval</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval>6 months</interval>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>4 months</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate>20170518</cessationDate>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 months - 4 days</absMinInt>
+<minInt>4 months</minInt>
+<earliestRecInt>4 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate>20170519</effectiveDate>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName>Trumenba</tradeName>
+<mvx>PFR</mvx>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>1 years - 4 days</absMinInt>
+<minInt>1 year</minInt>
+<earliestRecInt>1 year</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>2 years - 4 days</absMinInt>
+<minInt>2 years</minInt>
+<earliestRecInt>2 years</earliestRecInt>
+<latestRecInt>4 years</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, recombinant</vaccineType>
+<cvx>162</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal B, unspecified</vaccineType>
+<cvx>164</cvx>
+<beginAge>10 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,0 +1,473 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>007</observationCode>
+<observationTitle>Pregnant</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is pregnant.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>089</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Varicella</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Varicella vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>100</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of live zoster</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of live zoster vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>102</observationCode>
+<observationTitle>Severe allergic reaction to gelatin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to gelatin.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has generalized malignant neoplasm.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate if the patient received a transplant.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing radiation therapy.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>168</observationCode>
+<observationTitle>Chemotherapy</observationTitle>
+<contraindicationText>Do not vaccinate if the patient is undergoing chemotherapy, including 14 days before the start of therapy and 3 months after the completion of therapy.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>172</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of recombinant zoster</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of recombinant zoster vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Zoster 2-dose series</seriesName>
+<targetDisease>Zoster</targetDisease>
+<vaccineGroup>Zoster </vaccineGroup>
+<seriesAdminGuidance>Recombinant zoster subunit vaccine (RZV) is recommended for the prevention of herpes zoster and related complications for immunocompetent adults age 50 years and older including those who previously received zoster vaccine live (ZVL).</seriesAdminGuidance>
+<seriesAdminGuidance>For adults age 60 years or older, either RZV or ZVL is recommended RZV is preferred).</seriesAdminGuidance>
+<seriesAdminGuidance>ZVL remains a recommended vaccine for the prevention of herpes zoster and its complications and may be used in cases such as if a person is allergic to RZV, is unable to return for a second dose of RZV or patient preference. </seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years</absMinAge>
+<minAge>50 years</minAge>
+<earliestRecAge>50 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>21; 94; 121</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>50 years - 4 days</absMinAge>
+<minAge>50 years</minAge>
+<earliestRecAge>50 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>21; 94; 121</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster, unspecified formulation</vaccineType>
+<cvx>188</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Zoster 3-dose series</seriesName>
+<targetDisease>Zoster</targetDisease>
+<vaccineGroup>Zoster </vaccineGroup>
+<seriesAdminGuidance>Recombinant zoster subunit vaccine (RZV) is recommended for the prevention of herpes zoster and related complications for immunocompetent adults age 50 years and older including those who previously received zoster vaccine live (ZVL).</seriesAdminGuidance>
+<seriesAdminGuidance>For adults age 60 years or older, either RZV or ZVL is recommended RZV is preferred).</seriesAdminGuidance>
+<seriesAdminGuidance>ZVL remains a recommended vaccine for the prevention of herpes zoster and its complications and may be used in cases such as if a person is allergic to RZV, is unable to return for a second dose of RZV or patient preference. </seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>50 years</absMinAge>
+<minAge>60 years</minAge>
+<earliestRecAge>60 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge>60 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster live</vaccineType>
+<cvx>121</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>7 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>50 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster recombinant</vaccineType>
+<cvx>187</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Zoster, unspecified formulation</vaccineType>
+<cvx>188</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,0 +1,444 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>029</observationCode>
+<observationTitle>Acute gastroenteritis</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has acute gastroenteritis.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>030</observationCode>
+<observationTitle>Acute febrile illness</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has acute febrile illness.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>084</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Typhoid</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Typhoid vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>035</observationCode>
+<observationTitle>Antimicrobial or antimalarial taken within 72 hours</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has taken antimicrobial or antimalarial medications  within the previous 72 hours.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>145</observationCode>
+<observationTitle>B-lymphocyte [humoral] - Severe antibody deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has severe B-lymphocyte (humoral) - antibody deficiencies (e.g., X-linked agammaglobulinemia and common variable immunodeficiency).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>147</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Complete defects</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has complete cell-mediated or humoral T-lymphocyte defects (e.g., severe combined immunodeficiency [SCID] disease, complete DiGeorge syndrome).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>148</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - Partial defects</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has partial cell-mediated or humoral T-lymphocyte defects (e.g., most patients with DiGeorge syndrome, Wiskott-Aldrich syndrome, ataxia- telangiectasia).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>149</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has T-lymphocyte [cell-mediated and humoral] - interferon-gamma/Interleukin 12 axis deficiencies.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>150</observationCode>
+<observationTitle>T-lymphocyte [cell-mediated and humoral] - interferon-gamma or interferon-alpha</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has cell-mediated or humoral T-lymphocyte defects related to interferon-gamma or interferon-alpha</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>152</observationCode>
+<observationTitle>Phagocytic function - Chronic granulomatous disease</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has phagocytic function - chronic granulomatous disease.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>153</observationCode>
+<observationTitle>Phagocytic function - Leukocyte adhesion defect, and myeloperoxidase deficiency</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has a phagocytic function defect (e.g. leukocyte adhesion defect and myeloperoxidase deficiency).</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>156</observationCode>
+<observationTitle>Generalized malignant neoplasm</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient has generalized malignant neoplasm.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>157</observationCode>
+<observationTitle>Transplantation</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient received a transplant.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>158</observationCode>
+<observationTitle>Immunosuppressive therapy</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient is undergoing immunosuppressive therapy. Immunosuppressive medications include those given to prevent solid organ transplant rejection, human immune mediators like interleukins and colony-stimulating factors, immune modulators like levamisol and BCG bladder-tumor therapy, and medicines like tumor necrosis factor alpha inhibitors and anti-B cell antibodies. </contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>159</observationCode>
+<observationTitle>Radiation therapy</observationTitle>
+<contraindicationText>Do not vaccinate with live attenuated typhoid virus (Ty21a) if the patient is undergoing radiation therapy.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Typhoid risk 1-dose series</seriesName>
+<targetDisease>Typhoid</targetDisease>
+<vaccineGroup>Typhoid</vaccineGroup>
+<seriesAdminGuidance>This vaccine should be given at least 2 weeks before potential exposure.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>2 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Microbiology laboratorians who work frequently with S. typhi</text>
+<code>051</code>
+</observationCode>
+<description>Administer to persons who are microbiology laboratorians who work frequently with S. typhi.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Intimate exposure to a documented S. typhi carrier</text>
+<code>072</code>
+</observationCode>
+<description>Administer to persons who have intimate exposure to a documented S. typhi carrier.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to areas in which there is a recognized risk of exposure to S. typhi</text>
+<code>163</code>
+</observationCode>
+<description>Administer to persons who travel to areas in which there is a recognized risk of exposure to S. typhi.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>2 years</minAge>
+<earliestRecAge>2 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Typhoid capsular polysaccharide</vaccineType>
+<cvx>101</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Typhoid capsular polysaccharide</vaccineType>
+<cvx>101</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>2 years - 4 days</absMinInt>
+<minInt>2 years</minInt>
+<earliestRecInt>2 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Typhoid capsular polysaccharide</vaccineType>
+<cvx>101</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Typhoid capsular polysaccharide</vaccineType>
+<cvx>101</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Typhoid risk 4-dose series</seriesName>
+<targetDisease>Typhoid</targetDisease>
+<vaccineGroup>Typhoid</vaccineGroup>
+<seriesAdminGuidance>Primary vaccination with live-attenuated Ty21a vaccine consists of one enteric-coated capsule taken on alternate days (day 0, 2, 4, and 6), for a total of four capsules. The capsules must be kept refrigerated (not frozen). Each capsule should be taken with cool water no warmer than 98.6 F (37.0 C), approximately 1 hour before a meal. All doses should be completed at least 1 week before potential exposure.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>2 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Microbiology laboratorians who work frequently with S. typhi</text>
+<code>051</code>
+</observationCode>
+<description>Administer to persons who are microbiology laboratorians who work frequently with S. typhi.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Intimate exposure to a documented S. typhi carrier</text>
+<code>072</code>
+</observationCode>
+<description>Administer to persons who have intimate exposure to a documented S. typhi carrier.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to areas in which there is a recognized risk of exposure to S. typhi</text>
+<code>163</code>
+</observationCode>
+<description>Administer to persons who travel to areas in which there is a recognized risk of exposure to S. typhi.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 years - 4 days</absMinAge>
+<minAge>6 years</minAge>
+<earliestRecAge>6 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge>6 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume/>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 years - 4 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge>6 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume/>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Typhoid oral, live, attenuated</vaccineType>
+<cvx>25</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,0 +1,1946 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>081</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Polio</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Polio vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>108</observationCode>
+<observationTitle>Severe allergic reaction to streptomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to streptomycin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>109</observationCode>
+<observationTitle>Severe allergic reaction to polymyxin B</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to polymyxin B.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>111</observationCode>
+<observationTitle>Hypersensitivity to the preservative 2-phenoxyethanol</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a hypersensitivity to the preservative 2-phenoxyethanol.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>076</observationCode>
+<observationTitle>Progressive neurologic disorder</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has progressive neurologic disorder until a treatment regimen has been
+established and the condition has stabilized.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>079</observationCode>
+<observationTitle>Encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had encephalopathy not attributable to another identifiable cause within 7 days of administration of a previous dose of Tdap, DTP, or DTaP vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Polio 4-dose series</seriesName>
+<targetDisease>Polio</targetDisease>
+<vaccineGroup>Polio</vaccineGroup>
+<seriesAdminGuidance>When evaluating doses of oral polio vaccine (OPV), only documentation specifying receipt of trivalent vaccine (tOPV) constitutes proof of vaccination according to the U.S. polio vaccination recommendations. As of April 2016, tOPV is no longer available or in use.</seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 weeks - 4 days</absMinAge>
+<minAge>6 weeks</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>10 weeks - 4 days</absMinAge>
+<minAge>10 weeks</minAge>
+<earliestRecAge>4 months</earliestRecAge>
+<latestRecAge>5 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>14 weeks - 4 days</absMinAge>
+<minAge>14 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>19 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>15 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose is not required if current dose was administered on or after 4 years of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose is not required if the current dose was administered on or after 4 years - 4 days of age AND at least 6 months - 4 days from the previous dose.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Interval</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval>6 months - 4 days</interval>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>3</setID>
+<setDescription>Target Dose is not required for those who are 4 years of age or older.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge>18 weeks - 4 days</absMinAge>
+<minAge>18 weeks</minAge>
+<earliestRecAge>4 years</earliestRecAge>
+<latestRecAge>7 years + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate>20090806</cessationDate>
+</age>
+<age>
+<absMinAge>4 years - 4 days</absMinAge>
+<minAge>4 years</minAge>
+<earliestRecAge>4 years</earliestRecAge>
+<latestRecAge>7 years + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate>20090807</effectiveDate>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate>20090806</cessationDate>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate>20090807</effectiveDate>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>4 years</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Polio 5-dose series</seriesName>
+<targetDisease>Polio</targetDisease>
+<vaccineGroup>Polio</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 weeks - 4 days</absMinAge>
+<minAge>6 weeks</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge>3 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>10 weeks - 4 days</absMinAge>
+<minAge>10 weeks</minAge>
+<earliestRecAge>4 months</earliestRecAge>
+<latestRecAge>5 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>13 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>14 weeks - 4 days</absMinAge>
+<minAge>14 weeks</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>19 months + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>15 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose is not required if current dose was administered on or after 4 years of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose is not required if the current dose was administered on or after 4 years - 4 days of age AND at least 6 months - 4 days from the previous dose.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Interval</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval>6 months - 4 days</interval>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>3</setID>
+<setDescription>Target Dose is not required for those who are 4 years of age or older.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>4 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt>0 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>4 years</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Polio, Unspecified Formulation</vaccineType>
+<cvx>89</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge>4 years - 4 days</absMinAge>
+<minAge>4 years</minAge>
+<earliestRecAge>4 years</earliestRecAge>
+<latestRecAge>7 years + 4 weeks</latestRecAge>
+<maxAge>18 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>5 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>4 years</beginAge>
+<endAge>7 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV trivalent</vaccineType>
+<cvx>02</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Polio risk adult series</seriesName>
+<targetDisease>Polio</targetDisease>
+<vaccineGroup>Polio</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>18 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Laboratory workers who handle specimens that might contain polioviruses</text>
+<code>054</code>
+</observationCode>
+<description>Administer to laboratory workers who handle specimens that might contain polioviruses.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health-care workers who have close contact with patients who might be excreting wild polioviruses</text>
+<code>056</code>
+</observationCode>
+<description>Administer to health-care workers who have close contact with patients who might be excreting wild polioviruses.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to areas or countries where polio is epidemic or endemic</text>
+<code>143</code>
+</observationCode>
+<description>Administer to travelers to areas or countries where polio is epidemic or endemic.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 yrs - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received a complete standard series of vaccinations</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Completed Series</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups>1</seriesGroups>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt>8 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 yrs - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received a complete standard series of vaccinations</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Completed Series</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups>1</seriesGroups>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt>12 months</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>IPV</vaccineType>
+<cvx>10</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-HepB-IPV</vaccineType>
+<cvx>110</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-Hib-IPV</vaccineType>
+<cvx>120</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV</vaccineType>
+<cvx>130</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB, Historical</vaccineType>
+<cvx>132</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib-HepB</vaccineType>
+<cvx>146</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DTaP-IPV-Hib</vaccineType>
+<cvx>170</cvx>
+<beginAge>6 weeks - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>DT, IPV adsorbed</vaccineType>
+<cvx>195</cvx>
+<beginAge>6 yrs - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV bivalent</vaccineType>
+<cvx>178</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, monovalent, unspecified</vaccineType>
+<cvx>179</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>OPV, Unspecified</vaccineType>
+<cvx>182</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

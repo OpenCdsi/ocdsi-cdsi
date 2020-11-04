@@ -1,0 +1,1281 @@
+<antigenSupportingData>
+<immunity>
+<clinicalHistory>
+<guidelineCode>018</guidelineCode>
+<guidelineTitle>Laboratory Evidence of Immunity or confirmation of Hepatitis A disease</guidelineTitle>
+</clinicalHistory>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>096</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Hepatitis A</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Hepatitis A vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>107</observationCode>
+<observationTitle>Severe allergic reaction to neomycin</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to neomycin.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>112</observationCode>
+<observationTitle>Hypersensitivity to alum</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a hypersensitivity to alum.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>110</observationCode>
+<observationTitle>Hypersensitivity to yeast</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has a hypersensitivity to yeast.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>HepA 2-dose series</seriesName>
+<targetDisease>HepA</targetDisease>
+<vaccineGroup>HepA</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart>19 years</maxAgeToStart>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>24 months + 4 weeks</latestRecAge>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months</beginAge>
+<endAge>19 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>18 months - 4 days</absMinAge>
+<minAge>18 months</minAge>
+<earliestRecAge>18 months</earliestRecAge>
+<latestRecAge>24 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt>19 months + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>6 months</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months</beginAge>
+<endAge>19 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepA risk 1-dose series</seriesName>
+<targetDisease>HepA</targetDisease>
+<vaccineGroup>HepA</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>6 months</minAgeToStart>
+<maxAgeToStart>12 months</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Travelling Internationally</text>
+<code>048</code>
+</observationCode>
+<description>Administer to persons who will be travelling internationally.</description>
+<beginAge>6 months</beginAge>
+<endAge>12 months</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 months - 4 days</absMinAge>
+<minAge>6 months</minAge>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge>12 months</latestRecAge>
+<maxAge>12 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months</beginAge>
+<endAge>19 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>6 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepA risk 2-dose series</seriesName>
+<targetDisease>HepA</targetDisease>
+<vaccineGroup>HepA</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives clotting factor concentrates</text>
+<code>006</code>
+</observationCode>
+<description>Administer to persons who receive clotting factor concentrates.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit drug use</text>
+<code>040</code>
+</observationCode>
+<description>Administer to persons who use illicit drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Close contact with international adoptee during first 60 days</text>
+<code>044</code>
+</observationCode>
+<description>Administer to persons who will have close contact with an international adoptee during the first 60 days.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>The first dose of the 2-dose hepatitis A vaccine series should be administered as soon as adoption is planned, ideally 2 or more weeks before the arrival of the adoptee.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Working with Hepatitis A virus in research setting</text>
+<code>049</code>
+</observationCode>
+<description>Administer to persons who work with Hepatitis A virus in a research setting.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Occupational exposure for Hepatitis A</text>
+<code>059</code>
+</observationCode>
+<description>Administer to persons who have an occupational exposure for Hepatitis A</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Homelessness</text>
+<code>121</code>
+</observationCode>
+<description>Administer to persons who are experiencing homelessness.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to or working in countries that have high or intermediate endemicity of Hepatitis A</text>
+<code>142</code>
+</observationCode>
+<description>Administer to persons traveling to or working in countries that have high or intermediate endemicity of Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis A  protection</text>
+<code>175</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge>24 months + 4 weeks</latestRecAge>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months</beginAge>
+<endAge>19 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<absMinInt>6 months</absMinInt>
+<effectiveDate/>
+<cessationDate/>
+</allowableInterval>
+<preferableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>19 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepA risk Twinrix 3 dose series</seriesName>
+<targetDisease>HepA</targetDisease>
+<vaccineGroup>HepA</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>2</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives clotting factor concentrates</text>
+<code>006</code>
+</observationCode>
+<description>Administer to persons who receive clotting factor concentrates.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit drug use</text>
+<code>040</code>
+</observationCode>
+<description>Administer to persons who use illicit drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Close contact with international adoptee during first 60 days</text>
+<code>044</code>
+</observationCode>
+<description>Administer to persons who will have close contact with an international adoptee during the first 60 days.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>The first dose of the 2-dose hepatitis A vaccine series should be administered as soon as adoption is planned, ideally 2 or more weeks before the arrival of the adoptee.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Working with Hepatitis A virus in research setting</text>
+<code>049</code>
+</observationCode>
+<description>Administer to persons who work with Hepatitis A virus in a research setting.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Occupational exposure for Hepatitis A</text>
+<code>059</code>
+</observationCode>
+<description>Administer to persons who have an occupational exposure for Hepatitis A</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Homelessness</text>
+<code>121</code>
+</observationCode>
+<description>Administer to persons who are experiencing homelessness.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to or working in countries that have high or intermediate endemicity of Hepatitis A</text>
+<code>142</code>
+</observationCode>
+<description>Administer to persons traveling to or working in countries that have high or intermediate endemicity of Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis A  protection</text>
+<code>175</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>4 weeks - 4 days</absMinInt>
+<minInt>4 weeks</minInt>
+<earliestRecInt>4 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 months - 4 days</absMinInt>
+<minInt>5 months</minInt>
+<earliestRecInt>5 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, pediatric, Unspecified</vaccineType>
+<cvx>31</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, adult</vaccineType>
+<cvx>52</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, ped/adol, 2 dose</vaccineType>
+<cvx>83</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge>19 years</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Hep A, Unspecified</vaccineType>
+<cvx>85</cvx>
+<beginAge>12 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>HepA risk Twinrix 4 dose Series</seriesName>
+<targetDisease>HepA</targetDisease>
+<vaccineGroup>HepA</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups>1</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>3</seriesPreference>
+<minAgeToStart>19 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Patient seeks protection</text>
+<code>001</code>
+</observationCode>
+<description>Administer to persons seeking protection.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Receives clotting factor concentrates</text>
+<code>006</code>
+</observationCode>
+<description>Administer to persons who receive clotting factor concentrates.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Chronic liver disease</text>
+<code>015</code>
+</observationCode>
+<description>Administer to persons who have chronic liver disease.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Men who have sex with men</text>
+<code>036</code>
+</observationCode>
+<description>Administer to men who have sex with men.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Illicit drug use</text>
+<code>040</code>
+</observationCode>
+<description>Administer to persons who use illicit drugs.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Close contact with international adoptee during first 60 days</text>
+<code>044</code>
+</observationCode>
+<description>Administer to persons who will have close contact with an international adoptee during the first 60 days.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance>The first dose of the 2-dose hepatitis A vaccine series should be administered as soon as adoption is planned, ideally 2 or more weeks before the arrival of the adoptee.</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Working with Hepatitis A virus in research setting</text>
+<code>049</code>
+</observationCode>
+<description>Administer to persons who work with Hepatitis A virus in a research setting.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Occupational exposure for Hepatitis A</text>
+<code>059</code>
+</observationCode>
+<description>Administer to persons who have an occupational exposure for Hepatitis A</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Homelessness</text>
+<code>121</code>
+</observationCode>
+<description>Administer to persons who are experiencing  homelessness.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to or working in countries that have high or intermediate endemicity of Hepatitis A</text>
+<code>142</code>
+</observationCode>
+<description>Administer to persons traveling to or working in countries that have high or intermediate endemicity of Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - severely immunocompromised</text>
+<code>154</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV/AIDS - not severely immunocompromised</text>
+<code>155</code>
+</observationCode>
+<description>Administer to persons who have HIV/AIDS and are not severely immunocompromised [See the CDC general recommendations for a definition of "severely immunocompromised"].</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Patient seeks Hepatitis A  protection</text>
+<code>175</code>
+</observationCode>
+<description>Administer to persons seeking protection from Hepatitis A.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>14 days</absMinInt>
+<minInt>14 days</minInt>
+<earliestRecInt>14 days</earliestRecInt>
+<latestRecInt>23 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose>1</fromTargetDose>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 months - 4 days</absMinInt>
+<minInt>12 months</minInt>
+<earliestRecInt>12 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>HepA-HepB</vaccineType>
+<cvx>104</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>
