@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cdsi.evaluation.models
+namespace cdsi.evaluation
 {
     // Table 3-1
     public enum EvaluationStatus
