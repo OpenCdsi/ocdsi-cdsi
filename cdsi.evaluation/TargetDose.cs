@@ -8,14 +8,6 @@ namespace cdsi.evaluation
 {
     public class TargetDose
     {
-        public TargetDoseStatus Status { get; set; } = TargetDoseStatus.Unknown;
-        public int DoseNumber { get; private set; }
-
-        public TargetDose() { }
-
-        public TargetDose(antigenSupportingDataSeriesSeriesDose dose)
-        {
-            DoseNumber = int.Parse(Regex.Match(dose.doseNumber, "(\\d+)").Groups[1].Value);
-        }
+        public TargetDoseStatus Status { get; set; } = TargetDoseStatus.NotSatisfied;
     }
 }

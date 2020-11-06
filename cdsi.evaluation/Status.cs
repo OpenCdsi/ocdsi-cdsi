@@ -7,7 +7,6 @@ namespace cdsi.evaluation
     // Table 3-1
     public enum EvaluationStatus
     {
-        Unknown,
         Extraneous,
         NotValid,
         SubStandard,
@@ -17,15 +16,14 @@ namespace cdsi.evaluation
     // Table 3-2
     public enum TargetDoseStatus
     {
-        Unknown,
         NotSatisfied,
         Satisfied,
         Skipped
     }
+
     // Table 3-3
     public enum PatientSeriesStatus
     {
-        Unknown,
         AgedOut,
         Complete,
         Contraindicated,
