@@ -6,21 +6,15 @@ using cdsi.refData;
 
 namespace cdsi.evaluation
 {
-    public class PatientSeries : List<TargetDose>
+    public class PatientSeries : List<TargetDose>, IPatientSeries
     {
-        public PatientSeriesStatus Status { get; set; } = PatientSeriesStatus.Unknown;
-        public string AntigenName { get; set; }
-        public int SeriesNumber { get; set; }
+        public PatientSeriesStatus Status { get; set; } = PatientSeriesStatus.NotComplete;
+        public string AntigenName { get; }
+        public int SeriesNumber { get; }
 
-        public PatientSeries() { }
+        private PatientSeries() { }
 
-        public PatientSeries(antigenSupportingDataSeries series)
-        {
-            var doses = series.seriesDose.Select(d => new TargetDose(d));
-            this.AddRange(doses);
-        }
-
-        public PatientSeries(string name,int seriesNumber=0)
+        public PatientSeries(string name, int seriesNumber = 0)
         {
             AntigenName = name;
             SeriesNumber = seriesNumber;

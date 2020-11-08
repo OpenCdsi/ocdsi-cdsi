@@ -4,6 +4,12 @@ using System.Text;
 
 namespace cdsi.evaluation
 {
+    public enum Gender
+    {
+        Female,
+        Male
+    }
+
     // Table 3-1
     public enum EvaluationStatus
     {
