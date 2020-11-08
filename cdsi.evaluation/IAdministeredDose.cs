@@ -11,6 +11,6 @@ namespace cdsi.evaluation
         IList<string> EvaluationReasons { get; set; }
         EvaluationStatus EvaluationStatus { get; set; }
         DateTime LotExpiration { get; set; }
-        int? VaccineType { get; set; }
+        string VaccineType { get; set; }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdsi.refData", "cdsi.refData\cdsi.refData.csproj", "{9D350030-22F7-40E9-BA4E-D614020F63CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdsi.supportingData", "cdsi.refData\cdsi.supportingData.csproj", "{9D350030-22F7-40E9-BA4E-D614020F63CA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cdsi.evaluation", "cdsi.evaluation\cdsi.evaluation.csproj", "{952778B0-BD40-46DF-A605-1B8A038AB44C}"
 	ProjectSection(ProjectDependencies) = postProject

@@ -13,7 +13,7 @@ namespace cdsi.evaluation
         public DateTime DateAdministered { get; set; }
         public DateTime LotExpiration { get; set; } = new DateTime(2999, 12, 31);
         public string DoseCondition { get; set; }
-        public int? VaccineType { get; set; } // aka CVX ?
+        public string VaccineType { get; set; }
         public string Antigen { get; set; }
     }
 }

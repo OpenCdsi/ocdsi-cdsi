@@ -18,7 +18,7 @@ namespace cdsi.evaluation
         {
             AntigenName = name;
             SeriesNumber = seriesNumber;
-            var series = RefData.Antigen[name].series[seriesNumber];
+            var series = SupportingData.Antigen[name].series[seriesNumber];
             var doses = series.seriesDose.Select(d => new TargetDose(d));
             this.AddRange(doses);
 

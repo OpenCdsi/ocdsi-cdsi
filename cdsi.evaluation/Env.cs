@@ -11,7 +11,7 @@ namespace cdsi.evaluation
             return this[key];
         }
 
-        public object Get<T>(object key)
+        public T Get<T>(object key)
         {
             return (T)this[key];
         }

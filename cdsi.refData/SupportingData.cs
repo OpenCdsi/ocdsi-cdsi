@@ -12,7 +12,7 @@ using cdsi.refData;
 
 namespace cdsi
 {
-    public static class RefData
+    public static class SupportingData
     {
         public static double Version => 4.5;
 
@@ -33,10 +33,10 @@ namespace cdsi
             }
         }
 
-        public static IDictionary<string, antigenSupportingData> Antigen { get; } = new AntigenCollection();
+        public static IDictionary<string, antigenSupportingData> Antigen { get; } = new AntigenData();
     }
 
-    public class AntigenCollection : IDictionary<string, antigenSupportingData>
+    public class AntigenData : IDictionary<string, antigenSupportingData>
     {
         public antigenSupportingData this[string key]
         {

@@ -12,7 +12,7 @@ namespace cdsi.refData.tests
         [TestMethod]
         public void CanCreateFromAntigenSeries()
         {
-            var antigen = RefData.Antigen["Cholera"];
+            var antigen = SupportingData.Antigen["Cholera"];
             var patientseries = new PatientSeries(antigen.series[0]);
             Assert.AreEqual(1, patientseries.Count);
             Assert.AreEqual(1, patientseries[0].DoseNumber);

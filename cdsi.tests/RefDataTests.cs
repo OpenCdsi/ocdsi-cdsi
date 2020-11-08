@@ -11,7 +11,7 @@ namespace cdsi.refData.tests
         [TestMethod]
         public void AntigenNames()
         {
-            var names = RefData.Antigen.Keys;
+            var names = SupportingData.Antigen.Keys;
             Assert.AreEqual(24, names.Count);
             Assert.AreEqual("Cholera", names.First());
         }
@@ -19,14 +19,14 @@ namespace cdsi.refData.tests
         [TestMethod]
         public void CanParseAntigenData()
         {
-            var data = RefData.Antigen["Cholera"];
+            var data = SupportingData.Antigen["Cholera"];
             Assert.AreEqual("Cholera", data.series[0].targetDisease);
         }
 
         [TestMethod]
         public void CanParseScheduleData()
         {
-            var data = RefData.Schedule;
+            var data = SupportingData.Schedule;
             Assert.IsInstanceOfType(data, typeof(scheduleSupportingData));
         }
     }
