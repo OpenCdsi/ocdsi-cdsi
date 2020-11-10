@@ -6,7 +6,7 @@ using cdsi.refData;
 namespace cdsi.refData.tests
 {
     [TestClass]
-    public class RefDataTests
+    public class SupportingDataTests
     {
         [TestMethod]
         public void AntigenNames()

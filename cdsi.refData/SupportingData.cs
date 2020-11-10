@@ -25,7 +25,7 @@ namespace cdsi
         {
             get
             {
-                var name = "cdsi.refData.xml.ScheduleSupportingData.xml";
+                var name = "cdsi.supportingData.xml.ScheduleSupportingData.xml";
                 var assembly = Assembly.GetExecutingAssembly();
                 var resource = assembly.GetManifestResourceStream(name);
                 var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
@@ -42,7 +42,7 @@ namespace cdsi
         {
             get
             {
-                var name = $"cdsi.refData.xml.AntigenSupportingData- {key}-508.xml";
+                var name = $"cdsi.supportingData.xml.AntigenSupportingData- {key}-508.xml";
                 var assembly = Assembly.GetExecutingAssembly();
                 var resource = assembly.GetManifestResourceStream(name);
                 var deserializer = new XmlSerializer(typeof(antigenSupportingData));
@@ -58,7 +58,7 @@ namespace cdsi
         {
             get
             {
-                var re = new Regex("cdsi\\.refData\\.xml\\.AntigenSupportingData- (.*)-508\\.xml");
+                var re = new Regex("cdsi\\.supportingData\\.xml\\.AntigenSupportingData- (.*)-508\\.xml");
                 var assembly = Assembly.GetExecutingAssembly();
                 var resources = assembly.GetManifestResourceNames();
                 return resources.Where(r => r.EndsWith(".xml")).Select(r => re.Match(r).Groups[1].Value).ToList();
