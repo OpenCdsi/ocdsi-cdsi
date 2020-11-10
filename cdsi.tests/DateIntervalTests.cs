@@ -7,7 +7,7 @@ using cdsi.evaluation;
 namespace cdsi.tests
 {
     [TestClass]
-    public class IntervalTests
+    public class DateIntervalTests
     {
         [TestMethod]
         public void CanParseAnInterval()
