@@ -80,10 +80,28 @@ namespace cdsi.evaluation
             };
         }
 
-        public static DateTime Add (this DateTime date, IEnumerable<Interval> intervals)
+        public static DateTime Add(this DateTime date, string interval)
+        {
+            return date.Add(Interval.Parse(interval));
+        }
+
+
+        public static DateTime Add(this DateTime date, string interval, DateTime _default)
+        {
+            try
+            {
+                return date.Add(interval);
+            }
+            catch
+            {
+                return _default;
+            }
+        }
+
+        public static DateTime Add(this DateTime date, IEnumerable<Interval> intervals)
         {
             var result = date;
-            foreach(var interval in intervals)
+            foreach (var interval in intervals)
             {
                 result = result.Add(interval);
             }
