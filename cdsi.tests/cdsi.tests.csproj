@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\cdsi.evaluation\cdsi.evaluation.csproj" />
     <ProjectReference Include="..\cdsi.refData\cdsi.supportingData.csproj" />
+    <ProjectReference Include="..\cdsi.testCases\cdsi.testcases.csproj" />
   </ItemGroup>
 
 </Project>

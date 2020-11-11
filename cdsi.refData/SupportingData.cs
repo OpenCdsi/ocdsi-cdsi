@@ -33,12 +33,12 @@ namespace cdsi
             }
         }
 
-        public static IDictionary<string, antigenSupportingData> Antigen { get; } = new AntigenData();
+        public static IDictionary<object, antigenSupportingData> Antigen { get; } = new AntigenData();
     }
 
-    public class AntigenData : IDictionary<string, antigenSupportingData>
+    public class AntigenData : IDictionary<object, antigenSupportingData>
     {
-        public antigenSupportingData this[string key]
+        public antigenSupportingData this[object key]
         {
             get
             {
@@ -54,14 +54,14 @@ namespace cdsi
             }
         }
 
-        public ICollection<string> Keys
+        public ICollection<object> Keys
         {
             get
             {
                 var re = new Regex("cdsi\\.supportingData\\.xml\\.AntigenSupportingData- (.*)-508\\.xml");
                 var assembly = Assembly.GetExecutingAssembly();
                 var resources = assembly.GetManifestResourceNames();
-                return resources.Where(r => r.EndsWith(".xml")).Select(r => re.Match(r).Groups[1].Value).ToList();
+                return resources.Where(r => r.EndsWith(".xml")).Select(r => (object)re.Match(r).Groups[1].Value).ToList();
             }
         }
 
@@ -72,12 +72,12 @@ namespace cdsi
 
         public bool IsReadOnly => true;
 
-        public void Add(string key, antigenSupportingData value)
+        public void Add(object key, antigenSupportingData value)
         {
             throw new NotImplementedException();
         }
 
-        public void Add(KeyValuePair<string, antigenSupportingData> item)
+        public void Add(KeyValuePair<object, antigenSupportingData> item)
         {
             throw new NotImplementedException();
         }
@@ -87,17 +87,17 @@ namespace cdsi
             throw new NotImplementedException();
         }
 
-        public bool Contains(KeyValuePair<string, antigenSupportingData> item)
+        public bool Contains(KeyValuePair<object, antigenSupportingData> item)
         {
             return item.Key.Equals(this[item.Key]);
         }
 
-        public bool ContainsKey(string key)
+        public bool ContainsKey(object key)
         {
             return Keys.Contains(key);
         }
 
-        public void CopyTo(KeyValuePair<string, antigenSupportingData>[] array, int arrayIndex)
+        public void CopyTo(KeyValuePair<object, antigenSupportingData>[] array, int arrayIndex)
         {
             throw new NotImplementedException();
         }
@@ -107,9 +107,9 @@ namespace cdsi
             return base.Equals(obj);
         }
 
-        public IEnumerator<KeyValuePair<string, antigenSupportingData>> GetEnumerator()
+        public IEnumerator<KeyValuePair<object, antigenSupportingData>> GetEnumerator()
         {
-            return Keys.Select(k => new KeyValuePair<string, antigenSupportingData>(key: k, value: this[k])).GetEnumerator();
+            return Keys.Select(k => new KeyValuePair<object, antigenSupportingData>(key: k, value: this[k])).GetEnumerator();
         }
 
         public override int GetHashCode()
@@ -117,12 +117,12 @@ namespace cdsi
             return base.GetHashCode();
         }
 
-        public bool Remove(string key)
+        public bool Remove(object key)
         {
             throw new NotImplementedException();
         }
 
-        public bool Remove(KeyValuePair<string, antigenSupportingData> item)
+        public bool Remove(KeyValuePair<object, antigenSupportingData> item)
         {
             throw new NotImplementedException();
         }
@@ -132,7 +132,7 @@ namespace cdsi
             return base.ToString();
         }
 
-        public bool TryGetValue(string key, [MaybeNullWhen(false)] out antigenSupportingData value)
+        public bool TryGetValue(object key, [MaybeNullWhen(false)] out antigenSupportingData value)
         {
             var success = true;
             try
