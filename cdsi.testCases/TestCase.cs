@@ -2,7 +2,7 @@
 
 namespace cdsi.testCases
 {
-    public class TestCase
+    public class Testcase
     {
         public string CDC_Test_ID { get; set; }
         public string Test_Case_Name { get; set; }
@@ -15,5 +15,7 @@ namespace cdsi.testCases
         public DateTime Date_Added { get; set; }
         public DateTime Date_Updated { get; set; }
         public string General_Description { get; set; }
+        public string Changed_In_Version { get; set; }
+        public string Reason_For_Change { get; set; }
     }
 }
