@@ -7,45 +7,69 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Linq;
+using System.Collections;
 
 namespace cdsi.testcases
 {
-    public class TestcaseCollection : Dictionary<object, TestCase>
+    public class TestcaseLibrary : IEnumerable<Testcase>
     {
         private static string ResourceName => "cdsi.testcases.data.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
         public static double Version => 4.4;
+        public static TestcaseLibrary Instance { get; } = new TestcaseLibrary();
 
-        internal DataSet Data { get; private set; }
+        private DataSet Data { get; set; }
 
-        public TestcaseCollection()
+        private IEnumerable<DataRow> Records
         {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(ResourceName))
+            get
             {
-                using (var reader = ExcelReaderFactory.CreateReader(stream))
+                var rows = new List<DataRow>();
+                foreach (var row in Data.Tables[0].Rows)
                 {
-                    Data = reader.AsDataSet(new ExcelDataSetConfiguration()
-                    {
-                        UseColumnDataType = true,
-                        FilterSheet = (tableReader, sheetIndex) => sheetIndex == 2,
-                        ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
-                        {
-                            UseHeaderRow = true
-                        }
-                    });
+                    rows.Add((DataRow)row);
                 }
+                return rows;
             }
         }
 
-        public TestCase this[string id] => Data.AsTestcase(id);
+        public TestcaseLibrary()
+        {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(ResourceName);
+            using var reader = ExcelReaderFactory.CreateReader(stream);
+            Data = reader.AsDataSet(new ExcelDataSetConfiguration()
+            {
+                UseColumnDataType = true,
+                FilterSheet = (tableReader, sheetIndex) => sheetIndex == 2,
+                ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
+                {
+                    UseHeaderRow = true
+                }
+            });
+        }
+
+        public Testcase this[string id] => Data.AsTestcase(id);
+        public IEnumerable<string> Keys => Records.Select(r => r.Field<string>("CDC_Test_ID"));
+        public IEnumerable<Testcase> Values => Records.Select(r => r.AsTestcase());
+        public int Count => Data.Tables[0].Rows.Count;
+
+        public IEnumerator<Testcase> GetEnumerator()
+        {
+            return Values.GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 
-    public static class TestcaseHelpers
+    public static class Helpers
     {
-        public static TestCase AsTestcase(this DataSet data, string id)
+        public static Testcase AsTestcase(this DataSet data, string id)
         {
             var row = data.Tables[0].Select($"CDC_Test_ID='{id}'")[0];
-            var testcase =row.AsTestcase();
+            var testcase = row.AsTestcase();
             testcase.Patient = row.AsPatient();
             testcase.Forecast = row.AsForecast();
             testcase.Evaluation = row.AsEvaluation();
@@ -53,9 +77,9 @@ namespace cdsi.testcases
             return testcase;
         }
 
-        public static TestCase AsTestcase(this DataRow row)
+        public static Testcase AsTestcase(this DataRow row)
         {
-            return new TestCase()
+            return new Testcase()
             {
                 CDC_Test_ID = row.Field<string>("CDC_Test_ID"),
                 Test_Case_Name = row.Field<string>("Test_Case_Name"),
@@ -64,7 +88,7 @@ namespace cdsi.testcases
                 Vaccine_Group = row.Field<string>("Vaccine_Group"),
                 Date_Added = row.Field<DateTime>("Date_Added"),
                 Date_Updated = row.Field<DateTime>("Date_Updated"),
-                General_Description = row.Field<string>("General_Description"),                
+                General_Description = row.Field<string>("General_Description"),
             };
         }
 
@@ -103,7 +127,7 @@ namespace cdsi.testcases
         public static IEnumerable<Dose> AsDoses(this DataRow row)
         {
             var doses = new List<Dose>();
-            for(var i = 1; i <= 7; i++)
+            for (var i = 1; i <= 7; i++)
             {
                 if (string.IsNullOrWhiteSpace(row.Field<string>($"CVX_{i}"))) break;
                 doses.Add(row.AsDose(i));
