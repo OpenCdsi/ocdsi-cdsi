@@ -14,5 +14,7 @@ namespace Cdsi
         public static scheduleSupportingData Schedule { get; } = ScheduleCollection.Create();
 
         public static IDictionary<IAntigenIdentifier, antigenSupportingData> Antigen { get; } = new AntigenCollection();
+
+        public static TestcaseCollection Testcases { get; } = new TestcaseCollection();
     }
 }

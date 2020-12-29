@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cdsi.SupportingData\Cdsi.SupportingData.csproj" />
+    <ProjectReference Include="..\Cdsi.ReferenceData\Cdsi.ReferenceData.csproj" />
   </ItemGroup>
 
 </Project>

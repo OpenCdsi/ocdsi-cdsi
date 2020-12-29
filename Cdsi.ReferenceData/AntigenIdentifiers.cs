@@ -1,18 +1,40 @@
-﻿using System.Linq;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace Cdsi.ReferenceData
 {
-    public class AntigenIdentifier : IAntigenIdentifier
+    public class AntigenIdentifier : IAntigenIdentifier,IComparable, IComparable<AntigenIdentifier>, IEquatable<AntigenIdentifier>
     {
         public string Name { get; internal set; }
-        public static IAntigenIdentifier Parse(string src)
+        public static AntigenIdentifier Parse(string src)
         {
             var components = AntigenIdentifierParser.Parse(src);
             return new AntigenIdentifier()
             {
                 Name = components[0]
             };
+        }
+
+        public int CompareTo([AllowNull] AntigenIdentifier other)
+        {
+            return Name.CompareTo(other.Name);
+        }
+
+        public int CompareTo(object obj)
+        {
+            return CompareTo((AntigenIdentifier)obj);
+        }
+
+        public bool Equals([AllowNull] AntigenIdentifier other)
+        {
+            return Name.Equals(other.Name);
+        }
+
+        public override bool Equals(object obj)
+        {
+            return Equals((AntigenIdentifier)obj);
         }
     }
 
