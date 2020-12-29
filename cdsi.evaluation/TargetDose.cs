@@ -3,18 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 using cdsi.refData;
+using cdsi.supportingData;
 
 namespace cdsi.evaluation
 {
     public class TargetDose : ITargetDose
     {
-        public antigenSupportingDataSeriesSeriesDose RefData { get; }
-        public TargetDoseStatus Status { get; set; } = TargetDoseStatus.NotSatisfied;
+        public AntigenSeriesDoseIdentifier AntigenSeriesDose { get; }
 
-        private TargetDose() { }
-        public TargetDose(antigenSupportingDataSeriesSeriesDose refdata)
-        {
-            RefData = refdata;
-        }
+        public TargetDoseStatus Status { get; set; }
     }
 }

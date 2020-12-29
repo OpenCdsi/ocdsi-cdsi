@@ -3,25 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using cdsi.refData;
+using cdsi.supportingData;
 
 namespace cdsi.evaluation
 {
-    public class PatientSeries : List<TargetDose>, IPatientSeries
+    public class PatientSeries : IPatientSeries
     {
-        public PatientSeriesStatus Status { get; set; } = PatientSeriesStatus.NotComplete;
-        public string AntigenName { get; }
-        public int SeriesNumber { get; }
+        public AntigenSeriesIdentifier AntigenSeries { get; set; }
 
-        private PatientSeries() { }
+        public IEnumerable<ITargetDose> TargetDoses { get; } = new List<ITargetDose>();
 
-        public PatientSeries(string name, int seriesNumber = 0)
-        {
-            AntigenName = name;
-            SeriesNumber = seriesNumber;
-            var series = SupportingData.Antigen[name].series[seriesNumber];
-            var doses = series.seriesDose.Select(d => new TargetDose(d));
-            this.AddRange(doses);
-
-        }
+        public PatientSeriesStatus Status { get; set; }
     }
 }

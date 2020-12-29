@@ -1,4 +1,5 @@
 ﻿using cdsi.refData;
+using cdsi.supportingData;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,12 +9,12 @@ namespace cdsi.evaluation
 
     public class AdministeredDose : IAdministeredDose
     {
-        public EvaluationStatus EvaluationStatus { get; set; } = EvaluationStatus.NotValid;
-        public IList<string> EvaluationReasons { get; set; } = new List<string>();
-        public DateTime DateAdministered { get; set; }
-        public DateTime LotExpiration { get; set; } = new DateTime(2999, 12, 31);
-        public string DoseCondition { get; set; }
-        public string VaccineType { get; set; }
-        public string Antigen { get; set; }
+        public AntigenIdentifier Antigen {get;set;}
+        public DateTime DateAdministered {get;set;}
+        public string DoseCondition {get;set;}
+        public string EvaluationReason {get;set;}
+        public EvaluationStatus EvaluationStatus {get;set;}
+        public DateTime LotExpiration {get;set;}
+        public string VaccineType {get;set;}
     }
 }

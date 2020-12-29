@@ -1,10 +1,11 @@
 ﻿using cdsi.refData;
+using cdsi.supportingData;
 
 namespace cdsi.evaluation
 {
     public interface ITargetDose
     {
-        antigenSupportingDataSeriesSeriesDose RefData { get; }
+        AntigenSeriesDoseIdentifier AntigenSeriesDose { get; }
         TargetDoseStatus Status { get; set; }
     }
 }

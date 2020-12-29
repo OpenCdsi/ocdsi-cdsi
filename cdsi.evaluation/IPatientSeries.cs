@@ -1,9 +1,12 @@
-﻿namespace cdsi.evaluation
+﻿using cdsi.supportingData;
+using System.Collections.Generic;
+
+namespace cdsi.evaluation
 {
     public interface IPatientSeries
     {
-        string AntigenName { get; }
-        int SeriesNumber { get; }
+        AntigenSeriesIdentifier AntigenSeries { get; }
+        IEnumerable<ITargetDose> TargetDoses { get; } 
         PatientSeriesStatus Status { get; set; }
     }
 }
