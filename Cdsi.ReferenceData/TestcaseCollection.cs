@@ -1,11 +1,11 @@
-﻿using ExcelDataReader;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Linq;
-using System.Collections;
 using Cdsi.TestcaseData;
+using ExcelDataReader;
 
 namespace Cdsi.ReferenceData
 {
@@ -49,8 +49,8 @@ namespace Cdsi.ReferenceData
             }
         }
 
-        public Testcase this[string id] => Data.AsTestcase(id);
-        public IEnumerable<string> Keys => Records.Select(r => r.Field<string>("CDC_Test_ID"));
+        public Testcase this[ITestcaseIdentifier id] => Data.AsTestcase(id.ToString());
+        public IEnumerable<ITestcaseIdentifier> Keys => Records.Select(r => r.Field<string>("CDC_Test_ID")).Select(id => TestcaseIdentifier.Parse(id));
         public IEnumerable<Testcase> Values => Records.Select(r => r.AsTestcase());
         public int Count => Data.Tables[0].Rows.Count;
 

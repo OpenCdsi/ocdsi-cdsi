@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Xml.Serialization;
+﻿using System.Collections.Generic;
 using Cdsi.ReferenceData;
 using Cdsi.SupportingData;
 
@@ -22,6 +13,6 @@ namespace Cdsi
         /// </remarks>
         public static scheduleSupportingData Schedule { get; } = ScheduleCollection.Create();
 
-        public static IDictionary<object, antigenSupportingData> Antigen { get; } = new AntigenCollection();
+        public static IDictionary<IAntigenIdentifier, antigenSupportingData> Antigen { get; } = new AntigenCollection();
     }
 }

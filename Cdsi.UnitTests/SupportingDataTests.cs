@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using Cdsi.SupportingData;
+using Cdsi.ReferenceData;
 
 namespace Cdsi.UnitTests
 {
@@ -12,13 +13,14 @@ namespace Cdsi.UnitTests
         {
             var names = Reference.Antigen.Keys;
             Assert.AreEqual(23, names.Count);
-            Assert.IsTrue(names.Contains("Cholera"));
+            Assert.IsInstanceOfType(names.First(key => key.Name == "Cholera"), typeof(AntigenIdentifier));
         }
 
         [TestMethod]
         public void CanParseAntigenData()
         {
-            var data = Reference.Antigen["Cholera"];
+            var key = Reference.Antigen.Keys.First(key => key.Name == "Cholera");
+            var data = Reference.Antigen[key];
             Assert.AreEqual("Cholera", data.series[0].targetDisease);
         }
 

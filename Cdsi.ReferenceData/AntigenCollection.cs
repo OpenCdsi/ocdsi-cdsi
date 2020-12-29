@@ -1,5 +1,4 @@
-﻿using Cdsi.SupportingData;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -7,17 +6,18 @@ using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
+using Cdsi.SupportingData;
 
 namespace Cdsi.ReferenceData
 {
 
-    public class AntigenCollection : IDictionary<object, antigenSupportingData>
+    public class AntigenCollection : IDictionary<IAntigenIdentifier, antigenSupportingData>
     {
-        public antigenSupportingData this[object key]
+        public antigenSupportingData this[IAntigenIdentifier key]
         {
             get
             {
-                var name = $"Cdsi.SupportingData.xml.AntigenSupportingData- {key}-508.xml";
+                var name = $"Cdsi.SupportingData.xml.AntigenSupportingData- {key.Name}-508.xml";
                 var assembly = Assembly.GetAssembly(typeof(antigenSupportingData));
                 var resource = assembly.GetManifestResourceStream(name);
                 var deserializer = new XmlSerializer(typeof(antigenSupportingData));
@@ -29,7 +29,7 @@ namespace Cdsi.ReferenceData
             }
         }
 
-        public ICollection<object> Keys
+        public ICollection<IAntigenIdentifier> Keys
         {
             get
             {
@@ -37,8 +37,8 @@ namespace Cdsi.ReferenceData
                 var assembly = Assembly.GetAssembly(typeof(antigenSupportingData));
                 var resources = assembly.GetManifestResourceNames();
                 var xmls = resources.Where(r => re.IsMatch(r));
-                var names = xmls.Select(r => (object)re.Match(r).Groups[1].Value);
-                return names.ToList();
+                var names = xmls.Select(r => (string)re.Match(r).Groups[1].Value);
+                return names.Select(n => new AntigenIdentifier() { Name = n }).ToList<IAntigenIdentifier>();
             }
         }
 
@@ -49,12 +49,12 @@ namespace Cdsi.ReferenceData
 
         public bool IsReadOnly => true;
 
-        public void Add(object key, antigenSupportingData value)
+        public void Add(IAntigenIdentifier key, antigenSupportingData value)
         {
             throw new NotImplementedException();
         }
 
-        public void Add(KeyValuePair<object, antigenSupportingData> item)
+        public void Add(KeyValuePair<IAntigenIdentifier, antigenSupportingData> item)
         {
             throw new NotImplementedException();
         }
@@ -64,17 +64,17 @@ namespace Cdsi.ReferenceData
             throw new NotImplementedException();
         }
 
-        public bool Contains(KeyValuePair<object, antigenSupportingData> item)
+        public bool Contains(KeyValuePair<IAntigenIdentifier, antigenSupportingData> item)
         {
             return item.Key.Equals(this[item.Key]);
         }
 
-        public bool ContainsKey(object key)
+        public bool ContainsKey(IAntigenIdentifier key)
         {
             return Keys.Contains(key);
         }
 
-        public void CopyTo(KeyValuePair<object, antigenSupportingData>[] array, int arrayIndex)
+        public void CopyTo(KeyValuePair<IAntigenIdentifier, antigenSupportingData>[] array, int arrayIndex)
         {
             throw new NotImplementedException();
         }
@@ -84,9 +84,9 @@ namespace Cdsi.ReferenceData
             return base.Equals(obj);
         }
 
-        public IEnumerator<KeyValuePair<object, antigenSupportingData>> GetEnumerator()
+        public IEnumerator<KeyValuePair<IAntigenIdentifier, antigenSupportingData>> GetEnumerator()
         {
-            return Keys.Select(k => new KeyValuePair<object, antigenSupportingData>(key: k, value: this[k])).GetEnumerator();
+            return Keys.Select(k => new KeyValuePair<IAntigenIdentifier, antigenSupportingData>(key: k, value: this[k])).GetEnumerator();
         }
 
         public override int GetHashCode()
@@ -94,12 +94,12 @@ namespace Cdsi.ReferenceData
             return base.GetHashCode();
         }
 
-        public bool Remove(object key)
+        public bool Remove(IAntigenIdentifier key)
         {
             throw new NotImplementedException();
         }
 
-        public bool Remove(KeyValuePair<object, antigenSupportingData> item)
+        public bool Remove(KeyValuePair<IAntigenIdentifier, antigenSupportingData> item)
         {
             throw new NotImplementedException();
         }
@@ -109,7 +109,7 @@ namespace Cdsi.ReferenceData
             return base.ToString();
         }
 
-        public bool TryGetValue(object key, [MaybeNullWhen(false)] out antigenSupportingData value)
+        public bool TryGetValue(IAntigenIdentifier key, [MaybeNullWhen(false)] out antigenSupportingData value)
         {
             var success = true;
             try

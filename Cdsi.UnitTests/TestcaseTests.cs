@@ -17,9 +17,11 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanGetANamedTestcase()
         {
+            const string id = "2013-0083";
+            var tid = TestcaseIdentifier.Parse(id);
             var sut = new TestcaseCollection();
-            var data = sut["2013-0011"];
-            Assert.AreEqual(3, data.Evaluation.AdministeredDoses.Count());
+            var data = sut[tid];
+            Assert.AreEqual(2, data.Evaluation.AdministeredDoses.Count());
         }
 
         [TestMethod]
