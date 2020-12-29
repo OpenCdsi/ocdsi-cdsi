@@ -5,7 +5,7 @@ namespace Cdsi.Models
 {
     public class PatientSeries : IPatientSeries
     {
-        public AntigenSeriesIdentifier AntigenSeries { get; set; }
+        public string AntigenSeries { get; set; }
 
         public IEnumerable<ITargetDose> TargetDoses { get; } = new List<ITargetDose>();
 

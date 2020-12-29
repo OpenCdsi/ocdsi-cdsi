@@ -4,7 +4,7 @@ namespace Cdsi.Models
 {
     public interface ITargetDose
     {
-        AntigenSeriesDoseIdentifier AntigenSeriesDose { get; }
+        string AntigenSeriesDose { get; }
         TargetDoseStatus Status { get; set; }
     }
 }

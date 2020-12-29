@@ -5,7 +5,7 @@ namespace Cdsi.Models
 {
     public interface IAdministeredDose
     {
-        AntigenIdentifier Antigen { get; set; }
+        string Antigen { get; set; }
         DateTime DateAdministered { get; set; }
         string DoseCondition { get; set; }
         string EvaluationReason { get; set; }
