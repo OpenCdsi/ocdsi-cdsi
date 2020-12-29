@@ -1,4 +1,4 @@
-﻿using cdsi.testCases;
+﻿using Cdsi.Testcases;
 using ExcelDataReader;
 using System;
 using System.Collections.Generic;
@@ -9,11 +9,11 @@ using System.Text;
 using System.Linq;
 using System.Collections;
 
-namespace cdsi.testcases
+namespace Cdsi.Testcases
 {
     public class TestcaseLibrary : IEnumerable<Testcase>
     {
-        private static string ResourceName => "cdsi.testcases.data.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
+        private static string ResourceName => "Cdsi.Testcases.data.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
         public static double Version => 4.4;
         public static TestcaseLibrary Instance { get; } = new TestcaseLibrary();
 

@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Cdsi.SupportingData;
+using System;
 
-namespace cdsi.evaluation
+namespace Cdsi.Models
 {
     public interface IAdministeredDose
     {
-        string Antigen { get; set; }
+        AntigenIdentifier Antigen { get; set; }
         DateTime DateAdministered { get; set; }
         string DoseCondition { get; set; }
-        IList<string> EvaluationReasons { get; set; }
+        string EvaluationReason { get; set; }
         EvaluationStatus EvaluationStatus { get; set; }
         DateTime LotExpiration { get; set; }
         string VaccineType { get; set; }

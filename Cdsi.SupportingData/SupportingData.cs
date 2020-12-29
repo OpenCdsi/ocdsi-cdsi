@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
-using cdsi.refData;
+using Cdsi.SupportingData;
 
-namespace cdsi
+namespace Cdsi
 {
-    public static class SupportingData
+    public static class Reference
     {
         public static double Version => 4.5;
 
@@ -25,7 +25,7 @@ namespace cdsi
         {
             get
             {
-                var name = "cdsi.supportingData.xml.ScheduleSupportingData.xml";
+                var name = "Cdsi.SupportingData.xml.ScheduleSupportingData.xml";
                 var assembly = Assembly.GetExecutingAssembly();
                 var resource = assembly.GetManifestResourceStream(name);
                 var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
@@ -42,7 +42,7 @@ namespace cdsi
         {
             get
             {
-                var name = $"cdsi.supportingData.xml.AntigenSupportingData- {key}-508.xml";
+                var name = $"Cdsi.SupportingData.xml.AntigenSupportingData- {key}-508.xml";
                 var assembly = Assembly.GetExecutingAssembly();
                 var resource = assembly.GetManifestResourceStream(name);
                 var deserializer = new XmlSerializer(typeof(antigenSupportingData));

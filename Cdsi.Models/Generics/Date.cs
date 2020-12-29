@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace cdsi.evaluation
+namespace Cdsi.Models
 {
     public enum IntervalUnit
     {

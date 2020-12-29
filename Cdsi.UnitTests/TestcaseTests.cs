@@ -1,13 +1,8 @@
-﻿using Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollector.InProcDataCollector;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using cdsi.testcases;
-using System.Net.Http.Headers;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Cdsi.Testcases;
 using System.Linq;
 
-namespace cdsi.tests
+namespace Cdsi.UnitTests
 {
     [TestClass]
  public   class TestCaseTests

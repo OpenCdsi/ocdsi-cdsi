@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cdsi.testCases
+namespace Cdsi.Testcases
 {
     public class Testcase
     {

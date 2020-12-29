@@ -1,10 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Cdsi.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using cdsi.evaluation;
 
-namespace cdsi.tests
+
+namespace Cdsi.UnitTests
 {
     [TestClass]
     public class DateIntervalTests

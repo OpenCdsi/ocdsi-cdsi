@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cdsi.evaluation
+namespace Cdsi.Models
 {
     public enum Gender
     {
@@ -13,9 +13,9 @@ namespace cdsi.evaluation
     // Table 3-1
     public enum EvaluationStatus
     {
-        Extraneous,
         NotValid,
         SubStandard,
+        Extraneous,
         Valid
     }
 
@@ -30,11 +30,11 @@ namespace cdsi.evaluation
     // Table 3-3
     public enum PatientSeriesStatus
     {
-        AgedOut,
-        Complete,
-        Contraindicated,
-        Immune,
         NotComplete,
-        NotRecommended
+        Contraindicated,
+        NotRecommended,
+        AgedOut,
+        Immune,
+        Complete
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cdsi.testCases
+namespace Cdsi.Testcases
 {
     public class Evaluation
     {

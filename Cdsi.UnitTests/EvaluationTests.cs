@@ -4,7 +4,7 @@ using System.Linq;
 using cdsi.refData;
 
 
-namespace cdsi.tests
+namespace Cdsi.UnitTests
 {
     [TestClass]
     public class EvaluationTests

@@ -14,9 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\cdsi.evaluation\cdsi.evaluation.csproj" />
-    <ProjectReference Include="..\cdsi.refData\cdsi.supportingData.csproj" />
-    <ProjectReference Include="..\cdsi.testCases\cdsi.testcases.csproj" />
+    <ProjectReference Include="..\Cdsi.Models\Cdsi.Models.csproj" />
+    <ProjectReference Include="..\Cdsi.SupportingData\Cdsi.SupportingData.csproj" />
+    <ProjectReference Include="..\Cdsi.Testcases\Cdsi.Testcases.csproj" />
   </ItemGroup>
 
 </Project>
