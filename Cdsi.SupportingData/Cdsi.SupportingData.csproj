@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="xml\AntigenSupportingData- Cholera-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Diphtheria-508.xml" />
+    <None Remove="xml\AntigenSupportingData- HepA-508.xml" />
+    <None Remove="xml\AntigenSupportingData- HepB-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Hib-508.xml" />
+    <None Remove="xml\AntigenSupportingData- HPV-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Influenza-508.xml" />
+    <None Remove="xml\AntigenSupportingData- JE-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Measles-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Meningococcal B-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Meningococcal-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Mumps-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Pertussis-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Pneumococcal-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Polio-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Rabies-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Rotavirus-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Rubella-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Tetanus-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Typhoid-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Varicella-508.xml" />
+    <None Remove="xml\AntigenSupportingData- YF-508.xml" />
+    <None Remove="xml\AntigenSupportingData- Zoster-508.xml" />
+    <None Remove="xml\ScheduleSupportingData.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="xml\AntigenSupportingData- Cholera-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Diphtheria-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- HepA-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- HepB-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Hib-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- HPV-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Influenza-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- JE-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Measles-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Meningococcal B-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Meningococcal-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Mumps-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Pertussis-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Pneumococcal-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Polio-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Rabies-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Rotavirus-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Rubella-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Tetanus-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Typhoid-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Varicella-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- YF-508.xml" />
+    <EmbeddedResource Include="xml\AntigenSupportingData- Zoster-508.xml" />
+    <EmbeddedResource Include="xml\ScheduleSupportingData.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
