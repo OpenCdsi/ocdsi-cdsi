@@ -15,8 +15,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cdsi.Models\Cdsi.Models.csproj" />
+    <ProjectReference Include="..\Cdsi.ReferenceData\Cdsi.ReferenceData.csproj" />
     <ProjectReference Include="..\Cdsi.SupportingData\Cdsi.SupportingData.csproj" />
-    <ProjectReference Include="..\Cdsi.Testcases\Cdsi.Testcases.csproj" />
+    <ProjectReference Include="..\Cdsi.ReferenceData\Cdsi.ReferenceData.csproj" />
+    <ProjectReference Include="..\Cdsi.TestcaseData\Cdsi.TestcaseData.csproj" />
   </ItemGroup>
 
 </Project>

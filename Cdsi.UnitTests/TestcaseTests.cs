@@ -1,30 +1,49 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Cdsi.Testcases;
 using System.Linq;
+using Cdsi.ReferenceData;
 
 namespace Cdsi.UnitTests
 {
     [TestClass]
- public   class TestCaseTests
+    public class TestCaseTests
     {
         [TestMethod]
         public void CanReadTheResource()
         {
-            var testcases = new TestcaseLibrary();
-            Assert.IsInstanceOfType(testcases, typeof(TestcaseLibrary));
+            var sut = new TestcaseCollection();
+            Assert.IsInstanceOfType(sut, typeof(TestcaseCollection));
         }
 
         [TestMethod]
         public void CanGetANamedTestcase()
         {
-            var testcase = TestcaseLibrary.Instance["2013-0011"];
-            Assert.AreEqual(3, testcase.Evaluation.AdministeredDoses.Count());
+            var sut = new TestcaseCollection();
+            var data = sut["2013-0011"];
+            Assert.AreEqual(3, data.Evaluation.AdministeredDoses.Count());
         }
 
         [TestMethod]
-        public void ThereAre801Testcases()
+        public void ThereAre801data()
         {
-            Assert.AreEqual(801, TestcaseLibrary.Instance.Count);
+            var sut = new TestcaseCollection();
+            Assert.AreEqual(801, sut.Count);
+        }
+
+        [TestMethod]
+        public void ParseTestId()
+        {
+            const string id = "2013-0083";
+            var tid = TestcaseIdentifier.Parse(id);
+            Assert.AreEqual(2013, tid.Year);
+            Assert.AreEqual(83, tid.Testcase);
+        }
+
+        [TestMethod]
+        public void CanRoundTripTestId()
+        {
+            const string id = "2013-0083";
+            var tid = TestcaseIdentifier.Parse(id);
+            Assert.AreEqual(id, tid.ToString());
         }
     }
 }

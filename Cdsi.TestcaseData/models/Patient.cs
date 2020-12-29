@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cdsi.Testcases
+namespace Cdsi.TestcaseData
 {
     public class Patient
     {
@@ -12,6 +12,6 @@ namespace Cdsi.Testcases
         public string Med_History_Code { get; set; }
         public string Med_History_Code_Sys { get; set; }
         public DateTime Assessment_Date { get; set; }
-        
+
     }
 }

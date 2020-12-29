@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cdsi.Testcases
+namespace Cdsi.TestcaseData
 {
     public class Dose
     {

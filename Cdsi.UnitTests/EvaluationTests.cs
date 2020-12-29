@@ -1,8 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
-using cdsi.refData;
-
 
 namespace Cdsi.UnitTests
 {

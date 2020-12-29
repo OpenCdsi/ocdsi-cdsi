@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace cdsi.refData.tests
+namespace Cdsi.UnitTests
 {
     [TestClass]
     public class PatientSeriesTests

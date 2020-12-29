@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cdsi.SupportingData\Cdsi.SupportingData.csproj" />
+    <ProjectReference Include="..\Cdsi.TestcaseData\Cdsi.TestcaseData.csproj" />
+  </ItemGroup>
+
+</Project>
