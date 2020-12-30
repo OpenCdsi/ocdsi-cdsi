@@ -1,5 +1,4 @@
 ﻿using System;
-using Cdsi.ReferenceData;
 
 namespace Cdsi.Models
 {
@@ -8,7 +7,7 @@ namespace Cdsi.Models
     /// </summary>
     public interface IAdministeredDose
     {
-        IAntigenIdentifier Antigen { get; }
+        string AntigenName { get; }
         DateTime DateAdministered { get; }
         string DoseCondition { get; }
         string EvaluationReason { get; set; }

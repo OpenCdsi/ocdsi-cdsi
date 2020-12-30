@@ -1,19 +1,22 @@
-﻿using Cdsi.ReferenceData;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Cdsi.ReferenceLibrary;
 
-namespace Cdsi.Models.Generics
+namespace Cdsi.Models
 {
     public static class ConversionHelpers
     {
-        public static IVaccineDose ToVaccineDose(this TestcaseData.Dose dose)
+        public static IEnumerable<IAdministeredDose> ToAdministeredDoses(this IVaccineDose dose)
         {
-            return new VaccineDose()
-            {
-                DateAdministered = dose.Date_Administered,
-                CVX = dose.CVX,
-                MVX = dose.MVX,
-                VaccineDescription = Reference.Schedule.cvxToAntigenMap.GetVaccineDescription(dose.CVX),
-                VaccineType = Reference.Schedule.GetVaccineType(dose.CVX)
-            };
+            return Reference.Schedule.cvxToAntigenMap.GetAntigens(dose.CVX)
+                  .Select(x => new AdministeredDose()
+                  {
+                      AntigenName = x,
+                      DateAdministered = dose.DateAdministered,
+                      VaccineType = dose.VaccineType,
+                      EvaluationStatus = EvaluationStatus.NotValid,
+                      LotExpiration = Defaults.LotExpiration
+                  });
         }
     }
 }
