@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace Cdsi.ReferenceData
 {
-    public class AntigenIdentifier : IAntigenIdentifier,IComparable, IComparable<AntigenIdentifier>, IEquatable<AntigenIdentifier>
+    public class AntigenIdentifier : IAntigenIdentifier, IComparable, IComparable<AntigenIdentifier>, IEquatable<AntigenIdentifier>
     {
         public string Name { get; internal set; }
         public static AntigenIdentifier Parse(string src)
@@ -35,6 +35,11 @@ namespace Cdsi.ReferenceData
         public override bool Equals(object obj)
         {
             return Equals((AntigenIdentifier)obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 

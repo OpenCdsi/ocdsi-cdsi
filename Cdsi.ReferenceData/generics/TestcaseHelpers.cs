@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Cdsi.ReferenceData
 {
-    public static class TestcaseFactoryHelpers
+    public static class TestcaseHelpers
     {
         public static Testcase AsTestcase(this DataSet data, string id)
         {

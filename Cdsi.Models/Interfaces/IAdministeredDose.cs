@@ -3,6 +3,9 @@ using Cdsi.ReferenceData;
 
 namespace Cdsi.Models
 {
+    /// <summary>
+    /// Represents an antigen dose administered to a patient.
+    /// </summary>
     public interface IAdministeredDose
     {
         IAntigenIdentifier Antigen { get; }

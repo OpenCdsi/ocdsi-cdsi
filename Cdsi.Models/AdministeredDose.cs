@@ -6,13 +6,13 @@ namespace Cdsi.Models
 
     public class AdministeredDose : IAdministeredDose
     {
-        public IAntigenIdentifier Antigen { get; }
-        public DateTime DateAdministered { get; }
-        public string DoseCondition { get; }
+        public IAntigenIdentifier Antigen { get; internal set; }
+        public DateTime DateAdministered { get; internal set; }
+        public string DoseCondition { get; internal set; }
         public string EvaluationReason { get; set; }
         public EvaluationStatus EvaluationStatus { get; set; }
-        public DateTime LotExpiration { get; }
-        public string VaccineType { get; }
+        public DateTime LotExpiration { get; internal set; }
+        public string VaccineType { get; internal set; }
 
         public AdministeredDose(string antigen, DateTime on, string condition, DateTime expiry, string type)
         {
@@ -29,7 +29,7 @@ namespace Cdsi.Models
             Antigen = id;
             DateAdministered = on;
             LotExpiration = Defaults.LotExpiration;
-            VaccineType = Reference.Schedule.cvxToAntigenMap.GetVaccineType(cvx);
+            VaccineType = Reference.Schedule.GetVaccineType(cvx);
         }
     }
 }

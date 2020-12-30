@@ -6,19 +6,27 @@ namespace Cdsi.ReferenceData
 {
     public static class ScheduleHelpers
     {
-        public static IEnumerable<IAntigenIdentifier> GetAntigens(this scheduleSupportingDataCvxMap[] map, string cvx)
+        internal static IDictionary<string, string> VaccineTypeMap { get; } = new VaccineTypeMap();
+
+        public static IEnumerable<string> GetAntigens(this scheduleSupportingDataCvxMap[] map, string cvx)
         {
-            return map.First(x => x.cvx == cvx).association.Select(x => AntigenIdentifier.Parse(x.antigen));
+            return map.First(x => x.cvx == cvx).association.Select(x => x.antigen);
         }
 
-        public static string GetVaccineType(this scheduleSupportingDataCvxMap map)
+        public static string GetVaccineType(this scheduleSupportingData _, string cvx)
+        {
+            return VaccineTypeMap[cvx];
+        }
+
+
+        public static string GetVaccineDescription(this scheduleSupportingDataCvxMap map)
         {
             return map.shortDescription;
         }
 
-        public static string GetVaccineType(this scheduleSupportingDataCvxMap[] map, string cvx)
+        public static string GetVaccineDescription(this scheduleSupportingDataCvxMap[] map, string cvx)
         {
-            return map.First(x => x.cvx == cvx).GetVaccineType();
+            return map.First(x => x.cvx == cvx).GetVaccineDescription();
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Cdsi.UnitTests
         public static IEnumerable<Models.AdministeredDose> ToModel(this TestcaseData.Dose dose)
         {
             var antigens = Reference.Schedule.cvxToAntigenMap.GetAntigens(dose.CVX);
-            return antigens.Select(x => new Models.AdministeredDose(x, dose.Date_Administered, dose.CVX));
+            return antigens.Select(x => new Models.AdministeredDose(AntigenIdentifier.Parse(x), dose.Date_Administered, dose.CVX));
         }
     }
 }

@@ -5,11 +5,11 @@ namespace Cdsi.Models
 {
     public class Patient : IPatient
     {
-        public DateTime DOB { get; }
-        public Gender Gender { get; }
-        public string MedHistoryText { get; }
-        public string MedHistoryCode { get; }
-        public string MedHistoryCodeSys { get; }
+        public DateTime DOB { get; internal set; }
+        public Gender Gender { get; internal set; }
+        public string MedHistoryText { get; internal set; }
+        public string MedHistoryCode { get; internal set; }
+        public string MedHistoryCodeSys { get; internal set; }
         public DateTime AssessmentDate { get; set; }
 
         private static readonly Regex re = new Regex("^\\s*[Ff]");
