@@ -39,13 +39,5 @@ namespace Cdsi.TestcaseLibrary
                 }
             }
         }
-
-        private static IEnumerable<DataRow> AsEnumerable(this DataRowCollection rows)
-        {
-            foreach (DataRow row in rows)
-            {
-                yield return row;
-            }
-        }
     }
 }

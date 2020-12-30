@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Cdsi.ReferenceLibrary\Cdsi.ReferenceLibrary.csproj" />
     <ProjectReference Include="..\Cdsi.TestcaseData\Cdsi.TestcaseData.csproj" />
+    <ProjectReference Include="..\Cdsi.Utility\Cdsi.Utility.csproj" />
   </ItemGroup>
 
 </Project>
