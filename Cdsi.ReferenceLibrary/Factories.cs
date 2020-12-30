@@ -14,7 +14,7 @@ namespace Cdsi.ReferenceLibrary
         public static IDictionary<string, antigenSupportingData> CreateAntigenMap()
         {
             var deserializer = new XmlSerializer(typeof(antigenSupportingData));
-            var assembly = Assembly.GetAssembly(typeof(antigenSupportingData));
+            var assembly = Assembly.GetAssembly(typeof(Metadata));
             return assembly.GetManifestResourceNames()
                   .Select(x => Tuple.Create(x, re.Match(x)))
                   .Where(x => x.Item2.Success)
@@ -38,7 +38,7 @@ namespace Cdsi.ReferenceLibrary
         public static scheduleSupportingData CreateSupportingData()
         {
             var name = "Cdsi.SupportingData.xml.ScheduleSupportingData.xml";
-            var assembly = Assembly.GetAssembly(typeof(scheduleSupportingData));
+            var assembly = Assembly.GetAssembly(typeof(Metadata));
             var resource = assembly.GetManifestResourceStream(name);
             var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
             return (scheduleSupportingData)deserializer.Deserialize(resource);
