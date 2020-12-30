@@ -2,11 +2,11 @@
 using System.Linq;
 using Cdsi.SupportingData;
 
-namespace Cdsi.ReferenceData
+namespace Cdsi.ReferenceLibrary
 {
     public static class ScheduleHelpers
     {
-        internal static IDictionary<string, string> VaccineTypeMap { get; } = new VaccineTypeMap();
+        internal static IDictionary<string, string> VaccineTypeMap { get; } = Factories.CreateVaccineTypeMap();
 
         public static IEnumerable<string> GetAntigens(this scheduleSupportingDataCvxMap[] map, string cvx)
         {
