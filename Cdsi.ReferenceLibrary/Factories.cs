@@ -43,10 +43,5 @@ namespace Cdsi.ReferenceLibrary
             var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
             return (scheduleSupportingData)deserializer.Deserialize(resource);
         }
-
-        public static IDictionary<TKey, TValue> AsMap<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> collection)
-        {
-            return new Dictionary<TKey, TValue>(collection);
-        }
     }
 }
