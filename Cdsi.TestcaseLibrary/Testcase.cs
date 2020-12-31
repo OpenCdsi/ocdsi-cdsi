@@ -4,18 +4,18 @@ namespace Cdsi.TestcaseLibrary
 {
     public class Testcase : ITestcase
     {
-        public string CdcTestId { get; internal set; }
-        public string TestcaseName { get; internal set; }
-        public string VaccineGroup { get; internal set; }
-        public string EvaluationTestType { get; internal set; }
-        public string ForecastTestType { get; internal set; }
-        public Patient Patient { get; internal set; }
-        public Evaluation Evaluation { get; internal set; }
-        public Forecast Forecast { get; internal set; }
-        public DateTime DateAdded { get; internal set; }
-        public DateTime DateUpdated { get; internal set; }
-        public string GeneralDescription { get; internal set; }
-        public string ChangedInVersion { get; internal set; }
-        public string ReasonForChange { get; internal set; }
+        public string CdcTestId { get; set; }
+        public string TestcaseName { get; set; }
+        public string VaccineGroup { get; set; }
+        public string EvaluationTestType { get; set; }
+        public string ForecastTestType { get; set; }
+        public IPatient Patient { get; set; }
+        public IEvaluation Evaluation { get; set; }
+        public IForecast Forecast { get; set; }
+        public DateTime DateAdded { get; set; }
+        public DateTime DateUpdated { get; set; }
+        public string GeneralDescription { get; set; }
+        public string ChangedInVersion { get; set; }
+        public string ReasonForChange { get; set; }
     }
 }

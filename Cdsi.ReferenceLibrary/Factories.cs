@@ -10,15 +10,16 @@ namespace Cdsi.ReferenceLibrary
 {
     public static class Factories
     {
-        private static readonly Regex re = new Regex("Cdsi.SupportingData.xml.AntigenSupportingData- (\\a*)-508.xml");
+        private static readonly Regex re = new Regex("Cdsi.SupportingData.xml.AntigenSupportingData-\\s*([\\w\\s]*)-508.xml");
         public static IDictionary<string, antigenSupportingData> CreateAntigenMap()
         {
             var deserializer = new XmlSerializer(typeof(antigenSupportingData));
             var assembly = Assembly.GetAssembly(typeof(Metadata));
+
             return assembly.GetManifestResourceNames()
                   .Select(x => Tuple.Create(x, re.Match(x)))
                   .Where(x => x.Item2.Success)
-                  .Select(x => Tuple.Create(x.Item2.Captures.First().Value, assembly.GetManifestResourceStream(x.Item1)))
+                  .Select(x => Tuple.Create(x.Item2.Groups[1].Value, assembly.GetManifestResourceStream(x.Item1)))
                   .Select(x => KeyValuePair.Create(x.Item1, (antigenSupportingData)deserializer.Deserialize(x.Item2)))
                   .AsMap();
         }
@@ -31,7 +32,7 @@ namespace Cdsi.ReferenceLibrary
                     .SelectMany(x => x.preferableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))
                         .Concat(x.allowableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))))
                     .Where(x => !string.IsNullOrWhiteSpace(x.Key))
-                    .Distinct()
+                    .Distinct(new KvpEqualityComparer())
                     .AsMap();
         }
 

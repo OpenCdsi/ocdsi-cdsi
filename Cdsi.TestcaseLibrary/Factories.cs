@@ -9,9 +9,9 @@ namespace Cdsi.TestcaseLibrary
 {
     public static class Factories
     {
-        private static string ResourceName => "Cdsi.TestcaseLibrary.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
+        const string ResourceName = "Cdsi.TestcaseData.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
 
-        public static IDictionary<string, Testcase> CreateTestcaseMap()
+        public static IDictionary<string, ITestcase> CreateTestcaseMap()
         {
             return GetDataSet().Tables[0].Rows.AsEnumerable()
                  .Select(x => x.AsTestcase())
@@ -23,21 +23,18 @@ namespace Cdsi.TestcaseLibrary
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             var assembly = Assembly.GetAssembly(typeof(TestcaseData.Metadata));
-            using (var stream = assembly.GetManifestResourceStream(ResourceName))
+
+            using var stream = assembly.GetManifestResourceStream(ResourceName);
+            using var reader = ExcelReaderFactory.CreateReader(stream);
+            return reader.AsDataSet(new ExcelDataSetConfiguration()
             {
-                using (var reader = ExcelReaderFactory.CreateReader(stream))
+                UseColumnDataType = true,
+                FilterSheet = (tableReader, sheetIndex) => sheetIndex == 2,
+                ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
                 {
-                    return reader.AsDataSet(new ExcelDataSetConfiguration()
-                    {
-                        UseColumnDataType = true,
-                        FilterSheet = (tableReader, sheetIndex) => sheetIndex == 2,
-                        ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
-                        {
-                            UseHeaderRow = true
-                        }
-                    });
+                    UseHeaderRow = true
                 }
-            }
+            });
         }
     }
 }

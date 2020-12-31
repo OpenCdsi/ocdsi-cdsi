@@ -4,7 +4,7 @@ namespace Cdsi.TestcaseLibrary
 {
     public interface IEvaluation
     {
-        IEnumerable<Dose> AdministeredDoses { get;  }
-        string SeriesStatus { get;  }
+        IEnumerable<IDose> AdministeredDoses { get; }
+        string SeriesStatus { get; }
     }
 }

@@ -1,32 +1,40 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.ReferenceData;
+using Cdsi.Models;
+using Cdsi.ReferenceLibrary;
 
 namespace Cdsi.UnitTests
 {
     public static class Factories
     {
-        public static Models.Patient ToModel(this TestcaseData.Patient patient)
+        public static IPatient ToModel(this TestcaseLibrary.IPatient patient)
         {
-            return new Models.Patient(
-                patient.DOB,
-                patient.Gender,
-                patient.Med_History_Text,
-                patient.Med_History_Code,
-                patient.Med_History_Code_Sys,
-                patient.Assessment_Date
-                );
+            return new Patient()
+            {
+                DOB = patient.DOB,
+                Gender = patient.Gender.ToLower().StartsWith("f") ? Gender.Female : Gender.Male,
+                MedHistoryText = patient.MedHistoryText,
+                MedHistoryCode = patient.MedHistoryCode,
+                MedHistoryCodeSys = patient.MedHistoryCodeSys,
+                AssessmentDate = patient.AssessmentDate
+            };
         }
 
-        public static IEnumerable<Models.AdministeredDose> ToModel(this IEnumerable<TestcaseData.Dose> doses)
+        public static IVaccineDose ToModel(this TestcaseLibrary.IDose dose)
         {
-            return doses.SelectMany(x => x.ToModel());
+            return new VaccineDose()
+            {
+                CVX = dose.CVX,
+                MVX = dose.MVX,
+                DateAdministered = dose.DateAdministered,
+                VaccineDescription = Reference.Schedule.GetVaccineDescription(dose.CVX),
+                VaccineType = Reference.Schedule.GetVaccineType(dose.CVX)
+            };
         }
 
-        public static IEnumerable<Models.AdministeredDose> ToModel(this TestcaseData.Dose dose)
+        public static IEnumerable<IAdministeredDose> ToModel(this IEnumerable<TestcaseLibrary.IDose> doses)
         {
-            var antigens = Reference.Schedule.cvxToAntigenMap.GetAntigens(dose.CVX);
-            return antigens.Select(x => new Models.AdministeredDose(AntigenIdentifier.Parse(x), dose.Date_Administered, dose.CVX));
+            return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAdministeredDoses());
         }
     }
 }

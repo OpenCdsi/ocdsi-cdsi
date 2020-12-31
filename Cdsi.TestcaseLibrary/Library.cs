@@ -5,6 +5,6 @@ namespace Cdsi
 {
     public static class Library
     {
-        public static IDictionary<string, Testcase> Testcases = Factories.CreateTestcaseMap();
+        public static IDictionary<string, ITestcase> Testcases = Factories.CreateTestcaseMap();
     }
 }

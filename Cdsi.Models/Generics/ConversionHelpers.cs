@@ -8,7 +8,7 @@ namespace Cdsi.Models
     {
         public static IEnumerable<IAdministeredDose> ToAdministeredDoses(this IVaccineDose dose)
         {
-            return Reference.Schedule.cvxToAntigenMap.GetAntigens(dose.CVX)
+            return Reference.Schedule.GetAntigenNames(dose.CVX)
                   .Select(x => new AdministeredDose()
                   {
                       AntigenName = x,

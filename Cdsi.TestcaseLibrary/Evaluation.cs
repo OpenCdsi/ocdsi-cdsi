@@ -4,7 +4,7 @@ namespace Cdsi.TestcaseLibrary
 {
     public class Evaluation : IEvaluation
     {
-        public string SeriesStatus { get; internal set; }
-        public IEnumerable<Dose> AdministeredDoses { get; internal set; }
+        public string SeriesStatus { get; set; }
+        public IEnumerable<IDose> AdministeredDoses { get; set; }
     }
 }

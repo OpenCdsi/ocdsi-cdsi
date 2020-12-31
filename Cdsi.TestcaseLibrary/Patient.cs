@@ -4,12 +4,12 @@ namespace Cdsi.TestcaseLibrary
 {
     public class Patient : IPatient
     {
-        public DateTime DOB { get; internal set; }
-        public string Gender { get; internal set; }
-        public string MedHistoryText { get; internal set; }
-        public string MedHistoryCode { get; internal set; }
-        public string MedHistoryCodeSys { get; internal set; }
-        public DateTime AssessmentDate { get; internal set; }
+        public DateTime DOB { get; set; }
+        public string Gender { get; set; }
+        public string MedHistoryText { get; set; }
+        public string MedHistoryCode { get; set; }
+        public string MedHistoryCodeSys { get; set; }
+        public DateTime AssessmentDate { get; set; }
 
     }
 }

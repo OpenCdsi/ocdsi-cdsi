@@ -8,9 +8,9 @@ namespace Cdsi.ReferenceLibrary
     {
         internal static IDictionary<string, string> VaccineTypeMap { get; } = Factories.CreateVaccineTypeMap();
 
-        public static IEnumerable<string> GetAntigens(this scheduleSupportingDataCvxMap[] map, string cvx)
+        public static IEnumerable<string> GetAntigenNames(this scheduleSupportingData schedule, string cvx)
         {
-            return map.First(x => x.cvx == cvx).association.Select(x => x.antigen);
+            return schedule.cvxToAntigenMap.First(x => x.cvx == cvx).association.Select(x => x.antigen);
         }
 
         public static string GetVaccineType(this scheduleSupportingData _, string cvx)
@@ -18,15 +18,9 @@ namespace Cdsi.ReferenceLibrary
             return VaccineTypeMap[cvx];
         }
 
-
-        public static string GetVaccineDescription(this scheduleSupportingDataCvxMap map)
+        public static string GetVaccineDescription(this scheduleSupportingData schedule, string cvx)
         {
-            return map.shortDescription;
-        }
-
-        public static string GetVaccineDescription(this scheduleSupportingDataCvxMap[] map, string cvx)
-        {
-            return map.First(x => x.cvx == cvx).GetVaccineDescription();
+            return schedule.cvxToAntigenMap.First(x => x.cvx == cvx).shortDescription;
         }
     }
 }
