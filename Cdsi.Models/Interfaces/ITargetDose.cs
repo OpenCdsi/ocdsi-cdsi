@@ -1,10 +1,10 @@
-﻿using Cdsi.SupportingData;
-
-namespace Cdsi.Models
+﻿namespace Cdsi.Models
 {
     public interface ITargetDose
     {
-        string AntigenSeriesDose { get; }
+        string AntigenName { get; }
+        string SeriesName { get; }
+        string DoseName { get; }
         TargetDoseStatus Status { get; set; }
     }
 }

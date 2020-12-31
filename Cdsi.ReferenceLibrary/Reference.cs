@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Cdsi.ReferenceData;
+using Cdsi.ReferenceLibrary;
 using Cdsi.SupportingData;
 
 namespace Cdsi
@@ -11,10 +11,8 @@ namespace Cdsi
         /// Edit the file to change scheduleSupportingDataObservationCodedValuesCodedValue[][] to scheduleSupportingDataObservationCodedValuesCodedValue[]
         /// TODO: find a better way to fix this. Partial classes?
         /// </remarks>
-        public static scheduleSupportingData Schedule { get; } = ScheduleCollection.Create();
+        public static scheduleSupportingData Schedule { get; } = Factories.CreateSupportingData();
 
-        public static IDictionary<IAntigenIdentifier, antigenSupportingData> Antigen { get; } = new AntigenCollection();
-
-        public static TestcaseCollection Testcases { get; } = new TestcaseCollection();
+        public static IDictionary<string, antigenSupportingData> Antigen { get; } = Factories.CreateAntigenMap();
     }
 }

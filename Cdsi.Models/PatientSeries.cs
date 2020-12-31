@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
-using Cdsi.SupportingData;
 
 namespace Cdsi.Models
 {
     public class PatientSeries : IPatientSeries
     {
-        public string AntigenSeries { get; set; }
+        public string AntigenName { get;  set; }
+        public string SeriesName { get;  set; }
 
-        public IEnumerable<ITargetDose> TargetDoses { get; } = new List<ITargetDose>();
+        public IEnumerable<ITargetDose> TargetDoses { get;  set; }
 
         public PatientSeriesStatus Status { get; set; }
     }
