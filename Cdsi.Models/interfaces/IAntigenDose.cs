@@ -5,7 +5,7 @@ namespace Cdsi.Models
     /// <summary>
     /// Represents an antigen dose administered to a patient.
     /// </summary>
-    public interface IAdministeredDose
+    public interface IAntigenDose
     {
         string AntigenName { get; }
         DateTime DateAdministered { get; }

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Cdsi.Models;
+using Cdsi.PrepareData;
 using Cdsi.ReferenceLibrary;
 
 namespace Cdsi.UnitTests
@@ -32,9 +33,9 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IEnumerable<IAdministeredDose> ToModel(this IEnumerable<TestcaseLibrary.IDose> doses)
+        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<TestcaseLibrary.IDose> doses)
         {
-            return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAdministeredDoses());
+            return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAntigenDoses());
         }
     }
 }

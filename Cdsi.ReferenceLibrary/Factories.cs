@@ -19,8 +19,9 @@ namespace Cdsi.ReferenceLibrary
             return assembly.GetManifestResourceNames()
                   .Select(x => Tuple.Create(x, re.Match(x)))
                   .Where(x => x.Item2.Success)
-                  .Select(x => Tuple.Create(x.Item2.Groups[1].Value, assembly.GetManifestResourceStream(x.Item1)))
-                  .Select(x => KeyValuePair.Create(x.Item1, (antigenSupportingData)deserializer.Deserialize(x.Item2)))
+                  .Select(x => assembly.GetManifestResourceStream(x.Item1))
+                  .Select(x => (antigenSupportingData)deserializer.Deserialize(x))
+                  .Select(x => KeyValuePair.Create(x.series[0].targetDisease, x))
                   .AsMap();
         }
 

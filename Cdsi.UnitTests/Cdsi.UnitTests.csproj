@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cdsi.Evaluation\Cdsi.Evaluation.csproj" />
     <ProjectReference Include="..\Cdsi.Models\Cdsi.Models.csproj" />
+    <ProjectReference Include="..\Cdsi.PrepareData\Cdsi.PrepareData.csproj" />
     <ProjectReference Include="..\Cdsi.ReferenceLibrary\Cdsi.ReferenceLibrary.csproj" />
     <ProjectReference Include="..\Cdsi.TestcaseLibrary\Cdsi.TestcaseLibrary.csproj" />
   </ItemGroup>
