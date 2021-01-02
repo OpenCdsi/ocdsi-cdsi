@@ -47,7 +47,9 @@ namespace Cdsi.PrepareData
 
         public static IEnumerable<IPatientSeries> GetAllRelevantPatientSeries() // TODO: pass in data to evaluate for 'risk' series
         {
-            return Reference.Antigen.Values.SelectMany(x => x.ToRelevantPatientSeries());
+            return Reference.Antigen.Values
+                .SelectMany(x => x.ToRelevantPatientSeries())
+                .Where(x => x.TargetDoses.Count() > 0);
         }
     }
 }

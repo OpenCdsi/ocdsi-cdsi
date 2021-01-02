@@ -1,3 +1,5 @@
+using System.Linq;
+using Cdsi.PrepareData;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Cdsi.UnitTests
@@ -8,7 +10,9 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanCreateFromAntigenSeries()
         {
-           
+            var antigen = Reference.Antigen["Measles"];
+            var sut = antigen.ToRelevantPatientSeries();
+            Assert.AreEqual(1, sut.Count());
         }
     }
 }
