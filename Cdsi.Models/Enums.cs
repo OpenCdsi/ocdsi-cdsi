@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Cdsi.Models
+﻿namespace Cdsi.Models
 {
     public enum Gender
     {
@@ -36,5 +32,12 @@ namespace Cdsi.Models
         AgedOut,
         Immune,
         Complete
+    }
+
+    public enum PatientSeriesType
+    {
+        NotSpecified,
+        Standard,
+        Risk
     }
 }

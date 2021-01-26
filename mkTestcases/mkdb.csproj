@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Cdsi.mkdb</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cdsi.ReferenceLibrary\Cdsi.ReferenceLibrary.csproj" />
+    <ProjectReference Include="..\Cdsi.TestcaseLibrary\Cdsi.TestcaseLibrary.csproj" />
+  </ItemGroup>
+
+</Project>

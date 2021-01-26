@@ -8,5 +8,6 @@ namespace Cdsi.Models
         string SeriesName { get; }
         IEnumerable<ITargetDose> TargetDoses { get; }
         PatientSeriesStatus Status { get; set; }
+        PatientSeriesType SeriesType { get; }
     }
 }
