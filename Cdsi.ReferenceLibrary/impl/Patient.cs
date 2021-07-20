@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cdsi.TestcaseLibrary
+namespace Cdsi.ReferenceLibrary
 {
     public class Patient : IPatient
     {

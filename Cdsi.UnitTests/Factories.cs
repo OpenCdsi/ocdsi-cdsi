@@ -8,9 +8,9 @@ namespace Cdsi.UnitTests
 {
     public static class Factories
     {
-        public static IPatient ToModel(this TestcaseLibrary.IPatient patient)
+        public static Models.IPatient ToModel(this ReferenceLibrary.IPatient patient)
         {
-            return new Patient()
+            return new Models.Patient()
             {
                 DOB = patient.DOB,
                 Gender = patient.Gender.ToLower().StartsWith("f") ? Gender.Female : Gender.Male,
@@ -21,7 +21,7 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IVaccineDose ToModel(this TestcaseLibrary.IDose dose)
+        public static IVaccineDose ToModel(this ReferenceLibrary.IDose dose)
         {
             return new VaccineDose()
             {
@@ -33,7 +33,7 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<TestcaseLibrary.IDose> doses)
+        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<ReferenceLibrary.IDose> doses)
         {
             return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAntigenDoses());
         }

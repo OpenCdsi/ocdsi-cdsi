@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cdsi.ReferenceLibrary\Cdsi.ReferenceLibrary.csproj" />
-    <ProjectReference Include="..\Cdsi.TestcaseLibrary\Cdsi.TestcaseLibrary.csproj" />
   </ItemGroup>
 
 </Project>

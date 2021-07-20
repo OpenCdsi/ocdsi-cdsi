@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Cdsi.TestcaseLibrary
+namespace Cdsi.ReferenceLibrary
 {
     public interface IEvaluation
     {

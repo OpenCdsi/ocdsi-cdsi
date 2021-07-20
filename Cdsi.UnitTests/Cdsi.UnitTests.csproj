@@ -18,7 +18,6 @@
     <ProjectReference Include="..\Cdsi.Models\Cdsi.Models.csproj" />
     <ProjectReference Include="..\Cdsi.PrepareData\Cdsi.PrepareData.csproj" />
     <ProjectReference Include="..\Cdsi.ReferenceLibrary\Cdsi.ReferenceLibrary.csproj" />
-    <ProjectReference Include="..\Cdsi.TestcaseLibrary\Cdsi.TestcaseLibrary.csproj" />
   </ItemGroup>
 
 </Project>

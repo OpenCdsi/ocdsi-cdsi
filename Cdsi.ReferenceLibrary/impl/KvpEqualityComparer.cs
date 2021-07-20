@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace Cdsi.TestcaseLibrary
+namespace Cdsi.ReferenceLibrary
 {
     class KvpEqualityComparer : IEqualityComparer<KeyValuePair<string, string>>
     {

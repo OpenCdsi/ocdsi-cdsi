@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Cdsi.TestcaseLibrary
+namespace Cdsi.ReferenceLibrary
 {
     public static class TestcaseHelpers
     {
