@@ -32,13 +32,14 @@ namespace Cdsi.ReferenceLibrary
         public static IDictionary<string, string> CreateVaccineTypeMap()
         {
             return Reference.Antigen.Values
-                    .SelectMany(x => x.series)
-                    .SelectMany(x => x.seriesDose)
-                    .SelectMany(x => x.preferableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))
-                        .Concat(x.allowableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))))
-                    .Where(x => !string.IsNullOrWhiteSpace(x.Key))
-                    .Distinct(new KvpEqualityComparer())
-                    .AsMap();
+                      .SelectMany(x => x.series)
+                      .SelectMany(x => x.seriesDose)
+                      .SelectMany(x => x.preferableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))
+                         .Concat(x.allowableVaccine.Select(xx => KeyValuePair.Create(xx.cvx, xx.vaccineType))))
+                     .Where(x => !string.IsNullOrWhiteSpace(x.Key))
+                     .Distinct(new KeyEqualityComparer())
+                     .OrderBy(x => x.Key)
+                     .AsMap();
         }
 
         public static scheduleSupportingData CreateSupportingData()
