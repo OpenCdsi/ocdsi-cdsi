@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cdsi.Models
+namespace Cdsi
 {
     public class VaccineDose : IVaccineDose
     {

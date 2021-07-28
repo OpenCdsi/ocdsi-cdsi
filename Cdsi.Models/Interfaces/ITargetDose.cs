@@ -1,4 +1,4 @@
-﻿namespace Cdsi.Models
+﻿namespace Cdsi
 {
     public interface ITargetDose
     {

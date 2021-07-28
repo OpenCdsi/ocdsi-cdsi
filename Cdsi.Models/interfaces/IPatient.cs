@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cdsi.Models
+namespace Cdsi
 {
     public interface IPatient
     {

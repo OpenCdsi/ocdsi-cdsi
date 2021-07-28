@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cdsi.Models
+namespace Cdsi
 {
     /// <summary>
     /// A record of a vaccine dose administered to a patient.

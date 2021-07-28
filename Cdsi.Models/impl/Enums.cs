@@ -1,5 +1,13 @@
-﻿namespace Cdsi.Models
+﻿namespace Cdsi
 {
+    public enum IntervalUnit
+    {
+        Day,
+        Week,
+        Month,
+        Year
+    }
+
     public enum Gender
     {
         Female,

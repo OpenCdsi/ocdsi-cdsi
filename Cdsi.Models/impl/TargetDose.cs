@@ -1,4 +1,4 @@
-﻿namespace Cdsi.Models
+﻿namespace Cdsi
 {
     public class TargetDose : ITargetDose
     {

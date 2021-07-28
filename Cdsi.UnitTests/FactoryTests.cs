@@ -13,7 +13,7 @@ namespace Cdsi.UnitTests
         public void CanCreatePatientFromTestcase()
         {
             var sut = Library.Testcases[TID].Patient.ToModel();
-            Assert.AreEqual(sut.Gender, Models.Gender.Female);
+            Assert.AreEqual(sut.Gender, Gender.Female);
             Assert.AreEqual(sut.DOB, new DateTime(2013, 8, 26));
         }
 

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Cdsi.Models
+namespace Cdsi
 {
     public interface IPatientSeries
     {

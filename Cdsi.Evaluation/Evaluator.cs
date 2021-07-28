@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cdsi.Models;
 
 namespace Cdsi.Evaluation
 {

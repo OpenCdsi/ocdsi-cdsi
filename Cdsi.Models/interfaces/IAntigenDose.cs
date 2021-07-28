@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cdsi.Models
+namespace Cdsi
 {
     /// <summary>
     /// Represents an antigen dose administered to a patient.
