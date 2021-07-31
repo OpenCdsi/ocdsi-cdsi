@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.PrepareData;
+using Cdsi.Evaluation;
 using Cdsi.ReferenceLibrary;
 
 namespace Cdsi.UnitTests
 {
     public static class Factories
     {
-        public static IPatient ToModel(this ReferenceLibrary.IPatient patient)
+        public static IPatient ToModel(this ReferenceLibrary.testcasePatient patient)
         {
             return new Patient()
             {
@@ -20,7 +20,7 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IVaccineDose ToModel(this ReferenceLibrary.IDose dose)
+        public static IVaccineDose ToModel(this ReferenceLibrary.testcaseVaccineDoseAdministered dose)
         {
             return new VaccineDose()
             {
@@ -32,7 +32,7 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<ReferenceLibrary.IDose> doses)
+        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<ReferenceLibrary.testcaseVaccineDoseAdministered> doses)
         {
             return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAntigenDoses());
         }

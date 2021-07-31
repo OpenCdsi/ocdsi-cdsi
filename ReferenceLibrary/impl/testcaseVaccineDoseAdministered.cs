@@ -2,7 +2,7 @@
 
 namespace Cdsi.ReferenceLibrary
 {
-    public class Dose : IDose
+    public class testcaseVaccineDoseAdministered
     {
         public DateTime DateAdministered { get; set; }
         public string VaccineName { get; set; }

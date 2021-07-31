@@ -12,7 +12,7 @@ namespace Cdsi.UnitTests
         public void CanGetANamedTestcase()
         {
             var sut = Library.Testcases[TID];
-            Assert.IsInstanceOfType(sut, typeof(Testcase));
+            Assert.IsInstanceOfType(sut, typeof(cdsiTestcase));
         }
 
         [TestMethod]

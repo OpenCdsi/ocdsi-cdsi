@@ -6,9 +6,9 @@ namespace Cdsi.ReferenceLibrary
 {
     public static class TestcaseHelpers
     {
-        public static ITestcase AsTestcase(this DataRow row)
+        public static cdsiTestcase AsTestcase(this DataRow row)
         {
-            return new Testcase()
+            return new cdsiTestcase()
             {
                 CdcTestId = row.Field<string>("CDC_Test_ID"),
                 TestcaseName = row.Field<string>("Test_Case_Name"),
@@ -26,9 +26,9 @@ namespace Cdsi.ReferenceLibrary
             };
         }
 
-        public static IPatient AsPatient(this DataRow row)
+        public static testcasePatient AsPatient(this DataRow row)
         {
-            return new Patient()
+            return new testcasePatient()
             {
                 DOB = row.Field<DateTime>("DOB"),
                 AssessmentDate = row.Field<DateTime>("Assessment_Date"),
@@ -39,9 +39,9 @@ namespace Cdsi.ReferenceLibrary
             };
         }
 
-        public static IForecast AsForecast(this DataRow row)
+        public static testcaseForecastExpectedResult AsForecast(this DataRow row)
         {
-            return new Forecast()
+            return new testcaseForecastExpectedResult()
             {
                 ForecastNum = row.Field<string>("Forecast_#"),
                 PastDueDate = row.AsDateTime("Past_Due_Date"),
@@ -50,18 +50,18 @@ namespace Cdsi.ReferenceLibrary
             };
         }
 
-        public static IEvaluation AsEvaluation(this DataRow row)
+        public static testcaseEvaluationExpectedResult AsEvaluation(this DataRow row)
         {
-            return new Evaluation()
+            return new testcaseEvaluationExpectedResult()
             {
                 SeriesStatus = row.Field<string>("Series_Status"),
                 AdministeredDoses = row.AsDoses()
             };
         }
 
-        public static IEnumerable<IDose> AsDoses(this DataRow row)
+        public static IEnumerable<testcaseVaccineDoseAdministered> AsDoses(this DataRow row)
         {
-            var doses = new List<IDose>();
+            var doses = new List<testcaseVaccineDoseAdministered>();
             for (var i = 1; i <= 7; i++)
             {
                 if (string.IsNullOrWhiteSpace(row.Field<string>($"CVX_{i}"))) break;
@@ -70,9 +70,9 @@ namespace Cdsi.ReferenceLibrary
             return doses;
         }
 
-        public static IDose AsDose(this DataRow row, int num)
+        public static testcaseVaccineDoseAdministered AsDose(this DataRow row, int num)
         {
-            return new Dose()
+            return new testcaseVaccineDoseAdministered()
             {
                 CVX = row.Field<string>($"CVX_{num}"),
                 MVX = row.Field<string>($"MVX_{num}"),

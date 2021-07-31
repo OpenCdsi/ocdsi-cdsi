@@ -2,7 +2,7 @@
 
 namespace Cdsi.ReferenceLibrary
 {
-    public class Forecast : IForecast
+    public class testcaseForecastExpectedResult 
     {
         public string ForecastNum { get; set; }
         public DateTime EarliestDate { get; set; }
