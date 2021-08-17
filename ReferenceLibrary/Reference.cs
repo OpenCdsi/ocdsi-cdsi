@@ -9,6 +9,6 @@ namespace Cdsi
 
         public static IDictionary<string, antigenSupportingData> Antigen { get; } = Factories.CreateAntigenMap();
 
-        public static IDictionary<string, ITestcase> Testcases { get; } = Factories.CreateTestcaseMap();
+        public static IDictionary<string, cdsiTestcase> Testcases { get; } = Factories.CreateTestcaseMap();
     }
 }

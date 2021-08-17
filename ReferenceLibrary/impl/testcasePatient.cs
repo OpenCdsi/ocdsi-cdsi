@@ -2,7 +2,7 @@
 
 namespace Cdsi.ReferenceLibrary
 {
-    public class Patient : IPatient
+    public class testcasePatient
     {
         public DateTime DOB { get; set; }
         public string Gender { get; set; }

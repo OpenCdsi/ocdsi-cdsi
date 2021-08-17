@@ -50,7 +50,7 @@ namespace Cdsi.ReferenceLibrary
             var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
             return (scheduleSupportingData)deserializer.Deserialize(resource);
         }
-        public static IDictionary<string, ITestcase> CreateTestcaseMap()
+        public static IDictionary<string, cdsiTestcase> CreateTestcaseMap()
         {
             return GetDataSet().Tables[0].Rows.AsEnumerable()
                  .Select(x => x.AsTestcase())

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Cdsi.ReferenceLibrary;
 
-namespace Cdsi.PrepareData
+namespace Cdsi.Evaluation
 {
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5
