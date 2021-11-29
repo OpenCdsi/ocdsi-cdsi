@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Cdsi.Evaluation;
-using Cdsi.ReferenceLibrary;
+using Cdsi.SupportingDataLibrary;
+using Cdsi.TestcaseLibrary;
 
 namespace Cdsi.UnitTests
 {
     public static class Factories
     {
-        public static IPatient ToModel(this ReferenceLibrary.testcasePatient patient)
+        public static IPatient ToModel(this TestcaseLibrary.testcasePatient patient)
         {
             return new Patient()
             {
@@ -20,19 +21,19 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IVaccineDose ToModel(this ReferenceLibrary.testcaseVaccineDoseAdministered dose)
+        public static IVaccineDose ToModel(this TestcaseLibrary.testcaseVaccineDoseAdministered dose)
         {
             return new VaccineDose()
             {
                 CVX = dose.CVX,
                 MVX = dose.MVX,
                 DateAdministered = dose.DateAdministered,
-                VaccineDescription = Reference.Schedule.GetVaccineDescription(dose.CVX),
-                VaccineType = Reference.Schedule.GetVaccineType(dose.CVX)
+                VaccineDescription = SupportingData.Schedule.GetVaccineDescription(dose.CVX),
+                VaccineType = SupportingData.Schedule.GetVaccineType(dose.CVX)
             };
         }
 
-        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<ReferenceLibrary.testcaseVaccineDoseAdministered> doses)
+        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<TestcaseLibrary.testcaseVaccineDoseAdministered> doses)
         {
             return doses.Select(x => x.ToModel()).SelectMany(x => x.ToAntigenDoses());
         }

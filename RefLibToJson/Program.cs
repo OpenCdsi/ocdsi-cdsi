@@ -18,13 +18,13 @@ namespace Cdsi.mkdb
                 // etc.
             };
 
-            var data = JsonSerializer.Serialize(Reference.Testcases, options);
+            var data = JsonSerializer.Serialize(Library.Testcases, options);
             File.WriteAllText(TESTCASES_FILENAME, data);
 
-            data = JsonSerializer.Serialize(Reference.Antigen, options);
+            data = JsonSerializer.Serialize(SupportingData.Antigen, options);
             File.WriteAllText(ANTIGENS_FILENAME, data);
 
-            data = JsonSerializer.Serialize(Reference.Schedule, options);
+            data = JsonSerializer.Serialize(SupportingData.Schedule, options);
             File.WriteAllText(SCHEDULE_FILENAME, data);
         }
     }

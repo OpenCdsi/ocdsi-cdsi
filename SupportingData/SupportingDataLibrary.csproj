@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="xlsx\cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx" />
     <None Remove="xml\AntigenSupportingData- Cholera-508.xml" />
     <None Remove="xml\AntigenSupportingData- Diphtheria-508.xml" />
     <None Remove="xml\AntigenSupportingData- HepA-508.xml" />
@@ -33,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="xlsx\cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx" />
     <EmbeddedResource Include="xml\AntigenSupportingData- Cholera-508.xml" />
     <EmbeddedResource Include="xml\AntigenSupportingData- Diphtheria-508.xml" />
     <EmbeddedResource Include="xml\AntigenSupportingData- HepA-508.xml" />
@@ -58,11 +56,6 @@
     <EmbeddedResource Include="xml\AntigenSupportingData- YF-508.xml" />
     <EmbeddedResource Include="xml\AntigenSupportingData- Zoster-508.xml" />
     <EmbeddedResource Include="xml\ScheduleSupportingData.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
-    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
   </ItemGroup>
 
   <ItemGroup>
