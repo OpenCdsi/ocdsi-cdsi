@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Cdsi.ReferenceLibrary;
+using Cdsi.SupportingData;
 
 namespace Cdsi.UnitTests
 {
     [TestClass]
-    public class ReferenceLibraryTests
+    public class SupportingDataTests
     {
         [TestMethod]
         public void AntigenNames()

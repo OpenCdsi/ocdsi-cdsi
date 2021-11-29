@@ -18,7 +18,7 @@ namespace Cdsi.mkdb
                 // etc.
             };
 
-            var data = JsonSerializer.Serialize(Reference.Testcases, options);
+            var data = JsonSerializer.Serialize(Library.Testcases, options);
             File.WriteAllText(TESTCASES_FILENAME, data);
 
             data = JsonSerializer.Serialize(Reference.Antigen, options);

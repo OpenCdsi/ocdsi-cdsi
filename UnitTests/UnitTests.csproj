@@ -19,7 +19,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Evaluation\Evaluation.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
-    <ProjectReference Include="..\ReferenceLibrary\ReferenceLibrary.csproj" />
+    <ProjectReference Include="..\SupportingData\SupportingData.csproj" />
+    <ProjectReference Include="..\TestcaseLibrary\TestcaseLibrary.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>
 

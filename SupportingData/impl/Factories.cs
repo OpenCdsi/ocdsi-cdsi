@@ -6,15 +6,13 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Serialization;
-using ExcelDataReader;
 
-namespace Cdsi.ReferenceLibrary
+namespace Cdsi.SupportingData
 {
     public static class Factories
     {
-        private const string ScheduleResourceName = "ReferenceLibrary.xml.ScheduleSupportingData.xml";
-        private const string TestcaseResourceName = "ReferenceLibrary.xlsx.cdsi-healthy-childhood-and-adult-test-cases-v4.4.xlsx";
-        private static readonly Regex AntigenResourceNameRegex = new Regex("ReferenceLibrary.xml.AntigenSupportingData-\\s*([\\w\\s]*)-508.xml");
+        private const string ScheduleResourceName = "SupportingData.xml.ScheduleSupportingData.xml";
+       private static readonly Regex AntigenResourceNameRegex = new Regex("SupportingData.xml.AntigenSupportingData-\\s*([\\w\\s]*)-508.xml");
 
         public static IDictionary<string, antigenSupportingData> CreateAntigenMap()
         {
@@ -49,31 +47,6 @@ namespace Cdsi.ReferenceLibrary
             var resource = assembly.GetManifestResourceStream(ScheduleResourceName);
             var deserializer = new XmlSerializer(typeof(scheduleSupportingData));
             return (scheduleSupportingData)deserializer.Deserialize(resource);
-        }
-        public static IDictionary<string, cdsiTestcase> CreateTestcaseMap()
-        {
-            return GetDataSet().Tables[0].Rows.AsEnumerable()
-                 .Select(x => x.AsTestcase())
-                 .Select(x => KeyValuePair.Create(x.CdcTestId, x))
-                 .AsMap();
-        }
-
-        private static DataSet GetDataSet()
-        {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            var assembly = Assembly.GetAssembly(typeof(Metadata));
-
-            using var stream = assembly.GetManifestResourceStream(TestcaseResourceName);
-            using var reader = ExcelReaderFactory.CreateReader(stream);
-            return reader.AsDataSet(new ExcelDataSetConfiguration()
-            {
-                UseColumnDataType = true,
-                FilterSheet = (tableReader, sheetIndex) => sheetIndex == 2,
-                ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
-                {
-                    UseHeaderRow = true
-                }
-            });
         }
     }
 }

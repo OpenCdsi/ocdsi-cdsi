@@ -1,4 +1,4 @@
-﻿using Cdsi.ReferenceLibrary;
+﻿using Cdsi.TestcaseLibrary;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Cdsi.UnitTests
@@ -12,11 +12,11 @@ namespace Cdsi.UnitTests
         public void CanGetANamedTestcase()
         {
             var sut = Library.Testcases[TID];
-            Assert.IsInstanceOfType(sut, typeof(cdsiTestcase));
+            Assert.IsInstanceOfType(sut, typeof(testcase));
         }
 
         [TestMethod]
-        public void ThereAre801Testcases()
+        public void ThereAreNumTestcases()
         {
             Assert.AreEqual(801, Library.Testcases.Count);
         }
