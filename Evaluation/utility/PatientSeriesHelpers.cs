@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Cdsi.ReferenceLibrary;
+using Cdsi.SupportingDataLibrary;
 
 namespace Cdsi.Evaluation
 {
@@ -46,7 +46,7 @@ namespace Cdsi.Evaluation
 
         public static IEnumerable<IPatientSeries> GetAllRelevantPatientSeries() // TODO: pass in data to evaluate for 'risk' series
         {
-            return Reference.Antigen.Values
+            return SupportingData.Antigen.Values
                 .SelectMany(x => x.ToRelevantPatientSeries())
                 .Where(x => x.TargetDoses.Count() > 0);
         }

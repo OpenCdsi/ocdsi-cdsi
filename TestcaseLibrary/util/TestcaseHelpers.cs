@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Cdsi.ReferenceLibrary
+namespace Cdsi.TestcaseLibrary
 {
     public static class TestcaseHelpers
     {
-        public static cdsiTestcase AsTestcase(this DataRow row)
+        public static testcase AsTestcase(this DataRow row)
         {
-            return new cdsiTestcase()
+            return new testcase()
             {
                 CdcTestId = row.Field<string>("CDC_Test_ID"),
                 TestcaseName = row.Field<string>("Test_Case_Name"),
@@ -92,6 +92,14 @@ namespace Cdsi.ReferenceLibrary
             catch
             {
                 return DateTime.MinValue;
+            }
+        }
+
+        public static IEnumerable<DataRow> AsEnumerable(this DataRowCollection rows)
+        {
+            foreach(DataRow row in rows)
+            {
+                yield return row;
             }
         }
     }
