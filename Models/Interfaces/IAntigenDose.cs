@@ -5,14 +5,11 @@ namespace Cdsi
     /// <summary>
     /// Represents an antigen dose administered to a patient.
     /// </summary>
-    public interface IAntigenDose
+    /// <remarks>Created as a result of the organize-patient-history procedure.</remarks>
+    public interface IAntigenDose: IVaccineDose
     {
         string AntigenName { get; }
-        DateTime DateAdministered { get; }
-        string DoseCondition { get; }
         string EvaluationReason { get; set; }
         EvaluationStatus EvaluationStatus { get; set; }
-        DateTime LotExpiration { get; }
-        string VaccineType { get; }
     }
 }

@@ -9,6 +9,5 @@ namespace Cdsi
         string MedHistoryText { get; }
         string MedHistoryCode { get; }
         string MedHistoryCodeSys { get; }
-        DateTime AssessmentDate { get; set; }
     }
 }

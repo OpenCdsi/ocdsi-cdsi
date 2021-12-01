@@ -13,9 +13,12 @@ namespace Cdsi.Evaluation
                   {
                       AntigenName = x,
                       DateAdministered = dose.DateAdministered,
+                      VaccineDescription = dose.VaccineDescription,
                       VaccineType = dose.VaccineType,
-                      EvaluationStatus = EvaluationStatus.NotValid,
-                      LotExpiration = Defaults.LotExpiration
+                      CVX = dose.CVX,
+                      MVX = dose.MVX,
+                      LotExpiration = dose.LotExpiration,
+                      DoseCondition = dose.DoseCondition
                   });
         }
 

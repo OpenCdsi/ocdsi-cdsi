@@ -9,6 +9,7 @@ namespace Cdsi.TestcaseLibrary
         public string? VaccineGroup { get; set; }
         public string? EvaluationTestType { get; set; }
         public string? ForecastTestType { get; set; }
+        public DateTime AssessmentDate { get; set; }
         public testcasePatient? Patient { get; set; }
         public testcaseEvaluationExpectedResult? Evaluation { get; set; }
         public testcaseForecastExpectedResult? Forecast { get; set; }

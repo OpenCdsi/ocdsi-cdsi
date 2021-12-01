@@ -22,7 +22,7 @@ namespace Cdsi.Evaluation
             };
         }
 
-        public static ITargetDose ToModel(this antigenSupportingDataSeriesSeriesDose dose)
+        public static TargetDose ToModel(this antigenSupportingDataSeriesSeriesDose dose)
         {
             return new TargetDose()
             {
@@ -44,7 +44,7 @@ namespace Cdsi.Evaluation
                 .Select(x => x.ToModel());
         }
 
-        public static IEnumerable<IPatientSeries> GetAllRelevantPatientSeries() // TODO: pass in data to evaluate for 'risk' series
+        public static IEnumerable<IPatientSeries> GetAllRelevantPatientSeries() 
         {
             return SupportingData.Antigen.Values
                 .SelectMany(x => x.ToRelevantPatientSeries())

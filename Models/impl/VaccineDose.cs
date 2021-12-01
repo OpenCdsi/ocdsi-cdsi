@@ -9,5 +9,7 @@ namespace Cdsi
         public string VaccineType { get; set; }
         public string CVX { get; set; }
         public string MVX { get; set; }
+        public DateTime LotExpiration { get; set; } = Defaults.LotExpiration;
+        public string DoseCondition { get; set; }
     }
 }

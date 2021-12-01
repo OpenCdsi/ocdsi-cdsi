@@ -16,8 +16,7 @@ namespace Cdsi.UnitTests
                 Gender = patient.Gender.ToLower().StartsWith("f") ? Gender.Female : Gender.Male,
                 MedHistoryText = patient.MedHistoryText,
                 MedHistoryCode = patient.MedHistoryCode,
-                MedHistoryCodeSys = patient.MedHistoryCodeSys,
-                AssessmentDate = patient.AssessmentDate
+                MedHistoryCodeSys = patient.MedHistoryCodeSys
             };
         }
 
