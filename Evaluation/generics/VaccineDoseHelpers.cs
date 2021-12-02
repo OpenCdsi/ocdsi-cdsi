@@ -2,7 +2,7 @@
 using System.Linq;
 using Cdsi.SupportingDataLibrary;
 
-namespace Cdsi.Evaluation
+namespace Cdsi
 {
     public static class VaccineDoseHelpers
     {

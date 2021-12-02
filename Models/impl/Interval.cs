@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cdsi
 {
-    public class Interval : IInterval
+    public partial class Interval : IInterval
     {
         public int Duration { get; set; }
         public IntervalUnit Unit { get; set; }

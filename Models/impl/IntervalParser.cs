@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace Cdsi
 {
-    public static class IntervalParser
+    public partial class Interval
     {
         private static Regex re = new Regex("^([\\+-]?\\d+)(\\w+)");
 
