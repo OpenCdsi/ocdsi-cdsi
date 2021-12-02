@@ -23,7 +23,8 @@ namespace Cdsi.TestcaseLibrary
                 ReasonForChange = row.Field<string>("Reason_For_Change"),
                 Evaluation = row.AsEvaluation(),
                 Forecast = row.AsForecast(),
-                Patient = row.AsPatient()
+                Patient = row.AsPatient(),
+                Doses = row.AsDoses()
             };
         }
 
@@ -32,10 +33,7 @@ namespace Cdsi.TestcaseLibrary
             return new testcasePatient()
             {
                 DOB = row.Field<DateTime>("DOB"),
-                Gender = row.Field<string>("Gender"),
-                MedHistoryCode = row.Field<string>("Med_History_Code"),
-                MedHistoryCodeSys = row.Field<string>("Med_History_Code_Sys"),
-                MedHistoryText = row.Field<string>("Med_History_Text")
+                Gender = row.Field<string>("Gender")
             };
         }
 

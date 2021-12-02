@@ -7,12 +7,6 @@ namespace Cdsi.UnitTests
     [TestClass]
     public class PatientSeriesTests
     {
-        [TestMethod]
-        public void CanCreateFromAntigenSeries()
-        {
-            var antigen = SupportingData.Antigen["Measles"];
-            var sut = antigen.ToRelevantPatientSeries();
-            Assert.AreEqual(1, sut.Count());
-        }
+        
     }
 }

@@ -7,6 +7,7 @@ namespace Cdsi.UnitTests
     public class TestCaseTests
     {
         const string TID = "2013-0083";
+        const int NUM_TESTS = 801;
 
         [TestMethod]
         public void CanGetANamedTestcase()
@@ -18,7 +19,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void ThereAreNumTestcases()
         {
-            Assert.AreEqual(801, Library.Testcases.Count);
+            Assert.AreEqual(NUM_TESTS, Library.Testcases.Count);
         }
     }
 }

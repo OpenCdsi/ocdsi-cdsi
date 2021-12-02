@@ -13,6 +13,7 @@ namespace Cdsi.TestcaseLibrary
         public testcasePatient? Patient { get; set; }
         public testcaseEvaluationExpectedResult? Evaluation { get; set; }
         public testcaseForecastExpectedResult? Forecast { get; set; }
+        public IEnumerable<testcaseVaccineDoseAdministered>? Doses { get; set; }
         public DateTime DateAdded { get; set; }
         public DateTime DateUpdated { get; set; }
         public string? GeneralDescription { get; set; }
