@@ -8,11 +8,21 @@ namespace Cdsi.UnitTests
     public class PatientSeriesTests
     {
         [TestMethod]
-        public void CanCreateFromAntigenSeries()
+        public void SelectsStandardSeries()
         {
+            var env = Library.Testcases["2013-0002"].CreateProcessingData();
             var antigen = SupportingData.Antigen["Measles"];
-            var sut = antigen.ToRelevantPatientSeries();
-            Assert.AreEqual(1, sut.Count());
+            var sut = antigen.series.First().IsRelevantSeries(env);
+            Assert.IsTrue(sut);
+        }
+
+        [TestMethod]
+        public void DontSelectsRiskSeries()
+        {
+            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var antigen = SupportingData.Antigen["Measles"];
+            var sut = antigen.series.Second().IsRelevantSeries(env);
+            Assert.IsFalse(sut);
         }
     }
 }

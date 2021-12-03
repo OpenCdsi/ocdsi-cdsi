@@ -14,6 +14,7 @@ namespace Cdsi.TestcaseLibrary
                 TestcaseName = row.Field<string>("Test_Case_Name"),
                 EvaluationTestType = row.Field<string>("Evaluation_Test_Type"),
                 ForecastTestType = row.Field<string>("Forecast_Test_Type"),
+                AssessmentDate = row.Field<DateTime>("Assessment_Date"),
                 VaccineGroup = row.Field<string>("Vaccine_Group"),
                 DateAdded = row.Field<DateTime>("Date_Added"),
                 DateUpdated = row.Field<DateTime>("Date_Updated"),
@@ -22,7 +23,8 @@ namespace Cdsi.TestcaseLibrary
                 ReasonForChange = row.Field<string>("Reason_For_Change"),
                 Evaluation = row.AsEvaluation(),
                 Forecast = row.AsForecast(),
-                Patient = row.AsPatient()
+                Patient = row.AsPatient(),
+                Doses = row.AsDoses()
             };
         }
 
@@ -31,11 +33,7 @@ namespace Cdsi.TestcaseLibrary
             return new testcasePatient()
             {
                 DOB = row.Field<DateTime>("DOB"),
-                AssessmentDate = row.Field<DateTime>("Assessment_Date"),
-                Gender = row.Field<string>("Gender"),
-                MedHistoryCode = row.Field<string>("Med_History_Code"),
-                MedHistoryCodeSys = row.Field<string>("Med_History_Code_Sys"),
-                MedHistoryText = row.Field<string>("Med_History_Text")
+                Gender = row.Field<string>("Gender")
             };
         }
 

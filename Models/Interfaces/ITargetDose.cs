@@ -1,5 +1,8 @@
 ﻿namespace Cdsi
 {
+    /// <summary>
+    /// Tracks the state of the dose in the patient series.
+    /// </summary>
     public interface ITargetDose
     {
         string DoseName { get; }

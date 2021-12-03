@@ -1,14 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Cdsi
 {
     public interface IPatient
     {
-        DateTime DOB { get; }
+        System.DateTime DOB { get; }
         Gender Gender { get; }
-        string MedHistoryText { get; }
-        string MedHistoryCode { get; }
-        string MedHistoryCodeSys { get; }
-        DateTime AssessmentDate { get; set; }
+        public IEnumerable<string> ObservationCodes { get; }
     }
 }

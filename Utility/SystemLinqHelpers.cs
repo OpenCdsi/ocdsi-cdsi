@@ -8,5 +8,10 @@ namespace System.Linq
         {
             return new Dictionary<TKey, TValue>(collection);
         }
+
+        public static T Second<T>(this IEnumerable<T> items)
+        {
+            return items.ToList()[1];
+        }
     }
 }

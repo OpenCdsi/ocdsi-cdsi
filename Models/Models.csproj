@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Cdsi</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
+    <ProjectReference Include="..\TestcaseLibrary\TestcaseLibrary.csproj" />
+  </ItemGroup>
 
 </Project>
