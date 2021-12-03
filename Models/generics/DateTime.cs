@@ -18,7 +18,7 @@ namespace Cdsi
             };
         }
 
-        public static System.DateTime Add(this System.DateTime date, IEnumerable<Interval> intervals)
+        public static System.DateTime Add(this System.DateTime date, IEnumerable<IInterval> intervals)
         {
             var result = date;
             foreach (var interval in intervals)

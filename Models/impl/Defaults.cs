@@ -10,5 +10,7 @@ namespace Cdsi
         {
             return System.DateTime.Now;
         }
+        public static readonly DateTime MinAge = new System.DateTime(1900, 1, 1);
+        public static readonly DateTime MaxAge = new System.DateTime(2999, 12, 31);
     }
 }

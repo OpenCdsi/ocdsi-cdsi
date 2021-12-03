@@ -8,9 +8,12 @@ namespace Cdsi.UnitTests
     public class EvaluationTests
     {
         [TestMethod]
-        public void CanEvaluateADose()
+        public void CanOrganizeImmunizationHistory()
         {
-
+            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var sut= env.Doses.OrganizeImmunizationHistory().ToList();
+            Assert.AreEqual(6, sut.Count());
+            Assert.IsInstanceOfType(sut[0], typeof(AntigenDose));
         }
     }
 }

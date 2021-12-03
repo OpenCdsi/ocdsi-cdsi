@@ -42,7 +42,7 @@ namespace Cdsi
             }
         }
 
-        public static IList<IInterval> ParseAll(string text)
+        public static IEnumerable<IInterval> ParseAll(string text)
         {
             var intervals = new List<IInterval>();
             text = text.Replace(" ", "");

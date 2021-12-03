@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-
+using System.Linq;
 
 namespace Cdsi.UnitTests
 {
@@ -29,8 +29,8 @@ namespace Cdsi.UnitTests
         {
             var text = "6 years - 4 days";
             var intervals = Interval.ParseAll(text);
-            Assert.AreEqual(6, intervals[0].Duration);
-            Assert.AreEqual(IntervalUnit.Day, intervals[1].Unit);
+            Assert.AreEqual(6, intervals.First().Duration);
+            Assert.AreEqual(IntervalUnit.Day, intervals.Second().Unit);
         }
 
         // Table 3-6

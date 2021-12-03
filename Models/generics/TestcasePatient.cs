@@ -13,10 +13,19 @@ namespace Cdsi
 
         public static Patient ToModel(this testcasePatient patient)
         {
+            var gender = patient.Gender switch
+            {
+                "F" => Gender.Female,
+                "Female" => Gender.Female,
+                "M" => Gender.Male,
+                "Male" => Gender.Male,
+                _ => Gender.Unknown
+            };
+
             return new Patient
             {
                 DOB = patient.DOB,
-                Gender = Enum.TryParse<Gender>(patient.Gender)
+                Gender = gender
             };
         }
     }
