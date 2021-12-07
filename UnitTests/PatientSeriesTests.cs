@@ -37,5 +37,31 @@ namespace Cdsi.UnitTests
             var sut = antigen.series.Second().IsRelevantSeries(env);
             Assert.IsFalse(sut);
         }
+
+        [TestMethod]
+        public void StandardSeriesToPatientSeries()
+        {
+            var antigen = SupportingData.Antigen["Measles"];
+            var sut = antigen.series.First().ToModel();
+            Assert.AreEqual(PatientSeriesType.Standard,sut.SeriesType);
+        }
+
+        [TestMethod]
+        public void RiskSeriesToPatientSeries()
+        {
+            var antigen = SupportingData.Antigen["Measles"];
+            var sut = antigen.series.Second().ToModel();
+            Assert.AreEqual(PatientSeriesType.Risk, sut.SeriesType);
+        }
+
+        [TestMethod]
+        public void StandardSeriesToPatientSeriesWithAntigenDoses()
+        {
+            var env = Library.Testcases["2013-0544"].CreateProcessingData();
+            var antigen = SupportingData.Antigen["Measles"];
+            var sut = (PatientSeries)antigen.series.First().ToModel(env.Doses.OrganizeImmunizationHistory());
+            Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
+            Assert.IsTrue(sut.AntigenDoses.Any());
+        }
     }
 }
