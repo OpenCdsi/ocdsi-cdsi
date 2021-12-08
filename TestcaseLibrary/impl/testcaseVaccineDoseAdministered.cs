@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Cdsi.TestcaseLibrary
+﻿namespace Cdsi.TestcaseLibrary
 {
     public class testcaseVaccineDoseAdministered
     {

@@ -4,12 +4,12 @@ namespace Cdsi
 {
     public class VaccineDose : IVaccineDose
     {
-        public System.DateTime DateAdministered { get; set; }
-        public string VaccineDescription { get; set; }
-        public string VaccineType { get; set; }
-        public string CVX { get; set; }
-        public string MVX { get; set; }
-        public System.DateTime LotExpiration { get; set; } = Defaults.LotExpiration;
-        public string DoseCondition { get; set; }
+        public DateTime DateAdministered { get; internal set; }
+        public string VaccineDescription { get; internal set; }
+        public string VaccineType { get; internal set; }
+        public string CVX { get; internal set; }
+        public string MVX { get; internal set; }
+        public DateTime LotExpiration { get; internal set; } = Defaults.LotExpiration;
+        public string DoseCondition { get; internal set; }
     }
 }

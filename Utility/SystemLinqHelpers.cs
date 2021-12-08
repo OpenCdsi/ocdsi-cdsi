@@ -13,5 +13,13 @@ namespace System.Linq
         {
             return items.ToList()[1];
         }
+
+        public static void AddAll<T>(this IList<T> collection, IEnumerable<T> items)
+        {
+            foreach (var item in items)
+            {
+                collection.Add(item);
+            }
+        }
     }
 }

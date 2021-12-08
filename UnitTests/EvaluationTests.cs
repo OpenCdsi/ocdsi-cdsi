@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Linq;
 
 namespace Cdsi.UnitTests
@@ -11,9 +10,9 @@ namespace Cdsi.UnitTests
         public void CanOrganizeImmunizationHistory()
         {
             var env = Library.Testcases["2013-0002"].CreateProcessingData();
-            var sut= env.Doses.OrganizeImmunizationHistory().ToList();
+            var sut = env.Patient.AdministeredVaccineDoses.OrganizeImmunizationHistory();
             Assert.AreEqual(6, sut.Count());
-            Assert.IsInstanceOfType(sut[0], typeof(AntigenDose));
+            Assert.IsInstanceOfType(sut.First(), typeof(AntigenDose));
         }
     }
 }

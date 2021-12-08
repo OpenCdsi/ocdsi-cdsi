@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cdsi.TestcaseLibrary;
+﻿using Cdsi.TestcaseLibrary;
 
 namespace Cdsi
 {
@@ -14,8 +9,7 @@ namespace Cdsi
             return new ProcessingData
             {
                 AssessmentDate = tc.AssessmentDate,
-                Patient = tc.Patient.ToModel(),
-                Doses = tc.Doses.Select(x => x.ToModel())
+                Patient = tc.Patient.ToModel(tc.Doses)
             };
         }
     }
