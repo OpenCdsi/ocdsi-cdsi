@@ -6,7 +6,7 @@ namespace Cdsi
 {
     public partial class Interval : IInterval
     {
-        public int Duration { get; set; }
-        public IntervalUnit Unit { get; set; }
+        public int Duration { get; internal set; }
+        public IntervalUnit Unit { get; internal set; }
     }
 }

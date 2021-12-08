@@ -6,8 +6,8 @@ namespace Cdsi
     {
         string AntigenName { get; }
         string SeriesName { get; }
-        IEnumerable<ITargetDose> TargetDoses { get; }
-        IEnumerable<IAntigenDose> AntigenDoses { get; }
+        IList<ITargetDose> TargetDoses { get; }
+        IList<IAntigenDose> AntigenDoses { get; }
         PatientSeriesStatus Status { get; set; }
         PatientSeriesType SeriesType { get; }
     }

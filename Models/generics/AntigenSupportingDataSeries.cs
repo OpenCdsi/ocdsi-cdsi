@@ -10,37 +10,31 @@ namespace Cdsi
 {
     public static partial class AntigenSupportingDataSeries
     {
-        public static IPatientSeries ToModel(this antigenSupportingDataSeries series)
+        public static PatientSeries ToModel(this antigenSupportingDataSeries asds)
         {
-            return new PatientSeries()
+            var series = new PatientSeries()
             {
-                AntigenName = series.targetDisease,
-                SeriesName = series.seriesName,
+                AntigenName = asds.targetDisease,
+                SeriesName = asds.seriesName,
                 Status = PatientSeriesStatus.NotComplete,
-                TargetDoses = series.seriesDose.Select(x => x.ToModel()),
-                SeriesType = Enum.TryParse<PatientSeriesType>(series.seriesType)
+                SeriesType = Enum.TryParse<PatientSeriesType>(asds.seriesType)
             };
-        }
-        public static IPatientSeries ToModel(this antigenSupportingDataSeries series, IEnumerable<IAntigenDose> antigenDoses)
-        {
-            return new PatientSeries()
-            {
-                AntigenName = series.targetDisease,
-                SeriesName = series.seriesName,
-                Status = PatientSeriesStatus.NotComplete,
-                TargetDoses = series.seriesDose.Select(x => x.ToModel()),
-                SeriesType = Enum.TryParse<PatientSeriesType>(series.seriesType),
-                AntigenDoses = antigenDoses.Where(x => x.AntigenName == series.targetDisease).ToList()
-            };
-        }
 
-        public static TargetDose ToModel(this antigenSupportingDataSeriesSeriesDose dose)
-        {
-            return new TargetDose()
+            series.TargetDoses.AddAll(asds.seriesDose.Select(x => new TargetDose()
             {
-                DoseName = dose.doseNumber,
+                DoseName = x.doseNumber,
                 Status = TargetDoseStatus.NotSatisfied
-            };
+            }));
+
+            return series;
+
+        }
+        public static PatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
+        {
+            var series = asds.ToModel();
+
+            series.AntigenDoses.AddAll(ad.Where(x => x.AntigenName == asds.targetDisease));
+            return series;
         }
     }
 }

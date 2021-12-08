@@ -11,22 +11,24 @@ namespace Cdsi
     public static partial class TestcasePatient
     {
 
-        public static Patient ToModel(this testcasePatient patient)
+        public static Patient ToModel(this testcasePatient tp, IEnumerable<testcaseVaccineDoseAdministered> tvda)
         {
-            var gender = patient.Gender switch
+            var gender = tp.Gender.ToLower().First() switch
             {
-                "F" => Gender.Female,
-                "Female" => Gender.Female,
-                "M" => Gender.Male,
-                "Male" => Gender.Male,
+                'f' => Gender.Female,
+                'm' => Gender.Male,
                 _ => Gender.Unknown
             };
 
-            return new Patient
+            var patient = new Patient
             {
-                DOB = patient.DOB,
+                DOB = tp.DOB,
                 Gender = gender
             };
+
+            patient.AdministeredVaccineDoses.AddAll(tvda.Select(x => x.ToModel()));
+
+            return patient;
         }
     }
 }

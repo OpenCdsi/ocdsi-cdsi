@@ -14,8 +14,7 @@ namespace Cdsi
             return new ProcessingData
             {
                 AssessmentDate = tc.AssessmentDate,
-                Patient = tc.Patient.ToModel(),
-                Doses = tc.Doses.Select(x => x.ToModel())
+                Patient = tc.Patient.ToModel(tc.Doses)
             };
         }
     }

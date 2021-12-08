@@ -59,7 +59,7 @@ namespace Cdsi.UnitTests
         {
             var env = Library.Testcases["2013-0544"].CreateProcessingData();
             var antigen = SupportingData.Antigen["Measles"];
-            var sut = (PatientSeries)antigen.series.First().ToModel(env.Doses.OrganizeImmunizationHistory());
+            var sut = (PatientSeries)antigen.series.First().ToModel(env.Patient.AdministeredVaccineDoses.OrganizeImmunizationHistory());
             Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
             Assert.IsTrue(sut.AntigenDoses.Any());
         }

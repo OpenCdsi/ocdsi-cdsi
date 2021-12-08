@@ -17,7 +17,7 @@ namespace Cdsi.UnitTests
 
             Assert.AreEqual(new DateTime(2020, 6, 9), sut.Patient.DOB);
             Assert.AreEqual(new DateTime(2020, 8, 13), sut.AssessmentDate);
-            Assert.AreEqual(2, sut.Doses.Count());
+            Assert.AreEqual(2, sut.Patient.AdministeredVaccineDoses.Count);
         }
     }
 }

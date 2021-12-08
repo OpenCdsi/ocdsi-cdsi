@@ -2,7 +2,7 @@
 {
     public interface IInterval
     {
-        int Duration { get; set; }
-        IntervalUnit Unit { get; set; }
+        int Duration { get; }
+        IntervalUnit Unit { get; }
     }
 }

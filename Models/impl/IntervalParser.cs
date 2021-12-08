@@ -24,7 +24,7 @@ namespace Cdsi
             };
         }
 
-        public static IInterval Parse(string text)
+        public static Interval Parse(string text)
         {
             text = text.Replace(" ", "");
             var match = re.Match(text);
@@ -42,9 +42,9 @@ namespace Cdsi
             }
         }
 
-        public static IEnumerable<IInterval> ParseAll(string text)
+        public static IEnumerable<Interval> ParseAll(string text)
         {
-            var intervals = new List<IInterval>();
+            var intervals = new List<Interval>();
             text = text.Replace(" ", "");
             while (!string.IsNullOrEmpty(text))
             {
