@@ -7,6 +7,6 @@ namespace Cdsi
     {
         System.DateTime DOB { get; }
         Gender Gender { get; }
-        public IEnumerable<string> ObservationCodes { get; }
+        public IList<string> ObservationCodes { get; }
     }
 }

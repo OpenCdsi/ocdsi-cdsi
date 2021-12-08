@@ -123,5 +123,16 @@ namespace Cdsi.UnitTests
             var i = Interval.Parse("6 month");
             Assert.AreEqual(new System.DateTime(2001, 3, 1), d.Add(i));
         }
+
+      //  Date = {6/9/2020 12:00:00 AM - 6 months = ?
+
+        [TestMethod]
+        public void JuneMinus6MonthsIsDecember()
+        {
+            var d = new System.DateTime(2020, 6, 9);
+            var i = Interval.Parse("-6 month");
+            Assert.AreEqual(new System.DateTime(2019, 12, 10), d.Add(i));
+        }
     }
 }
+

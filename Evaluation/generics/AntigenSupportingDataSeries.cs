@@ -28,7 +28,7 @@ namespace Cdsi.Evaluation
             var endAge = Defaults.MaxAge;
             try
             {
-                beginAge = env.Patient.DOB.Add(Interval.ParseAll(indication.beginAge));
+                beginAge = env.Patient.DOB.Add(-1 * (Interval)Interval.ParseAll(indication.beginAge).First());
             }
             catch
             {
