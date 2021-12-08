@@ -14,7 +14,7 @@ namespace Cdsi.UnitTests
         {
             var sut = Library.Testcases[TID].Patient.ToModel();
             Assert.AreEqual(sut.Gender, Gender.Female);
-            Assert.AreEqual(sut.DOB, new System.DateTime(2013, 8, 26));
+            Assert.AreEqual(sut.DOB, new DateTime(2013, 8, 26));
         }
 
         [TestMethod]

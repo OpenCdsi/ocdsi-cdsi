@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.SupportingDataLibrary;
 
 namespace Cdsi
 {
@@ -11,7 +10,7 @@ namespace Cdsi
         /// </summary>
         /// <param name="administeredDoses"></param>
         /// <returns></returns>
-        public static IEnumerable<IAntigenDose> OrganizeImmunizationHistory(this IEnumerable<IVaccineDose> administeredDoses)
+        public static IEnumerable<AntigenDose> OrganizeImmunizationHistory(this IEnumerable<IVaccineDose> administeredDoses)
         {
             return administeredDoses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)

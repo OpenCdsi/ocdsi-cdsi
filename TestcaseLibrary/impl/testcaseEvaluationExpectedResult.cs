@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Cdsi.TestcaseLibrary
+﻿namespace Cdsi.TestcaseLibrary
 {
     public class testcaseEvaluationExpectedResult
     {

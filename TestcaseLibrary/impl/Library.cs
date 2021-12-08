@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Cdsi.TestcaseLibrary;
+﻿using Cdsi.TestcaseLibrary;
 
 namespace Cdsi
 {
