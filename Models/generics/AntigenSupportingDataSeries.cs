@@ -26,6 +26,7 @@ namespace Cdsi
             return series;
 
         }
+
         public static IPatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
         {
             var series = asds.ToModel();
