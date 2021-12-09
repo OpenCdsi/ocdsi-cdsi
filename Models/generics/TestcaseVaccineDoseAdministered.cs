@@ -4,7 +4,7 @@ namespace Cdsi
 {
     public static class TestcaseVaccineDoseAdministered
     {
-        public static VaccineDose ToModel(this testcaseVaccineDoseAdministered dose)
+        public static IVaccineDose ToModel(this testcaseVaccineDoseAdministered dose)
         {
             return new VaccineDose
             {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Cdsi
 {
@@ -6,5 +7,6 @@ namespace Cdsi
     {
         DateTime AssessmentDate { get; }
         IPatient Patient { get; }
+        IList<IPatientSeries> RelevantPatientSeries { get; }
     }
 }

@@ -14,5 +14,13 @@ namespace Cdsi.UnitTests
             Assert.AreEqual(6, sut.Count());
             Assert.IsInstanceOfType(sut.First(), typeof(AntigenDose));
         }
+
+        [TestMethod]
+        public void CanMakeAnEvaluator()
+        {
+            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var sut =new Evaluation.Evaluator(env);
+            Assert.IsTrue(sut.ProcessingData.RelevantPatientSeries.Any());
+        }
     }
 }

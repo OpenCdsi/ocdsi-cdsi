@@ -7,7 +7,7 @@ namespace Cdsi
     public static partial class TestcasePatient
     {
 
-        public static Patient ToModel(this testcasePatient tp, IEnumerable<testcaseVaccineDoseAdministered> tvda)
+        public static IPatient ToModel(this testcasePatient tp, IEnumerable<testcaseVaccineDoseAdministered> tvda)
         {
             var gender = tp.Gender.ToLower().First() switch
             {
