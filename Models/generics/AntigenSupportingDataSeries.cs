@@ -7,7 +7,7 @@ namespace Cdsi
 {
     public static partial class AntigenSupportingDataSeries
     {
-        public static PatientSeries ToModel(this antigenSupportingDataSeries asds)
+        public static IPatientSeries ToModel(this antigenSupportingDataSeries asds)
         {
             var series = new PatientSeries()
             {
@@ -26,7 +26,8 @@ namespace Cdsi
             return series;
 
         }
-        public static PatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
+
+        public static IPatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
         {
             var series = asds.ToModel();
 

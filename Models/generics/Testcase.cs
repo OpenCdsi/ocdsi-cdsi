@@ -4,9 +4,9 @@ namespace Cdsi
 {
     public static partial class Testcase
     {
-        public static ProcessingData CreateProcessingData(this testcase tc)
+        public static IProcessingData CreateProcessingData(this testcase tc)
         {
-            return new ProcessingData
+           return new ProcessingData
             {
                 AssessmentDate = tc.AssessmentDate,
                 Patient = tc.Patient.ToModel(tc.Doses)

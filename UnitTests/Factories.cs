@@ -6,7 +6,7 @@ namespace Cdsi.UnitTests
 {
     public static class Factories
     {
-        public static Patient ToModel(this testcasePatient patient)
+        public static IPatient ToModel(this testcasePatient patient)
         {
             return new Patient()
             {
@@ -15,7 +15,7 @@ namespace Cdsi.UnitTests
             };
         }
 
-        public static IEnumerable<AntigenDose> ToModel(this IEnumerable<testcaseVaccineDoseAdministered> doses)
+        public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<testcaseVaccineDoseAdministered> doses)
         {
             return doses.Select(x => x.ToModel()).SelectMany(x => x.AsAntigenDoses());
         }
