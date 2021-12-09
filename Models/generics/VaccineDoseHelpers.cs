@@ -6,7 +6,7 @@ namespace Cdsi
 {
     public static class VaccineDoseHelpers
     {
-        public static IEnumerable<IAntigenDose> AsAntigenDoses(this IVaccineDose dose)
+        public static IEnumerable<AntigenDose> AsAntigenDoses(this IVaccineDose dose)
         {
             return SupportingData.Schedule.GetAntigenNames(dose.CVX)
                 .Select(x => new AntigenDose

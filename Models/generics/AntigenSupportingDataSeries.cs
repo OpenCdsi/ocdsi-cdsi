@@ -26,7 +26,11 @@ namespace Cdsi
             return series;
 
         }
+<<<<<<< HEAD
         public static IPatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
+=======
+        public static PatientSeries ToModel(this antigenSupportingDataSeries asds, IEnumerable<IAntigenDose> ad)
+>>>>>>> 05cb7d9137818dc5660e777ea8927f5fe5039fba
         {
             var series = asds.ToModel();
 
