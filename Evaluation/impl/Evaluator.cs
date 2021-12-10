@@ -2,32 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Cdsi.Evaluation
+namespace Cdsi
 {
-    public class Evaluator
+    public class DoseEvaluator
     {
-        public IProcessingData ProcessingData { get; internal set; }
-
-        public Evaluator(IProcessingData pd)
-        {
-            ProcessingData = pd;
-
-            // Organize immunization history, Cdsi Logic Spec 4.1 Section 4-3
-            var antigenDoses = pd.Patient.AdministeredVaccineDoses.OrganizeImmunizationHistory();
-
-            // Select relevant patient series, Cdsi Logic Spec 4.1 Chapter 5.
-            //
-            // Note that other patient series' can be Add()ed to the processing data,
-            // for example to evaluate/forecast newborns.
-            var antigens = antigenDoses.Select(x => x.AntigenName).Distinct();
-            foreach (var antigen in antigens)
-            {
-                var sda = SupportingData.Antigen[antigen];
-                var rs = sda.series.Where(x => x.IsRelevantSeries(ProcessingData)).ToList();
-                ProcessingData.RelevantPatientSeries.AddAll(rs.Select(x => x.ToModel(antigenDoses.Where(x => x.AntigenName == antigen))));
-            }
-        }
-
         // Cdsi Logic Spec 4.1 - Section 6-1
         public bool CanBeEvaluated(IAntigenDose administeredDose)
         {

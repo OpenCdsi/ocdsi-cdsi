@@ -8,5 +8,6 @@ namespace Cdsi
         DateTime AssessmentDate { get; }
         IPatient Patient { get; }
         IList<IPatientSeries> RelevantPatientSeries { get; }
+        IList<IAntigenDose> ImmunizationHistory { get; }
     }
 }

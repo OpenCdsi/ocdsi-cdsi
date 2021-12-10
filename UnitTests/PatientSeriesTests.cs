@@ -1,5 +1,4 @@
 using System.Linq;
-using Cdsi.Evaluation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Cdsi.UnitTests
@@ -51,16 +50,6 @@ namespace Cdsi.UnitTests
             var antigen = SupportingData.Antigen["Measles"];
             var sut = antigen.series.Second().ToModel();
             Assert.AreEqual(PatientSeriesType.Risk, sut.SeriesType);
-        }
-
-        [TestMethod]
-        public void StandardSeriesToPatientSeriesWithAntigenDoses()
-        {
-            var env = Library.Testcases["2013-0544"].CreateProcessingData();
-            var antigen = SupportingData.Antigen["Measles"];
-            var sut = (PatientSeries)antigen.series.First().ToModel(env.Patient.AdministeredVaccineDoses.OrganizeImmunizationHistory());
-            Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
-            Assert.IsTrue(sut.AntigenDoses.Any());
         }
     }
 }

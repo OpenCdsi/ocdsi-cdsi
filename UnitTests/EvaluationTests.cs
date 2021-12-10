@@ -10,17 +10,18 @@ namespace Cdsi.UnitTests
         public void CanOrganizeImmunizationHistory()
         {
             var env = Library.Testcases["2013-0002"].CreateProcessingData();
-            var sut = env.Patient.AdministeredVaccineDoses.OrganizeImmunizationHistory();
-            Assert.AreEqual(6, sut.Count());
-            Assert.IsInstanceOfType(sut.First(), typeof(AntigenDose));
+            env.OrganizeImmunizationHistory();
+            Assert.AreEqual(6, env.ImmunizationHistory.Count);
+            Assert.IsInstanceOfType(env.ImmunizationHistory.First(), typeof(AntigenDose));
         }
 
         [TestMethod]
-        public void CanMakeAnEvaluator()
+        public void CanSelectRelevantPatientSeries()
         {
             var env = Library.Testcases["2013-0002"].CreateProcessingData();
-            var sut =new Evaluation.Evaluator(env);
-            Assert.IsTrue(sut.ProcessingData.RelevantPatientSeries.Any());
+            env.OrganizeImmunizationHistory();
+            env.SelectRelevantPatientSeries();
+            Assert.IsTrue(env.RelevantPatientSeries.Any());
         }
     }
 }
