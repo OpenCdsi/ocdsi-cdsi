@@ -1,14 +1,38 @@
-﻿using System.Linq;
-using Cdsi.SupportingDataLibrary;
+﻿using Cdsi.SupportingDataLibrary;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Enum = Utility.Enum;
 
-namespace Cdsi.Evaluation
+
+namespace Cdsi
 {
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5
     /// </summary>
-    public static partial class AntigenSupportingDataSeries
+    public static class SelectSeriesExt
     {
+        /// <summary>
+        /// Select relevant patient series, Cdsi Logic Spec 4.1 Chapter 5.
+        /// </summary>
+        /// <param name="env"></param>
+        /// <remarks>
+        /// Note that other patient series' can be Add()ed to the processing data,
+        /// for example to evaluate/forecast newborns.
+        /// </remarks>
+        public static void SelectRelevantPatientSeries(this IProcessingData env)
+        {
+            var antigens = env.ImmunizationHistory.Select(x => x.AntigenName).Distinct();
+            foreach (var antigen in antigens)
+            {
+                var sda = SupportingData.Antigen[antigen];
+                var rs = sda.series.Where(x => x.IsRelevantSeries(env)).ToList();
+                env.RelevantPatientSeries.AddAll(rs.Select(x => x.ToModel(env.ImmunizationHistory.Where(x => x.AntigenName == antigen))));
+            }
+        }
+
         /// <summary>
         /// The series is indicated for the patient if any of the series indications are indicated.
         /// </summary>
