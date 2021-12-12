@@ -20,7 +20,7 @@ namespace Cdsi
             series.TargetDoses.AddAll(asds.seriesDose.Select(x => new TargetDose()
             {
                 DoseName = x.doseNumber,
-                Status = TargetDoseStatus.NotSatisfied
+                InadvertentVaccines = x.inadvertentVaccine.Select(x => x.ToModel()).ToList()
             }));
 
             return series;
@@ -33,6 +33,15 @@ namespace Cdsi
 
             series.AntigenDoses.AddAll(ad.Where(x => x.AntigenName == asds.targetDisease));
             return series;
+        }
+
+        public static IInadvertentVaccine ToModel(this antigenSupportingDataSeriesSeriesDoseInadvertentVaccine asdssdiv)
+        {
+            return new InadvertentVaccine
+            {
+                Cvx = asdssdiv.cvx,
+                VaccineType = asdssdiv.vaccineType
+            };
         }
     }
 }

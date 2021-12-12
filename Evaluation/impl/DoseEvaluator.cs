@@ -9,19 +9,36 @@ namespace Cdsi
         // Cdsi Logic Spec 4.1 - Section 6-1
         public bool CanBeEvaluated(IAntigenDose administeredDose)
         {
-            throw new NotImplementedException();
+            var val = administeredDose.DateAdministered <= administeredDose.LotExpiration && string.IsNullOrWhiteSpace(administeredDose.DoseCondition);
+            if (!val)
+            {
+                administeredDose.EvaluationStatus = EvaluationStatus.SubStandard;
+            }
+            return val;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-2
         public bool CanSkip(ITargetDose targetDose)
         {
-            throw new NotImplementedException();
+            var val = true;
+            if (val)
+            {
+
+            }
+            return val;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-3
         public bool IsInadvertentVaccine(IAntigenDose administeredDose, ITargetDose targetDose)
         {
-            throw new NotImplementedException();
+            var val = targetDose.InadvertentVaccines.Select(x => x.VaccineType).Where(x => x == administeredDose.VaccineType).Any();
+            if (val)
+            {
+                administeredDose.EvaluationStatus = EvaluationStatus.NotValid;
+                administeredDose.EvaluationReason = "“Inadvertent Administration";
+                targetDose.Status = TargetDoseStatus.NotSatisfied;
+            }
+            return val;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-4
