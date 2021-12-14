@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Cdsi.SupportingDataLibrary;
 
 namespace Cdsi
 {
@@ -7,8 +8,7 @@ namespace Cdsi
     /// </summary>
     public interface ITargetDose
     {
-        string DoseName { get; }
         TargetDoseStatus Status { get; set; }
-        IList<IInadvertentVaccine> InadvertentVaccines { get; }
+        antigenSupportingDataSeriesSeriesDose SeriesDose { get; }
     }
 }

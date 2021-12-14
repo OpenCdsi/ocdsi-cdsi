@@ -25,9 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 SelectSeries", "SelectSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stages", "Stages", "{62D06A49-9877-44D1-8A27-3943D4A9EBA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcDate", "CalcDate\CalcDate.csproj", "{903E3A1F-EE8C-40A6-9CDE-6EDEF1B964C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcDate", "CalcDate\CalcDate.csproj", "{903E3A1F-EE8C-40A6-9CDE-6EDEF1B964C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEHR", "SimpleEHR\SimpleEHR.csproj", "{52D022E0-6E29-436B-8FA5-A5BE04786C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEhr", "SimpleEHR\SimpleEhr.csproj", "{52D022E0-6E29-436B-8FA5-A5BE04786C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

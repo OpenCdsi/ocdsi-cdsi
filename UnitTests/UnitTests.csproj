@@ -24,7 +24,7 @@
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\OrganizeData\01 OrganizeData.csproj" />
     <ProjectReference Include="..\SelectSeries\02 SelectSeries.csproj" />
-    <ProjectReference Include="..\SimpleEHR\SimpleEHR.csproj" />
+    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
     <ProjectReference Include="..\TestcaseLibrary\TestcaseLibrary.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />

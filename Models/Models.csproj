@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
-    <ProjectReference Include="..\TestcaseLibrary\TestcaseLibrary.csproj" />
   </ItemGroup>
 
 </Project>

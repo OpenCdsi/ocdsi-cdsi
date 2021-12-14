@@ -7,12 +7,12 @@ namespace Cdsi
     public class DoseEvaluator
     {
         // Cdsi Logic Spec 4.1 - Section 6-1
-        public bool CanBeEvaluated(IAntigenDose administeredDose)
+        public bool CanBeEvaluated(IAntigenDose antigenDose)
         {
-            var val = administeredDose.DateAdministered <= administeredDose.LotExpiration && string.IsNullOrWhiteSpace(administeredDose.DoseCondition);
+            var val = antigenDose.AdministeredDose.DateAdministered <= antigenDose.AdministeredDose.LotExpiration && string.IsNullOrWhiteSpace(antigenDose.AdministeredDose.DoseCondition);
             if (!val)
             {
-                administeredDose.EvaluationStatus = EvaluationStatus.SubStandard;
+                antigenDose.EvaluationStatus = EvaluationStatus.SubStandard;
             }
             return val;
         }
@@ -31,7 +31,7 @@ namespace Cdsi
         // Cdsi Logic Spec 4.1 - Section 6-3
         public bool IsInadvertentVaccine(IAntigenDose administeredDose, ITargetDose targetDose)
         {
-            var val = targetDose.InadvertentVaccines.Select(x => x.VaccineType).Where(x => x == administeredDose.VaccineType).Any();
+            var val = targetDose.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == administeredDose.AdministeredDose.VaccineType).Any();
             if (val)
             {
                 administeredDose.EvaluationStatus = EvaluationStatus.NotValid;

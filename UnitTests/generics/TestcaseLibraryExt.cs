@@ -1,17 +1,12 @@
-﻿using Cdsi.TestcaseLibrary;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Cdsi.TestcaseLibrary;
+using System;
 
-namespace Cdsi
+namespace Cdsi.UnitTests
 {
-    public static class SimpleEhrExt
+    public static class TestcaseLibraryExt
     {
-        public static IAssessment GetAssessment(this testcase tc)
-        {
-            return new Assessment
-            {
-                AssessmentDate = tc.AssessmentDate,
-                Patient = tc.Patient.ToEhr(tc.Doses)
-            };
-        }
         public static IPatient ToEhr(this testcasePatient tp, IEnumerable<testcaseVaccineDoseAdministered> tvda)
         {
             var gender = tp.Gender.ToLower().First() switch
@@ -31,6 +26,7 @@ namespace Cdsi
 
             return patient;
         }
+
         public static IVaccineDose ToEhr(this testcaseVaccineDoseAdministered dose)
         {
             return new VaccineDose

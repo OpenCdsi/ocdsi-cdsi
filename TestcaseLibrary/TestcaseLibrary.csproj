@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimpleEHR\SimpleEHR.csproj" />
+    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
   </ItemGroup>
 
 </Project>

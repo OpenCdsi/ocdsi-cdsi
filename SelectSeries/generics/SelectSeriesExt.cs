@@ -12,7 +12,7 @@ namespace Cdsi
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5
     /// </summary>
-    public static class SelectSeriesExt
+    public static partial class SelectSeriesExt
     {
         /// <summary>
         /// Select relevant patient series, Cdsi Logic Spec 4.1 Chapter 5.
@@ -24,13 +24,14 @@ namespace Cdsi
         /// </remarks>
         public static void SelectRelevantPatientSeries(this IEnv env)
         {
+            // Todo: what if newborn who doesnt have an immunization history?
             var antigens = env.Get<IList<IAntigenDose>>(Env.ImmunizationHistory).Select(x => x.AntigenName).Distinct();
 
             foreach (var antigen in antigens)
             {
                 var sda = SupportingData.Antigen[antigen];
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env)).ToList();
-                env.Set(Env.RelevantPatientSeries, rs.Select(x => x.ToModel(env.Get<IList<IAntigenDose>>(Env.ImmunizationHistory).Where(x => x.AntigenName == antigen))));
+                env.Set(Env.RelevantPatientSeries, rs.Select(x => x.ToModel()));
             }
         }
 
@@ -51,6 +52,7 @@ namespace Cdsi
             var patient = env.Get<IPatient>(Env.Patient);
             var beginAge = Defaults.MinAge;
             var endAge = Defaults.MaxAge;
+
             try
             {
                 beginAge = patient.DOB - Interval.Parse(indication.beginAge);

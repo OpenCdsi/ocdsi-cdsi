@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
+using Cdsi.SupportingDataLibrary;
 
 namespace Cdsi
 {
     public interface IPatientSeries
     {
-        string AntigenName { get; }
-        string SeriesName { get; }
-        IList<ITargetDose> TargetDoses { get; }
-        IList<IAntigenDose> AntigenDoses { get; }
         PatientSeriesStatus Status { get; set; }
-        PatientSeriesType SeriesType { get; }
+        antigenSupportingDataSeries Series { get; }
+        string Antigen { get; }
+        string Name { get; }
+        PatientSeriesType Type { get; }
+        IList<ITargetDose> TargetDoses { get; }
     }
 }

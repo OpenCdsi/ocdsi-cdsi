@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj" />
-    <ProjectReference Include="..\SimpleEHR\SimpleEHR.csproj" />
+    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
   </ItemGroup>
 
