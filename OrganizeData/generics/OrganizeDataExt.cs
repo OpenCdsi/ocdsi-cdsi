@@ -13,12 +13,16 @@ namespace Cdsi
         /// </summary>
         /// <param name="env"></param>
         /// <returns></returns>
-        public static void OrganizeImmunizationHistory(this IProcessingData env)
+        public static void OrganizeImmunizationHistory(this IEnv env)
         {
-            var immunizationHistory = env.Patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
+            var patient = env.Get<IPatient>(Env.Patient);
+
+            var immunizationHistory = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.DateAdministered);
-            env.ImmunizationHistory.AddAll(immunizationHistory);
+                .ThenBy(x => x.DateAdministered)
+                .ToList();
+
+            env.Set(Env.ImmunizationHistory, immunizationHistory);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿namespace Cdsi
 {
+
     public partial class Interval : IInterval
     {
         public int Duration { get; internal set; }

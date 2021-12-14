@@ -1,21 +1,5 @@
 ﻿namespace Cdsi
 {
-    public enum IntervalUnit
-    {
-        Day,
-        Week,
-        Month,
-        Year
-    }
-
-    public enum Gender
-    {
-        Unknown,
-        Female,
-        Transgender,
-        Male
-    }
-
     // Table 3-1
     public enum EvaluationStatus
     {

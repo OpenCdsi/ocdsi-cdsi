@@ -7,7 +7,7 @@ namespace Cdsi
     {
         public DateTime DOB { get; set; }
         public Gender Gender { get; set; }
-        public IList<string> ObservationCodes { get; set; } = new List<string>();
-        public IList<IVaccineDose> AdministeredVaccineDoses { get; } = new List<IVaccineDose>();
+        public IList<string> ObservationCodes { get; set; }
+        public IList<IVaccineDose> AdministeredVaccineDoses { get; set; }
     }
 }

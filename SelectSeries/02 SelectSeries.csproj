@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CalcDate\CalcDate.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\SimpleEHR\SimpleEHR.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
   </ItemGroup>
 

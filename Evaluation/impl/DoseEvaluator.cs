@@ -35,7 +35,7 @@ namespace Cdsi
             if (val)
             {
                 administeredDose.EvaluationStatus = EvaluationStatus.NotValid;
-                administeredDose.EvaluationReason = "“Inadvertent Administration";
+                administeredDose.EvaluationReason = "Inadvertent Administration";
                 targetDose.Status = TargetDoseStatus.NotSatisfied;
             }
             return val;

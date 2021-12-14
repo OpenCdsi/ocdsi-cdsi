@@ -17,7 +17,7 @@ namespace Cdsi.UnitTests
 
         public static IEnumerable<IAntigenDose> ToModel(this IEnumerable<testcaseVaccineDoseAdministered> doses)
         {
-            return doses.Select(x => x.ToModel()).SelectMany(x => x.AsAntigenDoses());
+            return doses.Select(x => x.ToEhr()).SelectMany(x => x.AsAntigenDoses());
         }
     }
 }
