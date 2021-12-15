@@ -9,7 +9,7 @@ namespace Cdsi
         antigenSupportingDataSeries Series { get; }
         string Antigen { get; }
         string Name { get; }
-        PatientSeriesType Type { get; }
+        PatientSeriesType SeriesType { get; }
         IList<ITargetDose> TargetDoses { get; }
     }
 }

@@ -24,10 +24,10 @@ namespace Cdsi.UnitTests
         public void CanCreateAntigenDosesFromTestcase()
         {
             var testcase = Library.Testcases[TID[1]];
-            var doses = testcase.Evaluation.AdministeredDoses;
+            var patient = testcase.Patient.ToEhr(testcase.Doses);
+            var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses());
 
-            var sut = doses.ToModel();
-            Assert.AreEqual(3, doses.Count());
+            Assert.AreEqual(3, testcase.Evaluation.AdministeredDoses.Count());
             Assert.AreEqual(15, sut.Count());
             Assert.AreEqual(sut.First().AntigenName, "Diphtheria");
         }
@@ -35,12 +35,15 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanSortAntigenDoses()
         {
-            var test = Library.Testcases[TID[1]];
-            var doses = test.Evaluation.AdministeredDoses;
-            var administered = doses.ToModel();
-            var sut = administered.OrderBy(x => x.AntigenName).ThenBy(x => x.DateAdministered).ToArray();
+
+            var testcase = Library.Testcases[TID[1]];
+            var patient = testcase.Patient.ToEhr(testcase.Doses);
+            var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
+                .OrderBy(x => x.AntigenName)
+                .ThenBy(x => x.AdministeredDose.DateAdministered).ToArray();
+
             Assert.AreEqual(sut[0].AntigenName, sut[1].AntigenName);
-            Assert.IsTrue(sut[0].DateAdministered < sut[1].DateAdministered);
+            Assert.IsTrue(sut[0].AdministeredDose.DateAdministered < sut[1].AdministeredDose.DateAdministered);
         }
     }
 }

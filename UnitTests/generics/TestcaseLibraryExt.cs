@@ -19,7 +19,8 @@ namespace Cdsi.UnitTests
             var patient = new Patient
             {
                 DOB = tp.DOB,
-                Gender = gender
+                Gender = gender,
+                ObservationCodes = new List<string>()
             };
 
             patient.AdministeredVaccineDoses = tvda.Select(x => x.ToEhr()).ToList();
@@ -38,5 +39,15 @@ namespace Cdsi.UnitTests
                 VaccineType = dose.VaccineName
             };
         }
+
+        public static IEnv GetEnv(this testcase testcase)
+        {
+            var env = new Env();
+            env.Set(Env.Patient, testcase.Patient.ToEhr(testcase.Doses));
+            env.Set(Env.AssessmentDate, testcase.AssessmentDate);
+
+            return env;
+        }
     }
 }
+

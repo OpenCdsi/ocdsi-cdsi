@@ -30,8 +30,8 @@ namespace Cdsi
             foreach (var antigen in antigens)
             {
                 var sda = SupportingData.Antigen[antigen];
-                var rs = sda.series.Where(x => x.IsRelevantSeries(env)).ToList();
-                env.Set(Env.RelevantPatientSeries, rs.Select(x => x.ToModel()));
+                var rs = sda.series.Where(x => x.IsRelevantSeries(env));
+                env.Set(Env.RelevantPatientSeries, rs.Select(x => x.ToModel()).ToList());
             }
         }
 
@@ -85,7 +85,7 @@ namespace Cdsi
         /// <remarks>TABLE 5-4 IS THE SERIES RELEVANT FOR THE PATIENT?</remarks>
         public static bool IsRequiredGender(this antigenSupportingDataSeries series, Gender gender)
         {
-            return !series.requiredGender.Where(x => !string.IsNullOrWhiteSpace(x)).Any() || series.requiredGender.Where(x => x == gender.ToString()).Any();
+            return string.IsNullOrWhiteSpace(series.requiredGender[0]) || series.requiredGender.Where(x => x == gender.ToString()).Any();
         }
     }
 }

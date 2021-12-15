@@ -11,6 +11,7 @@ namespace Cdsi
         {
             return new PatientSeries()
             {
+                Series = series,
                 Status = PatientSeriesStatus.NotComplete,
                 TargetDoses = series.seriesDose.Select(x => (ITargetDose)new TargetDose()
                 {

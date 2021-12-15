@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Cdsi.SupportingDataLibrary;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Cdsi.UnitTests
@@ -9,19 +11,23 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanOrganizeImmunizationHistory()
         {
-            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var env = Library.Testcases["2013-0002"].GetEnv();
             env.OrganizeImmunizationHistory();
-            Assert.AreEqual(6, env.ImmunizationHistory.Count);
-            Assert.IsInstanceOfType(env.ImmunizationHistory.First(), typeof(AntigenDose));
+            var sut = env.Get<IList<IAntigenDose>>(Env.ImmunizationHistory);
+
+            Assert.AreEqual(6, sut.Count);
+            Assert.IsInstanceOfType(sut.First(), typeof(AntigenDose));
         }
 
         [TestMethod]
         public void CanSelectRelevantPatientSeries()
         {
-            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var env = Library.Testcases["2013-0002"].GetEnv();
             env.OrganizeImmunizationHistory();
             env.SelectRelevantPatientSeries();
-            Assert.IsTrue(env.RelevantPatientSeries.Any());
+            var sut = env.Get<IList<IPatientSeries>>(Env.RelevantPatientSeries);
+
+            Assert.IsTrue(sut.Any());
         }
     }
 }

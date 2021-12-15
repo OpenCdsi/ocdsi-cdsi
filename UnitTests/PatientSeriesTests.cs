@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -9,7 +10,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void SelectsStandardSeries()
         {
-            var env = Library.Testcases["2013-0002"].CreateProcessingData();
+            var env = Library.Testcases["2013-0002"].GetEnv();
             var antigen = SupportingData.Antigen["Measles"];
             var sut = antigen.series.First().IsRelevantSeries(env);
             Assert.IsTrue(sut);
@@ -18,9 +19,11 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void SelectsRiskSeriesBecauseOfObservation()
         {
-            var env = Library.Testcases["2013-0002"].CreateProcessingData();
-            env.Patient.ObservationCodes.Add("048");
-            ((Patient)env.Patient).DOB = env.Patient.DOB.AddDays(-180);
+            var env = Library.Testcases["2013-0002"].GetEnv();
+            var patient = env.Get<IPatient>(Env.Patient);
+            patient.ObservationCodes.Add("048");
+            patient.DOB -= Interval.SixMonths;
+
             var antigen = SupportingData.Antigen["Measles"];
             var sut = antigen.series.Second().IsRelevantSeries(env);
             Assert.IsTrue(sut);
@@ -29,10 +32,16 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void DontSelectsRiskSeriesBecauseOfAge()
         {
-            var env = Library.Testcases["2013-0002"].CreateProcessingData();
-            env.Patient.ObservationCodes.ToList().Add("048");
+            var env = Library.Testcases["2013-0002"].GetEnv();
+            var assessmentDate = env.Get<DateTime>(Env.AssessmentDate) + Interval.OneYear;
+            env.Set(Env.AssessmentDate, assessmentDate);
+            var patient = env.Get<IPatient>(Env.Patient);
+            patient.ObservationCodes.Add("048");
+
             var antigen = SupportingData.Antigen["Measles"];
-            var sut = antigen.series.Second().IsRelevantSeries(env);
+            var series = antigen.series.Second();
+            var sut = series.IsRelevantSeries(env);
+
             Assert.IsFalse(sut);
         }
 
@@ -41,7 +50,8 @@ namespace Cdsi.UnitTests
         {
             var antigen = SupportingData.Antigen["Measles"];
             var sut = antigen.series.First().ToModel();
-            Assert.AreEqual(PatientSeriesType.Standard,sut.SeriesType);
+
+            Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
         }
 
         [TestMethod]
