@@ -19,8 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Evaluation\Evaluation.csproj" />
+    <ProjectReference Include="..\CalcDate\CalcDate.csproj" />
+    <ProjectReference Include="..\Evaluation\03 DoseEvaluation.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\OrganizeData\01 OrganizeData.csproj" />
+    <ProjectReference Include="..\SelectSeries\02 SelectSeries.csproj" />
+    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
     <ProjectReference Include="..\TestcaseLibrary\TestcaseLibrary.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />

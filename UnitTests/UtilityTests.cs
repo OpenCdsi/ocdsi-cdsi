@@ -19,10 +19,10 @@ namespace Cdsi.UnitTests
         public void CanParseGenderFromNullOrEmptyString()
         {
             var sut = Enum.TryParse<Gender>("");
-            Assert.AreEqual(Gender.Unknown, sut);
+            Assert.AreEqual(Gender.Any, sut);
 
             sut = Enum.TryParse<Gender>(null);
-            Assert.AreEqual(Gender.Unknown, sut);
+            Assert.AreEqual(Gender.Any, sut);
         }
     }
 }

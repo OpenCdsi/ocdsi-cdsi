@@ -1,14 +1,18 @@
 ﻿using System.Collections.Generic;
+using Enum = Utility.Enum;
+
+using Cdsi.SupportingDataLibrary;
+using System;
 
 namespace Cdsi
 {
     public class PatientSeries : IPatientSeries
     {
-        public string AntigenName { get; internal set; }
-        public string SeriesName { get; internal set;}
-        public IList<ITargetDose> TargetDoses { get; } = new List<ITargetDose>();
-        public IList<IAntigenDose> AntigenDoses { get; } = new List<IAntigenDose>();
         public PatientSeriesStatus Status { get; set; }
-        public PatientSeriesType SeriesType { get; internal set; }
+        public antigenSupportingDataSeries Series { get; internal set; }
+        public string Antigen { get => Series.targetDisease; }
+        public string Name { get => Series.seriesName; }
+        public PatientSeriesType SeriesType { get => Enum.TryParse<PatientSeriesType>(Series.seriesType); }
+        public IList<ITargetDose> TargetDoses { get; internal set; }
     }
 }

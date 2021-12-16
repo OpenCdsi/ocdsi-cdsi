@@ -3,9 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Cdsi</RootNamespace>
+    <AssemblyName>DoseEvaluation</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\SupportingData\SupportingDataLibrary.csproj" />
   </ItemGroup>
