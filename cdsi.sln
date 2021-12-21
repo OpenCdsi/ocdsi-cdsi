@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mkdb", "RefLibToJson\mkdb.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{91E22151-5585-4790-BBFE-F54FF55C075D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 DoseEvaluation", "Evaluation\03 DoseEvaluation.csproj", "{55FEA464-B97F-467F-AF1C-8882A3B2EBE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 SeriesEvaluation", "Evaluation\03 SeriesEvaluation.csproj", "{55FEA464-B97F-467F-AF1C-8882A3B2EBE1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{4D4D2A88-C7A7-48C3-B2E3-562BF88FA69A}"
 EndProject

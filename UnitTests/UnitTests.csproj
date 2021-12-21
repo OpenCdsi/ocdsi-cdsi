@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalcDate\CalcDate.csproj" />
-    <ProjectReference Include="..\Evaluation\03 DoseEvaluation.csproj" />
+    <ProjectReference Include="..\Evaluation\03 SeriesEvaluation.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\OrganizeData\01 OrganizeData.csproj" />
     <ProjectReference Include="..\SelectSeries\02 SelectSeries.csproj" />

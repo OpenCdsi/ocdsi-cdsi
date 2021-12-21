@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace Cdsi
 {
-    public class Env : Dictionary<string, object>, IEnv
+    public class Env : Dictionary<object, object>, IEnv
     {
         public const string Patient = "PATIENT";
         public const string AssessmentDate = "ASSESSMENT_DATE";
         public const string ImmunizationHistory = "IMMUNIZATION_HISTORY";
         public const string RelevantPatientSeries = "RELEVANT_PATIENT_SERIES";
 
-        public T Get<T>(string key)
+        public T Get<T>(object key)
         {
             return (T)this[key];
         }
 
-        public void Set(string key, object value)
+        public void Set(object key, object value)
         {
             this[key] = value;
         }

@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cdsi
 {
-    public interface IEnv : IDictionary<object, object>
+    public interface ISeriesEvaluator
     {
-        T Get<T>(object key);
-        void Set(object key, object value);
     }
 }

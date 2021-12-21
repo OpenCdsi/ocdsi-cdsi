@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Cdsi</RootNamespace>
-    <AssemblyName>DoseEvaluation</AssemblyName>
+    <AssemblyName>Evaluation</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

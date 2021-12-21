@@ -4,8 +4,13 @@ using System.Linq;
 
 namespace Cdsi
 {
-    public class DoseEvaluator
+    public class DoseEvaluator : IEvaluator, IDoseEvaluator
     {
+        public void Evaluate(IEnv env)
+        {
+            throw new NotImplementedException();
+        }
+
         // Cdsi Logic Spec 4.1 - Section 6-1
         public bool CanBeEvaluated(IAntigenDose antigenDose)
         {
