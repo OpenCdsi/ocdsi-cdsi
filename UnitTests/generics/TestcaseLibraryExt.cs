@@ -43,8 +43,8 @@ namespace Cdsi.UnitTests
         public static IEnv GetEnv(this testcase testcase)
         {
             var env = new Env();
-            env.Set(Env.Patient, testcase.Patient.ToEhr(testcase.Doses));
-            env.Set(Env.AssessmentDate, testcase.AssessmentDate);
+            env.Patient = testcase.Patient.ToEhr(testcase.Doses);
+            env.AssessmentDate = testcase.AssessmentDate;
 
             return env;
         }

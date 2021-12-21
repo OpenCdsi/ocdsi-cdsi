@@ -10,8 +10,6 @@ namespace Cdsi
     {
         public void Evaluate(IEnv env)
         {
-            var antigendoses = env.Get<IList<IAntigenDose>>(Env.Patient)
-            throw new NotImplementedException();
         }
     }
 }

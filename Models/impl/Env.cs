@@ -8,21 +8,11 @@ using System.Threading.Tasks;
 
 namespace Cdsi
 {
-    public class Env : Dictionary<object, object>, IEnv
+    public class Env : IEnv
     {
-        public const string Patient = "PATIENT";
-        public const string AssessmentDate = "ASSESSMENT_DATE";
-        public const string ImmunizationHistory = "IMMUNIZATION_HISTORY";
-        public const string RelevantPatientSeries = "RELEVANT_PATIENT_SERIES";
-
-        public T Get<T>(object key)
-        {
-            return (T)this[key];
-        }
-
-        public void Set(object key, object value)
-        {
-            this[key] = value;
-        }
+        public IPatient Patient { get; set; }
+        public DateTime AssessmentDate { get; set; }
+        public IList<IAntigenDose> ImmunizationHistory { get; set; }
+        public IList<IPatientSeries> RelevantPatientSeries { get; set; }
     }
 }

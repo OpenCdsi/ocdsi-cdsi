@@ -13,7 +13,7 @@ namespace Cdsi.UnitTests
         {
             var env = Library.Testcases["2013-0002"].GetEnv();
             env.OrganizeImmunizationHistory();
-            var sut = env.Get<IList<IAntigenDose>>(Env.ImmunizationHistory);
+            var sut = env.ImmunizationHistory;
 
             Assert.AreEqual(6, sut.Count);
             Assert.IsInstanceOfType(sut.First(), typeof(AntigenDose));
@@ -25,7 +25,7 @@ namespace Cdsi.UnitTests
             var env = Library.Testcases["2013-0002"].GetEnv();
             env.OrganizeImmunizationHistory();
             env.SelectRelevantPatientSeries();
-            var sut = env.Get<IList<IPatientSeries>>(Env.RelevantPatientSeries);
+            var sut = env.RelevantPatientSeries;
 
             Assert.IsTrue(sut.Any());
         }

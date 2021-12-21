@@ -20,7 +20,7 @@ namespace Cdsi.UnitTests
         public void SelectsRiskSeriesBecauseOfObservation()
         {
             var env = Library.Testcases["2013-0002"].GetEnv();
-            var patient = env.Get<IPatient>(Env.Patient);
+            var patient = env.Patient;
             patient.ObservationCodes.Add("048");
             patient.DOB -= Interval.SixMonths;
 
@@ -33,10 +33,8 @@ namespace Cdsi.UnitTests
         public void DontSelectsRiskSeriesBecauseOfAge()
         {
             var env = Library.Testcases["2013-0002"].GetEnv();
-            var assessmentDate = env.Get<DateTime>(Env.AssessmentDate) + Interval.OneYear;
-            env.Set(Env.AssessmentDate, assessmentDate);
-            var patient = env.Get<IPatient>(Env.Patient);
-            patient.ObservationCodes.Add("048");
+            env.AssessmentDate+=Interval.OneYear;
+            env.Patient.ObservationCodes.Add("048");
 
             var antigen = SupportingData.Antigen["Measles"];
             var series = antigen.series.Second();

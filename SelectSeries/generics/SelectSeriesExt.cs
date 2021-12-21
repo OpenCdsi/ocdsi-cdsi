@@ -25,13 +25,13 @@ namespace Cdsi
         public static void SelectRelevantPatientSeries(this IEnv env)
         {
             // Todo: what if newborn who doesnt have an immunization history?
-            var antigens = env.Get<IList<IAntigenDose>>(Env.ImmunizationHistory).Select(x => x.AntigenName).Distinct();
+            var antigens = env.ImmunizationHistory.Select(x => x.AntigenName).Distinct();
 
             foreach (var antigen in antigens)
             {
                 var sda = SupportingData.Antigen[antigen];
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env));
-                env.Set(Env.RelevantPatientSeries, rs.Select(x => x.ToModel()).ToList());
+                env.RelevantPatientSeries = rs.Select(x => x.ToModel()).ToList();
             }
         }
 
@@ -48,8 +48,8 @@ namespace Cdsi
 
         public static bool IsIndicated(this antigenSupportingDataSeriesIndication indication, IEnv env)
         {
-            var assessmentDate = env.Get<DateTime>(Env.AssessmentDate);
-            var patient = env.Get<IPatient>(Env.Patient);
+            var assessmentDate = env.AssessmentDate;
+            var patient = env.Patient;
             var beginAge = Defaults.MinAge;
             var endAge = Defaults.MaxAge;
 
@@ -73,7 +73,7 @@ namespace Cdsi
 
         public static bool IsRelevantSeries(this antigenSupportingDataSeries series, IEnv env)
         {
-            return series.IsRequiredGender(env.Get<IPatient>(Env.Patient).Gender) && (Enum.TryParse<PatientSeriesType>(series.seriesType) == PatientSeriesType.Standard || series.IsIndicated(env));
+            return series.IsRequiredGender(env.Patient.Gender) && (Enum.TryParse<PatientSeriesType>(series.seriesType) == PatientSeriesType.Standard || series.IsIndicated(env));
         }
 
         /// <summary>

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Cdsi
 {
-    public interface IEnv : IDictionary<object, object>
+    public interface IEnv
     {
-        T Get<T>(object key);
-        void Set(object key, object value);
+        IPatient Patient { get; set; }
+        DateTime AssessmentDate { get; set; }
+        IList<IAntigenDose> ImmunizationHistory { get; set; }
+        IList<IPatientSeries> RelevantPatientSeries { get; set; }
     }
 }
