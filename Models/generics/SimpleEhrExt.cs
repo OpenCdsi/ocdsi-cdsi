@@ -14,7 +14,12 @@ namespace Cdsi
                     AntigenName = x,
                     AdministeredDose = dose,
                     EvaluationStatus = EvaluationStatus.NotValid
-                })
+                });
+        }
+
+        public static IEnumerable<IAntigenDose> AsAntigenDoses(this IEnumerable<IVaccineDose> doses)
+        {
+            return doses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
                 .ThenBy(x => x.AdministeredDose.DateAdministered);
         }

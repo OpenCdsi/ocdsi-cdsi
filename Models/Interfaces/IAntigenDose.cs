@@ -1,4 +1,6 @@
-﻿namespace Cdsi
+﻿using System;
+
+namespace Cdsi
 {
     /// <summary>
     /// Represents an antigen dose administered to a patient.
