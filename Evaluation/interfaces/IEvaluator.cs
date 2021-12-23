@@ -8,6 +8,6 @@ namespace Cdsi
 {
     public interface IEvaluator
     {
-        void Evaluate(IEnv env);
+        void Evaluate();
     }
 }

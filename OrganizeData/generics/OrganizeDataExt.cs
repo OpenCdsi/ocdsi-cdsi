@@ -17,7 +17,8 @@ namespace Cdsi
         {
             var patient = env.Patient;
 
-            var immunizationHistory = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
+            var immunizationHistory = patient.AdministeredVaccineDoses
+                .SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
                 .ThenBy(x => x.AdministeredDose.DateAdministered)
                 .ToList();
