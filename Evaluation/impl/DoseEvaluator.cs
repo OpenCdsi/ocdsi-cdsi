@@ -13,8 +13,12 @@ namespace Cdsi
 
         public void Evaluate()
         {
-            this.CanBeEvaluated();
-            throw new NotImplementedException();
+            if (!this.CanBeEvaluated() || this.CanSkip() || this.IsInadvertentVaccine())
+            {
+                return;
+            }
+
+           this.SatisfyTargetDose();
         }
     }
 }

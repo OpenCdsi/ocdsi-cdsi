@@ -9,6 +9,8 @@ namespace Cdsi
         // Cdsi Logic Spec 4.1 - Section 6-1
         public static bool CanBeEvaluated(this IDoseEvaluator _)
         {
+            if(_.AntigenDose==null) return false;
+
             var administeredDose = _.AntigenDose.AdministeredDose;
 
             var val = administeredDose.DateAdministered <= administeredDose.LotExpiration && string.IsNullOrWhiteSpace(administeredDose.DoseCondition);
@@ -22,7 +24,7 @@ namespace Cdsi
         // Cdsi Logic Spec 4.1 - Section 6-2
         public static bool CanSkip(this IDoseEvaluator _)
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-3
@@ -42,45 +44,60 @@ namespace Cdsi
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-4
-        public static void EvaluateAge(this IDoseEvaluator _, IAntigenDose previousAntigenDose)
+        public static bool EvaluateAge(this IDoseEvaluator _, IAntigenDose previousAntigenDose)
         {
+            return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-5
-        public static void EvaluatePreferableInterval(this IDoseEvaluator _)
+        public static bool EvaluatePreferableInterval(this IDoseEvaluator _)
         {
-
+            return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-6
-        public static void EvaluateAllowableInterval(this IDoseEvaluator _)
+        public static bool EvaluateAllowableInterval(this IDoseEvaluator _)
         {
-
+            return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-7
-        public static void EvaluateLiveVirusConflict(this IDoseEvaluator _)
+        public static bool EvaluateLiveVirusConflict(this IDoseEvaluator _)
         {
-
-
+            return false;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-8
-        public static void EvaluateForPreferableVaccine(this IDoseEvaluator _)
+        public static bool EvaluateForPreferableVaccine(this IDoseEvaluator _)
         {
-
+            return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-9
-        public static void EvaluateForAllowableVaccine(this IDoseEvaluator _)
+        public static bool EvaluateForAllowableVaccine(this IDoseEvaluator _)
         {
-
+            return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-10
-        public static void SatisfyTargetDose(this IDoseEvaluator _)
+        public static bool SatisfyTargetDose(this IDoseEvaluator _)
         {
+            // this will short circuit so some status' might not get set correctly.
+            // need to evaluate and later check the result?
+            var val = _.EvaluateAge(null)
+                && _.EvaluatePreferableInterval()
+                && _.EvaluateAllowableInterval()
+                && !_.EvaluateLiveVirusConflict()
+                && _.EvaluateForPreferableVaccine()
+                && _.EvaluateForAllowableVaccine();
 
+            if (val)
+            {
+                _.TargetDose.Status = TargetDoseStatus.Satisfied;
+            }
+
+            return val;
         }
+
     }
 }
