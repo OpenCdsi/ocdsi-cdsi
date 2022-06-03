@@ -13,7 +13,7 @@ namespace Cdsi
         /// </summary>
         /// <param name="env"></param>
         /// <returns></returns>
-        public static void OrganizeImmunizationHistory(this IEnv env)
+        public static IEnv OrganizeImmunizationHistory(this IEnv env)
         {
             var patient = env.Patient;
 
@@ -24,6 +24,8 @@ namespace Cdsi
                 .ToList();
 
             env.ImmunizationHistory = immunizationHistory;
-        }
+
+        return env;
     }
+        }
 }

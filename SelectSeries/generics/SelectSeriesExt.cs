@@ -22,7 +22,7 @@ namespace Cdsi
         /// Note that other patient series' can be Add()ed to the processing data,
         /// for example to evaluate/forecast newborns.
         /// </remarks>
-        public static void SelectRelevantPatientSeries(this IEnv env)
+        public static IEnv SelectRelevantPatientSeries(this IEnv env)
         {
             // Todo: what if newborn who doesnt have an immunization history?
             var antigens = env.ImmunizationHistory.Select(x => x.AntigenName).Distinct();
@@ -33,6 +33,7 @@ namespace Cdsi
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env));
                 env.RelevantPatientSeries = rs.Select(x => x.ToModel()).ToList();
             }
+            return env;
         }
 
         /// <summary>

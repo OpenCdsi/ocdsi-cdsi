@@ -15,6 +15,7 @@ namespace Cdsi
         {
             if (!this.CanBeEvaluated() || this.CanSkip() || this.IsInadvertentVaccine())
             {
+                // TODO Set status of the doses?
                 return;
             }
 
