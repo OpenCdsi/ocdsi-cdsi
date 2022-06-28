@@ -38,7 +38,7 @@ namespace Cdsi.UnitTests
         /// need to select a risk series or a different standard series.</remarks>
         private static IEnumerable<ITargetDose> GetTargetDosesFromSupportingData(string antigenName)
         {
-            var series = SupportingData.Antigen[antigenName].series[0].ToModel();
+            var series =Data.Antigen[antigenName].series[0].ToModel();
             return series.TargetDoses;
         }
     }

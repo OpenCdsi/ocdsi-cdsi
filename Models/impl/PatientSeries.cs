@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Enum = Utility.Enum;
 
-using Cdsi.SupportingDataLibrary;
+using Cdsi.SupportingData;
 using System;
 
 namespace Cdsi

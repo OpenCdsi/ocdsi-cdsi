@@ -1,4 +1,4 @@
-﻿using Cdsi.SupportingDataLibrary;
+﻿using Cdsi.SupportingData;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;

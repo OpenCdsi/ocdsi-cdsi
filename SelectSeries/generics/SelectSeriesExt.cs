@@ -1,11 +1,5 @@
-﻿using Cdsi.SupportingDataLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Cdsi.SupportingData;
 using Enum = Utility.Enum;
-
 
 namespace Cdsi
 {
@@ -29,7 +23,7 @@ namespace Cdsi
 
             foreach (var antigen in antigens)
             {
-                var sda = SupportingData.Antigen[antigen];
+                var sda = Data.Antigen[antigen];
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env));
                 env.RelevantPatientSeries = rs.Select(x => x.ToModel()).ToList();
             }
@@ -56,14 +50,14 @@ namespace Cdsi
 
             try
             {
-                beginAge = patient.DOB - Interval.Parse(indication.beginAge);
+                beginAge = patient.DOB - Duration.Parse(indication.beginAge).First();
             }
             catch
             {
             };
             try
             {
-                endAge = patient.DOB + Interval.Parse(indication.endAge);
+                endAge = patient.DOB + Duration.Parse(indication.endAge).First();
             }
             catch
             {

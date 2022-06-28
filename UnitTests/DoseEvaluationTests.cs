@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Cdsi.SupportingDataLibrary;
-using Cdsi.TestcaseLibrary;
+using Cdsi.SupportingData;
+
 using System.Linq;
 using System.Collections.Generic;
 
