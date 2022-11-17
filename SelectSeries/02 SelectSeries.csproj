@@ -9,11 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cdsi.Duration" Version="1.1.1" />
-    <PackageReference Include="Cdsi.SupportingData" Version="1.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />
