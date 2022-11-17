@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.SupportingData;
+using OpenCdsi.SupportingData;
 using Enum = Utility.Enum;
 
 namespace Cdsi

@@ -1,4 +1,5 @@
-﻿using Cdsi.SupportingData;
+﻿using OpenCdsi.SupportingData;
+using OpenCdsi.Date;
 using Enum = Utility.Enum;
 
 namespace Cdsi
@@ -23,7 +24,7 @@ namespace Cdsi
 
             foreach (var antigen in antigens)
             {
-                var sda = Data.Antigen[antigen];
+                var sda = OpenCdsi.Data.Antigen[antigen];
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env));
                 env.RelevantPatientSeries = rs.Select(x => x.ToModel()).ToList();
             }
@@ -50,14 +51,14 @@ namespace Cdsi
 
             try
             {
-                beginAge = patient.DOB - Duration.Parse(indication.beginAge).First();
+                beginAge = patient.DOB - Duration.Parse(indication.beginAge).Values.First();
             }
             catch
             {
             };
             try
             {
-                endAge = patient.DOB + Duration.Parse(indication.endAge).First();
+                endAge = patient.DOB + Duration.Parse(indication.endAge).Values.First();
             }
             catch
             {

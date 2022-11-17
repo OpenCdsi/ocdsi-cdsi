@@ -1,4 +1,4 @@
-﻿using Cdsi.SupportingData;
+﻿using OpenCdsi.SupportingData;
 using System.Collections.Generic;
 
 namespace Cdsi

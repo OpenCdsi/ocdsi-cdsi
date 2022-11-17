@@ -1,4 +1,4 @@
-﻿using Cdsi.SupportingData;
+﻿using OpenCdsi.SupportingData;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanOrganizeImmunizationHistory()
         {
-            var sut = Library.Testcases["2013-0002"]
+            var sut = OpenCdsi.Library.Testcases["2013-0002"]
                 .GetEnv()
                 .OrganizeImmunizationHistory()
                 .ImmunizationHistory;
@@ -23,7 +23,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanSelectRelevantPatientSeries()
         {
-            var sut = Library.Testcases["2013-0002"]
+            var sut = OpenCdsi.Library.Testcases["2013-0002"]
                 .GetEnv()
                 .OrganizeImmunizationHistory()
                 .SelectRelevantPatientSeries()
@@ -35,7 +35,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanEvaluatePatientSeries()
         {
-            var sut = Library.Testcases["2013-0002"]
+            var sut = OpenCdsi.Library.Testcases["2013-0002"]
                 .GetEnv()
                 .OrganizeImmunizationHistory()
                 .SelectRelevantPatientSeries()

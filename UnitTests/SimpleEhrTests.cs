@@ -12,7 +12,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanCreateSimpleEhrObjecFromTestcase()
         {
-            var testcase = Library.Testcases[TID[0]];
+            var testcase = OpenCdsi.Library.Testcases[TID[0]];
             var sut = testcase.Patient.ToEhr(testcase.Doses);
 
             Assert.AreEqual(new DateTime(2020, 6, 9), sut.DOB);
@@ -23,7 +23,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanCreateAntigenDosesFromTestcase()
         {
-            var testcase = Library.Testcases[TID[1]];
+            var testcase = OpenCdsi.Library.Testcases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
             var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses());
 
@@ -36,7 +36,7 @@ namespace Cdsi.UnitTests
         public void CanSortAntigenDoses()
         {
 
-            var testcase = Library.Testcases[TID[1]];
+            var testcase = OpenCdsi.Library.Testcases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
             var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)

@@ -10,8 +10,8 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CreateASeriesEvaluator()
         {
-            var env = Library.Testcases["2013-0002"].GetEnv();
-            var antigen = Data.Antigen["Measles"];
+            var env = OpenCdsi.Library.Testcases["2013-0002"].GetEnv();
+            var antigen = OpenCdsi.Data.Antigen["Measles"];
             var series = antigen.series.First().ToModel();
             var sut = new SeriesEvaluator
             {

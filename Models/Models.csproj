@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="OpenCdsi.Schedule" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>

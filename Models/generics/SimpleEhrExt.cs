@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.SupportingData;
+using OpenCdsi.SupportingData;
 
 namespace Cdsi
 {
@@ -8,7 +8,7 @@ namespace Cdsi
     {
         public static IEnumerable<IAntigenDose> AsAntigenDoses(this IVaccineDose dose)
         {
-            return Data.Schedule.GetAntigenNames(dose.CVX)
+            return OpenCdsi.Data.Schedule.GetAntigenNames(dose.CVX)
                 .Select(x => new AntigenDose
                 {
                     AntigenName = x,

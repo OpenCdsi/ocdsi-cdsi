@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Cdsi.Testcases;
+using OpenCdsi.Cases;
 using System;
 
 namespace Cdsi.UnitTests

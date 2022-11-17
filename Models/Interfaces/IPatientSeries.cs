@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Cdsi.SupportingData;
+using OpenCdsi.SupportingData;
 
 namespace Cdsi
 {

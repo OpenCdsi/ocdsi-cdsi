@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Cdsi.SupportingData;
+using OpenCdsi.SupportingData;
 
 using System.Linq;
 using System.Collections.Generic;
