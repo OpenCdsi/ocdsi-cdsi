@@ -20,10 +20,9 @@ namespace Cdsi.UnitTests
             {
                 DOB = tp.DOB,
                 Gender = gender,
-                ObservationCodes = new List<string>()
+                ObservationCodes = new List<string>(),
+                AdministeredVaccineDoses = tvda.Select(x => x.ToEhr()).ToList()
             };
-
-            patient.AdministeredVaccineDoses = tvda.Select(x => x.ToEhr()).ToList();
 
             return patient;
         }

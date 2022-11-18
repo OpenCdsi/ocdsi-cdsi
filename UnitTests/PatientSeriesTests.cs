@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json.Linq;
@@ -6,7 +7,7 @@ using OpenCdsi.Date;
 
 namespace Cdsi.UnitTests
 {
-        [TestClass]
+    [TestClass]
     public class PatientSeriesTests
     {
         [TestMethod]
@@ -22,9 +23,13 @@ namespace Cdsi.UnitTests
         public void SelectsRiskSeriesBecauseOfObservation()
         {
             var env = OpenCdsi.Library.Testcases["2013-0002"].GetEnv();
-            var patient = env.Patient;
-            patient.ObservationCodes.Add("048");
-            patient.DOB -= Duration.Parse("1 month");
+            env.Patient = new Patient
+            {
+                DOB = env.Patient.DOB - Duration.Parse("1 month"),
+                Gender = env.Patient.Gender,
+                AdministeredVaccineDoses = env.Patient.AdministeredVaccineDoses,
+                ObservationCodes = new List<string> { "048" }
+            };
 
             var antigen = OpenCdsi.Data.Antigen["Measles"];
             var sut = antigen.series.Second().IsRelevantSeries(env);

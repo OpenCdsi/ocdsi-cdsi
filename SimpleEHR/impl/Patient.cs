@@ -5,9 +5,9 @@ namespace Cdsi
 {
     public class Patient : IPatient
     {
-        public DateTime DOB { get; set; }
-        public Gender Gender { get; set; }
-        public IList<string> ObservationCodes { get; set; }
-        public IList<IVaccineDose> AdministeredVaccineDoses { get; set; }
+        public DateTime DOB { get; init; }
+        public Gender Gender { get; init; }
+        public IList<string> ObservationCodes { get; init; } = new List<string>();
+        public IList<IVaccineDose> AdministeredVaccineDoses { get; init; } = new List<IVaccineDose>();
     }
 }

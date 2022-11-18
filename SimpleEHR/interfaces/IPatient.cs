@@ -5,8 +5,8 @@ namespace Cdsi
 {
     public interface IPatient
     {
-        DateTime DOB { get; set; }
-        Gender Gender { get; set; }
+        DateTime DOB { get; }
+        Gender Gender { get; }
         IList<string> ObservationCodes { get; }
         IList<IVaccineDose> AdministeredVaccineDoses { get; }
     }
