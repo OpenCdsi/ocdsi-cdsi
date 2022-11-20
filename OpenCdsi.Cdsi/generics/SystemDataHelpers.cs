@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace System.Data
+﻿namespace System.Data
 {
     public static class SystemDataHelpers
     {

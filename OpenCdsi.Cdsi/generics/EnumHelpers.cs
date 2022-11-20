@@ -1,4 +1,4 @@
-﻿namespace Utility
+﻿namespace OpenCdsi.Cdsi
 {
     public static class Enum
     {

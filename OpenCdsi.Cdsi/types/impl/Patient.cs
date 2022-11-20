@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     public class Patient : IPatient
     {

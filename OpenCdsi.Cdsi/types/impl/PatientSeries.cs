@@ -1,10 +1,4 @@
-﻿using System.Collections.Generic;
-using Enum = Utility.Enum;
-
-using OpenCdsi.SupportingData;
-using System;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     public class PatientSeries : IPatientSeries
     {

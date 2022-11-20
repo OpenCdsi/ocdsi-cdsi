@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
 
     public class AntigenDose : IAntigenDose

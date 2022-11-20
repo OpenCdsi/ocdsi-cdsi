@@ -16,15 +16,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="OpenCdsi.Cases" Version="2.428.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Evaluation\03 SeriesEvaluation.csproj" />
-    <ProjectReference Include="..\OrganizeData\01 OrganizeData.csproj" />
-    <ProjectReference Include="..\SelectSeries\02 SelectSeries.csproj" />
-    <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
-    <ProjectReference Include="..\Utility\Utility.csproj" />
+    <ProjectReference Include="..\Evaluation\OpenCdsi.Cdsi.Evaluation.csproj" />
+    <ProjectReference Include="..\GatherData\OpenCdsi.Cdsi.GatherData.csproj" />
+    <ProjectReference Include="..\OpenCdsi.Cdsi\OpenCdsi.Cdsi.csproj" />
+    <ProjectReference Include="..\SelectSeries\OpenCdsi.Cdsi.SelectSeries.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using OpenCdsi.SupportingData;
-using Enum = Utility.Enum;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     public static partial class SupportingDataExt
     {

@@ -1,4 +1,4 @@
-﻿namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     // Table 3-1
     public enum EvaluationStatus

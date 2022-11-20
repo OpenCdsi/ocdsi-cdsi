@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using OpenCdsi.SupportingData;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     public interface IPatientSeries
     {

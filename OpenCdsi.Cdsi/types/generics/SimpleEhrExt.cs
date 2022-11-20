@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using OpenCdsi.SupportingData;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi
 {
     public static class SimpleEhrExt
     {
