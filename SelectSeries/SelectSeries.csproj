@@ -9,11 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenCdsi.Date" Version="1.4.1" />
+    <PackageReference Include="OpenCdsi.Calendar" Version="2.43.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
     <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>

@@ -3,15 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Cdsi</RootNamespace>
+    <AssemblyName>Evaluation</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenCdsi.Schedule" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />
-    <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>
 
 </Project>

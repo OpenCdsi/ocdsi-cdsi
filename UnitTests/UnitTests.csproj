@@ -9,19 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
-    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
-    <PackageReference Include="coverlet.collector" Version="3.1.0">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="OpenCdsi.Cases" Version="1.0.0" />
+    <PackageReference Include="OpenCdsi.Cases" Version="2.428.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Evaluation\03 SeriesEvaluation.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\OrganizeData\01 OrganizeData.csproj" />
     <ProjectReference Include="..\SelectSeries\02 SelectSeries.csproj" />
     <ProjectReference Include="..\SimpleEHR\SimpleEhr.csproj" />

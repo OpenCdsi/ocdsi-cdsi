@@ -34,4 +34,13 @@
         Standard,
         Risk
     }
+
+    public enum Gender
+    {
+        Any,
+        Female,
+        Transgender,
+        Male,
+        Unknown
+    }
 }
