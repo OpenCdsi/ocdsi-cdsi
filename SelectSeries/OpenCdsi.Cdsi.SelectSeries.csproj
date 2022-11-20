@@ -6,4 +6,9 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="OpenCdsi.Calendar" Version="2.43.0" />
+	  <PackageReference Include="OpenCdsi.Schedule" Version="2.438.2" />
+	</ItemGroup>
+
 </Project>
