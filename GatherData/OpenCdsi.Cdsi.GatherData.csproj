@@ -11,8 +11,4 @@
     <PackageReference Include="OpenCdsi.Schedule" Version="2.438.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\OpenCdsi.Cdsi\OpenCdsi.Cdsi.csproj" />
-  </ItemGroup>
-
 </Project>

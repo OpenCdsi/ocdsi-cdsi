@@ -21,11 +21,4 @@
     <PackageReference Include="OpenCdsi.Schedule" Version="2.438.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Evaluation\OpenCdsi.Cdsi.Evaluation.csproj" />
-    <ProjectReference Include="..\GatherData\OpenCdsi.Cdsi.GatherData.csproj" />
-    <ProjectReference Include="..\OpenCdsi.Cdsi\OpenCdsi.Cdsi.csproj" />
-    <ProjectReference Include="..\SelectSeries\OpenCdsi.Cdsi.SelectSeries.csproj" />
-  </ItemGroup>
-
 </Project>
