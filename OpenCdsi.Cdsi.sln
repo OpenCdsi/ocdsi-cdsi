@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatherData", "OrganizeData\GatherData.csproj", "{57505784-701F-4441-95D3-7D30370BAAC4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi.Evaluation", "Evaluation\OpenCdsi.Cdsi.Evaluation.csproj", "{B05CEF72-7F90-49E4-9880-1A47B6E1001B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi.GatherData", "GatherData\OpenCdsi.Cdsi.GatherData.csproj", "{A1133DA1-4BCC-4179-8433-0F8EF92E52B8}"
