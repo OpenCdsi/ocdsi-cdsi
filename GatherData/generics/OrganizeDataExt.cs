@@ -1,0 +1,25 @@
+﻿namespace OpenCdsi.Cdsi.GatherData
+{
+    public static class OrganizeDataExt
+    {
+        /// <summary>
+        /// Cdsi Logic Spec 4.1 Section 4-3
+        /// </summary>
+        /// <param name="env"></param>
+        /// <returns></returns>
+        public static IEnv OrganizeImmunizationHistory(this IEnv env)
+        {
+            var patient = env.Patient;
+
+            var immunizationHistory = patient.AdministeredVaccineDoses
+                .SelectMany(x => x.AsAntigenDoses())
+                .OrderBy(x => x.AntigenName)
+                .ThenBy(x => x.AdministeredDose.DateAdministered)
+                .ToList();
+
+            env.ImmunizationHistory = immunizationHistory;
+
+            return env;
+        }
+    }
+}

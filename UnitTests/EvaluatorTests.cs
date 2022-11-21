@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenCdsi.Cdsi.Evaluation;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.Cdsi.UnitTests
 {
     [TestClass]
     public class EvaluatorTests
@@ -10,8 +11,8 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CreateASeriesEvaluator()
         {
-            var env = OpenCdsi.Library.Testcases["2013-0002"].GetEnv();
-            var antigen = OpenCdsi.Data.Antigen["Measles"];
+            var env = CaseLibrary.Cases["2013-0002"].GetEnv();
+            var antigen = SupportingData.Antigens["Measles"];
             var series = antigen.series.First().ToModel();
             var sut = new SeriesEvaluator
             {

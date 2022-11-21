@@ -3,7 +3,7 @@ using System.Linq;
 using OpenCdsi.Cases;
 using System;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.Cdsi.UnitTests
 {
     public static class TestcaseLibraryExt
     {

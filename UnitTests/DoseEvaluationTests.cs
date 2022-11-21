@@ -1,10 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenCdsi.SupportingData;
-
+using OpenCdsi.Cdsi.Evaluation;
 using System.Linq;
-using System.Collections.Generic;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.Cdsi.UnitTests
 {
     [TestClass]
     public class DoseEvaluationTests
