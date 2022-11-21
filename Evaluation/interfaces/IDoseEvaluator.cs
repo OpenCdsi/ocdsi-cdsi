@@ -1,5 +1,5 @@
 ﻿
-namespace Cdsi
+namespace OpenCdsi.Cdsi.Evaluation
 {
     public interface IDoseEvaluator
     {

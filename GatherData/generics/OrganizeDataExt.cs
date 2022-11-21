@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Cdsi
+﻿namespace OpenCdsi.Cdsi.GatherData
 {
     public static class OrganizeDataExt
     {
@@ -25,7 +19,7 @@ namespace Cdsi
 
             env.ImmunizationHistory = immunizationHistory;
 
-        return env;
-    }
+            return env;
         }
+    }
 }

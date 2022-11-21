@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.Cdsi.UnitTests
 {
     internal class DoseTestEnv
     {
@@ -19,7 +19,7 @@ namespace Cdsi.UnitTests
 
         private static IEnumerable<IAntigenDose> GetAntigenDosesFromTestcase(string testcaseId)
         {
-            var testcase = OpenCdsi.Library.Testcases[testcaseId];
+            var testcase = CaseLibrary.Cases[testcaseId];
             var doses = testcase.Doses
                 .Select(x => x.ToEhr())
                 .SelectMany(x => x.AsAntigenDoses())
@@ -38,7 +38,7 @@ namespace Cdsi.UnitTests
         /// need to select a risk series or a different standard series.</remarks>
         private static IEnumerable<ITargetDose> GetTargetDosesFromSupportingData(string antigenName)
         {
-            var series = OpenCdsi.Data.Antigen[antigenName].series[0].ToModel();
+            var series = SupportingData.Antigens[antigenName].series[0].ToModel();
             return series.TargetDoses;
         }
     }

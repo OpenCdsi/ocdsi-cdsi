@@ -2,20 +2,20 @@
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Cdsi.UnitTests
+namespace OpenCdsi.Cdsi.UnitTests
 {
     [TestClass]
-    public class SimpleEhrTests
+    public class TypeTests
     {
         readonly string[] TID = new string[] { "2013-0002", "2013-0099" };
 
         [TestMethod]
         public void CanCreateSimpleEhrObjecFromTestcase()
         {
-            var testcase = OpenCdsi.Library.Testcases[TID[0]];
+            var testcase = CaseLibrary.Cases[TID[0]];
             var sut = testcase.Patient.ToEhr(testcase.Doses);
 
-            Assert.AreEqual(new DateTime(2020, 6, 9), sut.DOB);
+            Assert.AreEqual(new DateTime(2022, 8,15), sut.DOB);
             Assert.AreEqual(Gender.Female, sut.Gender);
             Assert.AreEqual(2, sut.AdministeredVaccineDoses.Count);
         }
@@ -23,7 +23,7 @@ namespace Cdsi.UnitTests
         [TestMethod]
         public void CanCreateAntigenDosesFromTestcase()
         {
-            var testcase = OpenCdsi.Library.Testcases[TID[1]];
+            var testcase = CaseLibrary.Cases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
             var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses());
 
@@ -36,7 +36,7 @@ namespace Cdsi.UnitTests
         public void CanSortAntigenDoses()
         {
 
-            var testcase = OpenCdsi.Library.Testcases[TID[1]];
+            var testcase = CaseLibrary.Cases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
             var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)

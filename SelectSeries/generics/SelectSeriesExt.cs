@@ -1,8 +1,7 @@
-﻿using OpenCdsi.SupportingData;
-using OpenCdsi.Date;
-using Enum = Utility.Enum;
+﻿using OpenCdsi.Calendar;
+using OpenCdsi.Schedule;
 
-namespace Cdsi
+namespace OpenCdsi.Cdsi.SelectSeries
 {
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5
@@ -24,7 +23,7 @@ namespace Cdsi
 
             foreach (var antigen in antigens)
             {
-                var sda = OpenCdsi.Data.Antigen[antigen];
+                var sda =SupportingData.Antigens[antigen];
                 var rs = sda.series.Where(x => x.IsRelevantSeries(env));
                 env.RelevantPatientSeries = rs.Select(x => x.ToModel()).ToList();
             }
@@ -51,14 +50,14 @@ namespace Cdsi
 
             try
             {
-                beginAge = patient.DOB - Duration.Parse(indication.beginAge).Values.First();
+                beginAge = patient.DOB - Interval.Parse(indication.beginAge);
             }
             catch
             {
             };
             try
             {
-                endAge = patient.DOB + Duration.Parse(indication.endAge).Values.First();
+                endAge = patient.DOB + Interval.Parse(indication.endAge);
             }
             catch
             {

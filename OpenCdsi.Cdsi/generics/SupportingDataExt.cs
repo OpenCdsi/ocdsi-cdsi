@@ -1,4 +1,6 @@
-﻿namespace OpenCdsi.Cdsi
+﻿using OpenCdsi.Schedule;
+
+namespace OpenCdsi.Cdsi
 {
     public static partial class SupportingDataExt
     {

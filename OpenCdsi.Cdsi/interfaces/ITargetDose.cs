@@ -1,4 +1,6 @@
-﻿namespace OpenCdsi.Cdsi
+﻿using OpenCdsi.Schedule;
+
+namespace OpenCdsi.Cdsi
 {
     /// <summary>
     /// Tracks the state of the dose in the patient series.
