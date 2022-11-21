@@ -17,7 +17,7 @@ namespace OpenCdsi.Cdsi.UnitTests
 
             Assert.AreEqual(new DateTime(2022, 8,15), sut.DOB);
             Assert.AreEqual(Gender.Female, sut.Gender);
-            Assert.AreEqual(2, sut.AdministeredVaccineDoses.Count);
+            Assert.AreEqual(2, sut.VaccineHistory.Count);
         }
 
         [TestMethod]
@@ -25,7 +25,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         {
             var testcase = CaseLibrary.Cases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
-            var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses());
+            var sut = patient.VaccineHistory.SelectMany(x => x.AsAntigenDoses());
 
             Assert.AreEqual(3, testcase.Evaluation.AdministeredDoses.Count());
             Assert.AreEqual(15, sut.Count());
@@ -38,12 +38,12 @@ namespace OpenCdsi.Cdsi.UnitTests
 
             var testcase = CaseLibrary.Cases[TID[1]];
             var patient = testcase.Patient.ToEhr(testcase.Doses);
-            var sut = patient.AdministeredVaccineDoses.SelectMany(x => x.AsAntigenDoses())
+            var sut = patient.VaccineHistory.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.AdministeredDose.DateAdministered).ToArray();
+                .ThenBy(x => x.VaccineDose.DateAdministered).ToArray();
 
             Assert.AreEqual(sut[0].AntigenName, sut[1].AntigenName);
-            Assert.IsTrue(sut[0].AdministeredDose.DateAdministered < sut[1].AdministeredDose.DateAdministered);
+            Assert.IsTrue(sut[0].VaccineDose.DateAdministered < sut[1].VaccineDose.DateAdministered);
         }
     }
 }

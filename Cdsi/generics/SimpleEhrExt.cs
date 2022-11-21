@@ -12,7 +12,7 @@ namespace OpenCdsi.Cdsi
                     .Select(x => new AntigenDose
                     {
                         AntigenName = x.antigen,
-                        AdministeredDose = dose,
+                        VaccineDose = dose,
                         EvaluationStatus = EvaluationStatus.NotValid
                     });
         }
@@ -21,7 +21,7 @@ namespace OpenCdsi.Cdsi
         {
             return doses.SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.AdministeredDose.DateAdministered);
+                .ThenBy(x => x.VaccineDose.DateAdministered);
         }
     }
 }

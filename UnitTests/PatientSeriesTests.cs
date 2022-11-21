@@ -26,7 +26,7 @@ namespace OpenCdsi.Cdsi.UnitTests
             {
                 DOB = env.Patient.DOB - Interval.Parse("1 month"),
                 Gender = env.Patient.Gender,
-                AdministeredVaccineDoses = env.Patient.AdministeredVaccineDoses,
+                VaccineHistory = env.Patient.VaccineHistory,
                 ObservationCodes = new List<string> { "048" }
             };
 

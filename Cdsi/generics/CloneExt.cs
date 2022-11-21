@@ -7,7 +7,7 @@
             return new AntigenDose
             {
                 AntigenName = obj.AntigenName,
-                AdministeredDose = obj.AdministeredDose,
+                VaccineDose = obj.VaccineDose,
                 EvaluationStatus = EvaluationStatus.NotValid
             };
         }

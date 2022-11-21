@@ -24,7 +24,7 @@ namespace OpenCdsi.Cdsi.UnitTests
                 .Select(x => x.ToEhr())
                 .SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.AdministeredDose.DateAdministered);
+                .ThenBy(x => x.VaccineDose.DateAdministered);
 
             return doses;
         }

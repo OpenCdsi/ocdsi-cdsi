@@ -21,7 +21,7 @@ namespace OpenCdsi.Cdsi.UnitTests
                 DOB = tp.DOB,
                 Gender = gender,
                 ObservationCodes = new List<string>(),
-                AdministeredVaccineDoses = tvda.Select(x => x.ToEhr()).ToList()
+                VaccineHistory = tvda.Select(x => x.ToEhr()).ToList()
             };
 
             return patient;

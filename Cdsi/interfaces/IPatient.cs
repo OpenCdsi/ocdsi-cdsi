@@ -5,6 +5,6 @@
         DateTime DOB { get; }
         Gender Gender { get; }
         IList<string> ObservationCodes { get; }
-        IList<IVaccineDose> AdministeredVaccineDoses { get; }
+        IList<IVaccineDose> VaccineHistory { get; }
     }
 }

@@ -11,10 +11,10 @@
         {
             var patient = env.Patient;
 
-            var immunizationHistory = patient.AdministeredVaccineDoses
+            var immunizationHistory = patient.VaccineHistory
                 .SelectMany(x => x.AsAntigenDoses())
                 .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.AdministeredDose.DateAdministered)
+                .ThenBy(x => x.VaccineDose.DateAdministered)
                 .ToList();
 
             env.ImmunizationHistory = immunizationHistory;

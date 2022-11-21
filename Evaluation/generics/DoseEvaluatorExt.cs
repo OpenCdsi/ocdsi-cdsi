@@ -7,7 +7,7 @@
         {
             if(dose.AntigenDose==null) return false;
 
-            var administeredDose = dose.AntigenDose.AdministeredDose;
+            var administeredDose = dose.AntigenDose.VaccineDose;
 
             var val = administeredDose.DateAdministered <= administeredDose.LotExpiration && string.IsNullOrWhiteSpace(administeredDose.DoseCondition);
             if (!val)
@@ -29,7 +29,7 @@
             var antigenDose = dose.AntigenDose;
             var targetDose = dose.TargetDose;
 
-            var val = targetDose.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == antigenDose.AdministeredDose.VaccineType).Any();
+            var val = targetDose.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == antigenDose.VaccineDose.VaccineType).Any();
             if (val)
             {
                 antigenDose.EvaluationStatus = EvaluationStatus.NotValid;
