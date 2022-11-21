@@ -1,7 +1,7 @@
 ﻿using OpenCdsi.Calendar;
 using OpenCdsi.Schedule;
 
-namespace OpenCdsi.Cdsi.SelectSeries
+namespace OpenCdsi.Cdsi
 {
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5

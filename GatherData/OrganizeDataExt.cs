@@ -1,4 +1,4 @@
-﻿namespace OpenCdsi.Cdsi.GatherData
+﻿namespace OpenCdsi.Cdsi
 {
     public static class OrganizeDataExt
     {

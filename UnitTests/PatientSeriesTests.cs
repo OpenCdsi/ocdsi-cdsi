@@ -1,6 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenCdsi.Calendar;
-using OpenCdsi.Cdsi.SelectSeries;
 using System.Collections.Generic;
 using System.Linq;
 

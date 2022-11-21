@@ -1,7 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenCdsi.Cdsi.Evaluation;
 
 namespace OpenCdsi.Cdsi.UnitTests
 {

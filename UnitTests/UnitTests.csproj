@@ -23,9 +23,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cdsi\OpenCdsi.Cdsi.csproj" />
-    <ProjectReference Include="..\Evaluation\OpenCdsi.Cdsi.Evaluation.csproj" />
-    <ProjectReference Include="..\GatherData\OpenCdsi.Cdsi.GatherData.csproj" />
-    <ProjectReference Include="..\SelectSeries\OpenCdsi.Cdsi.SelectSeries.csproj" />
+    <ProjectReference Include="..\Evaluation\Ocdsi.Evaluation.csproj" />
+    <ProjectReference Include="..\GatherData\Ocdsi.GatherData.csproj" />
+    <ProjectReference Include="..\SelectSeries\Ocdsi.SelectSeries.csproj" />
   </ItemGroup>
 
 </Project>

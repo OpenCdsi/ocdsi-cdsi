@@ -1,4 +1,4 @@
-﻿namespace OpenCdsi.Cdsi.Evaluation
+﻿namespace OpenCdsi.Cdsi
 {
     public static class DoseEvaluatorExt
     {

@@ -10,11 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi", "Cdsi\OpenCdsi.Cdsi.csproj", "{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi.GatherData", "GatherData\OpenCdsi.Cdsi.GatherData.csproj", "{ED02C71E-7BF9-4901-B833-CF1550196AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.GatherData", "GatherData\Ocdsi.GatherData.csproj", "{ED02C71E-7BF9-4901-B833-CF1550196AE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi.SelectSeries", "SelectSeries\OpenCdsi.Cdsi.SelectSeries.csproj", "{A82C5065-1FF4-4AB1-95E2-FFFBCE0C6220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.SelectSeries", "SelectSeries\Ocdsi.SelectSeries.csproj", "{A82C5065-1FF4-4AB1-95E2-FFFBCE0C6220}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi.Evaluation", "Evaluation\OpenCdsi.Cdsi.Evaluation.csproj", "{1C619B52-0CB4-481C-B515-70642FAA9808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Evaluation", "Evaluation\Ocdsi.Evaluation.csproj", "{1C619B52-0CB4-481C-B515-70642FAA9808}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{46F3A9D7-FA2F-42E2-838A-529F5CC25D8D}"
 EndProject

@@ -1,7 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenCdsi.Cdsi.Evaluation;
-using OpenCdsi.Cdsi.GatherData;
-using OpenCdsi.Cdsi.SelectSeries;
 using System.Linq;
 
 namespace OpenCdsi.Cdsi.UnitTests
