@@ -4,15 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>OpenCdsi.Cdsi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="OpenCdsi.Calendar" Version="2.43.0" />
     <PackageReference Include="OpenCdsi.Schedule" Version="2.438.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Types\Ocdsi.Types.csproj" />
   </ItemGroup>
 
 </Project>

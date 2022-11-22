@@ -1,4 +1,4 @@
-﻿namespace System.Linq
+﻿namespace OpenCdsi.Cdsi
 {
     public static class SystemLinqHelpers
     {

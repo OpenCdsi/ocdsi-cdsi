@@ -1,4 +1,6 @@
-﻿namespace System.Data
+﻿using System.Data;
+
+namespace OpenCdsi.Cdsi
 {
     public static class SystemDataHelpers
     {

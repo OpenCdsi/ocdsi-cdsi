@@ -1,49 +1,48 @@
-﻿using System;
-using System.Linq;
+﻿using Cdsi.UnitTests;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Linq;
 
 namespace OpenCdsi.Cdsi.UnitTests
 {
     [TestClass]
     public class TypeTests
     {
-        readonly string[] TID = new string[] { "2013-0002", "2013-0099" };
-
         [TestMethod]
-        public void CanCreateSimpleEhrObjecFromTestcase()
+        public void CanCreateOcdsiObjecFromTestcase()
         {
-            var testcase = CaseLibrary.Cases[TID[0]];
-            var sut = testcase.Patient.ToEhr(testcase.Doses);
+            var testcase = TestInputs.Case0002;
+            var sut = testcase.Patient.ToCdsiType(testcase.Doses);
 
-            Assert.AreEqual(new DateTime(2022, 8,15), sut.DOB);
+            Assert.AreEqual(new DateTime(2022, 8, 15), sut.DOB);
             Assert.AreEqual(Gender.Female, sut.Gender);
-            Assert.AreEqual(2, sut.VaccineHistory.Count);
+            Assert.AreEqual(2, sut.VaccineHistory.Count());
         }
 
         [TestMethod]
-        public void CanCreateAntigenDosesFromTestcase()
+        public void CanCreateVaccineDosesFromTestcase()
         {
-            var testcase = CaseLibrary.Cases[TID[1]];
-            var patient = testcase.Patient.ToEhr(testcase.Doses);
-            var sut = patient.VaccineHistory.SelectMany(x => x.AsAntigenDoses());
+            var testcase = TestInputs.Case0099; 
+            var sut = testcase.Doses.Select(x => x.ToCdsiType());
 
-            Assert.AreEqual(3, testcase.Evaluation.AdministeredDoses.Count());
             Assert.AreEqual(15, sut.Count());
-            Assert.AreEqual(sut.First().AntigenName, "Diphtheria");
         }
 
         [TestMethod]
-        public void CanSortAntigenDoses()
+        public void StandardSeriesToPatientSeries()
         {
+            var antigen = SupportingData.Antigens["Measles"];
+            var sut = antigen.series.First().ToModel();
 
-            var testcase = CaseLibrary.Cases[TID[1]];
-            var patient = testcase.Patient.ToEhr(testcase.Doses);
-            var sut = patient.VaccineHistory.SelectMany(x => x.AsAntigenDoses())
-                .OrderBy(x => x.AntigenName)
-                .ThenBy(x => x.VaccineDose.DateAdministered).ToArray();
+            Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
+        }
 
-            Assert.AreEqual(sut[0].AntigenName, sut[1].AntigenName);
-            Assert.IsTrue(sut[0].VaccineDose.DateAdministered < sut[1].VaccineDose.DateAdministered);
+        [TestMethod]
+        public void RiskSeriesToPatientSeries()
+        {
+            var antigen = SupportingData.Antigens["Measles"];
+            var sut = antigen.series.Second().ToModel();
+            Assert.AreEqual(PatientSeriesType.Risk, sut.SeriesType);
         }
     }
 }
