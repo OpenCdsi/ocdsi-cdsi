@@ -1,31 +1,31 @@
 ﻿namespace OpenCdsi.Cdsi
 {
-    public class SeriesEvaluator : IEvaluator, ISeriesEvaluator
+    public class SeriesEvaluator :  ISeriesEvaluator
     {
-        private IList<IAntigenDose> _antigenDoses;
-        public IList<IAntigenDose> AntigenDoses
+        public IPatientSeries PatientSeries { get; init; }
+
+        public IEnumerable<IAntigenDose> Evaluate(IEnumerable<IAntigenDose> immunizationHistory)
         {
-            get => _antigenDoses;
-            set => _antigenDoses = value.Where(x => x.AntigenName == PatientSeries.Antigen).Select(x => x.Clone()).ToList();
-        }
+            var targets = new LinkedList<ITargetDose>(PatientSeries.TargetDoses);
+            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory);
 
-        public IPatientSeries PatientSeries { get; set; }
+        //    {
+        //    var currentTargetIdx = 0;
 
-        public void Evaluate()
-        {
-            var currentTargetIdx = 0;
+        //    foreach (IAntigenDose antigenDose in AntigenDoses)
+        //    {
+        //        var doseEvaluator = new DoseEvaluator
+        //        {
+        //            AntigenDose = antigenDose,
+        //            TargetDose = PatientSeries.TargetDoses[currentTargetIdx]
+        //        };
 
-            foreach (IAntigenDose antigenDose in AntigenDoses)
-            {
-                var doseEvaluator = new DoseEvaluator
-                {
-                    AntigenDose = antigenDose,
-                    TargetDose = PatientSeries.TargetDoses[currentTargetIdx]
-                };
+        //        doseEvaluator.Evaluate();
+        //        if (doseEvaluator.TargetDose.Status != TargetDoseStatus.NotSatisfied) currentTargetIdx++;
+        //    }
+        //}
 
-                doseEvaluator.Evaluate();
-                if (doseEvaluator.TargetDose.Status != TargetDoseStatus.NotSatisfied) currentTargetIdx++;
-            }
+            throw new NotImplementedException();
         }
     }
 }
