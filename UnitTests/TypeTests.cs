@@ -11,7 +11,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void CanCreateOcdsiObjecFromTestcase()
         {
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var sut = testcase.Patient.ToCdsiType(testcase.Doses);
 
             Assert.AreEqual(new DateTime(2022, 8, 15), sut.DOB);
@@ -22,7 +22,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void CanCreateVaccineDosesFromTestcase()
         {
-            var testcase = TestInputs.Case0099; 
+            var testcase = TestInputs.CaseDTAPb; 
             var sut = testcase.Doses.Select(x => x.ToCdsiType());
 
             Assert.AreEqual(3, sut.Count());

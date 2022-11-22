@@ -11,7 +11,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void SelectsStandardSeries()
         {
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var antigen = SupportingData.Antigens["Measles"];
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
@@ -24,7 +24,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void SelectsRiskSeriesBecauseOfObservation()
         {
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var antigen = SupportingData.Antigens["Measles"];
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
@@ -46,7 +46,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         public void DontSelectsRiskSeriesBecauseOfAge()
         {
 
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var antigen = SupportingData.Antigens["Measles"];
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
@@ -67,7 +67,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void CanSelectRelevantPatientSeries()
         {
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
             var gatherer = new DataGatherer { Patient = patient };

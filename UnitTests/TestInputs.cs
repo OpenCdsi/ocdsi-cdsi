@@ -5,7 +5,8 @@ namespace Cdsi.UnitTests
 {
     internal class TestInputs
     {
-        public static testcase Case0002 => CaseLibrary.Cases["2013-0002"];
-        public static testcase Case0099 => CaseLibrary.Cases["2013-0099"];
+        public static testcase CaseDTAPa => CaseLibrary.Cases["2013-0002"];
+        public static testcase CaseDTAPb => CaseLibrary.Cases["2013-0099"];
+        public static testcase CaseMMRa => CaseLibrary.Cases["2013-0523"];
     }
 }

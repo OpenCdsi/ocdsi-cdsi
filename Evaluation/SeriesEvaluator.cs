@@ -1,31 +1,36 @@
 ﻿namespace OpenCdsi.Cdsi
 {
-    public class SeriesEvaluator :  ISeriesEvaluator
+    public class SeriesEvaluator : ISeriesEvaluator
     {
         public IPatientSeries PatientSeries { get; init; }
 
-        public IEnumerable<IAntigenDose> Evaluate(IEnumerable<IAntigenDose> immunizationHistory)
+        public void Evaluate(IEnumerable<IAntigenDose> immunizationHistory)
         {
             var targets = new LinkedList<ITargetDose>(PatientSeries.TargetDoses);
-            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory);
+            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory.Where(x => x.AntigenName == PatientSeries.Antigen));
 
-        //    {
-        //    var currentTargetIdx = 0;
+            var target = targets.First;
+            var vaccine = vaccines.First;
 
-        //    foreach (IAntigenDose antigenDose in AntigenDoses)
-        //    {
-        //        var doseEvaluator = new DoseEvaluator
-        //        {
-        //            AntigenDose = antigenDose,
-        //            TargetDose = PatientSeries.TargetDoses[currentTargetIdx]
-        //        };
+            while (target != null)
+            {
+                target.Value.Status = TargetDoseStatus.NotSatisfied;
 
-        //        doseEvaluator.Evaluate();
-        //        if (doseEvaluator.TargetDose.Status != TargetDoseStatus.NotSatisfied) currentTargetIdx++;
-        //    }
-        //}
+                var evaluator = new DoseEvaluator { TargetDose = target };
+                if (!evaluator.CanSkip())
+                {
+                    while (vaccine != null)
+                    {
+                        evaluator.Evaluate(vaccine);
 
-            throw new NotImplementedException();
+                        // check the status of the doses and move the pointers accordingly
+                        if (target.Value.Status == TargetDoseStatus.Satisfied || target.Value.Status == TargetDoseStatus.Skipped) break;
+                       
+                        vaccine = vaccine.Next;
+                    }
+                }
+                target = target.Next;
+            }
         }
     }
 }

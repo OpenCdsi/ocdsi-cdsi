@@ -4,9 +4,27 @@
     {
         public LinkedListNode<ITargetDose> TargetDose { get; init; }
 
-        public IAntigenDose Evaluate(LinkedListNode<IAntigenDose> dose)
+        /// <summary>
+        ///  Cdsi Logic Spec 4.1 - Section 6-10
+        /// </summary>
+        /// <param name="dose"></param>
+        public void Evaluate(LinkedListNode<IAntigenDose> dose)
         {
-            throw new NotImplementedException();
+            if (CanBeEvaluated(dose))
+            {
+                // using short-circuited logical operators to halt the evaluation
+                var val = EvaluateAge(dose)
+                    && EvaluatePreferableInterval(dose)
+                    && EvaluateAllowableInterval(dose)
+                    && !EvaluateLiveVirusConflict(dose)
+                    && EvaluateForPreferableVaccine(dose)
+                    && EvaluateForAllowableVaccine(dose);
+
+                if (val)
+                {
+                    TargetDose.Value.Status = TargetDoseStatus.Satisfied;
+                }
+            }
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-1
@@ -24,7 +42,7 @@
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-2
-        public bool CanSkip(LinkedListNode<IAntigenDose> dose)
+        public bool CanSkip()
         {
             return false;
         }
@@ -39,8 +57,7 @@
             if (val)
             {
                 administered.EvaluationStatus = EvaluationStatus.NotValid;
-                administered.EvaluationReason = Reasons.InadvertentAdministration;
-                target.Status = TargetDoseStatus.NotSatisfied;
+                administered.EvaluationReason = EvaluationReasons.InadvertentAdministration;
             }
             return val;
         }
@@ -80,27 +97,5 @@
         {
             return true;
         }
-
-        // Cdsi Logic Spec 4.1 - Section 6-10
-        public bool SatisfyTargetDose(LinkedListNode<IAntigenDose> dose)
-        {
-            ////  will short circuit so some status' might not get set correctly.
-            //// need to evaluate and later check the result?
-            //var val = dose.EvaluateAge(null)
-            //    && dose.EvaluatePreferableInterval()
-            //    && dose.EvaluateAllowableInterval()
-            //    && !dose.EvaluateLiveVirusConflict()
-            //    && dose.EvaluateForPreferableVaccine()
-            //    && dose.EvaluateForAllowableVaccine();
-
-            //if (val)
-            //{
-            //    TargetDose.Status = TargetDoseStatus.Satisfied;
-            //}
-
-            //return val;
-            throw new NotImplementedException();
-        }
-
     }
 }

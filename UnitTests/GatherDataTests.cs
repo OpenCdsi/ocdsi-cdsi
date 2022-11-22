@@ -10,7 +10,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void CanOrganizeImmunizationHistory()
         {
-            var testcase = TestInputs.Case0002;
+            var testcase = TestInputs.CaseDTAPa;
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
             var gatherer = new DataGatherer { Patient = patient };
@@ -23,7 +23,7 @@ namespace OpenCdsi.Cdsi.UnitTests
         [TestMethod]
         public void AntigenDosesAreSorted()
         {
-            var testcase = TestInputs.Case0099;
+            var testcase = TestInputs.CaseDTAPb;
             var patient = testcase.Patient.ToCdsiType(testcase.Doses);
 
             var gatherer = new DataGatherer { Patient = patient };
