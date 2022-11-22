@@ -10,5 +10,14 @@ namespace OpenCdsi.Cdsi
         public string Name { get => Series.seriesName; }
         public PatientSeriesType SeriesType { get => Parse.Enum<PatientSeriesType>(Series.seriesType); }
         public IEnumerable<ITargetDose> TargetDoses { get; init; }
+
+        public static IPatientSeries Create(antigenSupportingDataSeries series)
+        {
+            return new PatientSeries
+            {
+                Series = series,
+                TargetDoses = series.seriesDose.Select(x => new TargetDose { SeriesDose = x })
+            };
+        }
     }
 }

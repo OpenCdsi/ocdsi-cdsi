@@ -76,7 +76,7 @@ namespace OpenCdsi.Cdsi
         public bool IsRequiredGender(antigenSupportingDataSeries series)
         {
             var genders = series.requiredGender.Select(x => Parse.Enum<Gender>(x));
-            return genders.Contains(Patient.Gender) || genders.Count() == 0;
+            return genders.Contains(Patient.Gender) || genders.Contains(Gender.Any);
         }
 
         public IPatientSeries ToOcdsiType(antigenSupportingDataSeries series)

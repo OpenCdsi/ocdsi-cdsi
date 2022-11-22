@@ -43,15 +43,6 @@ namespace OpenCdsi.Cdsi.UnitTests
                 VaccineType = dose.VaccineName
             };
         }
-
-        public static IEnv GetEnv(this testcase testcase)
-        {
-            var env = new Env();
-            env.Patient = testcase.Patient.ToCdsiType(testcase.Doses);
-            env.AssessmentDate = testcase.AssessmentDate;
-
-            return env;
-        }
     }
 }
 

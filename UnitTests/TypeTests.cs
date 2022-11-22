@@ -25,14 +25,14 @@ namespace OpenCdsi.Cdsi.UnitTests
             var testcase = TestInputs.Case0099; 
             var sut = testcase.Doses.Select(x => x.ToCdsiType());
 
-            Assert.AreEqual(15, sut.Count());
+            Assert.AreEqual(3, sut.Count());
         }
 
         [TestMethod]
         public void StandardSeriesToPatientSeries()
         {
             var antigen = SupportingData.Antigens["Measles"];
-            var sut = antigen.series.First().ToModel();
+            var sut = PatientSeries.Create(antigen.series[0]);
 
             Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
         }
@@ -41,7 +41,8 @@ namespace OpenCdsi.Cdsi.UnitTests
         public void RiskSeriesToPatientSeries()
         {
             var antigen = SupportingData.Antigens["Measles"];
-            var sut = antigen.series.Second().ToModel();
+            var sut = PatientSeries.Create(antigen.series[1]);
+
             Assert.AreEqual(PatientSeriesType.Risk, sut.SeriesType);
         }
     }

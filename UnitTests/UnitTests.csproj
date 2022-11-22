@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cdsi\OpenCdsi.Cdsi.csproj" />
-    <ProjectReference Include="..\Evaluation\Ocdsi.Evaluation.csproj" />
     <ProjectReference Include="..\GatherData\Ocdsi.GatherData.csproj" />
     <ProjectReference Include="..\SelectSeries\Ocdsi.SelectSeries.csproj" />
   </ItemGroup>
