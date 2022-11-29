@@ -3,35 +3,31 @@
     public class DoseEvaluator : IDoseEvaluator
     {
         public LinkedListNode<ITargetDose> TargetDose { get; init; }
+        public LinkedListNode<IAntigenDose> AdministeredDose { get; init; }
+        internal ITargetDose target => TargetDose.Value;
+        internal IAntigenDose administered => AdministeredDose.Value;
 
         /// <summary>
         ///  Cdsi Logic Spec 4.1 - Section 6-10
-        /// </summary>
-        /// <param name="dose"></param>
-        public void Evaluate(LinkedListNode<IAntigenDose> dose)
+        /// </summary>        
+        public void Evaluate()
         {
-            if (CanBeEvaluated(dose))
+            // short circuited evaluation halts the evaluation 
+            if (CanBeEvaluated()
+                && !CanSkip()
+                && EvaluateAge()
+                && (EvaluatePreferableInterval() || EvaluateAllowableInterval())
+                && !EvaluateLiveVirusConflict()
+                && (EvaluateForPreferableVaccine() || EvaluateForAllowableVaccine()))
             {
-                // using short-circuited logical operators to halt the evaluation
-                var val = EvaluateAge(dose)
-                    && EvaluatePreferableInterval(dose)
-                    && EvaluateAllowableInterval(dose)
-                    && !EvaluateLiveVirusConflict(dose)
-                    && EvaluateForPreferableVaccine(dose)
-                    && EvaluateForAllowableVaccine(dose);
-
-                if (val)
-                {
-                    TargetDose.Value.Status = TargetDoseStatus.Satisfied;
-                }
+                target.Status = TargetDoseStatus.Satisfied;
             }
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-1
-        public bool CanBeEvaluated(LinkedListNode<IAntigenDose> dose)
+        public bool CanBeEvaluated()
         {
-            var administered = dose.Value;
-            var vaccine = dose.Value.VaccineDose;
+            var vaccine = administered.VaccineDose;
 
             var val = vaccine.DateAdministered <= vaccine.LotExpiration && string.IsNullOrWhiteSpace(vaccine.DoseCondition);
             if (!val)
@@ -48,52 +44,51 @@
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-3
-        public bool IsInadvertentVaccine(LinkedListNode<IAntigenDose> dose)
+        public bool IsInadvertentVaccine()
         {
-            var target = TargetDose.Value;
-            var administered = dose.Value;
+            var series = target.SeriesDose;
 
-            var val = target.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == administered.VaccineDose.VaccineType).Any();
+            var val = series.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == administered.VaccineDose.VaccineType).Any();
             if (val)
             {
                 administered.EvaluationStatus = EvaluationStatus.NotValid;
-                administered.EvaluationReason = EvaluationReasons.InadvertentAdministration;
+                administered.EvaluationReasons.Add(EvaluationReason.InadvertentAdministration);
             }
             return val;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-4
-        public bool EvaluateAge(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluateAge()
         {
             return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-5
-        public bool EvaluatePreferableInterval(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluatePreferableInterval()
         {
             return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-6
-        public bool EvaluateAllowableInterval(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluateAllowableInterval()
         {
             return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-7
-        public bool EvaluateLiveVirusConflict(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluateLiveVirusConflict()
         {
             return false;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-8
-        public bool EvaluateForPreferableVaccine(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluateForPreferableVaccine()
         {
             return true;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-9
-        public bool EvaluateForAllowableVaccine(LinkedListNode<IAntigenDose> dose)
+        public bool EvaluateForAllowableVaccine()
         {
             return true;
         }

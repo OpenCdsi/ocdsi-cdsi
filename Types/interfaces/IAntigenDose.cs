@@ -9,8 +9,8 @@
     public interface IAntigenDose
     {
         string AntigenName { get; }
-        string EvaluationReason { get; set; }
-        EvaluationStatus EvaluationStatus { get; set; }
         IVaccineDose VaccineDose { get; } // prefer composition over inheritence
+        EvaluationStatus EvaluationStatus { get; set; }
+        IList<EvaluationReason> EvaluationReasons { get; }
     }
 }

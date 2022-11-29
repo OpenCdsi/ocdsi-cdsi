@@ -1,4 +1,6 @@
-﻿namespace OpenCdsi.Cdsi
+﻿using System.ComponentModel;
+
+namespace OpenCdsi.Cdsi
 {
     public partial class Parse
     {
@@ -52,5 +54,16 @@
         Transgender,
         Male,
         Unknown
+    }
+
+    public enum EvaluationReason
+    {
+        InadvertentAdministration,
+        AgeGracePeriod,
+        IntervalGracePeriod,
+        AgeTooYoung,
+        AgeTooOld,
+        IntervalTooSoon,
+        LessThanRecommendedVolume
     }
 }
