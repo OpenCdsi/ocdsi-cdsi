@@ -25,7 +25,7 @@ namespace OpenCdsi.Cdsi.UnitTests
             Assert.AreEqual(PatientSeriesStatus.NotComplete, series.Status);
             Assert.AreEqual(doses[0].EvaluationStatus, EvaluationStatus.Valid);
             Assert.AreEqual(doses[1].EvaluationStatus, EvaluationStatus.NotValid);
-            Assert.AreEqual(doses[1].EvaluationReason, EvaluationReasons.AgeTooYoung);
+            Assert.AreEqual(doses[1].EvaluationReasons.First(), EvaluationReason.AgeTooYoung);
         }
     }
 }

@@ -1,18 +1,18 @@
-﻿namespace OpenCdsi.Cdsi
+﻿using OpenCdsi.Schedule;
+
+namespace OpenCdsi.Cdsi
 {
     public class DoseEvaluator : IDoseEvaluator
     {
         public LinkedListNode<ITargetDose> TargetDose { get; init; }
         public LinkedListNode<IAntigenDose> AdministeredDose { get; init; }
-        internal ITargetDose target => TargetDose.Value;
-        internal IAntigenDose administered => AdministeredDose.Value;
 
         /// <summary>
         ///  Cdsi Logic Spec 4.1 - Section 6-10
         /// </summary>        
         public void Evaluate()
         {
-            // short circuited evaluation halts the evaluation 
+            // short circuited evaluation halts
             if (CanBeEvaluated()
                 && !CanSkip()
                 && EvaluateAge()
@@ -20,19 +20,18 @@
                 && !EvaluateLiveVirusConflict()
                 && (EvaluateForPreferableVaccine() || EvaluateForAllowableVaccine()))
             {
-                target.Status = TargetDoseStatus.Satisfied;
+                TargetDose.Value.Status = TargetDoseStatus.Satisfied;
             }
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-1
         public bool CanBeEvaluated()
         {
-            var vaccine = administered.VaccineDose;
-
-            var val = vaccine.DateAdministered <= vaccine.LotExpiration && string.IsNullOrWhiteSpace(vaccine.DoseCondition);
+            var val = AdministeredDose.Value.VaccineDose.DateAdministered <= AdministeredDose.Value.VaccineDose.LotExpiration
+                && string.IsNullOrWhiteSpace(AdministeredDose.Value.VaccineDose.DoseCondition);
             if (!val)
             {
-                administered.EvaluationStatus = EvaluationStatus.SubStandard;
+                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.SubStandard;
             }
             return val;
         }
@@ -46,13 +45,11 @@
         // Cdsi Logic Spec 4.1 - Section 6-3
         public bool IsInadvertentVaccine()
         {
-            var series = target.SeriesDose;
-
-            var val = series.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == administered.VaccineDose.VaccineType).Any();
+            var val = TargetDose.Value.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == AdministeredDose.Value.VaccineDose.VaccineType).Any();
             if (val)
             {
-                administered.EvaluationStatus = EvaluationStatus.NotValid;
-                administered.EvaluationReasons.Add(EvaluationReason.InadvertentAdministration);
+                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.NotValid;
+                AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.InadvertentAdministration);
             }
             return val;
         }

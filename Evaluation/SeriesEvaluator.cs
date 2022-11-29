@@ -1,4 +1,6 @@
-﻿namespace OpenCdsi.Cdsi
+﻿using System.Reflection.PortableExecutable;
+
+namespace OpenCdsi.Cdsi
 {
     public class SeriesEvaluator : ISeriesEvaluator
     {
@@ -7,29 +9,45 @@
         public void Evaluate(IEnumerable<IAntigenDose> immunizationHistory)
         {
             var targets = new LinkedList<ITargetDose>(PatientSeries.TargetDoses);
-            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory.Where(x => x.AntigenName == PatientSeries.Antigen));
+            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory);
 
-            var target = targets.First;
-            var vaccine = vaccines.First;
+            var doseEvaluator = GetDoseEvaluator(targets.First, vaccines.First);
 
+            while (doseEvaluator != null)
+            {
+                doseEvaluator.Evaluate();
+                doseEvaluator = GetDoseEvaluator(doseEvaluator);
+            }
+
+            // TODO set patientseries status
+        }
+
+        internal IDoseEvaluator GetDoseEvaluator(IDoseEvaluator doseEvaluator)
+        {
+            return GetDoseEvaluator(doseEvaluator.TargetDose, doseEvaluator.AdministeredDose);
+        }
+
+        internal IDoseEvaluator GetDoseEvaluator(LinkedListNode<ITargetDose> target, LinkedListNode<IAntigenDose> vaccine)
+        {
             while (target != null)
             {
-                target.Value.Status = TargetDoseStatus.NotSatisfied;
-
-                var evaluator = new DoseEvaluator { TargetDose = target };
-                if (!evaluator.CanSkip())
-                {
-                    while (vaccine != null)
-                    {
-                        evaluator.Evaluate(vaccine);
-
-                        // check the status of the doses and move the pointers accordingly
-                        if (target.Value.Status == TargetDoseStatus.Satisfied || target.Value.Status == TargetDoseStatus.Skipped) break;
-                       
-                        vaccine = vaccine.Next;
-                    }
-                }
+                if (target.Value.Status == TargetDoseStatus.NotSatisfied) break;
                 target = target.Next;
+            }
+
+            while (vaccine != null)
+            {
+                if (vaccine.Value.EvaluationStatus == EvaluationStatus.NotEvaluated) break;
+                vaccine = vaccine.Next;
+            }
+
+            if (target != null && vaccine != null)
+            {
+                return new DoseEvaluator { TargetDose = target, AdministeredDose = vaccine };
+            }
+            else
+            {
+                return default;
             }
         }
     }

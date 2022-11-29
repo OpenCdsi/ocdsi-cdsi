@@ -15,6 +15,7 @@ namespace OpenCdsi.Cdsi
     // Table 3-1
     public enum EvaluationStatus
     {
+        NotEvaluated,
         NotValid,
         SubStandard,
         Extraneous,
@@ -32,6 +33,7 @@ namespace OpenCdsi.Cdsi
     // Table 3-3
     public enum PatientSeriesStatus
     {
+        NotEvaluated,
         NotComplete,
         Contraindicated,
         NotRecommended,
