@@ -6,7 +6,7 @@ namespace OpenCdsi.Cdsi
     {
         public IPatientSeries PatientSeries { get; init; }
 
-        public void Evaluate(IEnumerable<IAntigenDose> immunizationHistory)
+        public void Evaluate(IEnumerable<IAntigenDose> immunizationHistory, IEvaluationOptions options)
         {
             var targets = new LinkedList<ITargetDose>(PatientSeries.TargetDoses);
             var vaccines = new LinkedList<IAntigenDose>(immunizationHistory);
@@ -15,11 +15,13 @@ namespace OpenCdsi.Cdsi
 
             while (doseEvaluator != null)
             {
-                doseEvaluator.Evaluate();
+                doseEvaluator.Evaluate(options);
                 doseEvaluator = GetDoseEvaluator(doseEvaluator);
             }
 
-            // TODO set patientseries status
+            PatientSeries.Status = PatientSeries.TargetDoses.All(x => x.Status == TargetDoseStatus.Satisfied)
+                ? PatientSeriesStatus.Complete
+                : PatientSeriesStatus.NotComplete;
         }
 
         internal IDoseEvaluator GetDoseEvaluator(IDoseEvaluator doseEvaluator)

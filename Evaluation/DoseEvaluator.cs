@@ -1,4 +1,5 @@
-﻿using OpenCdsi.Schedule;
+﻿using OpenCdsi.Calendar;
+using OpenCdsi.Schedule;
 
 namespace OpenCdsi.Cdsi
 {
@@ -7,11 +8,15 @@ namespace OpenCdsi.Cdsi
         public LinkedListNode<ITargetDose> TargetDose { get; init; }
         public LinkedListNode<IAntigenDose> AdministeredDose { get; init; }
 
+        private IEvaluationOptions _options;
+
         /// <summary>
         ///  Cdsi Logic Spec 4.1 - Section 6-10
         /// </summary>        
-        public void Evaluate()
+        public void Evaluate(IEvaluationOptions options)
         {
+            _options = options;
+
             // short circuited evaluation halts
             if (CanBeEvaluated()
                 && !CanSkip()
@@ -20,6 +25,7 @@ namespace OpenCdsi.Cdsi
                 && !EvaluateLiveVirusConflict()
                 && (EvaluateForPreferableVaccine() || EvaluateForAllowableVaccine()))
             {
+                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.Valid;
                 TargetDose.Value.Status = TargetDoseStatus.Satisfied;
             }
         }
@@ -57,7 +63,16 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.1 - Section 6-4
         public bool EvaluateAge()
         {
-            return true;
+            var minDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().minAge, Date.MinValue);
+            var maxDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().maxAge, Date.MaxValue);
+            var absMinDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().absMinAge, Date.MinValue);
+
+            var val = false;
+            if (!val)
+            {
+                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.SubStandard;
+            }
+            return val;
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-5

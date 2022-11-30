@@ -26,8 +26,7 @@ namespace OpenCdsi.Cdsi
                     .Select(x => new AntigenDose
                     {
                         AntigenName = x.antigen,
-                        VaccineDose = dose,
-                        EvaluationStatus = EvaluationStatus.NotValid
+                        VaccineDose = dose
                     });
         }
     }

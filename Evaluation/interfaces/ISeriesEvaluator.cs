@@ -9,6 +9,6 @@
         /// </summary>
         /// <param name="immunizationHistory"></param>
         /// <returns></returns>
-        void Evaluate(IEnumerable<IAntigenDose> immunizationHistory);
+        void Evaluate(IEnumerable<IAntigenDose> immunizationHistory, IEvaluationOptions options);
     }
 }

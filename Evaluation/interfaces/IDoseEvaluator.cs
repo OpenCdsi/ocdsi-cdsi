@@ -6,6 +6,6 @@ namespace OpenCdsi.Cdsi
         LinkedListNode<ITargetDose> TargetDose { get; }
         LinkedListNode<IAntigenDose> AdministeredDose { get; }
 
-        void Evaluate();
+        void Evaluate(IEvaluationOptions options);
     }
 }
