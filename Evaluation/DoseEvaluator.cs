@@ -28,6 +28,10 @@ namespace OpenCdsi.Cdsi
                 AdministeredDose.Value.EvaluationStatus = EvaluationStatus.Valid;
                 TargetDose.Value.Status = TargetDoseStatus.Satisfied;
             }
+            else
+            {
+                AdministeredDose.Value.EvaluationStatus= EvaluationStatus.NotValid;
+            }
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-1
@@ -66,13 +70,69 @@ namespace OpenCdsi.Cdsi
             var minDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().minAge, Date.MinValue);
             var maxDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().maxAge, Date.MaxValue);
             var absMinDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().absMinAge, Date.MinValue);
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
 
-            var val = false;
-            if (!val)
+            // The following notes reference Table 6-16 Was the vaccine dose administered at a valid age?
+            // The decision table was drawn as a decision tree and the tree was optimized my removing
+            // implicit branches.
+
+            // Conditon 2
+            if (absMinDate <= adminDate && adminDate < minDate)
             {
-                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.SubStandard;
+                // Conditon 5
+                if (TargetDose.Previous == null)
+                {
+                    // Result 4
+                    AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.AgeGracePeriod);
+                    return true;
+                }
+                else
+                {
+                    // Condition 6
+                    if (AdministeredDose.Previous != null
+                        && AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.NotValid
+                        && AdministeredDose.Previous.Value.VaccineDose.DateAdministered.Add("1 year") < adminDate)
+                    {
+                        // Result 2
+                        AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.AgeTooYoung);
+                        return false;
+                    }
+                    else
+                    {
+                        // Result 3
+                        AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.AgeGracePeriod);
+                        return true;
+                    }
+                }
             }
-            return val;
+            else
+            {
+                // Conditon 3
+                if (minDate <= adminDate && adminDate < maxDate)
+                {
+                    // Result 5
+                    return true;
+                }
+                else
+                {
+                    // Conditon 4
+                    if (adminDate >= maxDate)
+                    {
+                        // Result 6
+                        AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.AgeTooOld);
+                        return false;
+
+                    }
+                    else
+                    {
+                        // Result 1
+                        AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.AgeTooYoung);
+                        return false;
+                    }
+                }
+            }
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.1 - Section 6-5
