@@ -33,7 +33,7 @@ namespace OpenCdsi.Cdsi.UnitTests
                 DOB = patient.DOB - Interval.Parse("1 month"),
                 Gender = patient.Gender,
                 VaccineHistory = patient.VaccineHistory,
-                ObservationCodes = new[] { "048" }
+                Observations = new[] { new PatientObservation { Code = "048" } }
             };
 
             var selector = new SeriesSelector { Patient = patient, AssessmentDate = testcase.AssessmentDate };
@@ -55,7 +55,7 @@ namespace OpenCdsi.Cdsi.UnitTests
                 DOB = patient.DOB - Interval.Parse("1 month"),
                 Gender = patient.Gender,
                 VaccineHistory = patient.VaccineHistory,
-                ObservationCodes = new[] { "048" }
+                Observations = new[] { new PatientObservation { Code = "048" } }
             };
 
             var selector = new SeriesSelector { Patient = patient, AssessmentDate = testcase.AssessmentDate + Interval.Parse("1 year") };

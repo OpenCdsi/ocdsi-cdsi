@@ -63,7 +63,8 @@ namespace OpenCdsi.Cdsi
                 endDate = Date.MaxValue;
             };
 
-            return (beginDate < AssessmentDate && AssessmentDate <= endDate) && Patient.ObservationCodes.Contains(indication.observationCode.code);
+            return (beginDate < AssessmentDate && AssessmentDate <= endDate)
+                    && Patient.Observations.Any(x => x.Code == indication.observationCode.code);
         }
 
         /// <summary>

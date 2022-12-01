@@ -20,7 +20,6 @@ namespace OpenCdsi.Cdsi.UnitTests
             {
                 DOB = tp.DOB,
                 Gender = gender,
-                ObservationCodes = new List<string>(),
                 VaccineHistory = tvda.Select(x => x.ToCdsiType()).ToList()
             };
 

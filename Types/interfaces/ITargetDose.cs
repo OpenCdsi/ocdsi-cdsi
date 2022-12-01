@@ -8,6 +8,7 @@ namespace OpenCdsi.Cdsi
     public interface ITargetDose
     {
         TargetDoseStatus Status { get; set; }
+        DateTime SatisfiedOn { get; set;}
         antigenSupportingDataSeriesSeriesDose SeriesDose { get; }
     }
 }

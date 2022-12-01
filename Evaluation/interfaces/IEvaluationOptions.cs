@@ -10,5 +10,6 @@ namespace OpenCdsi.Cdsi
     {
         DateTime AssessmentDate { get; }
         DateTime DateOfBirth { get; }
+        IEnumerable<IPatientObservation> Observations { get; }
     }
 }

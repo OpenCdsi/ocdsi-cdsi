@@ -19,7 +19,7 @@ namespace OpenCdsi.Cdsi
 
             // short circuited evaluation halts
             if (CanBeEvaluated()
-                && !CanSkip()
+                && !ConditionalSkip()
                 && EvaluateAge()
                 && (EvaluatePreferableInterval() || EvaluateAllowableInterval())
                 && !EvaluateLiveVirusConflict()
@@ -27,6 +27,7 @@ namespace OpenCdsi.Cdsi
             {
                 AdministeredDose.Value.EvaluationStatus = EvaluationStatus.Valid;
                 TargetDose.Value.Status = TargetDoseStatus.Satisfied;
+                TargetDose.Value.SatisfiedOn = AdministeredDose.Value.VaccineDose.DateAdministered;
             }
             else
             {
@@ -47,9 +48,10 @@ namespace OpenCdsi.Cdsi
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-2
-        public bool CanSkip()
+        public bool ConditionalSkip()
         {
-            return false;
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-3
@@ -139,13 +141,83 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-5
         public bool EvaluatePreferableInterval()
         {
-            return true;
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
+            var potentialIntervals = TargetDose.Value.SeriesDose.interval;
+
+            if (potentialIntervals.Any())
+            {
+                return potentialIntervals.All(x =>
+                {
+                    var refDoseDate = GetPrefereableIntervalReferenceDate(x);
+                    var minDate = refDoseDate.Add(x.minInt, Date.MinValue);
+                    var absMinDate = refDoseDate.Add(x.absMinInt, Date.MinValue);
+
+                    // Condition 2
+                    if (absMinDate <= adminDate && adminDate < minDate)
+                    {
+                        // Condition 4
+                        if (TargetDose.Previous == null)
+                        {
+                            // Result 4
+                            AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.IntervalGracePeriod);
+                            return true;
+                        }
+                        else
+                        {
+                            // Condition 5
+                            if (AdministeredDose.Previous != null
+                                && AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.NotValid
+                                && AdministeredDose.Previous.Value.VaccineDose.DateAdministered.Add("1 year") < adminDate)
+                            {
+                                // Result 2
+                                AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.IntervalTooSoon);
+                                return false;
+                            }
+                            else
+                            {
+                                // Result 3
+                                AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.IntervalGracePeriod);
+                                return true;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Condition 1
+                        if (adminDate < absMinDate)
+                        {
+                            // Result 1
+                            AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.IntervalTooSoon);
+                            return false;
+                        }
+                        else
+                        {
+                            // Condition 3
+                            if (minDate < adminDate)
+                            {
+                                return true;
+                            }
+                            else
+                            {
+                                throw new ApplicationException("Invalid decision table evaluation.");
+                            }
+                        }
+                    }
+                });
+            }
+            else
+            {
+                return true;
+            }
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-6
         public bool EvaluateAllowableInterval()
         {
-            return true;
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-7
@@ -171,11 +243,11 @@ namespace OpenCdsi.Cdsi
                         // Condition 3
                         if (conflict != null)
                         {
-                            var beginIntervalDate = previous.Value.VaccineDose.DateAdministered.Add(conflict.conflictBeginInterval,Date.MinValue);
+                            var beginIntervalDate = previous.Value.VaccineDose.DateAdministered.Add(conflict.conflictBeginInterval, Date.MinValue);
                             var endIntervalDate = previous.Value.VaccineDose.DateAdministered.Add(conflict.conflictEndInterval, Date.MaxValue);
 
                             // Condition 4
-                            if(beginIntervalDate <= adminDate && adminDate < endIntervalDate)
+                            if (beginIntervalDate <= adminDate && adminDate < endIntervalDate)
                             {
                                 // Result 1
                                 AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.LiveVirusConflict);
@@ -206,13 +278,78 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-8
         public bool EvaluateForPreferableVaccine()
         {
-            return true;
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-9
         public bool EvaluateForAllowableVaccine()
         {
-            return true;
+
+            throw new ApplicationException("Invalid decision table evaluation.");
+        }
+
+        internal DateTime GetPrefereableIntervalReferenceDate(antigenSupportingDataSeriesSeriesDoseInterval interval)
+        {
+            if (interval.fromPrevious == "Y")
+            {
+                // from previous dose
+                if (AdministeredDose.Previous != null
+                    && (AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.Valid
+                    || AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.NotValid)
+                    && !AdministeredDose.Previous.Value.EvaluationReasons.Contains(EvaluationReason.InadvertentAdministration))
+                {
+                    return AdministeredDose.Previous.Value.VaccineDose.DateAdministered;
+                }
+            }
+            else
+            {
+                if (!string.IsNullOrWhiteSpace(interval.fromTargetDose))
+                {
+                    // from target dose #
+                    var target = TargetDose.Previous;
+                    while (target != null)
+                    {
+                        if (target.Value.SeriesDose.doseNumber.Contains(interval.fromTargetDose))
+                        {
+                            return target.Value.SatisfiedOn;
+                        }
+                        target = target.Previous;
+                    }
+                }
+                else
+                {
+                    if (!string.IsNullOrWhiteSpace(interval.fromMostRecent))
+                    {
+                        // from most recent vaccine type
+                        var dose = AdministeredDose.Previous;
+                        while (dose != null)
+                        {
+                            if (dose.Value.VaccineDose.VaccineType == interval.fromMostRecent)
+                            {
+                                return dose.Value.VaccineDose.DateAdministered;
+                            }
+                            dose = dose.Previous;
+                        }
+                    }
+                    else
+                    {
+                        if (!string.IsNullOrWhiteSpace(interval.fromRelevantObs.text)
+                            && !string.IsNullOrWhiteSpace(interval.fromRelevantObs.code))
+                        {
+                            // from relevant observation
+                            var obs = _options.Observations.Where(x => x.Code == interval.fromRelevantObs.code).FirstOrDefault();
+                            if (obs != null)
+                            {
+                                return obs.DateOfObservation;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // If nothing matches then this will cause the pref interval code to return true.
+            return Date.MinValue;
         }
     }
 }

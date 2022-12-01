@@ -16,7 +16,7 @@ namespace OpenCdsi.Cdsi.UnitTests
             var gatherer = new DataGatherer { Patient = patient };
             var doses = gatherer.OrganizeImmunizationHistory().Where(x => x.AntigenName == "Measles").ToList();
             // series to evaluate
-            var antigen = SupportingData.Antigens["Measles"];
+            var antigen = SupportingData.Antigens["HepB"];
             var series = PatientSeries.Create(antigen.series[0]); // standard Measles 2-dose series
             // envaluation environment
             var options = new EvaluationOptions { AssessmentDate = testcase.AssessmentDate, DateOfBirth = patient.DOB };

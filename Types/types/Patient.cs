@@ -4,7 +4,7 @@
     {
         public DateTime DOB { get; init; }
         public Gender Gender { get; init; }
-        public IEnumerable<string> ObservationCodes { get; init; } = new List<string>();
+        public IEnumerable<IPatientObservation> Observations { get; init; } = new List<IPatientObservation>();
         public IEnumerable<IVaccineDose> VaccineHistory { get; init; } = new List<IVaccineDose>();
     }
 }
