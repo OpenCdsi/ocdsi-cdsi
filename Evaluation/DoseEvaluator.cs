@@ -217,7 +217,24 @@ namespace OpenCdsi.Cdsi
         public bool EvaluateAllowableInterval()
         {
 
-            throw new ApplicationException("Invalid decision table evaluation.");
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
+            var potentialIntervals = TargetDose.Value.SeriesDose.interval;
+
+            return potentialIntervals.All(x =>
+            {
+                var refDoseDate = GetPrefereableIntervalReferenceDate(x);
+                var absMinDate = refDoseDate.Add(x.absMinInt, Date.MinValue);
+
+                if (adminDate < absMinDate)
+                {
+                    AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.IntervalTooSoon);
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            });
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-7
@@ -289,67 +306,92 @@ namespace OpenCdsi.Cdsi
             throw new ApplicationException("Invalid decision table evaluation.");
         }
 
+        internal DateTime GetPrefereableIntervalReferenceDate(antigenSupportingDataSeriesSeriesDoseAllowableInterval interval)
+        {
+            return interval.fromPrevious == "Y"
+                ? GetRefDateFromPreviousDose()
+                : GetRefDateFromTargetDose(interval.fromTargetDose);
+        }
+
         internal DateTime GetPrefereableIntervalReferenceDate(antigenSupportingDataSeriesSeriesDoseInterval interval)
         {
             if (interval.fromPrevious == "Y")
             {
-                // from previous dose
-                if (AdministeredDose.Previous != null
-                    && (AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.Valid
-                    || AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.NotValid)
-                    && !AdministeredDose.Previous.Value.EvaluationReasons.Contains(EvaluationReason.InadvertentAdministration))
-                {
-                    return AdministeredDose.Previous.Value.VaccineDose.DateAdministered;
-                }
+                return GetRefDateFromPreviousDose();
             }
             else
             {
                 if (!string.IsNullOrWhiteSpace(interval.fromTargetDose))
                 {
-                    // from target dose #
-                    var target = TargetDose.Previous;
-                    while (target != null)
-                    {
-                        if (target.Value.SeriesDose.doseNumber.Contains(interval.fromTargetDose))
-                        {
-                            return target.Value.SatisfiedOn;
-                        }
-                        target = target.Previous;
-                    }
+                    return GetRefDateFromTargetDose(interval.fromTargetDose);
                 }
                 else
                 {
                     if (!string.IsNullOrWhiteSpace(interval.fromMostRecent))
                     {
-                        // from most recent vaccine type
-                        var dose = AdministeredDose.Previous;
-                        while (dose != null)
-                        {
-                            if (dose.Value.VaccineDose.VaccineType == interval.fromMostRecent)
-                            {
-                                return dose.Value.VaccineDose.DateAdministered;
-                            }
-                            dose = dose.Previous;
-                        }
+                        return GetRefDateFromMostRecent(interval.fromMostRecent);
                     }
                     else
                     {
                         if (!string.IsNullOrWhiteSpace(interval.fromRelevantObs.text)
                             && !string.IsNullOrWhiteSpace(interval.fromRelevantObs.code))
                         {
-                            // from relevant observation
-                            var obs = _options.Observations.Where(x => x.Code == interval.fromRelevantObs.code).FirstOrDefault();
-                            if (obs != null)
-                            {
-                                return obs.DateOfObservation;
-                            }
+                            return GetRefDateFromObservation(interval.fromRelevantObs.code);
                         }
                     }
                 }
             }
-
-            // If nothing matches then this will cause the pref interval code to return true.
             return Date.MinValue;
+        }
+
+        public DateTime GetRefDateFromPreviousDose()
+        {
+            return AdministeredDose.Previous != null
+                 && (AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.Valid
+                 || AdministeredDose.Previous.Value.EvaluationStatus == EvaluationStatus.NotValid)
+                 && !AdministeredDose.Previous.Value.EvaluationReasons.Contains(EvaluationReason.InadvertentAdministration)
+                 ? AdministeredDose.Previous.Value.VaccineDose.DateAdministered
+                 : Date.MinValue;
+        }
+
+        public DateTime GetRefDateFromTargetDose(string doseNumber)
+        {
+            var target = TargetDose.Previous;
+            while (target != null)
+            {
+                if (target.Value.SeriesDose.doseNumber.Contains(doseNumber))
+                {
+                    return target.Value.SatisfiedOn;
+                }
+                target = target.Previous;
+            }
+
+            return Date.MinValue;
+        }
+
+        public DateTime GetRefDateFromMostRecent(string vaccineType)
+        {
+            var dose = AdministeredDose.Previous;
+            while (dose != null)
+            {
+                if (dose.Value.VaccineDose.VaccineType == vaccineType)
+                {
+                    return dose.Value.VaccineDose.DateAdministered;
+                }
+                dose = dose.Previous;
+            }
+
+            return Date.MinValue;
+        }
+
+        public DateTime GetRefDateFromObservation(string code)
+        {
+            var obs = _options.Observations.Where(x => x.Code == code).FirstOrDefault();
+
+            return obs != null
+                ? obs.DateOfObservation
+                : Date.MinValue;
         }
     }
 }
+
