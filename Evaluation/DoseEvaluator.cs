@@ -11,7 +11,7 @@ namespace OpenCdsi.Cdsi
         private IEvaluationOptions _options;
 
         /// <summary>
-        ///  Cdsi Logic Spec 4.1 - Section 6-10
+        ///  Cdsi Logic Spec 4.3 - Section 6-10
         /// </summary>        
         public void Evaluate(IEvaluationOptions options)
         {
@@ -30,11 +30,11 @@ namespace OpenCdsi.Cdsi
             }
             else
             {
-                AdministeredDose.Value.EvaluationStatus= EvaluationStatus.NotValid;
+                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.NotValid;
             }
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-1
+        // Cdsi Logic Spec 4.3 - Section 6-1
         public bool CanBeEvaluated()
         {
             var val = AdministeredDose.Value.VaccineDose.DateAdministered <= AdministeredDose.Value.VaccineDose.LotExpiration
@@ -46,13 +46,13 @@ namespace OpenCdsi.Cdsi
             return val;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-2
+        // Cdsi Logic Spec 4.3 - Section 6-2
         public bool CanSkip()
         {
             return false;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-3
+        // Cdsi Logic Spec 4.3 - Section 6-3
         public bool IsInadvertentVaccine()
         {
             var val = TargetDose.Value.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == AdministeredDose.Value.VaccineDose.VaccineType).Any();
@@ -64,7 +64,7 @@ namespace OpenCdsi.Cdsi
             return val;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-4
+        // Cdsi Logic Spec 4.3 - Section 6-4
         public bool EvaluateAge()
         {
             var minDate = _options.DateOfBirth.Add(TargetDose.Value.SeriesDose.age.First().minAge, Date.MinValue);
@@ -73,6 +73,7 @@ namespace OpenCdsi.Cdsi
             var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
 
             // The following notes reference Table 6-16 Was the vaccine dose administered at a valid age?
+            //
             // The decision table was drawn as a decision tree and the tree was optimized my removing
             // implicit branches.
 
@@ -135,31 +136,80 @@ namespace OpenCdsi.Cdsi
             throw new ApplicationException("Invalid decision table evaluation.");
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-5
+        // Cdsi Logic Spec 4.3 - Section 6-5
         public bool EvaluatePreferableInterval()
         {
             return true;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-6
+        // Cdsi Logic Spec 4.3 - Section 6-6
         public bool EvaluateAllowableInterval()
         {
             return true;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-7
+        // Cdsi Logic Spec 4.3 - Section 6-7
         public bool EvaluateLiveVirusConflict()
         {
-            return false;
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
+            var currentVaccineType = AdministeredDose.Value.VaccineDose.VaccineType;
+            var potentialConflicts = SupportingData.Schedule.LiveVirusConflicts.Where(x => x.current.vaccineType == currentVaccineType);
+
+            // reference Tables 6-24,6-25,6-26,6-27
+
+            // Condition 1
+            if (potentialConflicts.Any())
+            {
+                // Condition 2
+                if (AdministeredDose.Previous != null)
+                {
+                    var previous = AdministeredDose.Previous;
+                    while (previous != null)
+                    {
+                        var conflict = potentialConflicts.FirstOrDefault(x => x.previous.vaccineType == previous.Value.VaccineDose.VaccineType);
+
+                        // Condition 3
+                        if (conflict != null)
+                        {
+                            var beginIntervalDate = previous.Value.VaccineDose.DateAdministered.Add(conflict.conflictBeginInterval,Date.MinValue);
+                            var endIntervalDate = previous.Value.VaccineDose.DateAdministered.Add(conflict.conflictEndInterval, Date.MaxValue);
+
+                            // Condition 4
+                            if(beginIntervalDate <= adminDate && adminDate < endIntervalDate)
+                            {
+                                // Result 1
+                                AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.LiveVirusConflict);
+                                return true;
+                            }
+                        }
+
+                        previous = previous.Previous;
+                    }
+                    // Result 2
+                    return false;
+                }
+                else
+                {
+                    // Result 2
+                    return false;
+                }
+            }
+            else
+            {
+                // Result 2
+                return false;
+            }
+
+            throw new ApplicationException("Invalid decision table evaluation.");
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-8
+        // Cdsi Logic Spec 4.3 - Section 6-8
         public bool EvaluateForPreferableVaccine()
         {
             return true;
         }
 
-        // Cdsi Logic Spec 4.1 - Section 6-9
+        // Cdsi Logic Spec 4.3 - Section 6-9
         public bool EvaluateForAllowableVaccine()
         {
             return true;

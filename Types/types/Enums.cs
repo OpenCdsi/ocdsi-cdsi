@@ -66,6 +66,7 @@ namespace OpenCdsi.Cdsi
         AgeTooYoung,
         AgeTooOld,
         IntervalTooSoon,
-        LessThanRecommendedVolume
+        LessThanRecommendedVolume,
+        LiveVirusConflict
     }
 }
