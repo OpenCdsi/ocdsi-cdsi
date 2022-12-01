@@ -3,11 +3,13 @@
     public class VaccineDose : IVaccineDose
     {
         public DateTime DateAdministered { get; init; }
-        public string VaccineDescription { get; init; }
-        public string VaccineType { get; init; }
-        public string CVX { get; init; }
-        public string MVX { get; init; }
+        public string VaccineDescription { get; init; } = string.Empty;
+        public string VaccineType { get; init; } = string.Empty;
+        public string CVX { get; init; } = string.Empty;
+        public string MVX { get; init; } = string.Empty;
+        public string Tradename { get; init; } = string.Empty;
         public DateTime LotExpiration { get; init; }
-        public string DoseCondition { get; init; }
+        public string DoseCondition { get; init; } = string.Empty;
+        public int Volume { get; init; } = 0;
     }
 }

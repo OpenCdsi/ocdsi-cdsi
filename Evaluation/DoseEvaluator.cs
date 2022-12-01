@@ -50,8 +50,7 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-2
         public bool ConditionalSkip()
         {
-
-            throw new ApplicationException("Invalid decision table evaluation.");
+            return false;
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-3
@@ -60,7 +59,6 @@ namespace OpenCdsi.Cdsi
             var val = TargetDose.Value.SeriesDose.inadvertentVaccine.Select(x => x.vaccineType).Where(x => x == AdministeredDose.Value.VaccineDose.VaccineType).Any();
             if (val)
             {
-                AdministeredDose.Value.EvaluationStatus = EvaluationStatus.NotValid;
                 AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.InadvertentAdministration);
             }
             return val;
@@ -216,7 +214,6 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-6
         public bool EvaluateAllowableInterval()
         {
-
             var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
             var potentialIntervals = TargetDose.Value.SeriesDose.interval;
 
@@ -295,14 +292,84 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-8
         public bool EvaluateForPreferableVaccine()
         {
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
+            var tradename = AdministeredDose.Value.VaccineDose.Tradename;
+            var vol = AdministeredDose.Value.VaccineDose.Volume;
+            var cvx = AdministeredDose.Value.VaccineDose.CVX;
 
+            var potentialVaccines = TargetDose.Value.SeriesDose.preferableVaccine;
+
+            if (potentialVaccines != null)
+            {
+                return potentialVaccines.Any(x =>
+                {
+                    var beginDate = _options.DateOfBirth.Add(x.beginAge, Date.MinValue);
+                    var endDate = _options.DateOfBirth.Add(x.endAge, Date.MaxValue);
+
+                    if (cvx == x.cvx)
+                    {
+                        if (beginDate <= adminDate && adminDate < endDate)
+                        {
+                            if (tradename == x.tradeName)
+                            {
+                                var prefVolume = 0;
+                                int.TryParse(x.volume, out prefVolume);
+                                if (vol < prefVolume)
+                                {
+                                    AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.VaccineLessThanRecommendedVolume);
+                                }
+                                return true;
+                            }
+                            else
+                            {
+                                AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.VaccineWrongTradename);
+                                return false;
+                            }
+                        }
+                        else
+                        {
+                            AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.VaccineOutOfAgeRange);
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                });
+            }
             throw new ApplicationException("Invalid decision table evaluation.");
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-9
         public bool EvaluateForAllowableVaccine()
         {
+            var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
+            var vtype = AdministeredDose.Value.VaccineDose.VaccineType;
+            var potentialVaccines = TargetDose.Value.SeriesDose.allowableVaccine;
 
+            return potentialVaccines.Any(x =>
+            {
+                var beginDate = _options.DateOfBirth.Add(x.beginAge, Date.MinValue);
+                var endDate = _options.DateOfBirth.Add(x.endAge, Date.MaxValue);
+
+                if (vtype == x.vaccineType)
+                {
+                    if (beginDate <= adminDate && adminDate < endDate)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        AdministeredDose.Value.EvaluationReasons.Add(EvaluationReason.VaccineOutOfAgeRange);
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            });
             throw new ApplicationException("Invalid decision table evaluation.");
         }
 
