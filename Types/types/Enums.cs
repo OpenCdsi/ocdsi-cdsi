@@ -66,7 +66,9 @@ namespace OpenCdsi.Cdsi
         AgeTooYoung,
         AgeTooOld,
         IntervalTooSoon,
-        LessThanRecommendedVolume,
-        LiveVirusConflict
+        LiveVirusConflict,
+        VaccineOutOfAgeRange,
+        VaccineWrongTradename,
+        VaccineLessThanRecommendedVolume
     }
 }

@@ -11,7 +11,9 @@
         string VaccineType { get; }
         string CVX { get; }
         string MVX { get; }
+        string Tradename { get; }
         DateTime LotExpiration { get; }
         string DoseCondition { get; }
+        int Volume { get; }
     }
 }
