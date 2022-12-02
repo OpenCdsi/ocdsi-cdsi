@@ -71,4 +71,24 @@ namespace OpenCdsi.Cdsi
         VaccineWrongTradename,
         VaccineLessThanRecommendedVolume
     }
+
+    public enum ConditionSetLogic
+    {
+        NA,
+        AND,
+        OR
+    }
+
+    public enum ConditionalSkipContext
+    {
+        Evaluation,
+        Forecast
+    }
+
+    public enum ConditionalSkipType
+    {
+        Age,
+        VaccineCountByAge,
+        VaccineCountByDate
+    }
 }

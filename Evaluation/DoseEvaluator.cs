@@ -13,7 +13,7 @@ namespace OpenCdsi.Cdsi
         /// <summary>
         ///  Cdsi Logic Spec 4.3 - Section 6-10
         /// </summary>        
-        public void Evaluate(IEvaluationOptions options)
+        public bool Evaluate(IEvaluationOptions options)
         {
             _options = options;
 
@@ -33,6 +33,7 @@ namespace OpenCdsi.Cdsi
             {
                 AdministeredDose.Value.EvaluationStatus = EvaluationStatus.NotValid;
             }
+            return true;
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-1
@@ -50,7 +51,13 @@ namespace OpenCdsi.Cdsi
         // Cdsi Logic Spec 4.3 - Section 6-2
         public bool ConditionalSkip()
         {
-            return false;
+            var context = TargetDose.Value.SeriesDose.conditionalSkip
+                        .Where(x => x.context == "Evaluation")
+                        .FirstOrDefault();
+
+            return context == null
+                ? false
+                : context.Evaluate(_options, this);
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-3
@@ -75,7 +82,8 @@ namespace OpenCdsi.Cdsi
             // The following notes reference Table 6-16 Was the vaccine dose administered at a valid age?
             //
             // The decision table was drawn as a decision tree and the tree was optimized my removing
-            // implicit branches.
+            // implicit branches. Conditions are the rows number 1-n while the results are the columns
+            // numbered 1-n.
 
             // Conditon 2
             if (absMinDate <= adminDate && adminDate < minDate)

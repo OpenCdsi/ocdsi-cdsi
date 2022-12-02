@@ -5,7 +5,11 @@ namespace OpenCdsi.Cdsi
     {
         LinkedListNode<ITargetDose> TargetDose { get; }
         LinkedListNode<IAntigenDose> AdministeredDose { get; }
-
-        void Evaluate(IEvaluationOptions options);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="options"></param>
+        /// <returns>Success or failure</returns>
+        bool Evaluate(IEvaluationOptions options);
     }
 }
