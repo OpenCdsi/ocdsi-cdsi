@@ -21,8 +21,8 @@ namespace OpenCdsi.Cdsi.UnitTests
             // envaluation environment
             var options = new EvaluationOptions { AssessmentDate = testcase.AssessmentDate, DateOfBirth = patient.DOB };
 
-            var evaluator = new SeriesEvaluator { PatientSeries = series };
-            evaluator.Evaluate(doses, options);
+            var evaluator = new SeriesEvaluator { PatientSeries = series, ImmunizationHistory = doses };
+            evaluator.Evaluate(options);
 
             Assert.AreEqual(PatientSeriesStatus.NotComplete, series.Status);
             Assert.AreEqual(doses[0].EvaluationStatus, EvaluationStatus.Valid);

@@ -2,29 +2,32 @@
 
 namespace OpenCdsi.Cdsi
 {
-    public class SeriesEvaluator : ISeriesEvaluator
+    public class SeriesEvaluator : ISeriesContext, IEvaluator
     {
         public IPatientSeries PatientSeries { get; init; }
+        public IEnumerable<IAntigenDose> ImmunizationHistory { get; init; }
 
-        public void Evaluate(IEnumerable<IAntigenDose> immunizationHistory, IEvaluationOptions options)
+        public bool Evaluate(IEvaluationOptions options)
         {
             var targets = new LinkedList<ITargetDose>(PatientSeries.TargetDoses);
-            var vaccines = new LinkedList<IAntigenDose>(immunizationHistory);
+            var vaccines = new LinkedList<IAntigenDose>(ImmunizationHistory);
 
             var doseEvaluator = GetDoseEvaluator(targets.First, vaccines.First);
 
             while (doseEvaluator != null)
             {
                 doseEvaluator.Evaluate(options);
-                doseEvaluator = GetDoseEvaluator(doseEvaluator.TargetDose,doseEvaluator.AdministeredDose);
+                doseEvaluator = GetDoseEvaluator(doseEvaluator.TargetDose, doseEvaluator.AdministeredDose);
             }
 
             PatientSeries.Status = PatientSeries.TargetDoses.All(x => x.Status == TargetDoseStatus.Satisfied)
                 ? PatientSeriesStatus.Complete
                 : PatientSeriesStatus.NotComplete;
+
+            return true;
         }
 
-        internal IDoseEvaluator GetDoseEvaluator(LinkedListNode<ITargetDose> target, LinkedListNode<IAntigenDose> vaccine)
+        internal DoseEvaluator GetDoseEvaluator(LinkedListNode<ITargetDose> target, LinkedListNode<IAntigenDose> vaccine)
         {
             while (target != null)
             {

@@ -3,7 +3,7 @@ using OpenCdsi.Schedule;
 
 namespace OpenCdsi.Cdsi
 {
-    public class DoseEvaluator : IDoseEvaluator
+    public class DoseEvaluator : IDoseContext, IEvaluator
     {
         public LinkedListNode<ITargetDose> TargetDose { get; init; }
         public LinkedListNode<IAntigenDose> AdministeredDose { get; init; }
