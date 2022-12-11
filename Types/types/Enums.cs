@@ -88,6 +88,8 @@ namespace OpenCdsi.Cdsi
     public enum ConditionalSkipType
     {
         Age,
+        Interval,
+        CompletedSeries,
         VaccineCountByAge,
         VaccineCountByDate
     }
