@@ -16,7 +16,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="OpenCdsi.Calendar" Version="2.43.2" />
+    <PackageReference Include="OpenCdsi.Calendar" Version="2.43.3" />
     <PackageReference Include="OpenCdsi.Cases" Version="2.428.2" />
     <PackageReference Include="OpenCdsi.Schedule" Version="2.438.4" />
   </ItemGroup>
