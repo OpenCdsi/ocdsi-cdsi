@@ -93,4 +93,19 @@ namespace OpenCdsi.Cdsi
         VaccineCountByAge,
         VaccineCountByDate
     }
+
+    public enum ConditionalSkipDoseCountLogic
+    {
+        NA,
+        EqualTo,
+        GreaterThan,
+        LessThan
+    }
+
+    public enum ConditionalSkipDoseType
+    {
+        NA,
+        Valid,
+        Total
+    }
 }
