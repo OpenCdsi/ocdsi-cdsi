@@ -1,10 +1,10 @@
-﻿using OpenCdsi.Schedule;
+﻿using Ocdsi.SupportingData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OpenCdsi.Calendar;
+using Ocdsi.Calendar;
 using System.Transactions;
 
 namespace OpenCdsi.Cdsi

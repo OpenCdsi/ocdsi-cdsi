@@ -1,5 +1,5 @@
-﻿using OpenCdsi.Calendar;
-using OpenCdsi.Schedule;
+﻿using Ocdsi.Calendar;
+using Ocdsi.SupportingData;
 
 namespace OpenCdsi.Cdsi
 {

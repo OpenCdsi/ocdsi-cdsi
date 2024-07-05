@@ -9,23 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
-    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
-    <PackageReference Include="coverlet.collector" Version="3.2.0">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.4.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.4.3" />
+    <PackageReference Include="coverlet.collector" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="OpenCdsi.Calendar" Version="2.43.3" />
-    <PackageReference Include="OpenCdsi.Cases" Version="2.428.2" />
-    <PackageReference Include="OpenCdsi.Schedule" Version="2.438.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Calendar\Ocdsi.Calendar.csproj" />
     <ProjectReference Include="..\Cdsi\OpenCdsi.Cdsi.csproj" />
     <ProjectReference Include="..\Evaluation\Ocdsi.Evaluation.csproj" />
     <ProjectReference Include="..\GatherData\Ocdsi.GatherData.csproj" />
     <ProjectReference Include="..\SelectSeries\Ocdsi.SelectSeries.csproj" />
+    <ProjectReference Include="..\SupportingData\Ocdsi.SupportingData.csproj" />
     <ProjectReference Include="..\Types\Ocdsi.Types.csproj" />
   </ItemGroup>
 

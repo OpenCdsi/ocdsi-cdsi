@@ -1,0 +1,135 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>123</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of ebola</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of ebola vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>124</observationCode>
+<observationTitle>Severe allergic reaction to rice protein</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to rice protein.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Ebola Risk 1-dose series</seriesName>
+<targetDisease>Ebola</targetDisease>
+<vaccineGroup>Ebola</vaccineGroup>
+<seriesAdminGuidance/>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>18 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Ebola virus outbreak response</text>
+<code>182</code>
+</observationCode>
+<description>Administer to persons responding to an outbreak of Ebola Virus Disease.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel at federally designated Ebola treatement center in U.S.</text>
+<code>183</code>
+</observationCode>
+<description>Administer to persons working as health care personnel at federally designated Ebola treatement centers in the Unied States</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Laboratorians or other staff at biosafety level 4 facilities in U.S.</text>
+<code>184</code>
+</observationCode>
+<description>Administer to persons working as Laboratorians or other staff at biosafety level 4 facilities in U.S.</description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers</text>
+<code>212</code>
+</observationCode>
+<description>Administer to persons working as Health care personnel involved in the care and transport of patients with suspected or confirmed Ebola virus disease at Special Pathogen Treatment Centers </description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States</text>
+<code>213</code>
+</observationCode>
+<description>Administer to persons working as Laboratorians and support staff members at Laboratory Response Network (LRN) facilities that handle specimens that might contain replication-competent Ebola virus in the United States </description>
+<beginAge>18 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>18 years - 4 days</absMinAge>
+<minAge>18 years</minAge>
+<earliestRecAge>18 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Ebola Zaire vaccine, live</vaccineType>
+<cvx>204</cvx>
+<beginAge>18 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Ebola Zaire vaccine, live</vaccineType>
+<cvx>204</cvx>
+<beginAge>18 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

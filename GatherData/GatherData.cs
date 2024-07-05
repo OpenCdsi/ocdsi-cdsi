@@ -1,4 +1,4 @@
-﻿using OpenCdsi.Schedule;
+﻿using Ocdsi.SupportingData;
 
 namespace OpenCdsi.Cdsi
 {
@@ -20,9 +20,9 @@ namespace OpenCdsi.Cdsi
 
         public IEnumerable<IAntigenDose> AsAntigenDose(IVaccineDose dose)
         {
-            return SupportingData.Schedule.Vaccines
-                    .Get(dose.CVX)
-                    .Assocations()
+            return Schedule.Vaccines
+                .FirstOrDefault(x => x.cvx == dose.CVX)
+                .association
                     .Select(x => new AntigenDose
                     {
                         AntigenName = x.antigen,

@@ -1,5 +1,5 @@
-﻿using OpenCdsi.Calendar;
-using OpenCdsi.Schedule;
+﻿using Ocdsi.Calendar;
+using Ocdsi.SupportingData;
 
 namespace OpenCdsi.Cdsi
 {
@@ -247,7 +247,7 @@ namespace OpenCdsi.Cdsi
         {
             var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
             var currentVaccineType = AdministeredDose.Value.VaccineDose.VaccineType;
-            var potentialConflicts = SupportingData.Schedule.LiveVirusConflicts.Where(x => x.current.vaccineType == currentVaccineType);
+            var potentialConflicts = Schedule.LiveVirusConflicts.Where(x => x.current.vaccineType == currentVaccineType);
 
             // reference Tables 6-24,6-25,6-26,6-27
 
@@ -408,7 +408,7 @@ namespace OpenCdsi.Cdsi
                     }
                     else
                     {
-                        if (!string.IsNullOrWhiteSpace(interval.fromRelevantObs.text)
+                        if (interval.fromRelevantObs != null && !string.IsNullOrWhiteSpace(interval.fromRelevantObs.text)
                             && !string.IsNullOrWhiteSpace(interval.fromRelevantObs.code))
                         {
                             return GetRefDateFromObservation(interval.fromRelevantObs.code);

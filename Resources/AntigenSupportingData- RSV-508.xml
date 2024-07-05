@@ -1,0 +1,808 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>244</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of RSV vaccine</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of RSV vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>1-dose</seriesName>
+<targetDisease>RSV</targetDisease>
+<vaccineGroup>RSV</vaccineGroup>
+<seriesAdminGuidance>Except in rare circumstances, nirsevimab is not needed for most infants younger than age 8 months who are born 14 or more days after their mother received Pfizer/Abrysvo RSV vaccine.</seriesAdminGuidance>
+<seriesAdminGuidance>The infant should receive nirsevimab younger than 8 months if the pregnant person received an RSV vaccine, but encountered any one of the following issues. The dose was administered in the incorrect route/site, was of lower than recommended volume, was administered before 24 weeks gestation, was not the Pfizer/Abrysvo product, had preparation errors prior to administration, or had storage issues.</seriesAdminGuidance>
+<seriesAdminGuidance>RSVPreF3 (GSK, Arexvy) and RSVpreF (Pfizer, Abrysvo) vaccines are not licensed for infants and young children.</seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge/>
+<maxAge>8 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation>
+<startDate>20231001</startDate>
+<endDate>20240331</endDate>
+</seasonalRecommendation>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk under 20 months</seriesName>
+<targetDisease>RSV</targetDisease>
+<vaccineGroup>RSV</vaccineGroup>
+<seriesAdminGuidance>Except in rare circumstances, nirsevimab is not needed for most infants younger than age 8 months who are born 14 or more days after their mother received Pfizer/Abrysvo RSV vaccine.</seriesAdminGuidance>
+<seriesAdminGuidance>The infant should receive nirsevimab younger than 8 months of age if the pregnant person received an RSV vaccine, but encountered any one of the following issues. The dose was administered in the incorrect route/site, was of lower than recommended volume, was administered before 24 weeks gestation, was not the Pfizer/Abrysvo product, had preparation errors prior to administration, or had storage issues.</seriesAdminGuidance>
+<seriesAdminGuidance>ACIP recommends 1 dose of nirsevimab (200 mg, administered as two 100 mg injections given at the same time at different injection sites) for infants and children aged 8-19 months who are at increased risk for severe RSV disease and entering their second RSV season</seriesAdminGuidance>
+<seriesAdminGuidance>RSVPreF3 (GSK, Arexvy) and RSVpreF (Pfizer, Abrysvo) vaccines are not licensed for infants and young children.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Chronic Lung Disease</text>
+<code>017</code>
+</observationCode>
+<description>Administer to persons who have chronic lung disease</description>
+<beginAge>0 days</beginAge>
+<endAge>20 months</endAge>
+<guidance>Children with chronic lung disease of prematurity who required medical support (chronic corticosteroid therapy, diuretic therapy, or supplemental oxygen) any time during the 6-month period before the start of the second RSV season</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>Cystic fibrosis</text>
+<code>200</code>
+</observationCode>
+<description>Administer to persons with cystic fibrosis</description>
+<beginAge>0 days</beginAge>
+<endAge>20 months</endAge>
+<guidance>Children with cystic fibrosis who have either manifestations of severe lung disease (previous hospitalization for pulmonary exacerbation in the first year of life or abnormalities on chest imaging that persist when stable) or weight-for-length less than the 10th percentile</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>American Indian or Alaskan Native</text>
+<code>245</code>
+</observationCode>
+<description>Administer to American Indian or Alaskan Native persons</description>
+<beginAge>0 days</beginAge>
+<endAge>20 months</endAge>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Severe immunocompromise</text>
+<code>246</code>
+</observationCode>
+<description>Administer to persons with severe immunocompromise</description>
+<beginAge>0 days</beginAge>
+<endAge>20 months</endAge>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge/>
+<maxAge>20 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose is not needed after the patient turns 8 months old</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>8 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation>
+<startDate>20231001</startDate>
+<endDate>20240331</endDate>
+</seasonalRecommendation>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>20 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not needed if the patient has received a dose during the current season</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Date</conditionType>
+<startDate>20230701</startDate>
+<endDate>20240630</endDate>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes>304; 306; 307; 315</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation>
+<startDate>20231001</startDate>
+<endDate>20240331</endDate>
+</seasonalRecommendation>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>20 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>0 days</absMinInt>
+<minInt>0 days</minInt>
+<earliestRecInt>0 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+<beginAge>0 days</beginAge>
+<endAge>24 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not needed if the patient is under 8 months of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge>8 months</endAge>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Dose is not needed if patient is 8 months or older and received a dose under 8 months this season.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>8 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge>8 months</endAge>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes>304; 306; 307; 315</vaccineTypes>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>3</conditionID>
+<conditionType>Vaccine Count by Date</conditionType>
+<startDate>20230701</startDate>
+<endDate>20240630</endDate>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes>304; 306; 307; 315</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>3</setID>
+<setDescription>Dose is not needed if the patient is under 8 months of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge/>
+<endAge>8 months</endAge>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>4</setID>
+<setDescription>Second 100 mg injection is not needed if patient is 8 months or older and the first 100 mg injection was not administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>8 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>8 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes>304; 307; 315</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation>
+<startDate>20231001</startDate>
+<endDate>20240331</endDate>
+</seasonalRecommendation>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk Pregnant 1-dose</seriesName>
+<targetDisease>RSV</targetDisease>
+<vaccineGroup>RSV</vaccineGroup>
+<seriesAdminGuidance>Either maternal RSV vaccination with Pfizer/Abrysvo or use of nirsevimab in the infant is recommended to prevent RSV lower respiratory tract infection, but administration of both products is not needed for most infants</seriesAdminGuidance>
+<seriesAdminGuidance>RSVPreF3 (GSK, Arexvy) is licensed for adults ages 60 years and older. This vaccine is not licensed for pregnant people under the age of 60 years</seriesAdminGuidance>
+<seriesAdminGuidance>The infant should receive nirsevimab younger than 8 months of age if the pregnant person received an RSV vaccine, but encountered any one of the following issues. The dose was administered in the incorrect route/site, was of lower than recommended volume, was administered before 24 weeks gestation, was not the Pfizer/Abrysvo product, had preparation errors prior to administration, or had storage issues.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Pregnant</text>
+<code>007</code>
+</observationCode>
+<description>Administer to persons who are pregnant.</description>
+<beginAge/>
+<endAge/>
+<guidance>Pregnant persons should receive 1 dose of RSVpreF (Pfizer, Abrysvo) vaccine during each pregnancy, during 32 through 36 weeks gestation starting 1-2 months prior to the anticipated beginning of the RSV season and ending 1-2 months prior to the anticipated end of the season.</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs>
+<text>Onset of pregnancy</text>
+<code>170</code>
+</fromRelevantObs>
+<absMinInt>0 days</absMinInt>
+<minInt>32 weeks</minInt>
+<earliestRecInt>32 weeks</earliestRecInt>
+<latestRecInt>37 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+<beginAge/>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>Y</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge/>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+<beginAge/>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+<beginAge/>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+</inadvertentVaccine>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not recommended to be repeated if Arexvy was administered.</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Date</conditionType>
+<startDate>20230701</startDate>
+<endDate>20240630</endDate>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Total</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>303</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation>
+<startDate>20230901</startDate>
+<endDate>20240131</endDate>
+</seasonalRecommendation>
+</seriesDose>
+</series>
+<series>
+<seriesName>1-dose 60+ years Shared Clinical Decision Making series</seriesName>
+<targetDisease>RSV</targetDisease>
+<vaccineGroup>RSV</vaccineGroup>
+<seriesAdminGuidance>Adults 60 years and older may receive a single dose of RSV vaccine using shared clinical decision making.</seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard 60+</seriesGroupName>
+<seriesGroup>3</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>50 years</absMinAge>
+<minAge>60 years</minAge>
+<earliestRecAge>60 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+<beginAge>60 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+<beginAge>60 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>303</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV), unspecified</vaccineType>
+<cvx>304</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>RSV, bivalent, protein subunit RSVpreF, diluent reconstituted, 0.5 mL, PF</vaccineType>
+<cvx>305</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) vaccine, unspecified</vaccineType>
+<cvx>314</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 0.5 mL, neonate to 24 months</vaccineType>
+<cvx>306</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>RSV, mAb, nirsevimab-alip, 1.0 mL, neonate to 24 months</vaccineType>
+<cvx>307</cvx>
+</inadvertentVaccine>
+<inadvertentVaccine>
+<vaccineType>Respiratory syncytial virus (RSV) monoclonal antibody (MAB), unspecified</vaccineType>
+<cvx>315</cvx>
+</inadvertentVaccine>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

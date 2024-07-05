@@ -1,0 +1,266 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="antigenSupportingData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="immunity" maxOccurs="1" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="clinicalHistory" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="guidelineCode"/>
+                    <xs:element type="xs:string" name="guidelineTitle"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="dateOfBirth" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="immunityBirthDate"/>
+                    <xs:element type="xs:string" name="birthCountry"/>
+                    <xs:element name="exclusion" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="exclusionCode"/>
+                          <xs:element type="xs:string" name="exclusionTitle"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contraindications" maxOccurs="1" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="vaccineGroup" maxOccurs="1" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="contraindication" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="observationCode"/>
+                          <xs:element type="xs:string" name="observationTitle"/>
+			  <xs:element type="xs:string" name="contraindicationText"/>
+			  <xs:element type="xs:string" name="contraindicationGuidance"/>
+			  <xs:element type="xs:string" name="beginAge"/>
+			  <xs:element type="xs:string" name="endAge"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="vaccine" maxOccurs="1" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="contraindication" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="observationCode"/>
+                          <xs:element type="xs:string" name="observationTitle"/>
+			  <xs:element type="xs:string" name="contraindicationText"/>
+			  <xs:element type="xs:string" name="contraindicationGuidance"/>
+                          <xs:element name="contraindicatedVaccine" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+			        <xs:element type="xs:string" name="vaccineType"/>
+			        <xs:element type="xs:string" name="cvx"/>
+			        <xs:element type="xs:string" name="beginAge"/>
+			        <xs:element type="xs:string" name="endAge"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="series" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="seriesName"/>
+              <xs:element type="xs:string" name="targetDisease"/>
+              <xs:element type="xs:string" name="vaccineGroup"/>
+              <xs:element type="xs:string" name="seriesAdminGuidance" maxOccurs="unbounded" minOccurs="1" />
+              <xs:element type="xs:string" name="seriesType"/>
+              <xs:element type="xs:string" name="equivalentSeriesGroups"/>
+              <xs:element type="xs:string" name="requiredGender" maxOccurs="unbounded" minOccurs="1" />
+              <xs:element name="selectSeries">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="defaultSeries"/>
+                    <xs:element type="xs:string" name="productPath"/>
+                    <xs:element type="xs:string" name="seriesGroupName"/>
+                    <xs:element type="xs:string" name="seriesGroup"/>
+                    <xs:element type="xs:string" name="seriesPriority"/>
+                    <xs:element type="xs:string" name="seriesPreference"/>
+		    <xs:element type="xs:string" name="minAgeToStart"/>
+                    <xs:element type="xs:string" name="maxAgeToStart"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="indication" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="observationCode" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="text" minOccurs="0"/>
+                          <xs:element type="xs:string" name="code" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="description" minOccurs="0"/>
+                    <xs:element type="xs:string" name="beginAge" minOccurs="0"/>
+                    <xs:element type="xs:string" name="endAge" minOccurs="0"/>
+                    <xs:element type="xs:string" name="guidance" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="seriesDose" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="doseNumber"/>
+                    <xs:element name="age" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="absMinAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="minAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="earliestRecAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="latestRecAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="maxAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="effectiveDate" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cessationDate" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="interval" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="fromPrevious" minOccurs="0"/>
+                          <xs:element type="xs:string" name="fromTargetDose" minOccurs="0"/>
+                          <xs:element type="xs:string" name="fromMostRecent" minOccurs="0"/>
+                          <xs:element name="fromRelevantObs" maxOccurs="1" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="text" minOccurs="0"/>
+                                <xs:element type="xs:string" name="code" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="absMinInt" minOccurs="0"/>
+                          <xs:element type="xs:string" name="minInt" minOccurs="0"/>
+                          <xs:element type="xs:string" name="earliestRecInt" minOccurs="0"/>
+                          <xs:element type="xs:string" name="latestRecInt" minOccurs="0"/>
+                          <xs:element type="xs:string" name="intervalPriority" minOccurs="0"/>
+                          <xs:element type="xs:string" name="effectiveDate" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cessationDate" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="allowableInterval" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="fromPrevious" minOccurs="0"/>
+                          <xs:element type="xs:string" name="fromTargetDose" minOccurs="0"/>
+                          <xs:element type="xs:string" name="absMinInt" minOccurs="0"/>
+                          <xs:element type="xs:string" name="effectiveDate" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cessationDate" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="preferableVaccine" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="vaccineType"/>
+                          <xs:element type="xs:string" name="cvx"/>
+                          <xs:element type="xs:string" name="beginAge"/>
+                          <xs:element type="xs:string" name="endAge"/>
+                          <xs:element type="xs:string" name="tradeName"/>
+                          <xs:element type="xs:string" name="mvx"/>
+                          <xs:element type="xs:string" name="volume"/>
+                          <xs:element type="xs:string" name="forecastVaccineType" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="allowableVaccine" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="vaccineType" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cvx" minOccurs="0"/>
+                          <xs:element type="xs:string" name="beginAge" minOccurs="0"/>
+                          <xs:element type="xs:string" name="endAge" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="inadvertentVaccine" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="vaccineType" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cvx" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="conditionalSkip" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="context" minOccurs="0"/>
+                          <xs:element type="xs:string" name="setLogic" minOccurs="0"/>
+                          <xs:element name="set" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="setID" minOccurs="0"/>
+                                <xs:element type="xs:string" name="setDescription" minOccurs="0"/>
+                          	<xs:element type="xs:string" name="effectiveDate" minOccurs="0"/>
+                          	<xs:element type="xs:string" name="cessationDate" minOccurs="0"/>
+                                <xs:element type="xs:string" name="conditionLogic" minOccurs="0"/>
+                                <xs:element name="condition" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="conditionID" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="conditionType" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="startDate" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="endDate" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="beginAge" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="endAge" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="interval" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="doseCount" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="doseType" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="doseCountLogic" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="vaccineTypes" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="seriesGroups" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="recurringDose"/>
+                    <xs:element name="seasonalRecommendation" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="startDate" minOccurs="0"/>
+                          <xs:element type="xs:string" name="endDate" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

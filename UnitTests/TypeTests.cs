@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
 
-namespace OpenCdsi.Cdsi.UnitTests
+namespace Ocdsi.UnitTests
 {
     [TestClass]
     public class TypeTests
