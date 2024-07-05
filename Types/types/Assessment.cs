@@ -11,7 +11,7 @@ namespace OpenCdsi.Cdsi
     public class Assessment : IAssessment
     {
         [JsonPropertyName("assessmentDate")]
-        public DateTimeOffset AssessmentDate { get; set; }
+        public DateTime AssessmentDate { get; set; }
 
         [JsonPropertyName("patient")]
         public Patient Patient { get; set; }

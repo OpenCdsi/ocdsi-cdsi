@@ -1,0 +1,25 @@
+{
+  "assessmentDate": "2022-10-19T00:00:00",
+  "patient": {
+    "dob": "2022-08-15T00:00:00",
+    "gender": "F"
+  },
+  "doses": [
+    {
+      "dateAdministered": "2022-09-23T00:00:00",
+      "vaccineName": "DTaP, unspecified formulation",
+      "cvx": "107",
+      "mvx": "",
+      "evaluationStatus": "Valid",
+      "evaluationReason": null
+    },
+    {
+      "dateAdministered": "2022-10-19T00:00:00",
+      "vaccineName": "DTaP, unspecified formulation",
+      "cvx": "107",
+      "mvx": "",
+      "evaluationStatus": "Not Valid",
+      "evaluationReason": "Age: Too Young"
+    }
+  ]
+}

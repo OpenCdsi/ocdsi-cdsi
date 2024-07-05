@@ -1,0 +1,17 @@
+{
+  "assessmentDate": "2022-10-19T00:00:00",
+  "patient": {
+    "dob": "2021-07-19T00:00:00",
+    "gender": "F"
+  },
+  "doses": [
+    {
+      "dateAdministered": "2022-10-19T00:00:00",
+      "vaccineName": "M-M-R II",
+      "cvx": "03",
+      "mvx": "MSD",
+      "evaluationStatus": "Valid",
+      "evaluationReason": null
+    }
+  ]
+}

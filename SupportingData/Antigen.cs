@@ -2,26 +2,25 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace OpenCdsi.Cdsi
 {
-    public static class Schedule
+    public static class Antigen
     {
-        private static scheduleSupportingData repository;
-
-        public static scheduleSupportingDataLiveVirusConflict[] LiveVirusConflicts => repository.liveVirusConflicts;
-
-        public static scheduleSupportingDataCvxMap[] Vaccines => repository.cvxToAntigenMap;
+        private static Repository repository;
         public static void Initialize(Repository repository)
         {
-            Schedule.repository = repository.Schedule();
+            Antigen.repository = repository;
         }
         public static void Initialize(string resourcePath)
         {
             Initialize(new Repository(resourcePath));
+        }
+        public static antigenSupportingData Get(string name)
+        {
+            return repository.Antigen(name);
         }
     }
 }

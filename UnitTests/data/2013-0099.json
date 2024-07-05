@@ -1,0 +1,33 @@
+{
+  "assessmentDate": "2022-10-19T00:00:00",
+  "patient": {
+    "dob": "2015-11-01T00:00:00",
+    "gender": "F"
+  },
+  "doses": [
+    {
+      "dateAdministered": "2018-08-29T00:00:00",
+      "vaccineName": "PEDIARIX",
+      "cvx": "110",
+      "mvx": "SKB",
+      "evaluationStatus": "Valid",
+      "evaluationReason": null
+    },
+    {
+      "dateAdministered": "2019-12-02T00:00:00",
+      "vaccineName": "PEDIARIX",
+      "cvx": "110",
+      "mvx": "SKB",
+      "evaluationStatus": "Valid",
+      "evaluationReason": null
+    },
+    {
+      "dateAdministered": "2022-10-19T00:00:00",
+      "vaccineName": "PEDIARIX",
+      "cvx": "110",
+      "mvx": "SKB",
+      "evaluationStatus": "Valid",
+      "evaluationReason": null
+    }
+  ]
+}

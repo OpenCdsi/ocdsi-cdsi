@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Cdsi.UnitTests.SupportingData
+namespace Ocdsi.UnitTests.SupportingData
 {
     [TestClass]
     public class RepositoryTests
@@ -14,14 +14,18 @@ namespace Cdsi.UnitTests.SupportingData
         [TestMethod]
         public void LoadAntigen()
         {
-            var repo = new Repository(TestData.DatPath);
+            var repo = new Repository(TestData.ResourcePath);
             var result = repo.Antigen("HepB");
+
+            Assert.IsNotNull(result);
         }
         [TestMethod]
         public void LoadSchedules()
         {
-            var repo = new Repository(TestData.DatPath);
+            var repo = new Repository(TestData.ResourcePath);
             var result = repo.Schedule();
+
+            Assert.IsNotNull(result);
         }
     }
 }

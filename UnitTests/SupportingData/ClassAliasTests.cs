@@ -36,8 +36,9 @@ using CodedValue = Ocdsi.SupportingData.scheduleSupportingDataObservationCodedVa
 using Ocdsi.SupportingData;
 using System.Xml.Serialization;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.IO;
 
-namespace Cdsi.UnitTests.SupportingData
+namespace Ocdsi.UnitTests.SupportingData
 {
     [TestClass]
     public class ClassAliasTests
@@ -45,11 +46,10 @@ namespace Cdsi.UnitTests.SupportingData
         [TestMethod]
         public void AntigenAliasTest()
         {
-            var path = Path.Combine(TestData.DatPath, TestData.AntigenDat);
-            var finfo = new FileInfo(path);
+            var repo = new Repository(TestData.ResourcePath);
+            var result = repo.Antigen("HepB");
 
-            var deserializer = new XmlSerializer(typeof(Antigen));
-            var antigen = (Antigen)deserializer.Deserialize(finfo.OpenRead());
+            Assert.IsInstanceOfType<Antigen>(result);
         }
     }
 }

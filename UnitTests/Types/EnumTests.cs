@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenCdsi.Cdsi;
 
-namespace Ocdsi.UnitTests
+namespace Ocdsi.UnitTests.Types
 {
     [TestClass]
     public class EnumTests

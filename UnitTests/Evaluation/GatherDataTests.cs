@@ -1,19 +1,25 @@
-﻿using Cdsi.UnitTests;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenCdsi.Cdsi;
 using System.Linq;
 
-namespace Ocdsi.UnitTests
+namespace Ocdsi.UnitTests.Evaluation
 {
     [TestClass]
     public class GatherDataTests
     {
+        [ClassInitialize]
+        public static void ClassInitialize(TestContext context)
+        {
+            Antigen.Initialize(TestData.ResourcePath);
+            Schedule.Initialize(TestData.ResourcePath);
+        }
+
         [TestMethod]
         public void CanOrganizeImmunizationHistory()
         {
-            var testcase = TestInputs.CaseDTAPa;
-            var patient = testcase.Patient.ToCdsiType(testcase.Doses);
+            var assessment = Load.Assessment(TestData.Case_2);
 
-            var gatherer = new DataGatherer { Patient = patient };
+            var gatherer = new DataGatherer { Patient = assessment.Patient };
             var sut = gatherer.OrganizeImmunizationHistory();
 
             Assert.AreEqual(6, sut.Count());
@@ -23,10 +29,9 @@ namespace Ocdsi.UnitTests
         [TestMethod]
         public void AntigenDosesAreSorted()
         {
-            var testcase = TestInputs.CaseDTAPb;
-            var patient = testcase.Patient.ToCdsiType(testcase.Doses);
+            var assessment = Load.Assessment(TestData.Case_99);
 
-            var gatherer = new DataGatherer { Patient = patient };
+            var gatherer = new DataGatherer { Patient = assessment.Patient };
             var sut = gatherer.OrganizeImmunizationHistory().ToList();
 
             Assert.AreEqual(sut[0].AntigenName, sut[1].AntigenName);
