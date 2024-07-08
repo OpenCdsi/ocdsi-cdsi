@@ -10,7 +10,7 @@ namespace OpenCdsi.Cdsi
         [JsonPropertyName("vaccineName")]
         public string VaccineDescription { get; init; } = string.Empty;
 
-        [JsonPropertyName("gender")]
+        [JsonPropertyName("vaccineType")]
         public string VaccineType { get; init; } = string.Empty;
 
         [JsonPropertyName("cvx")]

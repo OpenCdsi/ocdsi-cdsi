@@ -28,7 +28,7 @@ namespace OpenCdsi.Cdsi
 
         public bool IsRelevantSeries(antigenSupportingDataSeries series)
         {
-            return IsRequiredGender(series) && (Parse.Enum<PatientSeriesType>(series.seriesType) == PatientSeriesType.Standard || IsIndicated(series));
+            return IsRequiredGender(series) && (Enum.Parse<PatientSeriesType>(series.seriesType) == PatientSeriesType.Standard || IsIndicated(series));
         }
 
         /// <summary>
@@ -76,7 +76,7 @@ namespace OpenCdsi.Cdsi
         /// <remarks>TABLE 5-4 IS THE SERIES RELEVANT FOR THE PATIENT?</remarks>
         public bool IsRequiredGender(antigenSupportingDataSeries series)
         {
-            var genders = series.requiredGender.Select(x => Parse.Enum<Gender>(x));
+            var genders = series.requiredGender.Select(x => Enum.Parse<Gender>(x));
             return genders.Contains(Patient.Gender) || genders.Contains(Gender.Any);
         }
 

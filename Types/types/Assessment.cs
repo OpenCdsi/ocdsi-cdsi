@@ -10,13 +10,13 @@ namespace OpenCdsi.Cdsi
 {
     public class Assessment : IAssessment
     {
+        [JsonPropertyName("key")]
+        public string CaseId { get; set; } = string.Empty;
+
         [JsonPropertyName("assessmentDate")]
         public DateTime AssessmentDate { get; set; }
 
         [JsonPropertyName("patient")]
         public Patient Patient { get; set; }
-
-        [JsonPropertyName("doses")]
-        public IEnumerable<IVaccineDose> AdministeredDoses { get; set; }
     }
 }

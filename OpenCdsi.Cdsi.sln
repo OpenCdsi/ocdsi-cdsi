@@ -24,6 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Calendar", "Calendar\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.SupportingData", "SupportingData\Ocdsi.SupportingData.csproj", "{99640298-9790-43A4-8C02-8C7226532332}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocdsi.Serialization", "Ocdsi.Serialization\Ocdsi.Serialization.csproj", "{1FAF0B72-BE66-466D-B2B9-64CD19EC3B0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{99640298-9790-43A4-8C02-8C7226532332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99640298-9790-43A4-8C02-8C7226532332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99640298-9790-43A4-8C02-8C7226532332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAF0B72-BE66-466D-B2B9-64CD19EC3B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAF0B72-BE66-466D-B2B9-64CD19EC3B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAF0B72-BE66-466D-B2B9-64CD19EC3B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAF0B72-BE66-466D-B2B9-64CD19EC3B0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

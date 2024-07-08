@@ -3,7 +3,7 @@ namespace OpenCdsi.Cdsi
 {
     public interface IAssessment
     {
-        IEnumerable<IVaccineDose> AdministeredDoses { get; set; }
+        string CaseId { get; }
         DateTime AssessmentDate { get; set; }
         Patient Patient { get; set; }
     }

@@ -17,9 +17,9 @@ namespace Ocdsi.UnitTests.Types
         {
             var assessment = Load.Assessment(TestData.Case_2);
 
-            Assert.AreEqual(new DateTime(2022, 8, 15), assessment.Patient.DOB);
+            Assert.AreEqual(new DateTime(2020, 6,9), assessment.Patient.DOB);
             Assert.AreEqual(Gender.Female, assessment.Patient.Gender);
-            Assert.AreEqual(2, assessment.AdministeredDoses.Count());
+            Assert.AreEqual(2, assessment.Patient.VaccineHistory.Count());
         }
 
         [TestMethod]
