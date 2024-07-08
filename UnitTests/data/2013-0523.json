@@ -1,0 +1,21 @@
+{
+  "key": "2013-0523",
+  "assessmentDate": "2020-08-13T00:00:00",
+  "patient": {
+    "dob": "2019-05-13T00:00:00",
+    "gender": "F",
+    "medHistoryCode": "",
+    "medHistoryCodeSys": "",
+    "medHistoryText": "",
+    "doses": [
+      {
+        "cvx": "03",
+        "dateAdministered": "2020-08-13T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "MSD",
+        "vaccineName": "M-M-R II"
+      }
+    ]
+  }
+}

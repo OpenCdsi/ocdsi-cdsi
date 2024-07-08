@@ -1,0 +1,1174 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>113</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Rabies</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Rabies vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+</contraindications>
+<series>
+<seriesName>Risk continuous exposure series</seriesName>
+<targetDisease>Rabies</targetDisease>
+<vaccineGroup>Rabies</vaccineGroup>
+<seriesAdminGuidance>The 6 month booster should only be given after a rabies antibody titer. The booster should be administered if the titer falls below 0.5 IU/mL.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>0 days</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Rabies researchers</text>
+<code>053</code>
+</observationCode>
+<description>Administer to rabies researchers</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons working in rabies vaccine production facilities</text>
+<code>217</code>
+</observationCode>
+<description>Administer to persons working in rabies vaccine production facilities</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons performing testing for rabies in diagnostic laboratories</text>
+<code>218</code>
+</observationCode>
+<description>Administer to persons performing testing for rabies in diagnostic laboratories</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>14 days</absMinInt>
+<minInt>14 days</minInt>
+<earliestRecInt>14 days</earliestRecInt>
+<latestRecInt>21 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target dose can be skipped if 1 or more previous doses have been adminisetered on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Date</conditionType>
+<startDate>20220506</startDate>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose can be skipped on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>0 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk frequent exposure series</seriesName>
+<targetDisease>Rabies</targetDisease>
+<vaccineGroup>Rabies</vaccineGroup>
+<seriesAdminGuidance>The 2 year booster should only be given after a rabies antibody titer. The booster should be administered if the titer falls below 0.5 IU/mL.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>0 days</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons who frequently handle bats</text>
+<code>219</code>
+</observationCode>
+<description>Administer to persons who frequently handle bats.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons who frequently have contact with bats</text>
+<code>220</code>
+</observationCode>
+<description>Administer to persons who frequently have contact with bats.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons who frequently enter high-density bat environments</text>
+<code>221</code>
+</observationCode>
+<description>Administer to persons who frequently enter high-density bat environments.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons who frequently perform animal necropsies</text>
+<code>222</code>
+</observationCode>
+<description>Administer to persons who frequently perform animal necropsies.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance>For example, biologists who frequently enter bat roosts or who collect suspected rabies samples.</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>14 days</absMinInt>
+<minInt>14 days</minInt>
+<earliestRecInt>14 days</earliestRecInt>
+<latestRecInt>21 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target dose can be skipped if 1 or more previous doses have been adminisetered on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Date</conditionType>
+<startDate>20220506</startDate>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose can be skipped on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>0 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>2 years</absMinInt>
+<minInt>2 years</minInt>
+<earliestRecInt>2 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Risk infrequent exposure series</seriesName>
+<targetDisease>Rabies</targetDisease>
+<vaccineGroup>Rabies</vaccineGroup>
+<seriesAdminGuidance>For persons who risk for rabies exposure is greater than 3 years, two options are available within the 3 years after primary series.
+1) a one-time a titer check at 1-3 years after the primary series. A single booster should be administered if the titer is below 0.5 IU/mL.
+2) preemptively receive a one-time booster on or after day 21 to year 3 after completion of the 2-dose primary series.</seriesAdminGuidance>
+<seriesAdminGuidance>For persons who risk for rabies exposure is greater than 3 years, but who have not had a titer or booster within three years can be realinged with ACIP recommendations through a one-time titer and booster if titer is below 0.5 IU/mL. Once boosted, titers should be checked no sooner than 1 week (preferable 2-4 weeks) later to ensure a titer of at least 0.5 UI/mL.</seriesAdminGuidance>
+<seriesAdminGuidance>For persons who risk for rabies exposure is less than 3 years (e.g., short-term volunteer providing hands-on animal care or infrequent traveler with no high-risk travel past 3 years), no boosting is recommended.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>C</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart>0 days</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals</text>
+<code>062</code>
+</observationCode>
+<description>Administer to persons whose activities bring them into frequent contact with rabies virus or potentially rabid animals.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance>Occupational or recreational activities that typically involve contact with animals include 1) veterinarians, technicians, animal control officers, and their students or trainees; 2) persons who handle wildlife reservoir species (e.g., wildlife biologists, rehabilitators, and trappers); and 3) spelunkers</guidance>
+</indication>
+<indication>
+<observationCode>
+<text>International travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited</text>
+<code>144</code>
+</observationCode>
+<description>Administer to persons with plans for international travel with possible contact with animals in areas where rabies is enzootic and immediate access to appropriate medical care might be limited.</description>
+<beginAge>0 days</beginAge>
+<endAge/>
+<guidance>PrEP considerations include whether the travelers 1) will be performing occupational or recreational activities that increase risk for exposure to potentially rabid animals (particularly dogs) and 2) might have difficulty getting prompt access to safe PEP (e.g., rural part of a country or far from closest PEP clinic)</guidance>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>0 days</absMinAge>
+<minAge>0 days</minAge>
+<earliestRecAge>0 days</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>7 days</absMinInt>
+<minInt>7 days</minInt>
+<earliestRecInt>7 days</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>14 days</absMinInt>
+<minInt>14 days</minInt>
+<earliestRecInt>14 days</earliestRecInt>
+<latestRecInt>21 days</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target dose can be skipped if 1 or more previous doses have been adminisetered on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Date</conditionType>
+<startDate>20220506</startDate>
+<endDate/>
+<beginAge/>
+<endAge/>
+<interval/>
+<doseCount>1</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose can be skipped on or after May 6, 2022</setDescription>
+<effectiveDate>20220506</effectiveDate>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>0 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes>18; 90; 175; 176</vaccineTypes>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>21 days</absMinInt>
+<minInt>21 days</minInt>
+<earliestRecInt>21 days</earliestRecInt>
+<latestRecInt>3 years</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>1</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, intramuscular injection</vaccineType>
+<cvx>18</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies, unspecified formulation</vaccineType>
+<cvx>90</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM Diploid cell culture</vaccineType>
+<cvx>175</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Rabies - IM fibroblast culture</vaccineType>
+<cvx>176</cvx>
+<beginAge>0 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

@@ -1,4 +1,4 @@
-﻿using OpenCdsi.Schedule;
+﻿using Ocdsi.SupportingData;
 
 namespace OpenCdsi.Cdsi
 {

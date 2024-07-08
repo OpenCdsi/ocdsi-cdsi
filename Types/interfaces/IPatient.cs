@@ -4,7 +4,10 @@
     {
         DateTime DOB { get; }
         Gender Gender { get; }
-        IEnumerable<IPatientObservation> Observations { get; }
-        IEnumerable<IVaccineDose> VaccineHistory { get; }
+        IList<PatientObservation> Observations { get; }
+        IEnumerable<VaccineDose> VaccineHistory { get; }
+        string MedicalHistoryCode { get; }
+        string MedicalHistoryCodeSys { get; }
+        string MedicalHistoryText { get; }
     }
 }

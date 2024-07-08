@@ -1,0 +1,2358 @@
+<antigenSupportingData>
+<immunity>
+</immunity>
+<contraindications>
+<vaccineGroup>
+<contraindication>
+<observationCode>095</observationCode>
+<observationTitle>Severe allergic reaction after previous dose of Meningococcal</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction after a previous dose of Meningococcal vaccine.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+<contraindication>
+<observationCode>080</observationCode>
+<observationTitle>Adverse reaction to vaccine component</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had an adverse reaction to a vaccine component.</contraindicationText>
+<contraindicationGuidance/>
+<beginAge/>
+<endAge/>
+</contraindication>
+</vaccineGroup>
+<vaccine>
+<contraindication>
+<observationCode>117</observationCode>
+<observationTitle>Severe allergic reaction to diphtheria toxoid</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to diphtheria toxoid.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+<contraindication>
+<observationCode>118</observationCode>
+<observationTitle>Severe allergic reaction to tetanus toxoid</observationTitle>
+<contraindicationText>Do not vaccinate if the patient has had a severe allergic reaction to tetanus toxoid.</contraindicationText>
+<contraindicationGuidance/>
+<contraindicatedVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+<contraindicatedVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge/>
+<endAge/>
+</contraindicatedVaccine>
+</contraindication>
+</vaccine>
+</contraindications>
+<series>
+<seriesName>Meningococcal ACWY 2-dose series</seriesName>
+<targetDisease>Meningococcal</targetDisease>
+<vaccineGroup>Meningococcal</vaccineGroup>
+<seriesAdminGuidance>Penbraya (MenABCWY - Pfizer) may be used when both MenACWY and MenB are indicated at the same visit.</seriesAdminGuidance>
+<seriesType>Standard</seriesType>
+<equivalentSeriesGroups>2</equivalentSeriesGroups>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>Yes</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Standard</seriesGroupName>
+<seriesGroup>1</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference>1</seriesPreference>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication/>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>10 years</absMinAge>
+<minAge>11 years</minAge>
+<earliestRecAge>11 years</earliestRecAge>
+<latestRecAge>13 years + 4 weeks</latestRecAge>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MPSV4</vaccineType>
+<cvx>32</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MCV4, unspecified</vaccineType>
+<cvx>147</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Evaluation</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Target Dose is not needed if the current dose was administered on or after 16 years - 4 days of age</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>16 years - 4 days</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<conditionalSkip>
+<context>Forecast</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>2</setID>
+<setDescription>Target Dose is not required for those who are 16 years of age or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>16 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge>16 years - 4 days</absMinAge>
+<minAge>16 years</minAge>
+<earliestRecAge>16 years</earliestRecAge>
+<latestRecAge>17 years + 4 weeks</latestRecAge>
+<maxAge>19 years</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>316</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>4 years</earliestRecInt>
+<latestRecInt>6 years + 4 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>MCV4, unspecified</vaccineType>
+<cvx>147</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal ACWY risk 2-23 month</seriesName>
+<targetDisease>Meningococcal</targetDisease>
+<vaccineGroup>Meningococcal</vaccineGroup>
+<seriesAdminGuidance>Penbraya (MenABCWY - Pfizer) may be used when both MenACWY and MenB are indicated at the same visit.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons at risk during an outbreak</text>
+<code>070</code>
+</observationCode>
+<description>Administer to persons identified as at increased risk during a community outbreak attributable to a vaccine serogroup</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement deficiencies</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic</text>
+<code>164</code>
+</observationCode>
+<description>Administer to persons who travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV Infection</text>
+<code>186</code>
+</observationCode>
+<description>Administer to persons with HIV Infection</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 months - 4 days</absMinAge>
+<minAge>2 months</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient is currently 7 months of age or older AND no doses were administered prior to age 7 months</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>AND</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>2 months</beginAge>
+<endAge>7 months</endAge>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge>4 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient is currently 7 months of age or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge>6 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if patient is currently 7 months of age or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge>7 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if more than 2 doses have been administered between 2 and 7 months OR at least 1 dose on or after 7 months</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic>OR</conditionLogic>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>2 months</beginAge>
+<endAge>7 months</endAge>
+<interval/>
+<doseCount>2</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+<condition>
+<conditionID>2</conditionID>
+<conditionType>Vaccine Count By Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge>12 months - 4 days</absMinAge>
+<minAge>12 months</minAge>
+<earliestRecAge>12 months</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>12 weeks - 4 days</absMinInt>
+<minInt>12 weeks</minInt>
+<earliestRecInt>12 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 6</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>3 years - 4 days</absMinInt>
+<minInt>3 years</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses after the age of 7 years</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 7</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 years - 4 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal ACWY risk Hib-MenCY-TT 4-dose series</seriesName>
+<targetDisease>Meningococcal</targetDisease>
+<vaccineGroup>Meningococcal</vaccineGroup>
+<seriesAdminGuidance>Penbraya (MenABCWY - Pfizer) may be used when both MenACWY and MenB are indicated at the same visit.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>Yes</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>2 months</minAgeToStart>
+<maxAgeToStart>16 months</maxAgeToStart>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persons at risk during an outbreak</text>
+<code>070</code>
+</observationCode>
+<description>Administer to persons identified as at increased risk during a community outbreak attributable to a vaccine serogroup</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement deficiencies</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>2 months</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>6 weeks</absMinAge>
+<minAge>2 months</minAge>
+<earliestRecAge>2 months</earliestRecAge>
+<latestRecAge/>
+<maxAge>19 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine/>
+<allowableVaccine>
+<vaccineType>Meningococcal C/Y-HIB PRP</vaccineType>
+<cvx>148</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>19 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>19 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine/>
+<allowableVaccine>
+<vaccineType>Meningococcal C/Y-HIB PRP</vaccineType>
+<cvx>148</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>19 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required for those 19 months or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>19 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>19 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine/>
+<allowableVaccine>
+<vaccineType>Meningococcal C/Y-HIB PRP</vaccineType>
+<cvx>148</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>19 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 0 doses before the age of 12 months</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks</beginAge>
+<endAge>12 months</endAge>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Dose is not required for those 19 months or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>19 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge>19 months</maxAge>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>6 months - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine/>
+<allowableVaccine>
+<vaccineType>Meningococcal C/Y-HIB PRP</vaccineType>
+<cvx>148</cvx>
+<beginAge>6 weeks</beginAge>
+<endAge>19 months</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>OR</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 0 doses before the age of 12 months</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>6 weeks</beginAge>
+<endAge>12 months</endAge>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>equal to</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+<set>
+<setID>2</setID>
+<setDescription>Dose is not required for those 19 months or older</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>19 months</beginAge>
+<endAge/>
+<interval/>
+<doseCount/>
+<doseType/>
+<doseCountLogic/>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 5</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>3 years - 4 days</absMinInt>
+<minInt>3 years</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses after the age of 7 years</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 6</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 years - 4 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal ACWY risk 2-dose series</seriesName>
+<targetDisease>Meningococcal</targetDisease>
+<vaccineGroup>Meningococcal</vaccineGroup>
+<seriesAdminGuidance>Penbraya (MenABCWY - Pfizer) may be used when both MenACWY and MenB are indicated at the same visit.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>A</seriesPriority>
+<seriesPreference/>
+<minAgeToStart/>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>Persistent complement, properdin, or factor B deficiency</text>
+<code>151</code>
+</observationCode>
+<description>Administer to persons who have persistent complement deficiencies</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Anatomical or functional asplenia</text>
+<code>160</code>
+</observationCode>
+<description>Administer to persons with anatomic or functional asplenia, including sickle cell disease.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>HIV Infection</text>
+<code>186</code>
+</observationCode>
+<description>Administer to persons with HIV Infection</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>2 years</minAge>
+<earliestRecAge>2 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>N</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent>316</fromMostRecent>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>6 months</minInt>
+<earliestRecInt>6 months</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>8 weeks - 4 days</absMinInt>
+<minInt>8 weeks</minInt>
+<earliestRecInt>8 weeks</earliestRecInt>
+<latestRecInt>12 weeks</latestRecInt>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>3 years - 4 days</absMinInt>
+<minInt>3 years</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses after the age of 7 years</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 4</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 years - 4 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+<series>
+<seriesName>Meningococcal ACWY risk 1-dose series</seriesName>
+<targetDisease>Meningococcal</targetDisease>
+<vaccineGroup>Meningococcal</vaccineGroup>
+<seriesAdminGuidance>Persons with HIV infection who are recommended routinely to receive vaccine should receive a 2-dose primary series, administered 8-12 weeks apart, because evidence suggests that persons with HIV do not respond optimally to a single dose.</seriesAdminGuidance>
+<seriesAdminGuidance>Penbraya (MenABCWY - Pfizer) may be used when both MenACWY and MenB are indicated at the same visit.</seriesAdminGuidance>
+<seriesType>Risk</seriesType>
+<equivalentSeriesGroups/>
+<requiredGender/>
+<selectSeries>
+<defaultSeries>No</defaultSeries>
+<productPath>No</productPath>
+<seriesGroupName>Increased Risk</seriesGroupName>
+<seriesGroup>2</seriesGroup>
+<seriesPriority>B</seriesPriority>
+<seriesPreference/>
+<minAgeToStart>2 years</minAgeToStart>
+<maxAgeToStart/>
+</selectSeries>
+<indication>
+<observationCode>
+<text>College students living in residence halls</text>
+<code>046</code>
+</observationCode>
+<description>Administer to college students living in residence halls.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Microbiologists routinely exposed to Neisseria meningitidis</text>
+<code>050</code>
+</observationCode>
+<description>Administer to microbiologists routinely exposed to Neisseria meningitidis</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Military recruits</text>
+<code>064</code>
+</observationCode>
+<description>Administer to military recruits.</description>
+<beginAge>19 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Persons at risk during an outbreak</text>
+<code>070</code>
+</observationCode>
+<description>Administer to persons identified as at increased risk during a community outbreak attributable to a vaccine serogroup.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<indication>
+<observationCode>
+<text>Travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic</text>
+<code>164</code>
+</observationCode>
+<description>Administer to persons who travel to or are residents of countries in which meningococcal disease is hyperendemic or epidemic.</description>
+<beginAge>2 years</beginAge>
+<endAge/>
+<guidance/>
+</indication>
+<seriesDose>
+<doseNumber>Dose 1</doseNumber>
+<age>
+<absMinAge>2 years - 4 days</absMinAge>
+<minAge>2 years</minAge>
+<earliestRecAge>2 years</earliestRecAge>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval/>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MPSV4</vaccineType>
+<cvx>32</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 2</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>3 years - 4 days</absMinInt>
+<minInt>3 years</minInt>
+<earliestRecInt>3 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge>56 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip>
+<context>Both</context>
+<setLogic>n/a</setLogic>
+<set>
+<setID>1</setID>
+<setDescription>Dose is not required if the patient has received 1 or more doses after the age of 7 years</setDescription>
+<effectiveDate/>
+<cessationDate/>
+<conditionLogic/>
+<condition>
+<conditionID>1</conditionID>
+<conditionType>Vaccine Count by Age</conditionType>
+<startDate/>
+<endDate/>
+<beginAge>7 years</beginAge>
+<endAge/>
+<interval/>
+<doseCount>0</doseCount>
+<doseType>Valid</doseType>
+<doseCountLogic>greater than</doseCountLogic>
+<vaccineTypes/>
+<seriesGroups/>
+</condition>
+</set>
+</conditionalSkip>
+<recurringDose>No</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+<seriesDose>
+<doseNumber>Dose 3</doseNumber>
+<age>
+<absMinAge/>
+<minAge/>
+<earliestRecAge/>
+<latestRecAge/>
+<maxAge/>
+<effectiveDate/>
+<cessationDate/>
+</age>
+<interval>
+<fromPrevious>Y</fromPrevious>
+<fromTargetDose/>
+<fromMostRecent/>
+<fromRelevantObs/>
+<absMinInt>5 years - 4 days</absMinInt>
+<minInt>5 years</minInt>
+<earliestRecInt>5 years</earliestRecInt>
+<latestRecInt/>
+<intervalPriority/>
+<effectiveDate/>
+<cessationDate/>
+</interval>
+<allowableInterval/>
+<preferableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years</beginAge>
+<endAge/>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<preferableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years</beginAge>
+<endAge>26 years</endAge>
+<tradeName/>
+<mvx/>
+<volume>0.5</volume>
+<forecastVaccineType>N</forecastVaccineType>
+</preferableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal ACWY, unspecified</vaccineType>
+<cvx>108</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4P</vaccineType>
+<cvx>114</cvx>
+<beginAge>9 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal, MCV4O</vaccineType>
+<cvx>136</cvx>
+<beginAge>2 months - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>Meningococcal Polysaccharide A, C, Y, W-135 TT Conjugate</vaccineType>
+<cvx>203</cvx>
+<beginAge>2 years - 4 days</beginAge>
+<endAge/>
+</allowableVaccine>
+<allowableVaccine>
+<vaccineType>meningococcal polysaccharide (MenACWY-TT conjugate), (MenB), PF</vaccineType>
+<cvx>316</cvx>
+<beginAge>10 years - 4 days</beginAge>
+<endAge>26 years</endAge>
+</allowableVaccine>
+<inadvertentVaccine/>
+<conditionalSkip/>
+<recurringDose>Yes</recurringDose>
+<seasonalRecommendation/>
+</seriesDose>
+</series>
+</antigenSupportingData>

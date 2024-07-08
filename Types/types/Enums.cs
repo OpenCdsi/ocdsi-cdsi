@@ -1,17 +1,9 @@
 ﻿using System.ComponentModel;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace OpenCdsi.Cdsi
 {
-    public partial class Parse
-    {
-        public static T Enum<T>(string s) where T : struct
-        {
-            return System.Enum.TryParse(s, true, out T result)
-                  ? result
-                  : default;
-        }
-    }
-
     // Table 3-1
     public enum EvaluationStatus
     {
@@ -54,8 +46,7 @@ namespace OpenCdsi.Cdsi
         Any,
         Female,
         Transgender,
-        Male,
-        Unknown
+        Male
     }
 
     public enum EvaluationReason

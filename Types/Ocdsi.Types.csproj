@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OpenCdsi.Calendar" Version="2.43.3" />
-    <PackageReference Include="OpenCdsi.Schedule" Version="2.438.4" />
+    <ProjectReference Include="..\Ocdsi.Serialization\Ocdsi.Serialization.csproj" />
+    <ProjectReference Include="..\SupportingData\Ocdsi.SupportingData.csproj" />
   </ItemGroup>
 
 </Project>
