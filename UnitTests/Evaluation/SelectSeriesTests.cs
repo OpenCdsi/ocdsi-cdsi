@@ -31,6 +31,8 @@ namespace Ocdsi.UnitTests.Evaluation
         public void SelectsRiskSeriesBecauseOfObservation()
         {
             var assessment = Load.Assessment(TestData.Case_203);
+            assessment.Patient.Observations.Add(new PatientObservation { Code="048"});
+
             var antigen = Antigen.Get("Measles");
 
             var selector = new SeriesSelector { Patient = assessment.Patient, AssessmentDate = assessment.AssessmentDate };

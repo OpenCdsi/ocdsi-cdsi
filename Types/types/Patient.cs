@@ -14,7 +14,7 @@ namespace OpenCdsi.Cdsi
         public Gender Gender { get; init; }
 
         [JsonPropertyName("observations")]
-        public IEnumerable<PatientObservation> Observations { get; init; } = new List<PatientObservation>();
+        public IList<PatientObservation> Observations { get; init; } = new List<PatientObservation>();
 
         [JsonPropertyName("doses")]
         public IEnumerable<VaccineDose> VaccineHistory { get; init; } = new List<VaccineDose>();

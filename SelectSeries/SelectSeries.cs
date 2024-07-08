@@ -1,4 +1,5 @@
 ﻿using Ocdsi.Calendar;
+using Ocdsi.Serialization;
 using Ocdsi.SupportingData;
 
 namespace OpenCdsi.Cdsi
@@ -76,7 +77,7 @@ namespace OpenCdsi.Cdsi
         /// <remarks>TABLE 5-4 IS THE SERIES RELEVANT FOR THE PATIENT?</remarks>
         public bool IsRequiredGender(antigenSupportingDataSeries series)
         {
-            var genders = series.requiredGender.Select(x => Enum.Parse<Gender>(x));
+            var genders = series.requiredGender.Select(x =>x.ParseOrDefault<Gender>());
             return genders.Contains(Patient.Gender) || genders.Contains(Gender.Any);
         }
 
