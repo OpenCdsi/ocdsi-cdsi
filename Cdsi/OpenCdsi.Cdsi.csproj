@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Serialization\Ocdsi.Serialization.csproj" />
+    <ProjectReference Include="..\SupportingData\Ocdsi.SupportingData.csproj" />
     <ProjectReference Include="..\Types\Ocdsi.Types.csproj" />
   </ItemGroup>
 
