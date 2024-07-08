@@ -1,33 +1,37 @@
 {
-  "assessmentDate": "2022-10-19T00:00:00",
+  "key": "2013-0203",
+  "assessmentDate": "2020-08-13T00:00:00",
   "patient": {
-    "dob": "2022-03-08T00:00:00",
-    "gender": "Female"
-  },
-  "doses": [
-    {
-      "dateAdministered": "2022-03-26T00:00:00",
-      "vaccineName": "Hep B, adolescent or pediatric",
-      "cvx": "08",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    },
-    {
-      "dateAdministered": "2022-08-26T00:00:00",
-      "vaccineName": "Hep B, adolescent or pediatric",
-      "cvx": "08",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    },
-    {
-      "dateAdministered": "2022-10-17T00:00:00",
-      "vaccineName": "Hep B, adolescent or pediatric",
-      "cvx": "08",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    }
-  ]
+    "dob": "2020-01-02T00:00:00",
+    "gender": "F",
+    "medHistoryCode": "",
+    "medHistoryCodeSys": "",
+    "medHistoryText": "",
+    "doses": [
+      {
+        "cvx": "08",
+        "dateAdministered": "2020-01-20T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "",
+        "vaccineName": "Hep B, adolescent or pediatric"
+      },
+      {
+        "cvx": "08",
+        "dateAdministered": "2020-06-20T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "",
+        "vaccineName": "Hep B, adolescent or pediatric"
+      },
+      {
+        "cvx": "08",
+        "dateAdministered": "2020-08-11T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "",
+        "vaccineName": "Hep B, adolescent or pediatric"
+      }
+    ]
+  }
 }

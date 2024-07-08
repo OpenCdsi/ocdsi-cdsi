@@ -1,25 +1,29 @@
 {
-  "assessmentDate": "2022-10-19T00:00:00",
+  "key": "2013-0002",
+  "assessmentDate": "2020-08-13T00:00:00",
   "patient": {
-    "dob": "2022-08-15T00:00:00",
-    "gender": "F"
-  },
-  "doses": [
-    {
-      "dateAdministered": "2022-09-23T00:00:00",
-      "vaccineName": "DTaP, unspecified formulation",
-      "cvx": "107",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    },
-    {
-      "dateAdministered": "2022-10-19T00:00:00",
-      "vaccineName": "DTaP, unspecified formulation",
-      "cvx": "107",
-      "mvx": "",
-      "evaluationStatus": "Not Valid",
-      "evaluationReason": "Age: Too Young"
-    }
-  ]
+    "dob": "2020-06-09T00:00:00",
+    "gender": "F",
+    "medHistoryCode": "",
+    "medHistoryCodeSys": "",
+    "medHistoryText": "",
+    "doses": [
+      {
+        "cvx": "107",
+        "dateAdministered": "2020-07-18T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "",
+        "vaccineName": "DTaP, unspecified formulation"
+      },
+      {
+        "cvx": "107",
+        "dateAdministered": "2020-08-13T00:00:00",
+        "evaluationReason": "Age: Too Young",
+        "evaluationStatus": "Not Valid",
+        "mvx": "",
+        "vaccineName": "DTaP, unspecified formulation"
+      }
+    ]
+  }
 }

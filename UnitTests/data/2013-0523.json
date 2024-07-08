@@ -1,17 +1,21 @@
 {
-  "assessmentDate": "2022-10-19T00:00:00",
+  "key": "2013-0523",
+  "assessmentDate": "2020-08-13T00:00:00",
   "patient": {
-    "dob": "2021-07-19T00:00:00",
-    "gender": "F"
-  },
-  "doses": [
-    {
-      "dateAdministered": "2022-10-19T00:00:00",
-      "vaccineName": "M-M-R II",
-      "cvx": "03",
-      "mvx": "MSD",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    }
-  ]
+    "dob": "2019-05-13T00:00:00",
+    "gender": "F",
+    "medHistoryCode": "",
+    "medHistoryCodeSys": "",
+    "medHistoryText": "",
+    "doses": [
+      {
+        "cvx": "03",
+        "dateAdministered": "2020-08-13T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "MSD",
+        "vaccineName": "M-M-R II"
+      }
+    ]
+  }
 }

@@ -1,25 +1,45 @@
 {
-  "assessmentDate": "2022-10-19T00:00:00",
+  "key": "2013-0103",
+  "assessmentDate": "2020-08-13T00:00:00",
   "patient": {
-    "dob": "2022-08-14T00:00:00",
-    "gender": "Female"
-  },
-  "doses": [
-    {
-      "dateAdministered": "2022-09-25T00:00:00",
-      "vaccineName": "DTaP, unspecified formulation",
-      "cvx": "107",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    },
-    {
-      "dateAdministered": "2022-10-19T00:00:00",
-      "vaccineName": "DTaP, unspecified formulation",
-      "cvx": "107",
-      "mvx": "",
-      "evaluationStatus": "Valid",
-      "evaluationReason": null
-    }
-  ]
+    "dob": "2016-08-30T00:00:00",
+    "gender": "F",
+    "medHistoryCode": "",
+    "medHistoryCodeSys": "",
+    "medHistoryText": "",
+    "doses": [
+      {
+        "cvx": "110",
+        "dateAdministered": "2016-10-30T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "SKB",
+        "vaccineName": "PEDIARIX"
+      },
+      {
+        "cvx": "110",
+        "dateAdministered": "2017-01-30T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "SKB",
+        "vaccineName": "PEDIARIX"
+      },
+      {
+        "cvx": "110",
+        "dateAdministered": "2017-04-30T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "SKB",
+        "vaccineName": "PEDIARIX"
+      },
+      {
+        "cvx": "110",
+        "dateAdministered": "2020-08-13T00:00:00",
+        "evaluationReason": "",
+        "evaluationStatus": "Valid",
+        "mvx": "SKB",
+        "vaccineName": "PEDIARIX"
+      }
+    ]
+  }
 }
