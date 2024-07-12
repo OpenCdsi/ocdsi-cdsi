@@ -17,8 +17,10 @@ namespace OpenCdsi.Cdsi
             while (doseEvaluator != null)
             {
                 doseEvaluator.Evaluate(options);
-                doseEvaluator = GetDoseEvaluator(doseEvaluator.TargetDose, doseEvaluator.AdministeredDose);
+                doseEvaluator = GetDoseEvaluator(doseEvaluator.TargetDose.Next, doseEvaluator.AdministeredDose.Next);
             }
+
+            PatientSeries.TargetDoses= targets.ToArray();
 
             PatientSeries.Status = PatientSeries.TargetDoses.All(x => x.Status == TargetDoseStatus.Satisfied)
                 ? PatientSeriesStatus.Complete
@@ -29,26 +31,9 @@ namespace OpenCdsi.Cdsi
 
         internal DoseEvaluator GetDoseEvaluator(LinkedListNode<ITargetDose> target, LinkedListNode<IAntigenDose> vaccine)
         {
-            while (target != null)
-            {
-                if (target.Value.Status == TargetDoseStatus.NotSatisfied) break;
-                target = target.Next;
-            }
-
-            while (vaccine != null)
-            {
-                if (vaccine.Value.EvaluationStatus == EvaluationStatus.NotEvaluated) break;
-                vaccine = vaccine.Next;
-            }
-
-            if (target != null && vaccine != null)
-            {
-                return new DoseEvaluator { TargetDose = target, AdministeredDose = vaccine };
-            }
-            else
-            {
-                return default;
-            }
+            return (target == null || vaccine == null)
+                  ? default
+                  : new DoseEvaluator { TargetDose = target, AdministeredDose = vaccine };
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Ocdsi.UnitTests
         public readonly static string Case_99 = "2013-0099.json";
         public readonly static string Case_103 = "2013-0103.json";
         public readonly static string Case_203 = "2013-0203.json";
-        public readonly static string Case_523 = "2013-0203.json";
+        public readonly static string Case_523 = "2013-0523.json";
 
         public static readonly string ResourcePath = @"..\..\..\..\Resources";
     }

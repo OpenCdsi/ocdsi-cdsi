@@ -1,5 +1,6 @@
-﻿using Ocdsi.Calendar;
+﻿using  Ocdsi.Calendar;
 using Ocdsi.SupportingData;
+using OpenCdsi.Cdsi;
 
 namespace OpenCdsi.Cdsi
 {
@@ -150,7 +151,7 @@ namespace OpenCdsi.Cdsi
             var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
             var potentialIntervals = TargetDose.Value.SeriesDose.interval;
 
-            if (potentialIntervals.Any())
+            if (potentialIntervals.Any(x=>!x.AllNullProperties()))
             {
                 return potentialIntervals.All(x =>
                 {

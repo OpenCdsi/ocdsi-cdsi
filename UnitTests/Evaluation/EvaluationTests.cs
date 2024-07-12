@@ -9,7 +9,8 @@ namespace Ocdsi.UnitTests.Evaluation
     public class EvaluationTests
     {
         [ClassInitialize]
-        public static void ClassInitialize(TestContext context) {
+        public static void ClassInitialize(TestContext context)
+        {
             Antigen.Initialize(TestData.ResourcePath);
             Schedule.Initialize(TestData.ResourcePath);
         }
@@ -18,13 +19,13 @@ namespace Ocdsi.UnitTests.Evaluation
         public void CanEvaluateStandardPatientSeries()
         {
             // doses to evaluate
-            var assessment = Load.Assessment(TestData.Case_2);
+            var assessment = Load.Assessment(TestData.Case_523);
 
             var gatherer = new DataGatherer { Patient = assessment.Patient };
             var doses = gatherer.OrganizeImmunizationHistory().Where(x => x.AntigenName == "Measles").ToList();
 
             // series to evaluate
-            var antigen = Antigen.Get("HepB");
+            var antigen = Antigen.Get("Measles");
             var series = PatientSeries.Create(antigen.series[0]); // standard Measles 2-dose series
 
             // evaluation environment
@@ -34,9 +35,8 @@ namespace Ocdsi.UnitTests.Evaluation
             evaluator.Evaluate(options);
 
             Assert.AreEqual(PatientSeriesStatus.NotComplete, series.Status);
-            //Assert.AreEqual(doses[0].EvaluationStatus, EvaluationStatus.Valid);
-            //Assert.AreEqual(doses[1].EvaluationStatus, EvaluationStatus.NotValid);
-            //Assert.AreEqual(doses[1].EvaluationReasons.First(), EvaluationReason.AgeTooYoung);
+            Assert.AreEqual(EvaluationStatus.Valid, doses[0].EvaluationStatus);
+            Assert.AreEqual(TargetDoseStatus.Satisfied, series.TargetDoses.First().Status);
         }
     }
 }

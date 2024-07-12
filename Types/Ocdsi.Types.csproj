@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Calendar\Ocdsi.Calendar.csproj" />
     <ProjectReference Include="..\Ocdsi.Serialization\Ocdsi.Serialization.csproj" />
     <ProjectReference Include="..\Serialization\Ocdsi.Serialization.csproj" />
     <ProjectReference Include="..\SupportingData\Ocdsi.SupportingData.csproj" />

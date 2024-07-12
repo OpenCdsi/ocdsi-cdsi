@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+using Calendar = Ocdsi.Calendar;
 
 namespace OpenCdsi.Cdsi
 {
@@ -23,7 +24,7 @@ namespace OpenCdsi.Cdsi
         public string Tradename { get; init; } = string.Empty;
 
         [JsonPropertyName("logExpiration")]
-        public DateTime LotExpiration { get; init; }
+        public DateTime LotExpiration { get; init; } = Calendar.Date.MaxValue;
 
         [JsonPropertyName("condition")]
         public string DoseCondition { get; init; } = string.Empty;

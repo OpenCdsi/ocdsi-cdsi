@@ -9,6 +9,6 @@ namespace OpenCdsi.Cdsi
         string Antigen { get; }
         string Name { get; }
         PatientSeriesType SeriesType { get; }
-        IEnumerable<ITargetDose> TargetDoses { get; }
+        IEnumerable<ITargetDose> TargetDoses { get; set;}
     }
 }

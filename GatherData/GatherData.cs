@@ -11,17 +11,17 @@ namespace OpenCdsi.Cdsi
         /// </summary>
         public IEnumerable<IAntigenDose> OrganizeImmunizationHistory()
         {
-            return Patient.VaccineHistory
-                   .SelectMany(x => AsAntigenDose(x))
-                   .OrderBy(x => x.AntigenName)
+            var antigenDoses = Patient.VaccineHistory.SelectMany(x => AsAntigenDose(x));
+            return antigenDoses
+                .OrderBy(x => x.AntigenName)
                    .ThenBy(x => x.VaccineDose.DateAdministered)
                    .ToList();
         }
 
         public IEnumerable<IAntigenDose> AsAntigenDose(IVaccineDose dose)
         {
-            return Schedule.Vaccines
-                .FirstOrDefault(x => x.cvx == dose.CVX)
+            var vaccine = Schedule.Vaccines.FirstOrDefault(x => x.cvx == dose.CVX);
+            return vaccine
                 .association
                     .Select(x => new AntigenDose
                     {
