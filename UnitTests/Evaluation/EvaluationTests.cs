@@ -8,24 +8,17 @@ namespace Ocdsi.UnitTests.Evaluation
     [TestClass]
     public class EvaluationTests
     {
-        [ClassInitialize]
-        public static void ClassInitialize(TestContext context)
-        {
-            Antigen.Initialize(TestData.ResourcePath);
-            Schedule.Initialize(TestData.ResourcePath);
-        }
-
         [TestMethod]
         public void CanEvaluateStandardPatientSeries()
         {
             // doses to evaluate
-            var assessment = Load.Assessment(TestData.Case_523);
+            var assessment = Load.Assessment("2013-0523");
 
             var gatherer = new DataGatherer { Patient = assessment.Patient };
             var doses = gatherer.OrganizeImmunizationHistory().Where(x => x.AntigenName == "Measles").ToList();
 
             // series to evaluate
-            var antigen = Antigen.Get("Measles");
+            var antigen = Load.Antigen("Measles");
             var series = PatientSeries.Create(antigen.series[0]); // standard Measles 2-dose series
 
             // evaluation environment

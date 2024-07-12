@@ -14,16 +14,14 @@ namespace Ocdsi.UnitTests.SupportingData
         [TestMethod]
         public void LoadAntigen()
         {
-            var repo = new Repository(TestData.ResourcePath);
-            var result = repo.Antigen("HepB");
+            var result = Load.Antigen("HepB");
 
             Assert.IsNotNull(result);
         }
         [TestMethod]
         public void LoadSchedules()
         {
-            var repo = new Repository(TestData.ResourcePath);
-            var result = repo.Schedule();
+            var result = Load.Schedule();
 
             Assert.IsNotNull(result);
         }

@@ -14,8 +14,7 @@ namespace Ocdsi.UnitTests.SupportingData
         [TestMethod]
         public void Cvx2Antigens()
         {
-            var repo = new Repository(TestData.ResourcePath);
-            var sched = repo.Schedule();
+            var sched = Load.Schedule();
 
             var result = sched.AntigensByCvx("01").ToList();
             Assert.AreEqual(3, result.Count());

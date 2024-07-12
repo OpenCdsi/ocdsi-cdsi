@@ -7,17 +7,10 @@ namespace Ocdsi.UnitTests.Evaluation
     [TestClass]
     public class GatherDataTests
     {
-        [ClassInitialize]
-        public static void ClassInitialize(TestContext context)
-        {
-            Antigen.Initialize(TestData.ResourcePath);
-            Schedule.Initialize(TestData.ResourcePath);
-        }
-
         [TestMethod]
         public void CanOrganizeImmunizationHistory()
         {
-            var assessment = Load.Assessment(TestData.Case_2);
+            var assessment = Load.Assessment("2013-0002");
 
             var gatherer = new DataGatherer { Patient = assessment.Patient };
             var sut = gatherer.OrganizeImmunizationHistory();
@@ -29,7 +22,7 @@ namespace Ocdsi.UnitTests.Evaluation
         [TestMethod]
         public void AntigenDosesAreSorted()
         {
-            var assessment = Load.Assessment(TestData.Case_99);
+            var assessment = Load.Assessment("2013-0099");
 
             var gatherer = new DataGatherer { Patient = assessment.Patient };
             var sut = gatherer.OrganizeImmunizationHistory().ToList();

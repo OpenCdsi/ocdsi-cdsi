@@ -10,12 +10,10 @@ namespace Ocdsi.UnitTests.Types
     [TestClass]
     public class TypeTests
     {
-        internal Repository Repository = new Repository(TestData.ResourcePath);
-
         [TestMethod]
         public void CanCreateOcdsiObjecFromTestcase()
         {
-            var assessment = Load.Assessment(TestData.Case_2);
+            var assessment = Load.Assessment("2013-0002");
 
             Assert.AreEqual(new DateTime(2020, 6,9), assessment.Patient.DOB);
             Assert.AreEqual(Gender.Female, assessment.Patient.Gender);
@@ -25,7 +23,7 @@ namespace Ocdsi.UnitTests.Types
         [TestMethod]
         public void StandardSeriesToPatientSeries()
         {
-            var antigen = Repository.Antigen("Measles");
+            var antigen = Load.Antigen("Measles");
             var sut = PatientSeries.Create(antigen.series[0]);
 
             Assert.AreEqual(PatientSeriesType.Standard, sut.SeriesType);
@@ -34,7 +32,7 @@ namespace Ocdsi.UnitTests.Types
         [TestMethod]
         public void RiskSeriesToPatientSeries()
         {
-            var antigen = Repository.Antigen("Measles");
+            var antigen = Load.Antigen("Measles");
             var sut = PatientSeries.Create(antigen.series[1]);
 
             Assert.AreEqual(PatientSeriesType.Risk, sut.SeriesType);

@@ -46,8 +46,7 @@ namespace Ocdsi.UnitTests.SupportingData
         [TestMethod]
         public void AntigenAliasTest()
         {
-            var repo = new Repository(TestData.ResourcePath);
-            var result = repo.Antigen("HepB");
+            var result = Load.Antigen("HepB");
 
             Assert.IsInstanceOfType<Antigen>(result);
         }
