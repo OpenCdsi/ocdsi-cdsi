@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public class Assessment : IAssessment
     {

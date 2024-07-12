@@ -1,4 +1,4 @@
-﻿using Ocdsi.SupportingData;
+﻿using Cdsi.SupportingData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Ocdsi.UnitTests.SupportingData
+namespace Cdsi.UnitTests.SupportingData
 {
     [TestClass]
     public class RepositoryTests

@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public static class SystemLinqHelpers
     {

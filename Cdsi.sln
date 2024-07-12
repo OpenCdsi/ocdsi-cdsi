@@ -8,23 +8,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCdsi.Cdsi", "Cdsi\OpenCdsi.Cdsi.csproj", "{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.GatherData", "GatherData\Cdsi.GatherData.csproj", "{ED02C71E-7BF9-4901-B833-CF1550196AE6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.GatherData", "GatherData\Ocdsi.GatherData.csproj", "{ED02C71E-7BF9-4901-B833-CF1550196AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.SelectSeries", "SelectSeries\Cdsi.SelectSeries.csproj", "{A82C5065-1FF4-4AB1-95E2-FFFBCE0C6220}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.SelectSeries", "SelectSeries\Ocdsi.SelectSeries.csproj", "{A82C5065-1FF4-4AB1-95E2-FFFBCE0C6220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.UnitTests", "UnitTests\Cdsi.UnitTests.csproj", "{46F3A9D7-FA2F-42E2-838A-529F5CC25D8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.UnitTests", "UnitTests\Ocdsi.UnitTests.csproj", "{46F3A9D7-FA2F-42E2-838A-529F5CC25D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Types", "Types\Cdsi.Types.csproj", "{DDA78550-FF0D-4F0B-ACEA-F4690D2E41EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Types", "Types\Ocdsi.Types.csproj", "{DDA78550-FF0D-4F0B-ACEA-F4690D2E41EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Evaluation", "Evaluation\Cdsi.Evaluation.csproj", "{2AC2E9F8-6547-411D-8B40-F9A7E8422541}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Evaluation", "Evaluation\Ocdsi.Evaluation.csproj", "{2AC2E9F8-6547-411D-8B40-F9A7E8422541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Calendar", "Calendar\Cdsi.Calendar.csproj", "{23D3D66A-CFEC-4FB9-8420-57E7D2E44BF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Calendar", "Calendar\Ocdsi.Calendar.csproj", "{23D3D66A-CFEC-4FB9-8420-57E7D2E44BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.SupportingData", "SupportingData\Cdsi.SupportingData.csproj", "{99640298-9790-43A4-8C02-8C7226532332}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.SupportingData", "SupportingData\Ocdsi.SupportingData.csproj", "{99640298-9790-43A4-8C02-8C7226532332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Serialization", "Serialization\Cdsi.Serialization.csproj", "{AA5CF552-5538-473B-B444-4E857DBB7D28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocdsi.Serialization", "Serialization\Ocdsi.Serialization.csproj", "{AA5CF552-5538-473B-B444-4E857DBB7D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Common", "Common\Cdsi.Common.csproj", "{FE06F5A7-BE33-4D9D-9E85-6A252CC96A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +32,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86C1973B-F3E2-4DFF-9C20-82A5A8BC9D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED02C71E-7BF9-4901-B833-CF1550196AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED02C71E-7BF9-4901-B833-CF1550196AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED02C71E-7BF9-4901-B833-CF1550196AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,6 +64,10 @@ Global
 		{AA5CF552-5538-473B-B444-4E857DBB7D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5CF552-5538-473B-B444-4E857DBB7D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5CF552-5538-473B-B444-4E857DBB7D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE06F5A7-BE33-4D9D-9E85-6A252CC96A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE06F5A7-BE33-4D9D-9E85-6A252CC96A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE06F5A7-BE33-4D9D-9E85-6A252CC96A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE06F5A7-BE33-4D9D-9E85-6A252CC96A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

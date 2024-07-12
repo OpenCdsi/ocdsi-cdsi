@@ -1,4 +1,4 @@
-﻿namespace Ocdsi.Calendar
+﻿namespace Cdsi.Calendar
 {
     public readonly partial struct CalendarUnit
     {

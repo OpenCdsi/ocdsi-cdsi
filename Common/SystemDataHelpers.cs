@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public static class SystemDataHelpers
     {

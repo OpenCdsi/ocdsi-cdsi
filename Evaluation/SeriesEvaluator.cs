@@ -1,6 +1,6 @@
 ﻿using System.Reflection.PortableExecutable;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public class SeriesEvaluator : ISeriesContext, IEvaluator
     {

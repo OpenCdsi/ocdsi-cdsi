@@ -1,5 +1,5 @@
 
-namespace Ocdsi.SupportingData
+namespace Cdsi.SupportingData
 {
     public partial class antigenSupportingData
     {

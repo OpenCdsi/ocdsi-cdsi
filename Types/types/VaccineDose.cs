@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
-using Calendar = Ocdsi.Calendar;
+using Calendar = Cdsi.Calendar;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public class VaccineDose : IVaccineDose
     {

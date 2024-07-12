@@ -1,4 +1,4 @@
-﻿namespace OpenCdsi.Cdsi
+﻿namespace Cdsi
 {
     public static class CloneExt
     {

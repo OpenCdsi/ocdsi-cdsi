@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 using System.Text.Json;
-using Ocdsi.Serialization;
+using Cdsi.Serialization;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public class Patient : IPatient
     {

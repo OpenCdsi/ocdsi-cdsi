@@ -1,4 +1,4 @@
-﻿namespace OpenCdsi.Cdsi
+﻿namespace Cdsi
 {
     /// <summary>
     /// A record of a vaccine dose administered to a patient.

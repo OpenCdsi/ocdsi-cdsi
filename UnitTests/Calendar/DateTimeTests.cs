@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ocdsi.Calendar;
+using Cdsi.Calendar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ocdsi.UnitTests.Calendar
+namespace Cdsi.UnitTests.Calendar
 {
     [TestClass]
     public class DateTimeTests

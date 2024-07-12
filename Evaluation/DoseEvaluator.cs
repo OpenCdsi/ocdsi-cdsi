@@ -1,8 +1,7 @@
-﻿using  Ocdsi.Calendar;
-using Ocdsi.SupportingData;
-using OpenCdsi.Cdsi;
+﻿using Cdsi.Calendar;
+using Cdsi.SupportingData;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public class DoseEvaluator : IDoseContext, IEvaluator
     {

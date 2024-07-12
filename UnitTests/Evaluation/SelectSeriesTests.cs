@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Ocdsi.Calendar;
-using OpenCdsi.Cdsi;
+using Cdsi.Calendar;
+using Cdsi;
 using System.Linq;
 
-namespace Ocdsi.UnitTests.Evaluation
+namespace Cdsi.UnitTests.Evaluation
 {
     [TestClass]
     public class SelectSeriesTests

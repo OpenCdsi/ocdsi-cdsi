@@ -1,13 +1,13 @@
-﻿using Ocdsi.SupportingData;
+﻿using Cdsi.SupportingData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ocdsi.Calendar;
+using Cdsi.Calendar;
 using System.Transactions;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public static class ConditonalSkipHelpers
     {

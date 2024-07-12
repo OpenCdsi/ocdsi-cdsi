@@ -1,8 +1,8 @@
-﻿using Ocdsi.Calendar;
+﻿using Cdsi.Calendar;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Ocdsi.UnitTests.Calendar
+namespace Cdsi.UnitTests.Calendar
 {
     [TestClass]
     public class DurationOperatorTests

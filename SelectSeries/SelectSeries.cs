@@ -1,8 +1,8 @@
-﻿using Ocdsi.Calendar;
-using Ocdsi.Serialization;
-using Ocdsi.SupportingData;
+﻿using Cdsi.Calendar;
+using Cdsi.Serialization;
+using Cdsi.SupportingData;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     /// <summary>
     /// Cdsi Logic Spec 4.1 - Chapter 5

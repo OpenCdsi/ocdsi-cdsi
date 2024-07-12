@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Cdsi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Calendar\Cdsi.Calendar.csproj" />
+    <ProjectReference Include="..\Serialization\Cdsi.Serialization.csproj" />
+    <ProjectReference Include="..\Serialization\Cdsi.Serialization.csproj" />
+    <ProjectReference Include="..\SupportingData\Cdsi.SupportingData.csproj" />
+  </ItemGroup>
+
+</Project>

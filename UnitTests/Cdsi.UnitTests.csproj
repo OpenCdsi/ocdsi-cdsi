@@ -19,13 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Calendar\Ocdsi.Calendar.csproj" />
-    <ProjectReference Include="..\Cdsi\OpenCdsi.Cdsi.csproj" />
-    <ProjectReference Include="..\Evaluation\Ocdsi.Evaluation.csproj" />
-    <ProjectReference Include="..\GatherData\Ocdsi.GatherData.csproj" />
-    <ProjectReference Include="..\SelectSeries\Ocdsi.SelectSeries.csproj" />
-    <ProjectReference Include="..\SupportingData\Ocdsi.SupportingData.csproj" />
-    <ProjectReference Include="..\Types\Ocdsi.Types.csproj" />
+    <ProjectReference Include="..\Calendar\Cdsi.Calendar.csproj" />
+    <ProjectReference Include="..\Evaluation\Cdsi.Evaluation.csproj" />
+    <ProjectReference Include="..\GatherData\Cdsi.GatherData.csproj" />
+    <ProjectReference Include="..\SelectSeries\Cdsi.SelectSeries.csproj" />
+    <ProjectReference Include="..\SupportingData\Cdsi.SupportingData.csproj" />
+    <ProjectReference Include="..\Types\Cdsi.Types.csproj" />
   </ItemGroup>
 
   <ItemGroup>

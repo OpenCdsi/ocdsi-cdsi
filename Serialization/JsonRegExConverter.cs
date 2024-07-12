@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace Ocdsi.Serialization
+namespace Cdsi.Serialization
 {
     public class JsonRegExConverter<T> :JsonConverterFactory where T : struct
     {

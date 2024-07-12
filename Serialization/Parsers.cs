@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Ocdsi.Serialization
+namespace Cdsi.Serialization
 {
     public static class Parsers
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ocdsi.SupportingData
+namespace Cdsi.SupportingData
 {
     public static class ScheduleSupportingData
     {

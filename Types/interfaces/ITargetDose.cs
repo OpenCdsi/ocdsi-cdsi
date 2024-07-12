@@ -1,6 +1,6 @@
-﻿using Ocdsi.SupportingData;
+﻿using Cdsi.SupportingData;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     /// <summary>
     /// Tracks the state of the dose in the patient series.

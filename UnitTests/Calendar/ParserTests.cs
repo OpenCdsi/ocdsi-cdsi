@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using Ocdsi.Calendar;
+using Cdsi.Calendar;
 using System;
 
-namespace Ocdsi.UnitTests.Calendar
+namespace Cdsi.UnitTests.Calendar
 {
     [TestClass]
     public class ParserTests

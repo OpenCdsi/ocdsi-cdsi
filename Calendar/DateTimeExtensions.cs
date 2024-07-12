@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Reflection.Metadata.Ecma335;
 
-namespace Ocdsi.Calendar
+namespace Cdsi.Calendar
 {
     public static class DateTimeExtensions
     {

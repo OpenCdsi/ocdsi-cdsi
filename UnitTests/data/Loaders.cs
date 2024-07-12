@@ -1,13 +1,10 @@
-﻿using Ocdsi.SupportingData;
-using Ocdsi.UnitTests;
-using OpenCdsi.Cdsi;
-using System.Collections;
+﻿using Cdsi.SupportingData;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
 
-namespace Ocdsi.UnitTests
+namespace Cdsi.UnitTests
 {
     public static class Load
     {
@@ -26,8 +23,8 @@ namespace Ocdsi.UnitTests
 
             _repository = new Repository(ResourcePath);
 
-            OpenCdsi.Cdsi.Antigen.Initialize(ResourcePath);
-            OpenCdsi.Cdsi.Schedule.Initialize(ResourcePath);
+            Cdsi.Antigen.Initialize(ResourcePath);
+            Cdsi.Schedule.Initialize(ResourcePath);
         }
 
         public static scheduleSupportingData Schedule()

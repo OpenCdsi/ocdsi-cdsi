@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenCdsi.Cdsi;
+using Cdsi;
 using System.Linq;
 
-namespace Ocdsi.UnitTests.Evaluation
+namespace Cdsi.UnitTests.Evaluation
 {
     [TestClass]
     public class GatherDataTests

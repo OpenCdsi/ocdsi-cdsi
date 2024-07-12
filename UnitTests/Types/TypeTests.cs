@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenCdsi.Cdsi;
+using Cdsi;
 using System;
 using System.Linq;
-using Ocdsi.UnitTests;
-using Ocdsi.SupportingData;
+using Cdsi.UnitTests;
+using Cdsi.SupportingData;
 
-namespace Ocdsi.UnitTests.Types
+namespace Cdsi.UnitTests.Types
 {
     [TestClass]
     public class TypeTests

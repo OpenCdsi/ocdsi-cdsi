@@ -1,9 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using Ocdsi.UnitTests;
-using OpenCdsi.Cdsi;
 
-namespace Ocdsi.UnitTests.Evaluation
+namespace Cdsi.UnitTests.Evaluation
 {
     [TestClass]
     public class EvaluationTests

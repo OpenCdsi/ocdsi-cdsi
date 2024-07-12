@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     // Table 3-1
     public enum EvaluationStatus

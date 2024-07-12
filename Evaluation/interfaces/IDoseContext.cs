@@ -1,5 +1,5 @@
 ﻿
-namespace OpenCdsi.Cdsi
+namespace Cdsi
 {
     public interface IDoseContext
     {
