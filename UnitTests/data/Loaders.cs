@@ -27,6 +27,13 @@ namespace Cdsi.UnitTests
             Cdsi.Schedule.Initialize(ResourcePath);
         }
 
+        public static T Json<T>(string fname) where T : class
+        {
+            var path = Path.Combine(JsonPath, fname);
+            var json = File.ReadAllText(path);
+            return (T)  JsonSerializer.Deserialize<T>(json);
+        }
+
         public static scheduleSupportingData Schedule()
         {
             return _repository.Schedule();

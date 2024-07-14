@@ -63,7 +63,7 @@ namespace Cdsi
         VaccineLessThanRecommendedVolume
     }
 
-    public enum ConditionSetLogic
+    public enum ConditionLogic
     {
         NA,
         AND,

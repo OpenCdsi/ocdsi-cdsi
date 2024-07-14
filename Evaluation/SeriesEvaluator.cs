@@ -22,7 +22,8 @@ namespace Cdsi
 
             PatientSeries.TargetDoses= targets.ToArray();
 
-            PatientSeries.Status = PatientSeries.TargetDoses.All(x => x.Status == TargetDoseStatus.Satisfied)
+            // target doses can be either skipped or satisfied
+            PatientSeries.Status = PatientSeries.TargetDoses.All(x => x.Status != TargetDoseStatus.NotSatisfied)
                 ? PatientSeriesStatus.Complete
                 : PatientSeriesStatus.NotComplete;
 

@@ -1,5 +1,7 @@
 ﻿using Cdsi.Calendar;
 using Cdsi.SupportingData;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Cdsi
 {
@@ -54,6 +56,17 @@ namespace Cdsi
             var context = TargetDose.Value.SeriesDose.conditionalSkip
                         .Where(x => x.context == "Evaluation")
                         .FirstOrDefault();
+          // /**
+          //  * grab some data for testing
+          //  */
+          //var json= JsonSerializer.Serialize(context);
+          //  File.WriteAllText("conditionalskip.json",json);
+          //  json = JsonSerializer.Serialize(_options);
+          //  File.WriteAllText("evaluatoroptions.json", json);
+          //  json = JsonSerializer.Serialize(this);
+          //  File.WriteAllText("doseevaluator.json", json);
+
+
 
             return context == null
                 ? false

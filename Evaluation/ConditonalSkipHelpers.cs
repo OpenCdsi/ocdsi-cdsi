@@ -1,11 +1,5 @@
-﻿using Cdsi.SupportingData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cdsi.Calendar;
-using System.Transactions;
+﻿using Cdsi.Calendar;
+using Cdsi.SupportingData;
 
 namespace Cdsi
 {
@@ -13,21 +7,39 @@ namespace Cdsi
     {
         // There is an inordinate amount of code that does nothing but dispatches the arguments to the correct
         // method.
+
+        // Evaluate() methods return True if the dose should be skipped.
         public static bool Evaluate(this antigenSupportingDataSeriesSeriesDoseConditionalSkip thing, IEvaluationOptions options, IDoseContext doseContext)
         {
-            return thing.setLogic == "AND"
-                 ? thing.set.All(x => x.Evaluate(options, doseContext))
-                 : thing.set.Any(x => x.Evaluate(options, doseContext));
+            var logic = Enum.Parse<ConditionLogic>(thing.setLogic.Pack(), true);
+            switch (logic)
+            {
+                case ConditionLogic.NA:
+                    return thing.set.Length == 1 ? thing.set[0].Evaluate(options, doseContext) : false;
+                case ConditionLogic.AND:
+                    return thing.set.All(x => x.Evaluate(options, doseContext));
+                case ConditionLogic.OR:
+                    return thing.set.Any(x => x.Evaluate(options, doseContext));
+            }
+            throw new ApplicationException($"Unknown ConditionLogic: {thing.setLogic}");
         }
         public static bool Evaluate(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSet thing, IEvaluationOptions options, IDoseContext doseContext)
         {
-            return thing.conditionLogic == "AND"
-                 ? thing.condition.All(x => x.Evaluate(options, doseContext))
-                 : thing.condition.Any(x => x.Evaluate(options, doseContext));
+            var logic = Enum.Parse<ConditionLogic>(thing.conditionLogic.Pack(), true);
+            switch (logic)
+            {
+                case ConditionLogic.NA:
+                    return thing.condition.Length == 1 ? thing.condition[0].Evaluate(options, doseContext) : false;
+                case ConditionLogic.AND:
+                    return thing.condition.All(x => x.Evaluate(options, doseContext));
+                case ConditionLogic.OR:
+                    return thing.condition.Any(x => x.Evaluate(options, doseContext));
+            }
+            throw new ApplicationException($"ConditionLogic: {thing.conditionLogic}");
         }
         public static bool Evaluate(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
         {
-            var conditionType = Enum.Parse<ConditionalSkipType>(thing.conditionType.Replace(" ", ""));
+            var conditionType = Enum.Parse<ConditionalSkipType>(thing.conditionType.Pack(), true);
 
             switch (conditionType)
             {
@@ -40,9 +52,8 @@ namespace Cdsi
                 case ConditionalSkipType.VaccineCountByAge:
                 case ConditionalSkipType.VaccineCountByDate:
                     return thing.SkipByVaccineCount(options, doseContext);
-                default:
-                    return false;
             }
+            throw new ApplicationException($"Unknown ConditionalSkipType: {thing.conditionType}");
         }
 
         public static bool SkipByAge(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
@@ -67,7 +78,7 @@ namespace Cdsi
 
         public static bool SkipByVaccineCount(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
         {
-            var countLogic = Enum.Parse<ConditionalSkipDoseCountLogic>(thing.doseCountLogic);
+            var countLogic = Enum.Parse<ConditionalSkipDoseCountLogic>(thing.doseCountLogic.Pack(), true);
             var conditionalDoseCount = thing.GetVaccineCount(options, doseContext);
             var doseCount = int.Parse(thing.doseCount);
 
@@ -79,14 +90,13 @@ namespace Cdsi
                     return doseCount > conditionalDoseCount;
                 case ConditionalSkipDoseCountLogic.LessThan:
                     return doseCount < conditionalDoseCount;
-                default:
-                    return false;
             }
+            throw new ApplicationException($"Unknown ConditionalSkipDoseCountLogic: {thing.doseCountLogic}");
         }
 
         public static int GetVaccineCount(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
         {
-            var conditionType = Enum.Parse<ConditionalSkipType>(thing.conditionType.Replace(" ", ""));
+            var conditionType = Enum.Parse<ConditionalSkipType>(thing.conditionType.Pack(), true);
             var types = thing.vaccineTypes.Split(',').Select(x => x.Trim());
             var conditionalskipdosetype = Enum.Parse<ConditionalSkipDoseType>(thing.doseType);
 

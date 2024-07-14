@@ -1,0 +1,43 @@
+{
+    "context": "Evaluation",
+    "setLogic": "n/a",
+    "set": [
+        {
+            "setID": "1",
+            "setDescription": "Target Dose is not required if current dose was administered at least 5 months - 4 days from the previous dose OR two total doses have already been administered",
+            "effectiveDate": "",
+            "cessationDate": "",
+            "conditionLogic": "OR",
+            "condition": [
+                {
+                    "conditionID": "1",
+                    "conditionType": "Interval",
+                    "startDate": "",
+                    "endDate": "",
+                    "beginAge": "",
+                    "endAge": "",
+                    "interval": "5 months - 4 days",
+                    "doseCount": "",
+                    "doseType": "",
+                    "doseCountLogic": "",
+                    "vaccineTypes": "",
+                    "seriesGroups": ""
+                },
+                {
+                    "conditionID": "2",
+                    "conditionType": "Vaccine Count by Age",
+                    "startDate": "",
+                    "endDate": "",
+                    "beginAge": "9 years - 4 days",
+                    "endAge": "",
+                    "interval": "",
+                    "doseCount": "1",
+                    "doseType": "Total",
+                    "doseCountLogic": "greater than",
+                    "vaccineTypes": "62;118;137;165",
+                    "seriesGroups": ""
+                }
+            ]
+        }
+    ]
+}
