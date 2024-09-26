@@ -12,6 +12,30 @@ namespace Cdsi
 
         private IEvaluationOptions _options;
 
+        public static DoseEvaluator? Create(LinkedListNode<ITargetDose>? target, LinkedListNode<IAntigenDose>? administered)
+        {
+            return target == null || administered == null
+                ? default
+                : new DoseEvaluator
+                {
+                    TargetDose = target,
+                    AdministeredDose = administered
+                };
+
+        }
+
+        public DoseEvaluator? Next()
+        {
+            var nextTarget = TargetDose.Value.Status == TargetDoseStatus.Satisfied || TargetDose.Value.Status == TargetDoseStatus.Skipped
+                ? TargetDose.Next
+                : TargetDose;
+            var nextAdministered = AdministeredDose.Value.EvaluationStatus == EvaluationStatus.NotValid
+                ? AdministeredDose
+                : AdministeredDose.Next;
+
+            return Create(nextTarget,nextAdministered);
+        }
+
         /// <summary>
         ///  Cdsi Logic Spec 4.3 - Section 6-10
         /// </summary>        
@@ -56,21 +80,20 @@ namespace Cdsi
             var context = TargetDose.Value.SeriesDose.conditionalSkip
                         .Where(x => x.context == "Evaluation")
                         .FirstOrDefault();
-          // /**
-          //  * grab some data for testing
-          //  */
-          //var json= JsonSerializer.Serialize(context);
-          //  File.WriteAllText("conditionalskip.json",json);
-          //  json = JsonSerializer.Serialize(_options);
-          //  File.WriteAllText("evaluatoroptions.json", json);
-          //  json = JsonSerializer.Serialize(this);
-          //  File.WriteAllText("doseevaluator.json", json);
 
-
-
-            return context == null
-                ? false
-                : context.Evaluate(_options, this);
+            if (context == null)
+            {
+                return false;
+            }
+            else
+            {
+                var skip = context.Evaluate(_options, this);
+                if (skip)
+                {
+                    TargetDose.Value.Status = TargetDoseStatus.Skipped;
+                }
+                return skip;
+            }
         }
 
         // Cdsi Logic Spec 4.3 - Section 6-3
@@ -163,7 +186,7 @@ namespace Cdsi
             var adminDate = AdministeredDose.Value.VaccineDose.DateAdministered;
             var potentialIntervals = TargetDose.Value.SeriesDose.interval;
 
-            if (potentialIntervals.Any(x=>!x.AllNullProperties()))
+            if (potentialIntervals.Any(x => !x.AllNullProperties()))
             {
                 return potentialIntervals.All(x =>
                 {

@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.GatherData", "GatherDa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.SelectSeries", "SelectSeries\Cdsi.SelectSeries.csproj", "{A82C5065-1FF4-4AB1-95E2-FFFBCE0C6220}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.UnitTests", "UnitTests\Cdsi.UnitTests.csproj", "{46F3A9D7-FA2F-42E2-838A-529F5CC25D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Tests", "UnitTests\Cdsi.Tests.csproj", "{46F3A9D7-FA2F-42E2-838A-529F5CC25D8D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cdsi.Types", "Types\Cdsi.Types.csproj", "{DDA78550-FF0D-4F0B-ACEA-F4690D2E41EA}"
 EndProject

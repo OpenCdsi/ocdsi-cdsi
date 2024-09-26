@@ -21,7 +21,7 @@ namespace Cdsi
                 case ConditionLogic.OR:
                     return thing.set.Any(x => x.Evaluate(options, doseContext));
             }
-            throw new ApplicationException($"Unknown ConditionLogic: {thing.setLogic}");
+            throw new ApplicationException($"Unknown SetLogic: {thing.setLogic}");
         }
         public static bool Evaluate(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSet thing, IEvaluationOptions options, IDoseContext doseContext)
         {
@@ -35,7 +35,7 @@ namespace Cdsi
                 case ConditionLogic.OR:
                     return thing.condition.Any(x => x.Evaluate(options, doseContext));
             }
-            throw new ApplicationException($"ConditionLogic: {thing.conditionLogic}");
+            throw new ApplicationException($"Unknown ConditionLogic: {thing.conditionLogic}");
         }
         public static bool Evaluate(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
         {
@@ -68,7 +68,7 @@ namespace Cdsi
         {
             var intervalDate = doseContext.AdministeredDose.Previous.Value.VaccineDose.DateAdministered.Add(thing.interval);
 
-            return doseContext.AdministeredDose.Previous != null && options.DateOfBirth >= intervalDate;
+            return doseContext.AdministeredDose.Previous != null && doseContext.AdministeredDose.Value.VaccineDose.DateAdministered >= intervalDate;
         }
 
         public static bool SkipByCompletedSeries(this antigenSupportingDataSeriesSeriesDoseConditionalSkipSetCondition thing, IEvaluationOptions options, IDoseContext doseContext)
